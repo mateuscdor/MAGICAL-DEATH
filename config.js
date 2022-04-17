@@ -1,10 +1,10 @@
-//═══════[© 2022 Xeon Bot Inc.]════════\\
+//═══════[© 2022 Dark Bot Inc.]════════\\
 
 //~you can re-upload but tag my channel
 //or put my channel link in the description.
 //~you can recode or copy the codes but give
 //credit.
-//~Thank you to LORD BUDDHA, ME AND MY 
+//~Thank you to ALLAH, ME AND MY 
 //FAMILY.
 
 //═══════[modules]════════\\
@@ -24,15 +24,15 @@ global.APIKeys = {
 //═══════[modification]════════\\
 global.owner = ['923474187615'] //owner number, u can put multiple owner number, within quotations and seperated by comma.
 global.pemilik = ['923474187615'] //another owner number
-global.premium = ['923474187625'] //premium number
-global.pengguna = 'Asif Khan' //username
-global.botnma = 'MD-BOT' //bot name
-global.ownernma = 'SAD BOY🙂' //owner name
-global.packname = 'SAD BOY🙂' //sticker package name
-global.author = '𝒜𝓈𝒾𝒻 𝒦𝒽𝒶𝓃' //sticker author name
+global.premium = ['923474187615'] //premium number
+global.pengguna = 'Dark Asif' //username
+global.botnma = 'MOON-KING' //bot name
+global.ownernma = 'ASIF KHAN' //owner name
+global.packname = 'ASIF KHAN🙂' //sticker package name
+global.author = 'MOON KING' //sticker author name
 global.sessionName = 'session' //session name
-global.prefa = ['#','!','/',''] //prefix
-global.sp = '🌼' //design
+global.prefa = ['#','!','#-','❤️','] //prefix
+global.sp = '🧡' //design
 global.mess = {
     success: 'Done ✓',
     admin: 'This Feature Is Only For Admin!',
@@ -46,9 +46,9 @@ global.mess = {
 }
 global.limitawal = {
     premium: "Infinity", //premium user limit
-    free: 100 //free user limit
+    free: 10 //free user limit
 }
-global.thumb = fs.readFileSync('./XeonMedia/cheemspic.jpg')
+global.thumb = fs.readFileSync('./DarkMedia/moonkingpic.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
