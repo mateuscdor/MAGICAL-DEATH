@@ -3,7 +3,7 @@
 //~you can re-upload but tag my channel
 //or put my channel link in the description.
 //~you can recode or copy the codes but give
-//credit.
+//credit🙂.
 //~Thank you to ALLAH, ME AND MY 
 //FAMILY.
 
