@@ -31,7 +31,7 @@ global.ownernma = 'ASIF KHAN' //owner name
 global.packname = 'ASIF KHAN🙂' //sticker package name
 global.author = 'MOON KING' //sticker author name
 global.sessionName = 'session' //session name
-global.prefa = ['#','!','#-','❤️','] //prefix
+global.prefa = ['#','!','/',''] //prefix
 global.sp = '🧡' //design
 global.mess = {
     success: 'Done ✓',
