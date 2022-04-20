@@ -172,9 +172,7 @@ const levelRole = getLevelingLevel(m.sender)
 	if (isAntiLink) 
 if (budy.includes('https://chat.whatsapp.com/')) {
                if (!m.key.fromMe) {
-               reply('╔══════ °°𝐧𝐢𝐜𝐞°° ══════╗
-ೋ    *LINK DETECTED*   ೋ
-╚══════ °°𝐧𝐢𝐜𝐞°° ══════╝\nWow, how naughty, this group has been installed with Antilink, OK?..,\nGood Bye To You..👋🏻')
+               reply(' ❉্᭄͜͡*LINK DETECTED*❉্᭄͜͡ \nWow, how naughty, this group has been installed with Antilink, OK?..,\nGood Bye To You..👋🏻')
                let sianj = m.sender
                await DarkBotInc.groupParticipantsUpdate(m.chat, [sianj], 'remove').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
                }
@@ -888,9 +886,9 @@ break
                 if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
                 if (!isAdmins) throw mess.admin
-let teks = `══✪〘 *👥 Tag All* 〙✪══
+let teks = `❉্᭄͜͡══✪〘 *💫 Tag All* 〙✪══❉্᭄͜͡
  
- ➲ *Message : ${q ? q : 'blank'}*\n\n`
+๑♥҉ ๑ *Message : ${q ? q : 'blank'}*\n\n`
                 for (let mem of participants) {
                 teks += `⭔ @${mem.id.split('@')[0]}\n`
                 }
