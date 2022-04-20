@@ -104,7 +104,7 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
         }
         
         const replay = (teks) => {
-            DarkBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` SUBSCRIBE MY YOUTUBE CHANNEL🙂MOON-KING`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./DarkMedia/moonkingpic.jpg`),"sourceUrl": "https://youtube.com/channel/UCb_BMGpVosvNs6xWSkF095w"}}}, { quoted: m})
+            DarkBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` BOT DELVELOPER NUMBER 🙂MOON-KING`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./DarkMedia/moonkingpic.jpg`),"sourceUrl": "https://wa.me/923474187615"}}}, { quoted: m})
         }
 try {
             let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -172,7 +172,9 @@ const levelRole = getLevelingLevel(m.sender)
 	if (isAntiLink) 
 if (budy.includes('https://chat.whatsapp.com/')) {
                if (!m.key.fromMe) {
-               reply('*LINK DETECTED*\nWow, how naughty, this group has been installed with Antilink, OK?..,\nGood Bye To You..👋🏻')
+               reply('╔══════ °°𝐧𝐢𝐜𝐞°° ══════╗
+ೋ    *LINK DETECTED*   ೋ
+╚══════ °°𝐧𝐢𝐜𝐞°° ══════╝\nWow, how naughty, this group has been installed with Antilink, OK?..,\nGood Bye To You..👋🏻')
                let sianj = m.sender
                await DarkBotInc.groupParticipantsUpdate(m.chat, [sianj], 'remove').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
                }
@@ -769,7 +771,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             let orang = member[Math.floor(Math.random() * member.length)]
             let jodoh = member[Math.floor(Math.random() * member.length)]
             let jawab = `@${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}
-Ciee Whats Going On💖👀`
+Ciee Whats Going On💖❉্᭄͜͡`
             let menst = [orang, jodoh]
             let buttons = [
                         { buttonId: '❤️congrats', buttonText: { displayText: '❤️congrats' }, type: 1 }
@@ -1828,7 +1830,7 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
                 let buttons = [
                     {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '💁🏻‍♂️No Watermark💁🏻‍♂️'}, type: 1},
-                    {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '👀With Watermark👀'}, type: 1}
+                    {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '❉্᭄͜͡With Watermark❉্᭄͜͡'}, type: 1}
                 ]
                 let buttonMessage = {
                     text: `Download From ${text}`,
@@ -2430,6 +2432,10 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `Hi 🤚 ${pushname}
 How Are You? 😊
 
+ ╔══❉্᭄͜͡💕❉্᭄͜͡💕❉্᭄͜͡════╗
+❉্᭄͜͡💕  𝗔𝗦𝗜𝗙 𝗞𝗛𝗔𝗡     💕❉্᭄͜͡             
+ ╚══❉্᭄͜͡💕❉্᭄͜͡💕❉্᭄͜͡════╝
+       💕 You my life💓
 
 ❏「 INFO BOT 」
 
@@ -2440,6 +2446,22 @@ How Are You? 😊
 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+(❤️)
+¸.•´¸.•*´¨)
+🌿,•*´¨)(¯`✻´¯)
+¸.•*´¨)╠╣𝚎𝚕𝚕𝚘.•*´¨)
+(¸.•´ (¸.•` * ¸.•´¸.•*)(💙)
+    ╔════Ƹ̵̡. Ʒ════╗
+   🌼  🌹🌹🌹🌹🌹 🌼
+    ╚════Ƹ̵̡  Ʒ════╝
+💙´¯`•.¸¸★`°•.☆❤️´¯`•.¸¸★💙
+┊　┊　┊°
+┊　┊　┊°
+┊　┊　🌞ʰᵘᵍˢ💦
+┊　🌞ʰᵘᵍˢ💦
+🌞ʰᵘᵍˢ💦
+
+😜🍄╠╣u g s ᶠᵒʳ ʸᵒᵘ 😛
 
 
 Please Select Button Below
@@ -2595,17 +2617,17 @@ case 'grupmenu': {
 	            anu = `
   *Group Menu*
   
-  💙 ${prefix}grouplink
-  💙 ${prefix}ephemeral [option]
-  💙 ${prefix}setgrouppp
-  💙 ${prefix}setname [text]
-  💙 ${prefix}group [option]
-  💙 ${prefix}editinfo [option]
-  💙 ${prefix}grupinfo
-  💙 ${prefix}add @user
-  💙 ${prefix}kick @user
-  💙 ${prefix}promote @user
-  💙 ${prefix}demote @user
+  ๑♥҉ ๑ ${prefix}grouplink
+  ๑♥҉ ๑ ${prefix}ephemeral [option]
+  ๑♥҉ ๑ ${prefix}setgrouppp
+  ๑♥҉ ๑ ${prefix}setname [text]
+  ๑♥҉ ๑ ${prefix}group [option]
+  ๑♥҉ ๑ ${prefix}editinfo [option]
+  ๑♥҉ ๑ ${prefix}grupinfo
+  ๑♥҉ ๑ ${prefix}add @user
+  ๑♥҉ ๑ ${prefix}kick @user
+  ๑♥҉ ๑ ${prefix}promote @user
+  ๑♥҉ ๑ ${prefix}demote @user
   `
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -2635,19 +2657,19 @@ case 'downloadmenu': {
 	okemenu = `
 	*Downloader Menu*
   
-  💙 ${prefix}tiktoknowm [url]
-  💙 ${prefix}tiktokwm [url]
-  💙 ${prefix}tiktokmp3 [url]
-  💙 ${prefix}instagram [url]
-  💙 ${prefix}ig2 [url]
-  💙 ${prefix}igreels [url]
-  💙 ${prefix}igtv [url]
-  💙 ${prefix}twitter [url]
-  💙 ${prefix}twittermp3 [url]
-  💙 ${prefix}ytmp3 [url]
-  💙 ${prefix}ytmp4 [url]
-  💙 ${prefix}getmusic [query]
-  💙 ${prefix}getvideo [query
+  ๑♥҉ ๑ ${prefix}tiktoknowm [url]
+  ๑♥҉ ๑ ${prefix}tiktokwm [url]
+  ๑♥҉ ๑ ${prefix}tiktokmp3 [url]
+  ๑♥҉ ๑ ${prefix}instagram [url]
+  ๑♥҉ ๑ ${prefix}ig2 [url]
+  ๑♥҉ ๑ ${prefix}igreels [url]
+  ๑♥҉ ๑ ${prefix}igtv [url]
+  ๑♥҉ ๑ ${prefix}twitter [url]
+  ๑♥҉ ๑ ${prefix}twittermp3 [url]
+  ๑♥҉ ๑ ${prefix}ytmp3 [url]
+  ๑♥҉ ๑ ${prefix}ytmp4 [url]
+  ๑♥҉ ๑ ${prefix}getmusic [query]
+  ๑♥҉ ๑ ${prefix}getvideo [query
   `
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -2677,14 +2699,14 @@ case 'downloadmenu': {
             	anu = `
               *Search Menu*
   
-  💙 ${prefix}play [query]
-  💙 ${prefix}yts [query]
-  💙 ${prefix}google [query]
-  💙 ${prefix}gimage [query]
-  💙 ${prefix}pinterest [query]
-  💙 ${prefix}wallpaper [query]
-  💙 ${prefix}wikimedia [query]
-  💙 ${prefix}ytsearch [query]
+  ๑♥҉ ๑ ${prefix}play [query]
+  ๑♥҉ ๑ ${prefix}yts [query]
+  ๑♥҉ ๑ ${prefix}google [query]
+  ๑♥҉ ๑ ${prefix}gimage [query]
+  ๑♥҉ ๑ ${prefix}pinterest [query]
+  ๑♥҉ ๑ ${prefix}wallpaper [query]
+  ๑♥҉ ๑ ${prefix}wikimedia [query]
+  ๑♥҉ ๑ ${prefix}ytsearch [query]
   `
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -2714,8 +2736,8 @@ case 'randommenu': {
 	anu = `
 	*Random Menu*
   
-  💙 ${prefix}coffee
-  💙 ${prefix}couplepp
+  ๑♥҉ ๑ ${prefix}coffee
+  ๑♥҉ ๑ ${prefix}couplepp
   `
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -2745,9 +2767,9 @@ case 'funmenu': {
 	anu = `
 	*Fun Menu*
   
-  💙 ${prefix}couple
-  💙 ${prefix}mysoulmate
-  💙 ${prefix}math [mode] 
+  ๑♥҉ ๑ ${prefix}couple
+  ๑♥҉ ๑ ${prefix}mysoulmate
+  ๑♥҉ ๑ ${prefix}math [mode] 
   `
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -2777,17 +2799,17 @@ case 'voicemenu': {
 	anu = `
 	*Voice Changer Menu*
 	
-  💙 ${prefix}bass
-  💙 ${prefix}blown
-  💙 ${prefix}deep
-  💙 ${prefix}earrape
-  💙 ${prefix}fast
-  💙 ${prefix}fat
-  💙 ${prefix}nightcore
-  💙 ${prefix}reverse
-  💙 ${prefix}robot
-  💙 ${prefix}slow
-  💙 ${prefix}squirrel
+  ๑♥҉ ๑ ${prefix}bass
+  ๑♥҉ ๑ ${prefix}blown
+  ๑♥҉ ๑ ${prefix}deep
+  ๑♥҉ ๑ ${prefix}earrape
+  ๑♥҉ ๑ ${prefix}fast
+  ๑♥҉ ๑ ${prefix}fat
+  ๑♥҉ ๑ ${prefix}nightcore
+  ๑♥҉ ๑ ${prefix}reverse
+  ๑♥҉ ๑ ${prefix}robot
+  ๑♥҉ ๑ ${prefix}slow
+  ๑♥҉ ๑ ${prefix}squirrel
 `
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -2818,11 +2840,11 @@ case 'religionmenukdksoejdjj': {
 	*Religion Menu*
 	
      (Islamic)
-  💙 ${prefix}iqra
-  💙 ${prefix}hadith
-  💙 ${prefix}alquran
-  💙 ${prefix}juzamma
-  💙 ${prefix}tafsirsurah`
+  ๑♥҉ ๑ ${prefix}iqra
+  ๑♥҉ ๑ ${prefix}hadith
+  ๑♥҉ ๑ ${prefix}alquran
+  ๑♥҉ ๑ ${prefix}juzamma
+  ๑♥҉ ๑ ${prefix}tafsirsurah`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
@@ -2851,36 +2873,36 @@ case 'horoscopemenukcodk': {
 	anu = `
 	*Horoscope Menu*
   
-  💙 ${prefix}hockeynumber
-  💙 ${prefix}dreammeaning
-  💙 ${prefix}namemeaning
-  💙 ${prefix}fortunetelling
-  💙 ${prefix}marriageprediction
-  💙 ${prefix}wife&husband
-  💙 ${prefix}fortunetelling2
-  💙 ${prefix}matchname
-  💙 ${prefix}couplematch
-  💙 ${prefix}married
-  💙 ${prefix}businessnature
-  💙 ${prefix}sustenance
-  💙 ${prefix}profession
-  💙 ${prefix}fate
-  💙 ${prefix}potentialdisease
-  💙 ${prefix}tarot
-  💙 ${prefix}fengshui
-  💙 ${prefix}goodday
-  💙 ${prefix}badday
-  💙 ${prefix}unluckyday
-  💙 ${prefix}dragonday
-  💙 ${prefix}sustenance2
-  💙 ${prefix}luck
-  💙 ${prefix}weton
-  💙 ${prefix}character
-  💙 ${prefix}luck2
-  💙 ${prefix}fishing
-  💙 ${prefix}fertiletime
-  💙 ${prefix}zodiac
-  💙 ${prefix}shio`
+  ๑♥҉ ๑ ${prefix}hockeynumber
+  ๑♥҉ ๑ ${prefix}dreammeaning
+  ๑♥҉ ๑ ${prefix}namemeaning
+  ๑♥҉ ๑ ${prefix}fortunetelling
+  ๑♥҉ ๑ ${prefix}marriageprediction
+  ๑♥҉ ๑ ${prefix}wife&husband
+  ๑♥҉ ๑ ${prefix}fortunetelling2
+  ๑♥҉ ๑ ${prefix}matchname
+  ๑♥҉ ๑ ${prefix}couplematch
+  ๑♥҉ ๑ ${prefix}married
+  ๑♥҉ ๑ ${prefix}businessnature
+  ๑♥҉ ๑ ${prefix}sustenance
+  ๑♥҉ ๑ ${prefix}profession
+  ๑♥҉ ๑ ${prefix}fate
+  ๑♥҉ ๑ ${prefix}potentialdisease
+  ๑♥҉ ๑ ${prefix}tarot
+  ๑♥҉ ๑ ${prefix}fengshui
+  ๑♥҉ ๑ ${prefix}goodday
+  ๑♥҉ ๑ ${prefix}badday
+  ๑♥҉ ๑ ${prefix}unluckyday
+  ๑♥҉ ๑ ${prefix}dragonday
+  ๑♥҉ ๑ ${prefix}sustenance2
+  ๑♥҉ ๑ ${prefix}luck
+  ๑♥҉ ๑ ${prefix}weton
+  ๑♥҉ ๑ ${prefix}character
+  ๑♥҉ ๑ ${prefix}luck2
+  ๑♥҉ ๑ ${prefix}fishing
+  ๑♥҉ ๑ ${prefix}fertiletime
+  ๑♥҉ ๑ ${prefix}zodiac
+  ๑♥҉ ๑ ${prefix}shio`
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
@@ -2909,15 +2931,15 @@ case 'convertmenu': {
 	anu = `
 	*Convert Menu*
   
-  💙 ${prefix}toimage
-  💙 ${prefix}removebg
-  💙 ${prefix}sticker
-  💙 ${prefix}emojimix
-  💙 ${prefix}tovideo
-  💙 ${prefix}togif
-  💙 ${prefix}tourl
-  💙 ${prefix}ebinary
-  💙 ${prefix}dbinary
+  ๑♥҉ ๑ ${prefix}toimage
+  ๑♥҉ ๑ ${prefix}removebg
+  ๑♥҉ ๑ ${prefix}sticker
+  ๑♥҉ ๑ ${prefix}emojimix
+  ๑♥҉ ๑ ${prefix}tovideo
+  ๑♥҉ ๑ ${prefix}togif
+  ๑♥҉ ๑ ${prefix}tourl
+  ๑♥҉ ๑ ${prefix}ebinary
+  ๑♥҉ ๑ ${prefix}dbinary
   `
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -2947,17 +2969,17 @@ case 'nocategorymenu': {
 	anu = `
 	*Misc Menu*
   
-  💙 ${prefix}ping
-  💙 ${prefix}owner
-  💙 ${prefix}donate
-  💙 ${prefix}menu / ${prefix}help / ${prefix}?
-  💙 ${prefix}delete
-  💙 ${prefix}chatinfo
-  💙 ${prefix}quoted
-  💙 ${prefix}listpc
-  💙 ${prefix}listgc
-  💙 ${prefix}listonline
-  💙 ${prefix}report (report bug to owner)
+  ๑♥҉ ๑ ${prefix}ping
+  ๑♥҉ ๑ ${prefix}owner
+  ๑♥҉ ๑ ${prefix}donate
+  ๑♥҉ ๑ ${prefix}menu / ${prefix}help / ${prefix}?
+  ๑♥҉ ๑ ${prefix}delete
+  ๑♥҉ ๑ ${prefix}chatinfo
+  ๑♥҉ ๑ ${prefix}quoted
+  ๑♥҉ ๑ ${prefix}listpc
+  ๑♥҉ ๑ ${prefix}listgc
+  ๑♥҉ ๑ ${prefix}listonline
+  ๑♥҉ ๑ ${prefix}report (report bug to owner)
   `
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -2987,14 +3009,14 @@ case 'databasemenu': {
 	anu = `
 	*Database Menu*
   
-  💙 ${prefix}setcmd
-  💙 ${prefix}listcmd
-  💙 ${prefix}delcmd
-  💙 ${prefix}lockcmd
-  💙 ${prefix}addmsg
-  💙 ${prefix}listmsg
-  💙 ${prefix}getmsg
-  💙 ${prefix}delmsg
+  ๑♥҉ ๑ ${prefix}setcmd
+  ๑♥҉ ๑ ${prefix}listcmd
+  ๑♥҉ ๑ ${prefix}delcmd
+  ๑♥҉ ๑ ${prefix}lockcmd
+  ๑♥҉ ๑ ${prefix}addmsg
+  ๑♥҉ ๑ ${prefix}listmsg
+  ๑♥҉ ๑ ${prefix}getmsg
+  ๑♥҉ ๑ ${prefix}delmsg
   `
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -3024,9 +3046,9 @@ case 'anonymouschatmenu': {
 	anu = `
 	*Anonymous Menu*
 	
-  💙 ${prefix}start ( Start Chat )
-  💙 ${prefix}next ( Next user )
-  💙 ${prefix}stop ( stop Anonymous chat )
+  ๑♥҉ ๑ ${prefix}start ( Start Chat )
+  ๑♥҉ ๑ ${prefix}next ( Next user )
+  ๑♥҉ ๑ ${prefix}stop ( stop Anonymous chat )
 	`
 	  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -3056,9 +3078,9 @@ case 'sistemmenu': {
 	anu = `
 	*System Menu*
 	
-  💙 ${prefix}antilink On/Off
-  💙 ${prefix}mute On/Off
-  💙 ${prefix}antiwame On/Off
+  ๑♥҉ ๑ ${prefix}antilink On/Off
+  ๑♥҉ ๑ ${prefix}mute On/Off
+  ๑♥҉ ๑ ${prefix}antiwame On/Off
 `
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -3088,14 +3110,14 @@ break
   	anu = `
   *Owner Menu*
   
-  💙 ${prefix}chat [option]
-  💙 ${prefix}join [link]
-  💙 ${prefix}leave
-  💙 ${prefix}setbotpp
-  💙 ${prefix}block @user
-  💙 ${prefix}unblock @user
-  💙 ${prefix}bcgroup
-  💙 ${prefix}bcall
+  ๑♥҉ ๑ ${prefix}chat [option]
+  ๑♥҉ ๑ ${prefix}join [link]
+  ๑♥҉ ๑ ${prefix}leave
+  ๑♥҉ ๑ ${prefix}setbotpp
+  ๑♥҉ ๑ ${prefix}block @user
+  ๑♥҉ ๑ ${prefix}unblock @user
+  ๑♥҉ ๑ ${prefix}bcgroup
+  ๑♥҉ ๑ ${prefix}bcall
   `
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -3123,133 +3145,148 @@ break
 break
   case 'allmenu': {
   	anu = `
+💛💛 •┼┼─•☆💕☆•┼┼─•💛💛
+┏━━━━━━━๑🌹 ๑━━━━━━━┓
+        ╭•┄┅═══❁💕❁═══┅┄•╮
+           💞  𝗔𝘀𝗜𝗙 𝗞𝗵𝗔𝗻. 💞
+        ╰•┄┅═══❁💕❁═══┅┄•╯
+┗━━━━━━━๑🌹 ๑━━━━━━━┛
+╔════•ೋೋ•════╗ 
+    𝗠𝗢𝗢𝗡 ⊰᯽⊱𝗞𝗜𝗡𝗚
+╚════•ೋೋ•════╝
+
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+      𝘼𝙎𝙎𝙇𝘼𝙈 𝙒𝘼𝙇𝙀𝙆𝙐𝙈
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+✿*:･ﾟ𝐌𝐚𝐲 𝐆𝐨𝐝 𝐁𝐥𝐞𝐬𝐬 𝐲𝐨𝐮 𝐚𝐧𝐝  
+✿*:･ﾟ𝐘𝐨𝐮𝐫 𝐋𝐨𝐯𝐞𝐝 𝐨𝐧𝐞𝐬 𝐚𝐧𝐝 𝐤𝐞𝐞𝐩 𝐲𝐨𝐮 𝐬𝐚𝐟𝐞,..  ✿*:･ﾟ ﾟ･:*✿
  ╭───────────╮
- │     ▎𝗠𝗘𝗡𝗨 ▎
+ │❉্᭄͜͡𝗠𝗘𝗡𝗨❉্᭄͜͡
  ╰───────────╯
-  ╭──❰ 𝗚𝗥𝗢𝗨𝗣 𝗠𝗘𝗡𝗨 ❱
-  │☃️ ${prefix}grouplink
-  │☃️ ${prefix}ephemeral
-  │☃️ ${prefix}setgrouppp
-  │☃️ ${prefix}setname
-  │☃️ ${prefix}group
-  │☃️ ${prefix}editinfo
-  │☃️ ${prefix}grupinfo
-  │☃️ ${prefix}add
-  │☃️ ${prefix}kick
-  │☃️ ${prefix}promote
-  │☃️ ${prefix}demote
+  ╭──๑♥҉ ๑ 𝗚𝗥𝗢𝗨𝗣 𝗠𝗘𝗡𝗨 ❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}grouplink
+  │❉্᭄͜͡ ${prefix}ephemeral
+  │❉্᭄͜͡ ${prefix}setgrouppp
+  │❉্᭄͜͡ ${prefix}setname
+  │❉্᭄͜͡ ${prefix}group
+  │❉্᭄͜͡ ${prefix}editinfo
+  │❉্᭄͜͡ ${prefix}grupinfo
+  │❉্᭄͜͡ ${prefix}add
+  │❉্᭄͜͡ ${prefix}kick
+  │❉্᭄͜͡ ${prefix}promote
+  │❉্᭄͜͡ ${prefix}demote
   ╰────────────⦁
   
-  ╭──❰ 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗠𝗘𝗡𝗨 ❱
-  │🍓 ${prefix}tiktoknowm
-  │🍓 ${prefix}tiktokwm
-  │🍓 ${prefix}tiktokmp3
-  │🍓 ${prefix}instagram
-  │🍓 ${prefix}ig2
-  │🍓 ${prefix}igreels
-  │🍓 ${prefix}igtv
-  │🍓 ${prefix}twitter
-  │🍓 ${prefix}twittermp3
-  │🍓 ${prefix}ytmp3
-  │🍓 ${prefix}ytmp4
-  │🍓 ${prefix}getmusic
-  │🍓 ${prefix}getvideo
+  ╭──๑♥҉ ๑ 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗠𝗘𝗡𝗨 ❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}tiktoknowm
+  │❉্᭄͜͡ ${prefix}tiktokwm
+  │❉্᭄͜͡ ${prefix}tiktokmp3
+  │❉্᭄͜͡ ${prefix}instagram
+  │❉্᭄͜͡ ${prefix}ig2
+  │❉্᭄͜͡ ${prefix}igreels
+  │❉্᭄͜͡ ${prefix}igtv
+  │❉্᭄͜͡ ${prefix}twitter
+  │❉্᭄͜͡ ${prefix}twittermp3
+  │❉্᭄͜͡ ${prefix}ytmp3
+  │❉্᭄͜͡ ${prefix}ytmp4
+  │❉্᭄͜͡ ${prefix}getmusic
+  │❉্᭄͜͡ ${prefix}getvideo
   ╰────────────⦁
   
-  ╭──❰ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗠𝗘𝗡𝗨 ❱
-  │🍹 ${prefix}play
-  │🍹 ${prefix}yts
-  │🍹 ${prefix}google
-  │🍹 ${prefix}gimage
-  │🍹 ${prefix}pinterest
-  │🍹 ${prefix}wallpaper
-  │🍹 ${prefix}wikimedia
-  │🍹 ${prefix}ytsearch
+  ╭──๑♥҉ ๑ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗠𝗘𝗡𝗨 ❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}play
+  │❉্᭄͜͡ ${prefix}yts
+  │❉্᭄͜͡ ${prefix}google
+  │❉্᭄͜͡ ${prefix}gimage
+  │❉্᭄͜͡ ${prefix}pinterest
+  │❉্᭄͜͡ ${prefix}wallpaper
+  │❉্᭄͜͡ ${prefix}wikimedia
+  │❉্᭄͜͡ ${prefix}ytsearch
   ╰────────────⦁
   
-  ╭──❰ 𝗥𝗔𝗡𝗗𝗢𝗠 𝗠𝗘𝗡𝗨 ❱
-  │👀 ${prefix}coffee
-  │👀 ${prefix}couplepp
+  ╭──๑♥҉ ๑ 𝗥𝗔𝗡𝗗𝗢𝗠 𝗠𝗘𝗡𝗨 ❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}coffee
+  │❉্᭄͜͡ ${prefix}couplepp
   ╰─────────────⦁
   
-  ╭──❰ 𝗙𝗨𝗡 𝗠𝗘𝗡𝗨 ❱
-  │🪟 ${prefix}couple
-  │🪟 ${prefix}mysoulmate
-  │🪟 ${prefix}math
+  ╭──๑♥҉ ๑ 𝗙𝗨𝗡 𝗠𝗘𝗡𝗨 ❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}couple
+  │❉্᭄͜͡ ${prefix}mysoulmate
+  │❉্᭄͜͡ ${prefix}math
   ╰────────────⦁
   
-  ╭──❰ 𝗩𝗢𝗜𝗖𝗘 𝗠𝗘𝗡𝗨 ❱
-  │🪞 ${prefix}bass
-  │🪞 ${prefix}blown
-  │🪞 ${prefix}deep
-  │🪞 ${prefix}earrape
-  │🪞 ${prefix}fast
-  │🪞 ${prefix}fat
-  │🪞 ${prefix}nightcore
-  │🪞 ${prefix}reverse
-  │🪞 ${prefix}robot
-  │🪞 ${prefix}slow
-  │🪞 ${prefix}squirrel
+  ╭──๑♥҉ ๑ 𝗩𝗢𝗜𝗖𝗘 𝗠𝗘𝗡𝗨 ❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}bass
+  │❉্᭄͜͡ ${prefix}blown
+  │❉্᭄͜͡ ${prefix}deep
+  │❉্᭄͜͡ ${prefix}earrape
+  │❉্᭄͜͡ ${prefix}fast
+  │❉্᭄͜͡ ${prefix}fat
+  │❉্᭄͜͡ ${prefix}nightcore
+  │❉্᭄͜͡ ${prefix}reverse
+  │❉্᭄͜͡ ${prefix}robot
+  │❉্᭄͜͡ ${prefix}slow
+  │❉্᭄͜͡ ${prefix}squirrel
   ╰────────────⦁
   
-  ╭──❰ 𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗠𝗘𝗡𝗨 ❱
-  │☃️ ${prefix}toimage
-  │☃️ ${prefix}removebg
-  │☃️ ${prefix}sticker
-  │☃️ ${prefix}emojimix
-  │☃️ ${prefix}tovideo
-  │☃️ ${prefix}togif
-  │☃️ ${prefix}tourl
-  │☃️ ${prefix}ebinary
-  │☃️ ${prefix}dbinary
+  ╭──๑♥҉ ๑ 𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗠𝗘𝗡𝗨 ❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}toimage
+  │❉্᭄͜͡ ${prefix}removebg
+  │❉্᭄͜͡ ${prefix}sticker
+  │❉্᭄͜͡ ${prefix}emojimix
+  │❉্᭄͜͡ ${prefix}tovideo
+  │❉্᭄͜͡ ${prefix}togif
+  │❉্᭄͜͡ ${prefix}tourl
+  │❉্᭄͜͡ ${prefix}ebinary
+  │❉্᭄͜͡ ${prefix}dbinary
   ╰─────────────⦁
   
-  ╭──❰ 𝗠𝗜𝗦𝗖 𝗠𝗘𝗡𝗨 ❱
-  │🕊️ ${prefix}ping
-  │🕊️ ${prefix}owner
-  │🕊️ ${prefix}donate
-  │🕊️ ${prefix}menu
-  │🕊️ ${prefix}delete
-  │🕊️ ${prefix}chatinfo
-  │🕊️ ${prefix}quoted
-  │🕊️ ${prefix}listpc
-  │🕊️ ${prefix}listgc
-  │🕊️ ${prefix}listonline
-  │🕊️ ${prefix}report
+  ╭──๑♥҉ ๑ 𝗠𝗜𝗦𝗖 𝗠𝗘𝗡𝗨 ❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}ping
+  │❉্᭄͜͡ ${prefix}owner
+  │❉্᭄͜͡ ${prefix}donate
+  │❉্᭄͜͡ ${prefix}menu
+  │❉্᭄͜͡ ${prefix}delete
+  │❉্᭄͜͡ ${prefix}chatinfo
+  │❉্᭄͜͡ ${prefix}quoted
+  │❉্᭄͜͡ ${prefix}listpc
+  │❉্᭄͜͡ ${prefix}listgc
+  │❉্᭄͜͡ ${prefix}listonline
+  │❉্᭄͜͡ ${prefix}report
   ╰─────────────⦁
   
-  ╭──❰ 𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 𝗠𝗘𝗡𝗨 ❱
-  │🗂️ ${prefix}setcmd
-  │🗂️ ${prefix}listcmd
-  │🗂️ ${prefix}delcmd
-  │🗂️ ${prefix}lockcmd
-  │🗂️ ${prefix}addmsg
-  │🗂️ ${prefix}listmsg
-  │🗂️ ${prefix}getmsg
-  │🗂️ ${prefix}delmsg
+  ╭──๑♥҉ ๑ 𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 𝗠𝗘𝗡𝗨 ❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}setcmd
+  │❉্᭄͜͡ ${prefix}listcmd
+  │❉্᭄͜͡ ${prefix}delcmd
+  │❉্᭄͜͡ ${prefix}lockcmd
+  │❉্᭄͜͡ ${prefix}addmsg
+  │❉্᭄͜͡ ${prefix}listmsg
+  │❉্᭄͜͡ ${prefix}getmsg
+  │❉্᭄͜͡ ${prefix}delmsg
   ╰─────────────⦁
   
-  ╭──❰ 𝗔𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 𝗖𝗛𝗔𝗧 ❱
+  ╭──๑♥҉ ๑ 𝗔𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 𝗖𝗛𝗔𝗧 ❉্᭄͜͡
   │🔲 ${prefix}start
   │🔲 ${prefix}next
   │🔲 ${prefix}stop
   ╰─────────────⦁
   
-  ╭──❰ 𝗦𝗬𝗦𝗧𝗘𝗠 𝗠𝗘𝗡𝗨 ❱
-  │⚙️ ${prefix}antilink
-  │⚙️ ${prefix}mute
-  │⚙️ ${prefix}antiwame
+  ╭──๑♥҉ ๑ 𝗦𝗬𝗦𝗧𝗘𝗠 𝗠𝗘𝗡𝗨 ❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}antilink
+  │❉্᭄͜͡ ${prefix}mute
+  │❉্᭄͜͡ ${prefix}antiwame
   ╰─────────────⦁
   
-  ╭───❰ 𝗢𝗪𝗡𝗘𝗥 𝗠𝗘𝗡𝗨 ❱
-  │🧧 ${prefix}chat
-  │🧧 ${prefix}join
-  │🧧 ${prefix}leave
-  │🧧 ${prefix}setbotpp
-  │🧧 ${prefix}block
-  │🧧 ${prefix}unblock
-  │🧧 ${prefix}bcgroup
-  │🧧 ${prefix}bcall
+  ╭───๑♥҉ ๑ 𝗢𝗪𝗡𝗘𝗥 𝗠𝗘𝗡𝗨 ❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}chat
+  │❉্᭄͜͡ ${prefix}join
+  │❉্᭄͜͡ ${prefix}leave
+  │❉্᭄͜͡ ${prefix}setbotpp
+  │❉্᭄͜͡ ${prefix}block
+  │❉্᭄͜͡ ${prefix}unblock
+  │❉্᭄͜͡ ${prefix}bcgroup
+  │❉্᭄͜͡ ${prefix}bcall
   ╰────────────⦁`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -3276,7 +3313,10 @@ break
             }
 break
 case 'tqtt': 
-reply(`Thanks to
+reply(`╭══• ೋ•✧๑❤️๑✧•ೋ•══╮  
+               𝗠𝗢𝗢𝗡 𝗞𝗜𝗡𝗚
+      ╰══• ೋ•✧๑❤️๑✧•ೋ•══╯ 
+Thanks to
 ALLAH
 Dark Bot Inc.💗👑
 wa.me/+923474187615!!!`)
