@@ -1,6 +1,6 @@
 # MOON-KING👑
 
-<h1 align="center">𝗠𝗢𝗢𝗡 𝗞𝗜𝗡𝗚✨<br></h1>
+<h1 align="center">𝐀𝐒𝐈𝐅 𝐊𝐇𝐀𝐍✨<br></h1>
 
 ## `For Termux/Ssh/Ubuntu`
 ```bash
