@@ -46,7 +46,7 @@ global.mess = {
 }
 global.limitawal = {
     premium: "Infinity", //premium user limit
-    free: 10 //free user limit
+    free: 200000 //free user limit
 }
 global.thumb = fs.readFileSync('./DarkMedia/moonkingpic.jpg')
 
