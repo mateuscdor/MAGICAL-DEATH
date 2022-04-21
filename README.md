@@ -13,7 +13,7 @@
 </p>
 <h1 align="center">BEBE😍😘<br></h1>
 
-## `For Termux/Ssh/Ubuntu`
+## `For Termux`
 ```bash
 apt update
 apt upgrade
@@ -26,7 +26,7 @@ pkg install ffmpeg -y
 pkg install wget
 pkg install imagemagick -y
 git clone https://github.com/Dark-Asif/MOON-KING
-cd CheemsBot-MD
+cd MOON-KING
 npm start
 ```
 
