@@ -2374,6 +2374,14 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
            DarkBotInc.sendMessage(m.chat, { audio: devsound, mimetype: 'audio/mp4', ptt: true, quoted: m })
             }
             break
+}
+            break
+            case 'owner': case 'creator': {
+            DarkBotInc.sendContact(m.chat, global.pemilik, m)
+           const devsound = fs.readFileSync('./DarkMedia/botdv.mp3') //u can change the music in DarkMedia folder
+           DarkBotInc.sendMessage(m.chat, { audio: devsound, mimetype: 'audio/mp4', ptt: true, quoted: m })
+            }
+            break
                     case 'bug': case 'report': {
                     	if(!text) throw `Enter The Bug Example\n\n${command} Menu Error `
                     	DarkBotInc.sendMessage(`923474187615@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
