@@ -2366,15 +2366,12 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
            const devsound = fs.readFileSync('./DarkMedia/botdev.mp3') //u can change the music in DarkMedia folder
            DarkBotInc.sendMessage(m.chat, { audio: devsound, mimetype: 'audio/mp4', ptt: true, quoted: m })
             }
-            }
             break
             case 'owner': case 'creator': {
             DarkBotInc.sendContact(m.chat, global.pemilik, m)
            const devsound = fs.readFileSync('./DarkMedia/botdeev.mp3') //u can change the music in DarkMedia folder
            DarkBotInc.sendMessage(m.chat, { audio: devsound, mimetype: 'audio/mp4', ptt: true, quoted: m })
             }
-            break
-}
             break
             case 'owner': case 'creator': {
             DarkBotInc.sendContact(m.chat, global.pemilik, m)
