@@ -41,6 +41,6 @@ npm start
 
 
 <p align="center">
-  <img src="https://i.ibb.co/F6kf6jC/4d27cc136a55ee84f97a9a3c3bd4b31b.jpg" width="540" height="300" />
+  <img src="https://i.ibb.co/F6kf6jC/4d27cc136a55ee84f97a9a3c3bd4b31b.jpg" width="440" height="300" />
 </p>
 <h1 align="center">HACKER❤️<br></h1>
