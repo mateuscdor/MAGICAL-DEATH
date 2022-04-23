@@ -9,7 +9,7 @@
 </p>
 <h1 align="center">DARK BOY<br></h1>
 <p align="center">
-  <img src="https://i.ibb.co/qRjxzxc/034e11149a8ef0904071dde6e6f71c54.jpg" width="540" height="300" />
+  <img src="https://i.ibb.co/qRjxzxc/034e11149a8ef0904071dde6e6f71c54.jpg" width="250" height="300" />
 </p>
 <h1 align="center">BEBE😍😘<br></h1>
 
@@ -29,7 +29,7 @@ git clone https://github.com/Dark-Asif/MOON-KING
 cd MOON-KING
 npm start
 ```
-
+<h1 align="center">DARK BOT INC 2022<br></h1>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Dark-Asif/MOON-KING/)
 
@@ -43,3 +43,4 @@ npm start
 <p align="center">
   <img src="https://i.ibb.co/F6kf6jC/4d27cc136a55ee84f97a9a3c3bd4b31b.jpg" width="540" height="300" />
 </p>
+<h1 align="center">HACKER❤️<br></h1>
