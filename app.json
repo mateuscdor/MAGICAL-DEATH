@@ -2,7 +2,7 @@
   "name": "MOON-KING",
   "description": "whatsapp md bot build with nodejs",
   "repository": "https://github.com/Dark-Asif/MOON-KING",
-  "logo": "https://i.ibb.co/kcwqMDc/5d41f3f37b7ef71fc05888e1a7c5e035.jpg",
+  "logo": "https://i.ibb.co/F6kf6jC/4d27cc136a55ee84f97a9a3c3bd4b31b.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {
