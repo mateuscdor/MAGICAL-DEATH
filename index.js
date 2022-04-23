@@ -92,15 +92,15 @@ Kon = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURICom
 
 Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://i.ibb.co/RQFvD09/a3fde39f85fcb125b52b69515fa74e30.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
                 if (anu.action == 'add') {
-                    DarkBotInc.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}
+                    DarkBotInc.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼  ${metadata.subject} @${num.split("@")[0]}
 
 Description: ${metadata.desc}
 
-𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝙾𝚄𝚁 𝙷𝙰𝙿𝙿𝚈 𝙶𝚁𝙾𝚄𝙿 𝙵𝚄𝙻𝙻 𝙾𝙵 𝙻𝙾𝚅𝙴 𝙵𝚄𝙽🥰😍!!`} )
+𝗳𝗲𝗲𝗹 𝗮𝘁 𝗵𝗼𝗺𝗲, 𝗯𝘆 𝗼𝗳𝗳𝗲𝗻𝘀𝗶𝘃𝗲 𝘀𝗲𝗰𝘂𝗿𝗶𝘁𝘆 𝗵𝗮𝗰𝗸𝗶𝗻𝗴 𝗶𝘀 𝗼𝘂𝗿 𝗹𝗲𝗴𝗮𝗰𝘆`} )
                 } else if (anu.action == 'remove') {
-                    DarkBotInc.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} Left ${metadata.subject}
+                    DarkBotInc.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} 𝗕𝘆𝗲 𝗺𝘆 𝗹𝗼𝘃𝗲𝗹𝘆 𝗳𝗿𝗶𝗲𝗻𝗱 ${metadata.subject}
 
-𝙶𝙾𝙾𝙳 𝙱𝚈𝙴 𝙳𝙾𝙽'𝚃 𝙲𝙾𝙼𝙴 𝙱𝙰𝙲𝙺 𝙷𝙴𝚁𝙴 𝚆𝙴 𝙳𝙾𝙽'𝚃 𝙽𝙴𝙴𝙳 𝚈𝙾𝚄𝚁😏` })
+𝗗𝗼𝗻𝘁 𝗰𝗼𝗺𝗲 𝗯𝗮𝗰𝗸 𝗵𝗲𝗿𝗲`})
                 }
             }
         } catch (err) {
