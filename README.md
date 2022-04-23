@@ -5,7 +5,7 @@
 
 <h1 align="center">𝐀𝐒𝐈𝐅 𝐊𝐇𝐀𝐍✨<br></h1>
 <p align="center">
-  <img src="https://i.ibb.co/ZTKt8qz/17a180c354db1cdc6f38e039273b7609.jpg" width="540" height="300" />
+  <img src="https://i.ibb.co/ZTKt8qz/17a180c354db1cdc6f38e039273b7609.jpg" width="250" height="300" />
 </p>
 <h1 align="center">DARK BOY<br></h1>
 <p align="center">
