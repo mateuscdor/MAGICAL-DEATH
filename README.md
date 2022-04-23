@@ -1,6 +1,6 @@
 # MOON-KING👑
 <p align="center">
-  <img src="https://i.ibb.co/XFwBT7q/moonkingpic.jpg" width="540" height="200/" />
+  <img src="https://i.ibb.co/XFwBT7q/moonkingpic.jpg" width="300" height="300/" />
 </p>
 
 <h1 align="center">𝐀𝐒𝐈𝐅 𝐊𝐇𝐀𝐍✨<br></h1>
