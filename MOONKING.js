@@ -1,1 +1,3369 @@
-const _0x3a735f=_0x1adf;(function(_0x463bdf,_0x5d9b45){const _0x4dd0da=_0x1adf,_0x107254=_0x463bdf();while(!![]){try{const _0x541824=-parseInt(_0x4dd0da(0x290))/0x1+parseInt(_0x4dd0da(0x68e))/0x2*(-parseInt(_0x4dd0da(0x5b0))/0x3)+-parseInt(_0x4dd0da(0x538))/0x4*(parseInt(_0x4dd0da(0x5d1))/0x5)+parseInt(_0x4dd0da(0x257))/0x6*(parseInt(_0x4dd0da(0x2b5))/0x7)+parseInt(_0x4dd0da(0x582))/0x8*(parseInt(_0x4dd0da(0x5e5))/0x9)+parseInt(_0x4dd0da(0x42e))/0xa+parseInt(_0x4dd0da(0x38e))/0xb;if(_0x541824===_0x5d9b45)break;else _0x107254['push'](_0x107254['shift']());}catch(_0x25744c){_0x107254['push'](_0x107254['shift']());}}}(_0x42f9,0x6b50f),require(_0x3a735f(0x266)));const {BufferJSON,WA_DEFAULT_EPHEMERAL,generateWAMessageFromContent,proto,generateWAMessageContent,generateWAMessage,prepareWAMessageMedia,areJidsSameUser,getContentType}=require(_0x3a735f(0x2b0)),fs=require('fs'),util=require(_0x3a735f(0x4b9)),chalk=require(_0x3a735f(0x528)),{exec,spawn,execSync}=require(_0x3a735f(0x220)),axios=require(_0x3a735f(0x63d)),path=require(_0x3a735f(0x277)),os=require('os'),moment=require(_0x3a735f(0x3c4)),{JSDOM}=require('jsdom'),speed=require(_0x3a735f(0x6b7)),{performance}=require('perf_hooks'),{Primbon}=require(_0x3a735f(0x461)),primbon=new Primbon(),{smsg,formatp,tanggal,formatDate,getTime,isUrl,sleep,clockString,fetchJson,getBuffer,jsonformat,format,parseMention,getRandom}=require('./lib/myfunc');let {addLevelingId,addLevelingLevel,addLevelingXp,getLevelingId,getLevelingLevel,getLevelingXp}=require(_0x3a735f(0x642));const speedofbot=require(_0x3a735f(0x6b7));let dark=fs[_0x3a735f(0x32a)](_0x3a735f(0x38f));const antilink=JSON[_0x3a735f(0x66b)](fs[_0x3a735f(0x32a)](_0x3a735f(0x4e9)));global['db']=JSON[_0x3a735f(0x66b)](fs[_0x3a735f(0x32a)](_0x3a735f(0x4a4)));if(global['db'])global['db']={'sticker':{},'database':{},'game':{},'others':{},'users':{},'chats':{},...global['db']||{}};function _0x42f9(){const _0x26b2eb=['mtype','replace','Hanya\x20Bisa\x20Membalas\x20Pesan\x20Dari\x20Bot','Successfully\x20Changed\x20To\x20Public\x20Usage','updateBlockStatus','😏Stop😏','Orichalcum','WAITING','videos','Thanks\x20To','wikimedia','igreels\x20[url]\x0a\x20\x20๑♥҉\x20๑\x20','blank','\x20to\x20type\x20accept/reject','\x0a⭔\x20Detail\x20:\x20','shinobu','stop','ytmp4\x20[url]\x0a\x20\x20๑♥҉\x20๑\x20','chat\x0a\x20\x20│❉্᭄͜͡\x20','Maybe\x20the\x20message\x20you\x20replied\x20does\x20not\x20contain\x20the\x20ytsearch\x20result','nightcore\x0a\x20\x20│❉্᭄͜͡\x20','tqtt','linkgc','vote*\x20-\x20to\x20start\x20voting','Google\x20Search\x20From\x20:\x20','chat','Anonymous\x20Chat\x20Menu','\x0a⭔\x20*Rock\x20:*\x20','joox','Mute\x20Bot','3dcrackedstone','\x0a\x0a\x20\x0a└────\x0a\x0a*','DD/MM/YYYY\x20HH:mm:ss','batu_keberuntungan','\x20day,\x20','seconds','getProfilePicture','Hash\x20not\x20found\x20in\x20database','emit','coffe','voicemenu','3MEvEKb','foggywindow','packname','\x27\x20not\x20listed\x20in\x20the\x20message\x20list','Silahkan\x20Jawab\x20Pertanyaan\x20Berikut\x0a\x0a','Press\x20The\x20Button\x20Below','delcmd','chatModify','cancer','-af\x20volume=12','huluhkdksls','nowatermark','image','delmsg\x0a\x20\x20╰─────────────⦁\x0a\x20\x20\x0a\x20\x20╭──๑♥҉\x20๑\x20𝗔𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦\x20𝗖𝗛𝗔𝗧\x20❉্᭄͜͡\x0a\x20\x20│❉্᭄͜͡\x20','No\x20hashes','\x20has\x20been\x20unmuted\x20in\x20this\x20group!','ownernma','-af\x20equalizer=f=54:width_type=o:width=2:g=20','emojimix\x0a\x20\x20│❉্᭄͜͡\x20','anonymouschatmenu','pushName','delete','other','setcmd\x0a\x20\x20│❉্᭄͜͡\x20','3️⃣','8️⃣','\x0a𝗕𝗼𝘁\x20𝗡𝗮𝗺𝗲\x20:\x20','naturalleaves','*Hi\x20bro\x20','imageMessage','tiktokaudio','Guess\x20Lontong','sendTextWithMentions','35QWCbzJ','Broadcast\x20Success','Cari\x20Partner','tiktoknowm','getmusic','masasubur111111','antilink','https://wa.me/+923474187615','yts\x0a\x20\x20│❉্᭄͜͡\x20','smooth','\x20seconds','ffcover','\x0a\x0a-\x20','sendButtonText','tourl\x0a\x20\x20๑♥҉\x20๑\x20','unlocked','transliteration','https://fatiharridho.github.io/tebaklagu.json','No\x20Name','off','593235iGkazj','bgBlue','https://raw.githubusercontent.com/BochilTeam/database/master/games/tebaklirik.json','juz-amma-arab-latin-indonesia.pdf','listonline','「\x20*Tafsir\x20Surah*\x20\x20」\x0a\x0a*Short*\x20:\x20','togif','join\x20[link]\x0a\x20\x20๑♥҉\x20๑\x20','Send\x20Broadcast\x20To\x20','\x0a⭔\x20Author\x20:\x20','fast\x0a\x20\x20๑♥҉\x20๑\x20','ebinary\x0a\x20\x20│❉্᭄͜͡\x20','toString','\x0a⬡\x20*Chat\x20:*\x20https://wa.me/','\x20⭔\x20*Status\x20:*\x20','\x27\x20telah\x20terdaftar\x20di\x20list\x20pesan','Reply\x20Video/Image\x20With\x20Caption\x20','You\x20are\x20still\x20in\x20the\x20game','neondevils','watchFile','https://islamic-api-indonesia.herokuapp.com/api/data/json/hadith/','blown','Successfully\x20deleted\x20\x27','Mode:\x20','style','unblock\x20@user\x0a\x20\x20๑♥҉\x20๑\x20','hidetag','Reply\x20Video/Audio\x20That\x20You\x20Want\x20To\x20Be\x20VN\x20With\x20Caption\x20','\x0a⭔\x20Lyrics\x20:\x0a','.mp3','\x20https://youtube.com/watch?v=PtFMh6Tccag%27\x20320kbps','\x2012,\x201,\x202022,\x2028\x0a\x0aNote\x20:\x20','\x0a\x09*Horoscope\x20Menu*\x0a╭══•\x20ೋ•✧๑👻๑✧•ೋ\x20•══╮\x20\x20\x20\x0a\x20\x20๑♥҉\x20๑\x20','\x0a────────────────────────\x0a\x0a','👎🏻De-Vote👎🏻','robot\x0a\x20\x20๑♥҉\x20๑\x20','listcmd\x0a\x20\x20│❉্᭄͜͡\x20','quoted','yellow','-filter:a\x20atempo=1.06,asetrate=44100*1.25','contextInfo','https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakgambar.json','grupinfo','\x0a*Indonesia*\x20:\x20','coffee\x0a\x20\x20│❉্᭄͜͡\x20','berry','\x0a\x09*Misc\x20Menu*\x0a╭══•\x20ೋ•✧๑🔥๑✧•ೋ\x20•══╮\x20\x20\x0a\x20\x20๑♥҉\x20๑\x20','serializeM','Successfully\x20added\x20message\x20in\x20message\x20list\x20as\x20\x27','./lib/converter','⭔\x20Title\x20:\x20','sustenance\x0a\x20\x20๑♥҉\x20๑\x20','Gold','add\x0a\x20\x20│❉্᭄͜͡\x20','twittermp3\x20[url]\x0a\x20\x20๑♥҉\x20๑\x20','error','/api/downloader/pinterestdl','*\x20Answer\x20','sticker','sketch','taurus','\x0a⬡\x20*ID\x20:*\x20','surah','[\x20MESSAGE\x20]','deskripsi','pengguna','\x0a\x0a\x0aThere\x20is\x20','antilink\x20On/Off\x0a\x20\x20๑♥҉\x20๑\x20','listpc\x0a\x20\x20๑♥҉\x20๑\x20','Download\x20Url\x20Instagram\x20From\x20','\x0a⭔\x20Description\x20:\x20','⬡\x20*Name\x20:*\x20','block\x20@user\x0a\x20\x20๑♥҉\x20๑\x20','couple\x0a\x20\x20๑♥҉\x20๑\x20','2️⃣','join\x0a\x20\x20│❉্᭄͜͡\x20','You\x20have\x20Voted','\x0a⭔\x20*Color\x20:*\x20','wallpaper\x20[query]\x0a\x20\x20๑♥҉\x20๑\x20','hapusvote*\x20-\x20to\x20delete\x20votes\x0a\x0a\x0a©','glass','addmsg\x0a\x20\x20│❉্᭄͜͡\x20','blown\x0a\x20\x20│❉্᭄͜͡\x20','math','next','couplematch\x0a\x20\x20๑♥҉\x20๑\x20','horoscopemenukcodk','-af\x20acrusher=.1:1:64:0:log','axios','creation','updateProfilePicture','Script🔖','umma','./lib/lvlfunction','shio\x0a\x20\x20\x20\x20\x20\x20꧁•⊹٭𝙼𝙾𝙾𝙽\x20𝙺𝙸𝙽𝙶٭⊹•꧂\x0a\x20\x20╚═══════♤═══════╝','string','mp4','tgl_lahir','⭔\x20*Results\x20:*\x20','\x0a⭔\x20*Notes\x20:*\x20','styletext','ephemeral\x0a\x20\x20│❉্᭄͜͡\x20','fbkckxkxk','igcertificate','lontong','remove.bg','chatinfo','copyNForward','\x20})()','7️⃣','kalimat','\x0aExample:\x20','+923474187615','Send/Reply\x20Video/Audio\x20You\x20Want\x20Audio\x20With\x20Caption\x20','removebg\x0a\x20\x20๑♥҉\x20๑\x20','\x0a\x20\x0a└────\x0a\x0a┌〔\x20DEVOTE\x20〕\x0a\x20\x0a├\x20Total:\x20','buypremium','Mithril','others','couplepp\x0a\x20\x20','turn','coffecup','🎮\x20Guess\x20The\x20Lyrics\x20🎮\x0a\x0aCorrect\x20answer\x20🎉\x0a\x0aWant\x20to\x20play\x20again?\x20press\x20the\x20button\x20below','⭕Open⭕','coffee','split','\x20tikus\x0a\x0aNote\x20:\x20For\x20Detail\x20https://primbon.com/shio.htm','\x0aDeskripsi\x20:\x20','fertiletime\x0a\x20\x20๑♥҉\x20๑\x20','editinfo','alquran\x0a\x20\x20๑♥҉\x20๑\x20','blackpink','title','dropwater','parse','bucinquote','Enter\x20the\x20group\x20link!','tovideo\x0a\x20\x20│❉্᭄͜͡\x20','addmsg\x0a\x20\x20๑♥҉\x20๑\x20','lirik','\x0aReport\x20Message:\x20','green','\x2012,\x201,\x202022','Successfully\x20Reported\x20To\x20The\x20Owner\x0a\x0aPlease\x20Make\x20Sure\x20The\x20Bug\x20Is\x20Valid,\x20If\x20You\x20Play\x20With\x20This,\x20Use\x20This\x20Feature\x20Again\x20And\x20Again\x20For\x20No\x20Reason,\x20You\x20Will\x20Be\x20Blocked\x20For\x20Sure\x20!','antiwame\x20On/Off\x0a\x20\x20\x20\x20\x20\x20꧁•⊹٭𝙼𝙾𝙾𝙽\x20𝙺𝙸𝙽𝙶٭⊹•꧂\x0a╚═══════♤═══════╝\x0a','Message','Tebak\x20Kalimat','userJid','Displays\x20The\x20List\x20Of\x20Searching\x20Features','text2','setppgc','Script','allmenu','./DarkMedia/botdev.mp3','_You\x20Are\x20Not\x20In\x20Anonymous\x20Session,\x20Press\x20The\x20Button\x20To\x20Find\x20A\x20Partner_','mute\x20on','\x0aTo\x20download\x20media,\x20please\x20click\x20one\x20of\x20the\x20buttons\x20below\x20or\x20enter\x20the\x20ytmp3/ytmp4\x20command\x20with\x20the\x20url\x20above\x0a','Group\x20Menu','terjawab','mimetype','tebak\x20tebakan','database','⭔\x20*Link*\x20:\x20','Mode\x20Anti\x20Wa.me','libra','male','greenhorror','\x0a❌:\x20@','math\x20mode','1124404XUGYFW','./lib/scraper','\x20Group','3dscifi','/api/downloader/facebook','aries','lovetext','includes','upvote*\x20-\x20for\x20yes\x0a*','\x20|\x20','Displays\x20The\x20List\x20Of\x20Miscellaneous\x20Features','_*no\x20voting\x20in\x20this\x20group!*_\x0a\x0a*Type\x20','asif','\x0a⭔\x20Ext\x20:\x20Search\x0a⭔\x20ID\x20:\x20','helehkdkdkd','sgif','shio','isGroup','(some\x20answers\x20have\x20spaces)','profilePictureUrl','Owner\x20Number👤','These\x20are\x20the\x20lyrics\x20of\x20the\x20song?\x20:\x20*','\x0a\x0aThere\x20is\x20*','Adamantite','https://chat.whatsapp.com/JcjjnS7oSbQ3FPCCNJT44M','media','\x0a⭔\x20Video\x20ID\x20:\x20','```Please\x20wait,\x20looking\x20for\x20a\x20partner```','5️⃣','nice','warna_keberuntungan','listcmd','aroma_keberuntungan','Already\x20activated','marriageprediction\x0a\x20\x20๑♥҉\x20๑\x20','?\x0a\x20\x20๑♥҉\x20๑\x20','igdl','tag','https://islamic-api-indonesia.herokuapp.com/api/data/pdf/iqra','Enter\x20Query\x20Link!','match','performance-now','relayMessage','\x0a⭔\x20Channel\x20:\x20','send5ButImg','\x0a⭔\x20Ext\x20:\x20MP3\x0a⭔\x20Resolution\x20:\x20','```You\x20Are\x20Not\x20In\x20Anonymous\x20Session,\x20Press\x20The\x20Button\x20To\x20Find\x20A\x20Partner```','3drainbow','leave\x0a\x20\x20│❉্᭄͜͡\x20','lovemsg','findIndex','🚶Start🚶','checkvote*\x20-\x20to\x20check\x20the\x20votes\x0a*','grup','ig2\x0a\x20\x20│❉্᭄͜͡\x20','YouTube\x20Search\x0a\x0a\x20Result\x20From\x20','*\x0a\x0a','\x0a⭔\x20*Results\x20:*\x20','dragonday\x0a\x20\x20๑♥҉\x20๑\x20','dbinary\x0a\x20\x20╰─────────────⦁\x0a\x20\x20\x0a\x20\x20╭──๑♥҉\x20๑\x20𝗠𝗜𝗦𝗖\x20𝗠𝗘𝗡𝗨\x20❉্᭄͜͡\x0a\x20\x20│❉্᭄͜͡\x20','```Hi\x20','https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkata.json','\x0a⭔\x20Source\x20:\x20','pindlkxkdksk','kick\x20@user\x0a\x20\x20๑♥҉\x20๑\x20','scdl','setcmd','\x0aCiee\x20Whats\x20Going\x20On💖❉্᭄͜͡','mulai','planet_yang_mengitari','「\x20LIST\x20DATABASE\x20」\x0a\x0a','_\x0a\x0aBy\x20\x27','readTimestamp','zodiakjfjdkkd','zodiak','databasemenu','⭔\x20*','video/mp4','Contact','menu','listpc\x0a\x20\x20│❉্᭄͜͡\x20','&ayat=','redBright','Time\x20Out\x0aAnswer:\x20\x20','model','groupMetadata','.mp4','tafsir','primbon_memancing_ikan','Eh\x20sorry\x20it\x20didn\x27t\x20happen,\x20because\x20you\x20sent\x20this\x20wa.me\x20link','setppgroup','sys','playerX','tiktokwatermark','devote','ytsearch\x0a\x20\x20╰────────────⦁\x0a\x20\x20\x0a\x20\x20╭──๑♥҉\x20๑\x20𝗥𝗔𝗡𝗗𝗢𝗠\x20𝗠𝗘𝗡𝗨\x20❉্᭄͜͡\x0a\x20\x20│❉্᭄͜͡\x20','1️⃣','squirrel','\x0a𝗢𝘄𝗻𝗲𝗿\x20𝗡𝗮𝗺𝗲\x20:\x20','https://coffee.alexflipnote.dev/random','Successful\x20Opening\x20The\x20Group','uptime','tiktokmp3\x20','open','upvote','tiktokwm\x0a\x20\x20│❉্᭄͜͡\x20','soundcloud','Enter\x20Query\x20Title','wa.me/','6️⃣','cekvote','\x0a\x0aInfo\x20Server\x0aRAM:\x20','unblock','\x20fatih\x20arridho','Invalid\x20Date','Successfully\x20Changed\x20To\x20Self\x20Usage','g-i-s','play\x20[query]\x0a\x20\x20๑♥҉\x20๑\x20','tiktokwm','stickergif','➡️Next➡️','Anti\x20Wa.me\x20is\x20not\x20activated!','Iron','facebookjfkddkk','Can\x20only\x20reply\x20to\x20messages\x20from\x20bots','\x20320kbps','\x0a🔗\x20*Media\x20Url*\x20:\x20','\x0a\x09*Fun\x20Menu*\x0a\x20╭══•\x20ೋ•✧๑👻๑✧•ೋ\x20•══╮\x20\x0a\x20\x20๑♥҉\x20๑\x20','\x0a\x20╭───────────╮\x0a\x20│❉্᭄͜͡𝗠𝗘𝗡𝗨❉্᭄͜͡\x0a\x20╰───────────╯\x0a\x20\x20╭──๑♥҉\x20๑\x20𝗚𝗥𝗢𝗨𝗣\x20𝗠𝗘𝗡𝗨\x20❉্᭄͜͡\x0a\x20\x20│❉্᭄͜͡\x20','reverse','totalmem','setgrouppp\x0a\x20\x20๑♥҉\x20๑\x20','getvideo','entries','This\x20feature\x20could\x20be\x20used\x20by\x20admin\x20only','Download\x20Menu','\x0a⭔\x20Media\x20Url\x20:\x20','Reseted\x20Limit','Displays\x20The\x20List\x20Of\x20Group\x20Features','butterfly','suit_','Enter\x20Query\x20text!','Please\x20Choose\x20The\x20Menu\x0a\x0a','Suit\x20has\x20been\x20sent\x20to\x20chat\x0a\x0a@','onlinelist','Successfully\x20disabled\x20antilink\x20feature','\x20to\x20play\x20suit\x0a\x0aPlease\x20@','memoryUsage','xlsx','tebak\x20gambar','🎮\x20Guess\x20The\x20Picture\x20🎮\x0a\x0aCorrect\x20answer\x20🎉\x0a\x0aWant\x20to\x20play\x20again?\x20press\x20the\x20button\x20below','crossfire','soal','Stop','watermark','child_process','videoId','sticker\x0a\x20\x20๑♥҉\x20๑\x20','megumin','Send/Reply\x20Image\x20With\x20Caption\x20','\x20128kbps','msg','🚫Close🚫','\x201\x202\x0a\x0athen\x20the\x20result\x20is\x20the\x20interpretation\x20of\x20Surah\x20Al-Fatihah\x20verse\x202','*\x0aTime\x20:\x2060s','\x0a⭔\x20Upload\x20At\x20:\x20','magenta','kopi','\x20❉্᭄͜͡*LINK\x20DETECTED*❉্᭄͜͡\x20\x0aWow,\x20how\x20naughty,\x20this\x20group\x20has\x20been\x20installed\x20with\x20Antilink,\x20OK?..,\x0aGood\x20Bye\x20To\x20You..👋🏻','tourl\x0a\x20\x20│❉্᭄͜͡\x20','quotesanime','catch','Successfully\x20Close\x20Edit\x20Group\x20Info','Send/Reply\x20Video/Audio\x20You\x20Want\x20To\x20Convert\x20Into\x20MP3\x20With\x20Caption\x20','pilih','groupSettingUpdate','start','gluetext','earrape\x0a\x20\x20๑♥҉\x20๑\x20','360p','users','gimage\x20[query]\x0a\x20\x20๑♥҉\x20๑\x20','Game\x20over','Fun\x20Menu','liston','bcgroup\x0a\x20\x20│❉্᭄͜͡\x20','status','like','tags','igtv\x20[url]\x0a\x20\x20๑♥҉\x20๑\x20','antiwame','from','\x0a⭔\x20*Born\x20:*\x20','delttt','close','(async\x20()\x20=>\x20{\x20return\x20','application/vnd.openxmlformats-officedocument.wordprocessingml.document','\x20❤️\x20@','sendVideoAsSticker','dbinary','Can\x27t\x20play\x20with\x20myself\x20!','apikey','shiondkskskso','keluar','thumb','toimage','BY63t7Vx2tS68YZFY6AJ4HHF','family100','.m4a','tovideo\x0a\x20\x20๑♥҉\x20๑\x20','1084518ywKerx','\x27\x20from\x20the\x20message\x20list','\x0aWaktu\x20:\x2060s','👤Owner👤','🎥VIdeo🎥','fbdlkxkxkx','zenz','Displays\x20The\x20List\x20Of\x20Anonymous\x20Chat\x20Features','\x0a⭔\x20Singer\x20:\x20','values','regular','https://telegra.ph/file/6ba2aed566865a068e91f.jpg','00\x2012\x20*\x20*\x20*','The\x20message\x20you\x20replied\x20to\x20does\x20not\x20contain\x20a\x20reply','/api/downloader/twitter','./config','\x0a⭔\x20*Flower\x20:*\x20','audio','pinterest','Displays\x20The\x20List\x20Of\x20Owner\x20Features','*\x0a\x0a\x20Bot\x20Rental\x20Price\x0a⭔\x20250INR\x20Per\x20Group\x20via\x20Gpay/paytm/phonepe\x201\x20Month\x0a\x0aFor\x20more\x20details,\x20you\x20can\x20chat\x20with\x20the\x20owner\x0ahttps://wa.me/923474187615(Owner)\x0a\x0aDonate\x20Me\x20:\x20\x0a\x0a⭔\x20Fampay\x20:\x20https://telegra.ph/file/6ba2aed566865a068e91f.jpg\x0a⭔\x20Paytm\x20:\x20https://telegra.ph/file/577bd4f28d90ca2c7f369.jpg','start\x20(\x20Start\x20Chat\x20)\x0a\x20\x20๑♥҉\x20๑\x20','-filter_complex\x20\x22areverse\x22','\x0a\x0aView\x20list\x20of\x20message\x20with\x20','chatinfo\x0a\x20\x20๑♥҉\x20๑\x20','\x20Day,\x20','then','Bot\x20must\x20be\x20admin\x20first','_currentTurn','gambar','dl_link','find','path','https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkalimat.json','impressiveglitch','\x27\x20not\x20registered\x20in\x20message\x20list','anime','「✨𝗠𝗢𝗢𝗡\x20𝗕𝗥𝗢𝗔𝗗𝗖𝗔𝗦𝗧✨」\x0a\x0a','*Answer\x20the\x20following\x20questions\x20:*\x0a','sistemmenu','archive','twitter\x20','bot','\x0a⭔\x20Duration\x20:\x20','total','Example\x20:\x20','sewabot','gimage\x20','Both\x20players\x20don\x27t\x20want\x20to\x20play,\x0aSuit\x20canceled','concat','hockeynumber\x0a\x20\x20๑♥҉\x20๑\x20','\x20/\x20','ping','_Suit\x20time\x20out_','Time\x20has\x20run\x20outAnswer:\x20\x20','./src/math','premium','418099KztuuN','getmsg\x20','yts\x20[query]\x0a\x20\x20๑♥҉\x20๑\x20','sendContact','help\x20/\x20','wikimedia\x0a\x20\x20│❉্᭄͜͡\x20','businessnature\x0a\x20\x20๑♥҉\x20๑\x20','matrix','Done!','\x0a⭔\x20Type\x20:\x20','reply','grupmenu','toaudio','-filter:a\x20\x22atempo=1.6,asetrate=22100\x22','filesizeF','Audio\x20size\x20is\x20too\x20big\x20','max','ALLERT!!!\x20This\x20group\x20has\x20been\x20installed\x20anti-link\x0aIf\x20you\x20violate\x20then\x20I\x20will\x20kick','elemen_keberuntungan','Send/Reply\x20Video/Audio\x20You\x20Want\x20to\x20Convert\x20into\x20MP3\x20With\x20Caption\x20','unarchive','sewa','Chat\x20with\x20fellow\x20users','game','Lanjut','\x0a\x20\x20*Owner\x20Menu*\x0a╭══•\x20ೋ•✧๑🖤🥀๑✧•ೋ\x20•══╮\x20\x20\x20\x0a\x20\x20๑♥҉\x20๑\x20','\x0a⭔\x20Caption\x20:\x20','tictactoe','author','Group\x20Features','/downloader/soundcloud','🎥Video🎥','@adiwajshing/baileys','Perfect\x20Player','Which\x20Hadith??\x0a\x0aExample:\x0a','filesize','sendMessage','7HPVjVy','Time\x20Out\x0aAnswer:\x20','./src/hremo-','subject','views','🎮\x20Guess\x20Lontong\x20🎮\x0a\x0aCorrect\x20answer\x20🎉\x0a*','downloadAndSaveMediaMessage','penyanyi','💁🏻‍♂️No\x20Watermark💁🏻‍♂️','slice','selectedRowId','togif\x0a\x20\x20๑♥҉\x20๑\x20','Anti\x20Wa.me\x20Activated!','announcement','sendImage','tebak\x20lirik','check','writeFileSync','\x0a\x09*Convert\x20Menu*\x0a╭══•\x20ೋ•✧๑👻๑✧•ೋ\x20•══╮\x20\x20\x20\x0a\x20\x20๑♥҉\x20๑\x20','mute\x20On/Off\x0a\x20\x20๑♥҉\x20๑\x20','endsWith','quotes','❉্᭄͜͡══✪〘\x20*💫\x20Tag\x20All*\x20〙✪══❉্᭄͜͡\x0a\x20\x0a๑♥҉\x20๑\x20*Message\x20:\x20','🍃Skip🍃','Successfully\x20Deleted\x20Vote\x20Session\x20In\x20This\x20Group','tebak\x20kata','locked','\x0a\x0aWant\x20to\x20play?\x20press\x20the\x20button\x20below','menu\x0a\x20\x20│❉্᭄͜͡\x20','Reply\x20To\x20A\x20Message\x20That\x20Has\x20Been\x20Already\x20Sent','startsWith','xp8pSDavAgfE5XScqXo9UKHF','\x20JOIN\x20BOT\x20OFFICIAL\x20GROUP🙂MOON-KING','\x0aHow\x20Are\x20You?\x20😊\x0a\x0a\x20╔══❉্᭄͜͡💕❉্᭄͜͡💕❉্᭄͜͡════╗\x0a❉্᭄͜͡💕\x20\x20𝗔𝗦𝗜𝗙\x20𝗞𝗛𝗔𝗡\x20\x20\x20\x20\x20💕❉্᭄͜͡\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20╚══❉্᭄͜͡💕❉্᭄͜͡💕❉্᭄͜͡════╝\x0a\x0a𝑴𝒐𝒐𝒏\x20𝑲𝒊𝒏𝒈\x20𝑫𝒆𝒍𝒗𝒆𝒍𝒐𝒑𝒗𝒆𝒓\x20𝑨𝒔𝒊𝒇\x20𝑲𝒉𝒂𝒏✔︎シ❀✰\x0a\x0a❏「\x20INFO\x20BOT\x20」\x0a\x0a𝗦𝗽𝗲𝗲𝗱\x20:\x20','imagenobg','bcgroup','report\x0a\x20\x20╰─────────────⦁\x0a\x20\x20\x0a\x20\x20╭──๑♥҉\x20๑\x20𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘\x20𝗠𝗘𝗡𝗨\x20❉্᭄͜͡\x0a\x20\x20│❉্᭄͜͡\x20','\x20hello\x20guys,\x20am\x20back','keberuntungan11111','motivasi','setgrouppp','play\x0a\x20\x20│❉্᭄͜͡\x20','\x0a⭔\x20*Zodiac\x20Couple\x20:*\x20','@g.us','Hi\x20🤚\x20','./lib/y2mate','_*no\x20voting\x20in\x20this\x20group!*_\x0a\x0a*','luck\x0a\x20\x20๑♥҉\x20๑\x20','prefix','*?\x0a\x0aTime:\x20','getmsg\x0a\x20\x20๑♥҉\x20๑\x20','married\x0a\x20\x20๑♥҉\x20๑\x20','pptx','remove','fortunetelling2\x0a\x20\x20๑♥҉\x20๑\x20','Maybe\x20The\x20Message\x20You\x20Replied\x20Does\x20Not\x20Contain\x20Ytsearch\x20Results','artist','mute','fast\x0a\x20\x20│❉্᭄͜͡\x20','*G\x20R\x20O\x20U\x20P\x20\x20I\x20N\x20F\x20O*\x0a\x0a*Name\x20:*\x20','Copper','hostname','Miscellaneous\x20Menu','\x0a𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺\x20:\x20','hapusvote','chatinfo\x0a\x20\x20│❉্᭄͜͡\x20','SHA256\x20Hash\x20Missing','next\x0a\x20\x20│❉্᭄͜͡\x20','participants','push','promote\x20@user\x0a\x20\x20๑♥҉\x20๑\x20','\x20message\x20name','Credit','ytaudio','Convert\x20Webp\x20To\x20Video','「\x20✨𝗠𝗢𝗢𝗡\x20𝗕𝗥𝗢𝗔𝗗𝗖𝗔𝗦𝗧✨\x20」\x0a\x0a','public','antiwame\x20on','couple\x0a\x20\x20│❉্᭄͜͡\x20','short','schedule','idle','pemilik','hadith\x0a\x20\x20๑♥҉\x20๑\x20','🧡List\x20Menu🧡','tovideo','wait','grassmsg','\x20reject\x20the\x20suit,\x20the\x20suit\x20is\x20canceled','Tebak\x20Lirik','ytmp3','currentTurn','goodday\x0a\x20\x20๑♥҉\x20๑\x20','leave','Reply\x20Message!','Turn\x20','random','https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json','freemem','tiktokmp3\x20[url]\x0a\x20\x20๑♥҉\x20๑\x20','group\x20open','wallpaper','object','irq','translation','Displays\x20The\x20List\x20Of\x20All\x20The\x20Features!','caption','\x20Second','pesan','limit','/photooxy/','capricorn','group','nomor_keberuntungan','No.\x20','❉্᭄͜͡With\x20Watermark❉্᭄͜͡','format','readFileSync','ephemeral','💁🏻‍♂️With\x20Watermark🤔','\x20MHZ)\x0a','balas\x20stiker\x20dengan\x20caption\x20*','selectedButtonId','google-it','\x20https://youtube.com/watch?v=PtFMh6Tccag%27\x20360p','searchmenu','\x207\x207\x202005','https://wa.me/923474187615','\x0a\x0a*Long*\x20:\x20','toFixed','stringify','buttonsResponseMessage','groupUpdateDescription','\x0a⭔\x20*Number\x20:*\x20','download','-filter_complex\x20\x22afftfilt=real=\x27hypot(re,im)*sin(0)\x27:imag=\x27hypot(re,im)*cos(0)\x27:win_size=512:overlap=0.75\x22','\x20miliseconds\x0a𝗥𝘂𝗻𝘁𝗶𝗺𝗲\x20:\x20','removebg\x0a\x20\x20│❉্᭄͜͡\x20','Online\x20List:\x0a\x0a','editinfo\x0a\x20\x20│❉্᭄͜͡\x20','Reply\x20Image','delttc','-filter:a\x20\x22atempo=1.63,asetrate=44100\x22','exec','demote','primary','key','\x0a_CPU\x20Core(s)\x20Usage\x20(','stop\x20(\x20stop\x20Anonymous\x20chat\x20)\x0a\x20\x20\x20\x20\x20\x20\x20꧁•⊹٭𝙼𝙾𝙾𝙽\x20𝙺𝙸𝙽𝙶٭⊹•꧂\x0a\x20\x20╚═══════♤═══════╝\x0a\x09','state','Displays\x20The\x20List\x20Of\x20Group\x20System\x20Features','wikimedia\x20[query]\x0a\x20\x20๑♥҉\x20๑\x20','\x20didn\x27t\x20choose\x20suit,\x20game\x20over','result','lagu','*Arab*\x20:\x20','Link\x20Invalid!','squirrel\x0a\x20\x20\x20\x20\x20꧁•⊹٭𝙼𝙾𝙾𝙽\x20𝙺𝙸𝙽𝙶٭⊹•꧂\x0a╚═══════♤═══════╝\x0a','hasOwnProperty','setname\x20[text]\x0a\x20\x20๑♥҉\x20๑\x20','reduce','Please\x20select\x20\x0a\x0aRock🗿\x0aPaper📄\x0aScissors✂️','twittermp3\x20','matchname\x0a\x20\x20๑♥҉\x20๑\x20','groupAcceptInvite','Group\x20Mode','setbotpp\x0a\x20\x20│❉্᭄͜͡\x20','burnpapper','\x20https://umma.id/channel/video/post/gus-arafat-sumber-kecewa-84464612933698','suit','\x0a\x09*Downloader\x20Menu*\x0a\x20╭══•\x20ೋ•✧๑🔥๑✧•ೋ\x20•══╮\x0a\x20\x20๑♥҉\x20๑\x20','There\x20are\x20still\x20unfinished\x20sessions!','next\x20(\x20Next\x20user\x20)\x0a\x20\x20๑♥҉\x20๑\x20','instagram\x20[url]\x0a\x20\x20๑♥҉\x20๑\x20','PLAYING','\x20:\x20','.net','\x0a⭔\x20File\x20Size\x20:\x20','ago','puisi','editinfo\x20open','tomp3','application/vnd.openxmlformats-officedocument.spreadsheetml.sheet','unlinkSync','Answer:\x20','messages','donate\x0a\x20\x20๑♥҉\x20๑\x20','test','\x20Chat\x0aIn\x20','google','ringtone','groupParticipantsUpdate','math\x0a\x20\x20╰────────────⦁\x0a\x20\x20\x0a\x20\x20╭──๑♥҉\x20๑\x20𝗩𝗢𝗜𝗖𝗘\x20𝗠𝗘𝗡𝗨\x20❉্᭄͜͡\x0a\x20\x20│❉্᭄͜͡\x20','🎵Audio🎵','\x0a\x09*System\x20Menu*\x0a╭══•\x20ೋ•✧๑🤨๑✧•ೋ\x20•══╮\x09\x0a\x20\x20๑♥҉\x20๑\x20','tiktok','pasangan_zodiak','ytcertificate','tovn','Send/reply\x20text\x20with\x20caption\x20','https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=','shift','\x0a⭔\x20Title\x20:\x20','no\x20reason','ttc','👫Your\x20match\x20is\x0a\x0a@','lockcmd','bcall\x0a\x20\x20╰────────────⦁','\x0a\x09*Database\x20Menu*\x0a╭══•\x20ೋ•✧๑🔥๑✧•ೋ\x20•══╮\x20\x20\x0a\x20\x20๑♥҉\x20๑\x20','ytsearch\x20[query]\x0a\x20\x20\x20\x20\x20\x20\x20꧁•⊹٭𝙼𝙾𝙾𝙽\x20𝙺𝙸𝙽𝙶٭⊹•꧂\x0a\x20\x20╚═══════♤═══════╝\x0a\x20\x20','Bot\x20Features','\x0a*English*\x20:\x20','https://raw.githubusercontent.com/BochilTeam/database/master/games/family100.json','❌Off❌','listpc','with\x20reason\x20','\x0aUser\x20:\x20@','11603680hUHSox','./DarkMedia/moonkingpic.jpg','Tebak\x20Kata','Enter\x20the\x20enable/disable\x20value,\x20For\x20Example\x20${prefix}ephemeral\x20enable','Couple\x20Female','aT7ibfUsGSwFyjaPZ9eoJc61','jooxdl','*Wrong\x20Answer!*','namemeaning\x0a\x20\x20๑♥҉\x20๑\x20','robot\x0a\x20\x20│❉্᭄͜͡\x20','Owner\x20Menu','husbu','\x0a\x09*Religion\x20Menu*\x0a╭══•\x20ೋ•✧๑❤️๑✧•ೋ💫\x20•══╮\x09\x0a\x20\x20\x20\x20\x20(Islamic)\x0a\x20\x20๑♥҉\x20๑\x20','user','tiktokmp3\x0a\x20\x20│❉্᭄͜͡\x20','fetchStatus','\x0a*Hash\x20List*\x0aInfo:\x20*bold*\x20hash\x20is\x20locked\x0a','math\x20medium','\x0a\x0aWaiting\x20for\x20the\x20opponent\x20to\x20choose','female','array','sender','Maximum\x2010\x20seconds!','limitawal','message','report\x20(report\x20bug\x20to\x20owner)\x0a\x20\x20\x20\x20\x20\x20\x20꧁•⊹٭𝙼𝙾𝙾𝙽\x20𝙺𝙸𝙽𝙶٭⊹•꧂\x0a\x20\x20╚═══════♤═══════╝\x0a\x20\x20','results','luck2\x0a\x20\x20๑♥҉\x20๑\x20','\x20black\x20rover','black','log','space','https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.xlsx','\x20Win!','-filter:v\x20\x22minterpolate=\x27mi_mode=mci:mc_mode=aobmc:vsbmc=1:fps=120\x27\x22','fat','hilihdkksls','/textpro/','earrape','Invalid','participant','node-cron','ytvideo','All\x20Answers\x20Answered','remove-bg','Displays\x20The\x20List\x20Of\x20Database\x20Features','toimg','Hi\x20','beach','fishing\x0a\x20\x20๑♥҉\x20๑\x20','➡️Next\x20Image➡️','Ehh\x20sorry\x20you\x20admin','wallpaper\x20','delmsg\x0a\x20\x20\x20\x20\x20꧁•⊹٭𝙼𝙾𝙾𝙽\x20𝙺𝙸𝙽𝙶٭⊹•꧂\x0a╚═══════♤═══════╝\x0a\x20\x20','moment-timezone','afk','Give\x20up!','mp4aLink','profilePic','weton\x0a\x20\x20๑♥҉\x20๑\x20','\x20abu-daud\x201\x0a\x0aOptions\x20available:\x0aabu-daud\x0a1\x20-\x204590\x0aahmad\x0a1\x20-\x2026363\x0abukhari\x0a1\x20-\x207008\x0adarimi\x0a1\x20-\x203367\x0aibu-majah\x0a1\x20-\x204331\x0anasai\x0a1\x20-\x205662\x0amalik\x0a1\x20-\x201594\x0amuslim\x0a1\x20-\x205362','listmsg','\x0a\x09*Random\x20Menu*\x0a\x20\x20\x0a\x20\x20๑♥҉\x20๑\x20','timestamp','dWbCoCb3TacCP93imNEcPxcL','.leave','tes','\x0a\x0a┌〔\x20UPVOTE\x20〕\x0a\x20\x0a├\x20Total:\x20','text','editinfo\x20[option]\x0a\x20\x20๑♥҉\x20๑\x20','\x0a𝗛𝗼𝘀𝘁\x20𝗡𝗮𝗺𝗲\x20:\x20','fileSha256','hadist','nightcore','zodiac\x0a\x20\x20๑♥҉\x20๑\x20','groupLeave','\x20Lost\x20\x0a','\x20msg\x20name\x0a\x0aView\x20message\x20list\x20with\x20','*-------「\x20GIMAGE\x20SEARCH\x20」-------*\x0a🤠\x20*Query*\x20:\x20','\x0a\x0aIngin\x20bermain?\x20tekan\x20button\x20dibawah','👍🏻Up-Vote👍🏻','./lib/binary','floor','\x0aYou\x20came\x20back\x20online\x20from\x20AFK','⭔\x20*Description*\x20:\x20','getmsg','robot','potensi_keberuntungan','\x0a⬡\x20*User\x20:*\x20@','Name\x20:\x20','Where\x20is\x20the\x20text?\x0a\x0aExample\x20:\x20','Next\x20Image','\x0a⭔\x20*Element\x20:*\x20','donate\x0a\x20\x20│❉্᭄͜͡\x20','Game\x20has\x20ended','delmsg','leo','removebg','block','indexOf','tebakan','publish','Text\x20Pro\x20','Converted\x20By\x20','https://i.ibb.co/Tq7d7TZ/age-hananta-495-photo.png','⬣\x20*PERSONAL\x20CHAT\x20LIST*\x0a\x0aTotal\x20Chat\x20:\x20','img','getName','halloweenskeleton','Reply\x20Message','getmusic\x0a\x20\x20│❉্᭄͜͡\x20','\x20minute,\x20','tebakgambar','Already\x20deactivated','\x20type\x20the\x20command\x20below\x20','ig2\x20[url]\x0a\x20\x20๑♥҉\x20๑\x20','trim','Video\x20size\x20is\x20too\x20big\x20','moon','fakeObj','listonline\x0a\x20\x20๑♥҉\x20๑\x20','admin','3dchristmas','number','listResponseMessage','getFullYear','320kbps','data','vote','couple','padEnd','fromMe','sendImageAsSticker','anonymous','downloadmenu','instagram\x0a\x20\x20│❉্᭄͜͡\x20','fireworksparkle','ytmp4\x20','CHATTING','fromObject','squirrel\x0a\x20\x20╰────────────⦁\x0a\x20\x20\x0a\x20\x20╭──๑♥҉\x20๑\x20𝗖𝗢𝗡𝗩𝗘𝗥𝗧\x20𝗠𝗘𝗡𝗨\x20❉্᭄͜͡\x0a\x20\x20│❉্᭄͜͡\x20','google\x20[query]\x0a\x20\x20๑♥҉\x20๑\x20','\x0a⭔\x20Category\x20:\x20','waktu_milih','tiktoknowm\x20[url]\x0a\x20\x20๑♥҉\x20๑\x20','listcmd\x0a\x20\x20๑♥҉\x20๑\x20','type','/downloader/instastory','.png','quoted\x0a\x20\x20๑♥҉\x20๑\x20','_*tidak\x20ada\x20voting\x20digrup\x20ini!*_\x0a\x0a*','christmasholiday','alive','setname','start\x0a\x20\x20│❉্᭄͜͡\x20','google\x0a\x20\x20│❉্᭄͜͡\x20','.pdf','ping\x0a\x20\x20๑♥҉\x20๑\x20','playerO','https://github.com/Dark-Asif/MOON-KING','7256200GPycjZ','Displays\x20The\x20List\x20Of\x20Voice\x20Changing\x20Features','catatan','.start','❤️congrats','delete\x0a\x20\x20๑♥҉\x20๑\x20','\x201\x202\x0a\x0athen\x20the\x20result\x20is\x20surah\x20Al-Fatihah\x20verse\x202\x20along\x20with\x20the\x20audio,\x20and\x20the\x20verse\x20is\x20just\x201','🥬Video\x20Source\x20Link🥬','join','💚️All\x20Menu💚️','shadow','Displays\x20The\x20List\x20Of\x20Credit\x20Of\x20The\x20Bot\x20!!','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*Search\x20Menu*\x0a\x20╭══•\x20ೋ•✧๑🔥๑✧•ೋ\x20•══╮\x0a\x20\x20๑♥҉\x20๑\x20','⭔\x20*Title*\x20:\x20','broadcast','tiktokwm\x20','setsubject','「\x20WA.ME\x20DETECTED\x20」\x0a\x0aYou\x20have\x20been\x20detected\x20sending\x20a\x20wa.me\x20link,\x20sorry\x20you\x20will\x20be\x20kicked\x20!','*\x20:\x20','antiwame\x0a\x20\x20╰─────────────⦁\x0a\x20\x20\x0a\x20\x20╭───๑♥҉\x20๑\x20𝗢𝗪𝗡𝗘𝗥\x20𝗠𝗘𝗡𝗨\x20❉্᭄͜͡\x0a\x20\x20│❉্᭄͜͡\x20','\x20after\x20','Guess\x20The\x20Word','MOON-KING','description','_There\x20are\x20still\x20votes\x20in\x20this\x20chat!_\x0a\x0a*','sticker\x0a\x20\x20│❉্᭄͜͡\x20','☕Random\x20Coffee☕','getvideo\x0a\x20\x20╰────────────⦁\x0a\x20\x20\x0a\x20\x20╭──๑♥҉\x20๑\x20𝗦𝗘𝗔𝗥𝗖𝗛\x20𝗠𝗘𝗡𝗨\x20❉্᭄͜͡\x0a\x20\x20│❉্᭄͜͡\x20','earrape\x0a\x20\x20│❉্᭄͜͡\x20','\x0a*Number\x20Of\x20Participants\x20:*\x20','./lib/tictactoe','group\x20[option]\x0a\x20\x20๑♥҉\x20๑\x20','Send/Reply\x20Video/Audio\x20You\x20Want\x20to\x20Use\x20as\x20Audio\x20With\x20Caption\x20','getQuotedObj','metallic','\x20Minute,\x20','times','Untuk\x20Command\x20Apa?','video','source','videoMessage','pisces','\x20Welcome\x20To\x20Anonymous\x20Chat\x0a\x0aClick\x20The\x20Button\x20Below\x20To\x20Find\x20A\x20Partner```','Tebak\x20Lontong','botnma','botAdmin','Unread','.\x20@','audio/mpeg','\x20_Second_\x20\x0a\x20','platform','scrape-primbon','ytplay','bug','@s.whatsapp.net','neon','owner','base64','wame','No\x20Query\x20Text','3dgradient','bass','⭔\x20*Zodiac\x20:*\x20','quotesanimekdksksksksk','86h6d6u4AXrst4BVMD9dzdGZ','Successfully\x20Opened\x20Edit\x20Group\x20Info','isBaileys','juzamma','setname\x0a\x20\x20│❉্᭄͜͡\x20','jawaban','getmsg\x0a\x20\x20│❉্᭄͜͡\x20','\x20BOT\x20DELVELOPER\x20NUMBER\x20🙂MOON-KING','\x0a⭔\x20Publish\x20:\x20','help','unblock\x0a\x20\x20│❉্᭄͜͡\x20','groupFetchAllParticipating','fiction','Room\x20ID:\x20','Search\x20Menu','antilink\x0a\x20\x20│❉্᭄͜͡\x20','del','bcall','Silver','album','\x0aSERIES','map','\x0a⭔\x20Ext\x20:\x20MP3\x0a⭔\x20Resololution\x20:\x20','tebaklagu','🎮\x20Guess\x20The\x20Word\x20🎮\x0a\x0aCorrect\x20answer\x20🎉\x0a\x0aWant\x20to\x20play\x20again?\x20press\x20the\x20button\x20below','No\x20Query\x20Title','⭕On⭕','Script\x20:\x20https://github.com/Dark-Asif/MOON-KING\x0a\x20If\x20there\x20is\x20anyone\x20else\x20making\x20Bot,\x20please\x20contact\x20me\x20','\x0a⭔\x20Viewers\x20:\x20','\x20has\x20been\x20muted\x20in\x20this\x20group\x20!','thumbnail','Keluar','dbinary\x0a\x20\x20\x20\x20\x20꧁•⊹٭𝙼𝙾𝙾𝙽\x20𝙺𝙸𝙽𝙶٭⊹•꧂\x0a╚═══════♤═══════╝\x0a\x20\x20','bluecircuit','link','5LjfCVAp4vVNYiTjq9mXJWHF','listmsg\x0a\x20\x20๑♥҉\x20๑\x20','🎮\x20Guess\x20The\x20Song\x20🎮\x0a\x0aCorrect\x20Answer\x20🎉\x0a\x0aWant\x20to\x20play\x20again?\x20press\x20the\x20button\x20below','bgGreen','Guess\x20The\x20Music','extendedTextMessage','File\x20Over\x20Limit\x20','Report\x20Bug🐛','scorpio','imagemenu','_The\x20opponent\x20has\x20chosen_\x0aNow\x20it\x20is\x20your\x20turn','add','https://chat.whatsapp.com/','list','https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.docx','receiptTimestamp','setdesc','reverse\x0a\x20\x20│❉্᭄͜͡\x20','ytmp3\x20','./src/database.json','\x0aAnswer\x20the\x20following\x20questions\x20:\x0a','Successful\x20Sending\x20Broadcast\x20To\x20','afkTime','virgo','menu\x20/\x20','ephemeral\x20[option]\x0a\x20\x20๑♥҉\x20๑\x20','This\x20Features\x20Cannot\x20Be\x20Use\x20in\x20Group!','\x20Group\x20Chat,\x20Finish\x20Time\x20','⭔\x20No\x20:\x20','.next','⭔\x20Media\x20Url\x20:\x20','\x0aIn\x20','arab','pinterest\x0a\x20\x20│❉্᭄͜͡\x20','instagram','lontong_desk','board','tebak\x20kalimat','inspect','nocategorymenu','util','success','setdesk','_Total\x20CPU\x20Usage_\x0a','\x0a⬡\x20*Made\x20:*\x20','\x0a\x0a(\x20Q.S\x20','╭══•\x20ೋ•✧๑❤️๑✧•ೋ•══╮\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20𝗠𝗢𝗢𝗡\x20𝗞𝗜𝗡𝗚\x0a\x20\x20\x20\x20\x20\x20╰══•\x20ೋ•✧๑❤️๑✧•ೋ•══╯\x20\x0aThanks\x20to\x0aALLAH\x0aDark\x20Bot\x20Inc.💗👑\x0awa.me/+923474187615!!!','toimage\x0a\x20\x20│❉্᭄͜͡\x20','\x0a\x0aLink\x20of:\x20','https://islamic-api-indonesia.herokuapp.com/api/data/quran?surah=','donate','/api/random/anime/','-filter:a\x20\x22atempo=0.7,asetrate=44100\x22','https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.pptx','The\x20song\x20is\x20a\x20song\x20from?\x0a\x0aArtist\x20:\x20','Ehh\x20sorry\x20you\x20are\x20the\x20owner\x20of\x20me','🎮\x20Math\x20Quiz\x20\x20🎮\x0a\x0aCorrect\x20answer\x20🎉\x0a\x0aWant\x20to\x20play\x20again?\x20Send\x20','auto','ebinary\x0a\x20\x20๑♥҉\x20๑\x20','waktu','docx','\x20text','📶Bot\x20Status📶','Already\x20Activated','Mode\x20Edit\x20Info','messageContextInfo','Example:\x0a','kick','\x0a⭕:\x20@','\x0a*Desc\x20:*\x20\x0a','getmusic\x20[query]\x0a\x20\x20๑♥҉\x20๑\x20','\x20Dika,\x207,\x207,\x202005','twitter\x0a\x20\x20│❉্᭄͜͡\x20','promote','-\x20*','command','sendText','Voting\x20starts!\x0a\x0a*','keys','\x0a⭔\x20Album\x20:\x20','setppbot','lockcmd\x0a\x20\x20│❉্᭄͜͡\x20','setppgrup','\x203\x0aAvailable\x20IQRA\x20:\x201,2,3,4,5,6','character\x0a\x20\x20๑♥҉\x20๑\x20','winner','TicTacToe\x20Session🎮\x20there\x20is\x20not\x20any','timeout','./database/antilink.json','\x20360p','Reply\x20to\x20mesaage','👻Start\x20Anonymous👻','\x20(@','ytmp3\x20[url]\x0a\x20\x20๑♥҉\x20๑\x20','Download\x20From\x20','userReceipt','You\x20have\x20chosen\x20','Group\x20System','\x20challenging\x20@','report','name','Send\x20Image/Video\x20With\x20Caption\x20','deletevote*\x20-\x20to\x20delete\x20votes','asal','toLowerCase','\x0a⭔\x20*Planet\x20:*\x20','donasi','statusbot','\x20ml\x20nana','tarot\x0a\x20\x20๑♥҉\x20๑\x20','Asia/Kolkata','url','editinfo\x20close','masa_subur','mentionedJid','removeBackgroundFromImageFile','Menu','tebak\x20lontong','messages.upsert','_*Suit\x20Results*_','tebakkata','listgc\x0a\x20\x20๑♥҉\x20๑\x20','botstatus','exports','twitter','tiktoknowm\x20','religionmenukdksoejdjj','free','Time\x20has\x20run\x20out\x0aAnswer:\x20\x20','4️⃣','\x0a\x0aNodeJS\x20Memory\x20Usaage\x0a','promote\x0a\x20\x20│❉্᭄͜͡\x20','\x0a*Group\x20Owner:*\x20@','getDate','Update\x20','\x27,\x20','afkReason','presences','\x0a𝗢𝘄𝗻𝗲𝗿\x20𝗡𝘂𝗺𝗯𝗲𝗿\x20:\x20','PHOTO','\x27\x0a\x20\x20\x20\x20\x0aAccess\x20with\x20','*?\x0aTime\x20:\x2060s','alquran','bunga_keberuntungan','Ephoto\x20','suitpvp','\x20Win\x20\x0a','\x20and\x20\x0a@','fast','inSurah','\x20second','chalk','\x20Hour,\x20','ytmp4\x0a\x20\x20│❉্᭄͜͡\x20','unwatchFile','Waktu\x20Habis\x0aJawaban:\x20\x20','Reply\x20Message\x20You\x20Want\x20To\x20Save\x20In\x20Database','googleimage','3dwaterpipe','mysoulmate\x0a\x20\x20๑♥҉\x20๑\x20','⭔\x20*Hasil\x20:*\x20','sendcontact','\x0a⭔\x20Url\x20:\x20','Successful\x20Closing\x20The\x20Group','add\x20@user\x0a\x20\x20๑♥҉\x20๑\x20','sagittarius','⭔\x20@','422360XKAULt','render','length','tictactoe-','\x0aTime\x20:\x2060s','getMonth','profession\x0a\x20\x20๑♥҉\x20๑\x20','\x0a\x0a────────────────────────\x0a\x0a','\x0a⬡\x20*Type\x20:*\x20','\x0a⭔\x20Like\x20:\x20','grupinfo\x0a\x20\x20│❉্᭄͜͡\x20','delvote','templateButtonReplyMessage','/downloader/joox','funmenu','\x20Owner\x20is\x20handsome*','yts','speed','.stop','```Successfully\x20Found\x20Partner,\x20now\x20you\x20can\x20send\x20message```','\x20bukhari\x201\x0a','\x20first\x20day\x20of\x20menstruation,\x20cycle','iqra','You\x20have\x20no\x20permission\x20to\x20delete\x20this\x20sticker\x20command','splice','listgc\x0a\x20\x20│❉্᭄͜͡\x20','nama','cache','decodeJid','ffmpeg\x20-i\x20','Complete\x20your\x20previous\x20suit','*「\x20VOTE\x20」*\x0a\x0a*Reason:*\x20','groupinfo','Broadcast\x20By\x20','tafsirsurah\x0a\x20\x20\x20\x20\x20💗\x20꧁•⊹٭𝙼𝙾𝙾𝙽\x20𝙺𝙸𝙽𝙶٭⊹•꧂\x0a\x20\x20╚═══════♤═══════╝','hadith','yt-search','ummadl','9️⃣','juz-amma-arab-latin-indonesia.docx','DD/MM/YY\x20HH:mm:ss','play','chats','mute\x0a\x20\x20│❉্᭄͜͡\x20','pilih2','smoke','\x0a\x0a\x20\x0a└────\x0a\x0a┌〔\x20DEVOTE\x20〕\x0a\x20\x0a├\x20Total:\x20','all','/api/','_Successfully\x20Found\x20Partner,\x20Now\x20You\x20Can\x20Send\x20Messages_','Enter\x20The\x20Bug\x20Example\x0a\x0a','🎮\x20Riddles\x20🎮\x0a\x0aCorrect\x20answer\x20🎉\x0a\x0aWant\x20to\x20play\x20again?\x20press\x20the\x20button\x20below','self','/downloader/tiktok','Option\x20:\x201.\x20mute\x0a2.\x20unmute\x0a3.\x20archive\x0a4.\x20unarchive\x0a5.\x20read\x0a6.\x20unread\x0a7.\x20delete','WebMessageInfo','harrypotter','randommenu','\x20Already\x20Afk','application/pdf','selectedId','\x0a*Number\x20Of\x20Admins\x20:*\x20','Voice\x20Changer\x20Menu','\x0a\x0aType\x20*give\x20up*\x20to\x20surrender\x20and\x20admit\x20defeat','./lib/uploader','\x0a\x20\x0a└────\x0a\x0a*','twitter\x20[url]\x0a\x20\x20๑♥҉\x20๑\x20','Image\x20Menu','zodiackckdkdk','aquarius','\x20lagu\x0a\x0aOption\x20:\x20\x0a1.\x20music\x0a2.\x20picture\x0a3.\x20word\x0a4.\x20sentence\x0a5.\x20lyrics\x0a6.rice\x20cake','suit\x20@','ownermenu','bass\x0a\x20\x20│❉্᭄͜͡\x20','24kNYZsI','tiktoknowm\x0a\x20\x20│❉্᭄͜͡\x20','filter','groupInviteCode','audio/mp4'];_0x42f9=function(){return _0x26b2eb;};return _0x42f9();}let tebaklagu=db[_0x3a735f(0x2a7)][_0x3a735f(0x485)]=[],_family100=db[_0x3a735f(0x2a7)][_0x3a735f(0x254)]=[],kuismath=db['game'][_0x3a735f(0x638)]=[],tebakgambar=db[_0x3a735f(0x2a7)][_0x3a735f(0x3fe)]=[],tebakkata=db[_0x3a735f(0x2a7)][_0x3a735f(0x509)]=[],caklontong=db['game'][_0x3a735f(0x64d)]=[],caklontong_desk=db[_0x3a735f(0x2a7)][_0x3a735f(0x4b4)]=[],tebakkalimat=db[_0x3a735f(0x2a7)][_0x3a735f(0x653)]=[],tebaklirik=db[_0x3a735f(0x2a7)][_0x3a735f(0x670)]=[],tebaktebakan=db[_0x3a735f(0x2a7)][_0x3a735f(0x3f2)]=[],vote=db[_0x3a735f(0x65b)][_0x3a735f(0x40e)]=[];module[_0x3a735f(0x50c)]=DarkBotInc=async(_0x197817,_0x3950f7,_0x5811eb,_0x353b2f)=>{const _0x51a002=_0x3a735f;try{var _0x1fd734=_0x3950f7[_0x51a002(0x587)]==='conversation'?_0x3950f7[_0x51a002(0x3a6)]['conversation']:_0x3950f7[_0x51a002(0x587)]==_0x51a002(0x5cd)?_0x3950f7['message']['imageMessage']['caption']:_0x3950f7[_0x51a002(0x587)]==_0x51a002(0x456)?_0x3950f7[_0x51a002(0x3a6)][_0x51a002(0x456)][_0x51a002(0x31f)]:_0x3950f7[_0x51a002(0x587)]==_0x51a002(0x496)?_0x3950f7[_0x51a002(0x3a6)]['extendedTextMessage'][_0x51a002(0x3d2)]:_0x3950f7['mtype']==_0x51a002(0x338)?_0x3950f7[_0x51a002(0x3a6)]['buttonsResponseMessage'][_0x51a002(0x32f)]:_0x3950f7[_0x51a002(0x587)]==_0x51a002(0x40a)?_0x3950f7['message'][_0x51a002(0x40a)]['singleSelectReply'][_0x51a002(0x2bf)]:_0x3950f7['mtype']=='templateButtonReplyMessage'?_0x3950f7[_0x51a002(0x3a6)][_0x51a002(0x544)][_0x51a002(0x574)]:_0x3950f7[_0x51a002(0x587)]===_0x51a002(0x4d2)?_0x3950f7[_0x51a002(0x3a6)][_0x51a002(0x338)]?.[_0x51a002(0x32f)]||_0x3950f7[_0x51a002(0x3a6)][_0x51a002(0x40a)]?.['singleSelectReply'][_0x51a002(0x2bf)]||_0x3950f7[_0x51a002(0x3d2)]:'',_0x546dcb=typeof _0x3950f7[_0x51a002(0x3d2)]==_0x51a002(0x644)?_0x3950f7['text']:'',_0x29c62d=prefa?/^[°•π÷×¶∆£¢€¥®™+✓_=|~!?@#$%^&.©^]/gi[_0x51a002(0x370)](_0x1fd734)?_0x1fd734[_0x51a002(0x6b6)](/^[°•π÷×¶∆£¢€¥®™+✓_=|~!?@#$%^&.©^]/gi)[0x0]:'':prefa??global[_0x51a002(0x2e5)];const _0x218c9c=_0x1fd734[_0x51a002(0x2d3)](_0x29c62d),_0x53bfbd=_0x1fd734[_0x51a002(0x588)](_0x29c62d,'')[_0x51a002(0x402)]()['split'](/ +/)[_0x51a002(0x37e)]()[_0x51a002(0x4f9)](),_0x36620a=_0x1fd734[_0x51a002(0x402)]()['split'](/ +/)[_0x51a002(0x2be)](0x1),_0x220aae=_0x3950f7[_0x51a002(0x5c4)]||_0x51a002(0x5e3),_0x528e82=await _0x197817[_0x51a002(0x554)](_0x197817[_0x51a002(0x39b)]['id']),_0x9861be=[_0x528e82,...global[_0x51a002(0x466)]][_0x51a002(0x483)](_0x33fb45=>_0x33fb45[_0x51a002(0x588)](/[^0-9]/g,'')+_0x51a002(0x464))[_0x51a002(0x695)](_0x3950f7['sender']),_0x45d9d7=_0x3950f7[_0x51a002(0x3a3)]==_0x528e82?!![]:![],_0x2757d1=q=_0x36620a[_0x51a002(0x436)]('\x20'),_0x255562=_0x3950f7['quoted']?_0x3950f7[_0x51a002(0x60a)]:_0x3950f7,_0x21c29a=(_0x255562[_0x51a002(0x226)]||_0x255562)[_0x51a002(0x684)]||'',_0xd63a69=/image|video|sticker|audio/[_0x51a002(0x370)](_0x21c29a),_0x1276bb=_0x3950f7[_0x51a002(0x69f)]?await _0x197817[_0x51a002(0x1da)](_0x3950f7[_0x51a002(0x5a0)])[_0x51a002(0x230)](_0x46aa28=>{}):'',_0x20204f=_0x3950f7[_0x51a002(0x69f)]?_0x1276bb[_0x51a002(0x2b8)]:'',_0xd9ea69=_0x3950f7['isGroup']?antilink[_0x51a002(0x695)](_0x3950f7[_0x51a002(0x5a0)]):![],_0x4299e0=_0x3950f7[_0x51a002(0x69f)]?await _0x1276bb['participants']:'',_0x181e4c=_0x3950f7[_0x51a002(0x69f)]?await _0x4299e0[_0x51a002(0x584)](_0x17540f=>_0x17540f[_0x51a002(0x407)]!==null)['map'](_0xdb0865=>_0xdb0865['id']):'',_0x495455=_0x3950f7[_0x51a002(0x69f)]?_0x1276bb['owner']:'',_0x596e45=_0x3950f7[_0x51a002(0x69f)]?_0x181e4c[_0x51a002(0x695)](_0x528e82):![],_0xadd178=_0x3950f7[_0x51a002(0x69f)]?_0x181e4c[_0x51a002(0x695)](_0x3950f7['sender']):![],_0x45a7fc=_0x9861be||global[_0x51a002(0x28f)]['map'](_0x48a22d=>_0x48a22d[_0x51a002(0x588)](/[^0-9]/g,'')+'@s.whatsapp.net')[_0x51a002(0x695)](_0x3950f7[_0x51a002(0x3a3)])||![],_0x1579b7=function(_0x128988){const _0xf53d05=_0x51a002;_0x128988=Number(_0x128988);var _0x4dc455=Math[_0xf53d05(0x3e0)](_0x128988/(0xe10*0x18)),_0x3a7b9a=Math[_0xf53d05(0x3e0)](_0x128988%(0xe10*0x18)/0xe10),_0x548f51=Math['floor'](_0x128988%0xe10/0x3c),_0x2c207c=Math[_0xf53d05(0x3e0)](_0x128988%0x3c),_0xc4411e=_0x4dc455>0x0?_0x4dc455+(_0x4dc455==0x1?_0xf53d05(0x5a9):_0xf53d05(0x270)):'',_0x5438ad=_0x3a7b9a>0x0?_0x3a7b9a+(_0x3a7b9a==0x1?'\x20hour,\x20':_0xf53d05(0x529)):'',_0x1d1a27=_0x548f51>0x0?_0x548f51+(_0x548f51==0x1?_0xf53d05(0x3fd):_0xf53d05(0x451)):'',_0x3b22e8=_0x2c207c>0x0?_0x2c207c+(_0x2c207c==0x1?_0xf53d05(0x527):_0xf53d05(0x320)):'';return _0xc4411e+_0x5438ad+_0x1d1a27+_0x3b22e8;},_0x3d6c65=_0xd0505d=>{const _0x4a0293=_0x51a002;_0x197817[_0x4a0293(0x2b4)](_0x3950f7[_0x4a0293(0x5a0)],{'text':_0xd0505d,'contextInfo':{'externalAdReply':{'title':'\x20'+global[_0x4a0293(0x45a)],'body':_0x4a0293(0x2d5),'previewType':_0x4a0293(0x51c),'thumbnailUrl':'','thumbnail':fs[_0x4a0293(0x32a)](_0x4a0293(0x38f)),'sourceUrl':_0x4a0293(0x6a6)}}},{'quoted':_0x3950f7});},_0x47c968=_0x1494cb=>{const _0x51d683=_0x51a002;_0x197817[_0x51d683(0x2b4)](_0x3950f7[_0x51d683(0x5a0)],{'text':_0x1494cb,'contextInfo':{'externalAdReply':{'title':'\x20'+global[_0x51d683(0x45a)],'body':_0x51d683(0x475),'previewType':'PHOTO','thumbnailUrl':'','thumbnail':fs['readFileSync'](_0x51d683(0x38f)),'sourceUrl':_0x51d683(0x334)}}},{'quoted':_0x3950f7});};try{let _0x222ede=_0x47da07=>typeof _0x47da07===_0x51a002(0x409)&&!isNaN(_0x47da07),_0xbf522a=_0x45a7fc?global[_0x51a002(0x3a5)]['premium']:global['limitawal'][_0x51a002(0x510)],_0x5e2c65=global['db']['users'][_0x3950f7[_0x51a002(0x3a3)]];if(typeof _0x5e2c65!==_0x51a002(0x31b))global['db'][_0x51a002(0x239)][_0x3950f7['sender']]={};if(_0x5e2c65){if(!_0x222ede(_0x5e2c65[_0x51a002(0x4a7)]))_0x5e2c65[_0x51a002(0x4a7)]=-0x1;if(!('afkReason'in _0x5e2c65))_0x5e2c65['afkReason']='';if(!_0x222ede(_0x5e2c65[_0x51a002(0x322)]))_0x5e2c65[_0x51a002(0x322)]=_0xbf522a;}else global['db'][_0x51a002(0x239)][_0x3950f7['sender']]={'afkTime':-0x1,'afkReason':'','limit':_0xbf522a};let _0x2be35a=global['db']['chats'][_0x3950f7[_0x51a002(0x5a0)]];if(typeof _0x2be35a!==_0x51a002(0x31b))global['db']['chats'][_0x3950f7[_0x51a002(0x5a0)]]={};if(_0x2be35a){if(!(_0x51a002(0x2ee)in _0x2be35a))_0x2be35a[_0x51a002(0x2ee)]=![];if(!(_0x51a002(0x468)in _0x2be35a))_0x2be35a[_0x51a002(0x468)]=![];}else global['db']['chats'][_0x3950f7['chat']]={'mute':![],'wame':![]};}catch(_0x1482ca){console[_0x51a002(0x61c)](_0x1482ca);}if(!_0x197817[_0x51a002(0x301)]){if(!_0x3950f7[_0x51a002(0x347)][_0x51a002(0x411)])return;}_0x3950f7[_0x51a002(0x3a6)]&&(_0x197817['sendReadReceipt'](_0x3950f7[_0x51a002(0x5a0)],_0x3950f7['sender'],[_0x3950f7[_0x51a002(0x347)]['id']]),console[_0x51a002(0x3ac)](chalk[_0x51a002(0x3ab)](chalk['bgWhite'](_0x51a002(0x624))),chalk[_0x51a002(0x3ab)](chalk[_0x51a002(0x494)](new Date())),chalk[_0x51a002(0x3ab)](chalk[_0x51a002(0x5e6)](_0x546dcb||_0x3950f7[_0x51a002(0x587)]))+'\x0a'+chalk[_0x51a002(0x22b)]('=>\x20From'),chalk[_0x51a002(0x672)](_0x220aae),chalk[_0x51a002(0x60b)](_0x3950f7[_0x51a002(0x3a3)])+'\x0a'+chalk['blueBright']('=>\x20In'),chalk[_0x51a002(0x672)](_0x3950f7[_0x51a002(0x69f)]?_0x220aae:'Private\x20Chat',_0x3950f7[_0x51a002(0x5a0)])));const _0x129992=getLevelingLevel(_0x3950f7[_0x51a002(0x3a3)]);var _0x89294e='bronz';if(_0x129992<=0x3)_0x89294e=_0x51a002(0x2f1);else{if(_0x129992<=0x5)_0x89294e=_0x51a002(0x1ff);else{if(_0x129992<=0x7)_0x89294e=_0x51a002(0x480);else{if(_0x129992<=0xa)_0x89294e=_0x51a002(0x619);else{if(_0x129992<=0xc)_0x89294e='Platinum';else{if(_0x129992<=0xf)_0x89294e=_0x51a002(0x65a);else{if(_0x129992<=0x12)_0x89294e=_0x51a002(0x58d);else{if(_0x129992<=0x19)_0x89294e=_0x51a002(0x6a5);else _0x129992<=0x2d&&(_0x89294e='Good\x20In\x20Game');}}}}}}}if(_0xd9ea69){if(_0x546dcb[_0x51a002(0x695)]('https://chat.whatsapp.com/')){if(!_0x3950f7[_0x51a002(0x347)][_0x51a002(0x411)]){_0x3d6c65(_0x51a002(0x22d));let _0x605126=_0x3950f7[_0x51a002(0x3a3)];await _0x197817[_0x51a002(0x374)](_0x3950f7[_0x51a002(0x5a0)],[_0x605126],_0x51a002(0x2ea))[_0x51a002(0x271)](_0x1167b6=>_0x3d6c65(jsonformat(_0x1167b6)))[_0x51a002(0x230)](_0xfb7923=>_0x3d6c65(jsonformat(_0xfb7923)));}}}if(db[_0x51a002(0x562)][_0x3950f7[_0x51a002(0x5a0)]]['wame']){if(_0x546dcb[_0x51a002(0x6b6)](_0x51a002(0x1f1))){_0x3950f7[_0x51a002(0x29a)](_0x51a002(0x43f));if(!_0x596e45)return _0x3950f7[_0x51a002(0x29a)](_0x51a002(0x272));let _0x4928c3='https://wa.me/',_0x1dbd15=new RegExp(_0x4928c3,'i'),_0x2c8f61=_0x1dbd15[_0x51a002(0x370)](_0x3950f7[_0x51a002(0x3d2)]);if(_0x2c8f61)return _0x3950f7[_0x51a002(0x29a)](_0x51a002(0x1de));if(_0xadd178)return _0x3950f7['reply'](_0x51a002(0x3c1));if(_0x9861be)return _0x3950f7[_0x51a002(0x29a)](_0x51a002(0x4c8));_0x197817[_0x51a002(0x374)](_0x3950f7[_0x51a002(0x5a0)],[_0x3950f7[_0x51a002(0x3a3)]],_0x51a002(0x2ea));}}if(db[_0x51a002(0x562)][_0x3950f7[_0x51a002(0x5a0)]][_0x51a002(0x2ee)]&&!_0xadd178&&!_0x9861be)return;setInterval(()=>{const _0x4ca730=_0x51a002;fs[_0x4ca730(0x2c6)](_0x4ca730(0x4a4),JSON[_0x4ca730(0x337)](global['db'],null,0x2));},0x3c*0x3e8);let _0x2fbad2=require(_0x51a002(0x3b7));_0x2fbad2[_0x51a002(0x305)](_0x51a002(0x263),()=>{const _0x55b6f4=_0x51a002;let _0x21a71c=Object[_0x55b6f4(0x4df)](global['db']['users']),_0x2a9d60=_0x45a7fc?global[_0x55b6f4(0x3a5)][_0x55b6f4(0x28f)]:global['limitawal']['free'];for(let _0x394ecf of _0x21a71c)global['db'][_0x55b6f4(0x239)][_0x394ecf][_0x55b6f4(0x322)]=_0x2a9d60;console['log'](_0x55b6f4(0x20e));},{'scheduled':!![],'timezone':_0x51a002(0x4ff)});if(_0xd63a69&&_0x3950f7[_0x51a002(0x226)][_0x51a002(0x3d5)]&&_0x3950f7['msg'][_0x51a002(0x3d5)][_0x51a002(0x5f1)]('base64')in global['db']['sticker']){let _0x12d118=global['db'][_0x51a002(0x61f)][_0x3950f7['msg'][_0x51a002(0x3d5)][_0x51a002(0x5f1)]('base64')],{text:_0x4e2cf9,mentionedJid:_0x502f17}=_0x12d118,_0x7b6ddc=await generateWAMessage(_0x3950f7[_0x51a002(0x5a0)],{'text':_0x4e2cf9,'mentions':_0x502f17},{'userJid':_0x197817['user']['id'],'quoted':_0x3950f7[_0x51a002(0x60a)]&&_0x3950f7[_0x51a002(0x60a)]['fakeObj']});_0x7b6ddc['key'][_0x51a002(0x411)]=areJidsSameUser(_0x3950f7[_0x51a002(0x3a3)],_0x197817[_0x51a002(0x39b)]['id']),_0x7b6ddc['key']['id']=_0x3950f7['key']['id'],_0x7b6ddc[_0x51a002(0x5c4)]=_0x3950f7['pushName'];if(_0x3950f7[_0x51a002(0x69f)])_0x7b6ddc[_0x51a002(0x3b6)]=_0x3950f7['sender'];let _0x53a0ef={..._0x5811eb,'messages':[proto[_0x51a002(0x56f)]['fromObject'](_0x7b6ddc)],'type':'append'};_0x197817['ev'][_0x51a002(0x5ad)](_0x51a002(0x507),_0x53a0ef);}if(_0x51a002(0x254)+_0x3950f7[_0x51a002(0x5a0)]in _family100&&_0x218c9c){kuis=!![];let _0x436874=_family100['family100'+_0x3950f7[_0x51a002(0x5a0)]],_0x6cbcdb=_0x546dcb['toLowerCase']()['replace'](/[^\w\s\-]+/,''),_0x23c635=/^((me)?give up|surr?ender)$/i[_0x51a002(0x370)](_0x3950f7['text']);if(!_0x23c635){let _0x3d349d=_0x436874['jawaban'][_0x51a002(0x6c0)](_0x1d4730=>_0x1d4730['toLowerCase']()['replace'](/[^\w\s\-]+/,'')===_0x6cbcdb);if(_0x436874['terjawab'][_0x3d349d])return!0x0;_0x436874[_0x51a002(0x683)][_0x3d349d]=_0x3950f7[_0x51a002(0x3a3)];}let _0xc6f838=_0x436874[_0x51a002(0x683)]['length']===_0x436874[_0x51a002(0x683)][_0x51a002(0x584)](_0x20e770=>_0x20e770)['length'],_0x3d7987=(_0x51a002(0x4a5)+_0x436874[_0x51a002(0x21d)]+_0x51a002(0x627)+_0x436874[_0x51a002(0x473)][_0x51a002(0x53a)]+'\x20Answer\x20'+(_0x436874[_0x51a002(0x473)][_0x51a002(0x276)](_0x368fe7=>_0x368fe7[_0x51a002(0x695)]('\x20'))?_0x51a002(0x6a0):'')+'\x0a'+(_0xc6f838?_0x51a002(0x3b9):_0x23c635?_0x51a002(0x3c6):'')+'\x0a'+Array[_0x51a002(0x244)](_0x436874[_0x51a002(0x473)],(_0x48e622,_0x5412e5)=>{const _0x33a95a=_0x51a002;return _0x23c635||_0x436874['terjawab'][_0x5412e5]?('('+(_0x5412e5+0x1)+')\x20'+_0x48e622+'\x20'+(_0x436874[_0x33a95a(0x683)][_0x5412e5]?'@'+_0x436874[_0x33a95a(0x683)][_0x5412e5][_0x33a95a(0x662)]('@')[0x0]:''))[_0x33a95a(0x402)]():![];})[_0x51a002(0x584)](_0x25cb68=>_0x25cb68)[_0x51a002(0x436)]('\x0a')+'\x0a\x20\x20\x20\x20'+(_0x23c635?'':_0x51a002(0x2b1)))['trim']();_0x197817[_0x51a002(0x4dd)](_0x3950f7[_0x51a002(0x5a0)],_0x3d7987,_0x3950f7,{'contextInfo':{'mentionedJid':parseMention(_0x3d7987)}})[_0x51a002(0x271)](_0x12bb1a=>{const _0x4541bf=_0x51a002;return _family100['family100'+_0x3950f7['chat']][_0x4541bf(0x321)]=mesg;})[_0x51a002(0x230)](_0x2c47df=>_0x2c47df);if(_0xc6f838||_0x23c635)delete _family100[_0x51a002(0x254)+_0x3950f7[_0x51a002(0x5a0)]];}if(tebaklagu[_0x51a002(0x353)](_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0])&&_0x218c9c){kuis=!![],jawaban=tebaklagu[_0x3950f7['sender'][_0x51a002(0x662)]('@')[0x0]];if(_0x546dcb[_0x51a002(0x4f9)]()==jawaban)await _0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],[{'buttonId':'tebak\x20lagu','buttonText':{'displayText':_0x51a002(0x495)},'type':0x1}],_0x51a002(0x493),_0x197817['user'][_0x51a002(0x4f5)],_0x3950f7),delete tebaklagu[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]];else _0x3d6c65('*Wrong\x20answer!*');}if(kuismath[_0x51a002(0x353)](_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0])&&_0x218c9c){kuis=!![],jawaban=kuismath[_0x3950f7['sender'][_0x51a002(0x662)]('@')[0x0]];if(_0x546dcb[_0x51a002(0x4f9)]()==jawaban)await _0x3d6c65(_0x51a002(0x4c9)+_0x29c62d+_0x51a002(0x68d)),delete kuismath[_0x3950f7[_0x51a002(0x3a3)]['split']('@')[0x0]];else _0x3d6c65('*Wrong\x20Answer!*');}if(tebakgambar[_0x51a002(0x353)](_0x3950f7['sender']['split']('@')[0x0])&&_0x218c9c){kuis=!![],jawaban=tebakgambar[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]];if(_0x546dcb['toLowerCase']()==jawaban)await _0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],[{'buttonId':_0x51a002(0x21a),'buttonText':{'displayText':'Guess\x20The\x20Picture'},'type':0x1}],_0x51a002(0x21b),_0x197817[_0x51a002(0x39b)]['name'],_0x3950f7),delete tebakgambar[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]];else _0x3d6c65(_0x51a002(0x395));}if(tebakkata[_0x51a002(0x353)](_0x3950f7[_0x51a002(0x3a3)]['split']('@')[0x0])&&_0x218c9c){kuis=!![],jawaban=tebakkata[_0x3950f7[_0x51a002(0x3a3)]['split']('@')[0x0]];if(_0x546dcb[_0x51a002(0x4f9)]()==jawaban)await _0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],[{'buttonId':_0x51a002(0x2ce),'buttonText':{'displayText':_0x51a002(0x443)},'type':0x1}],_0x51a002(0x486),_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)],_0x3950f7),delete tebakkata[_0x3950f7[_0x51a002(0x3a3)]['split']('@')[0x0]];else _0x3d6c65(_0x51a002(0x395));}if(caklontong[_0x51a002(0x353)](_0x3950f7[_0x51a002(0x3a3)]['split']('@')[0x0])&&_0x218c9c){kuis=!![],jawaban=caklontong[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]],deskripsi=caklontong_desk[_0x3950f7['sender'][_0x51a002(0x662)]('@')[0x0]];if(_0x546dcb[_0x51a002(0x4f9)]()==jawaban)await _0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],[{'buttonId':_0x51a002(0x506),'buttonText':{'displayText':_0x51a002(0x5cf)},'type':0x1}],_0x51a002(0x2ba)+deskripsi+'*\x0a\x0aWant\x20to\x20play\x20again?\x20press\x20the\x20button\x20below',_0x197817[_0x51a002(0x39b)]['name'],_0x3950f7),delete caklontong[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]],delete caklontong_desk[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]];else _0x3d6c65(_0x51a002(0x395));}if(tebakkalimat[_0x51a002(0x353)](_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0])&&_0x218c9c){kuis=!![],jawaban=tebakkalimat[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]];if(_0x546dcb[_0x51a002(0x4f9)]()==jawaban)await _0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],[{'buttonId':_0x51a002(0x4b6),'buttonText':{'displayText':'Guess\x20The\x20Sentence'},'type':0x1}],'🎮\x20Guess\x20The\x20Sentence\x20🎮\x0a\x0aCorrect\x20answer\x20🎉\x0a\x0aWant\x20to\x20play\x20again?\x20press\x20the\x20button\x20below',_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)],_0x3950f7),delete tebakkalimat[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]];else _0x3d6c65('*Wrong\x20Answer!*');}if(tebaklirik[_0x51a002(0x353)](_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0])&&_0x218c9c){kuis=!![],jawaban=tebaklirik[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]];if(_0x546dcb[_0x51a002(0x4f9)]()==jawaban)await _0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],[{'buttonId':'tebak\x20lirik','buttonText':{'displayText':'Guess\x20The\x20Lyrics'},'type':0x1}],_0x51a002(0x65f),_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)],_0x3950f7),delete tebaklirik[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]];else _0x3d6c65(_0x51a002(0x395));}if(tebaktebakan[_0x51a002(0x353)](_0x3950f7[_0x51a002(0x3a3)]['split']('@')[0x0])&&_0x218c9c){kuis=!![],jawaban=tebaktebakan[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]];if(_0x546dcb['toLowerCase']()==jawaban)await _0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],[{'buttonId':_0x51a002(0x685),'buttonText':{'displayText':'Riddles'},'type':0x1}],_0x51a002(0x56b),_0x197817['user']['name'],_0x3950f7),delete tebaktebakan[_0x3950f7['sender'][_0x51a002(0x662)]('@')[0x0]];else _0x3d6c65(_0x51a002(0x395));}this[_0x51a002(0x2a7)]=this[_0x51a002(0x2a7)]?this[_0x51a002(0x2a7)]:{};let _0x791610=Object[_0x51a002(0x260)](this['game'])[_0x51a002(0x276)](_0x34f52f=>_0x34f52f['id']&&_0x34f52f[_0x51a002(0x2a7)]&&_0x34f52f[_0x51a002(0x34a)]&&_0x34f52f['id'][_0x51a002(0x2d3)](_0x51a002(0x2ab))&&[_0x34f52f[_0x51a002(0x2a7)]['playerX'],_0x34f52f[_0x51a002(0x2a7)][_0x51a002(0x42c)]][_0x51a002(0x695)](_0x3950f7[_0x51a002(0x3a3)])&&_0x34f52f['state']==_0x51a002(0x363));if(_0x791610){let _0x4d6cef,_0x68427b=!0x1,_0x5d9cef=!0x1,_0x348704=!0x1;if(!/^([1-9]|(me)?nyerah|surr?ender|off|skip)$/i[_0x51a002(0x370)](_0x3950f7[_0x51a002(0x3d2)]))return;_0x348704=!/^[1-9]$/[_0x51a002(0x370)](_0x3950f7[_0x51a002(0x3d2)]);if(_0x3950f7[_0x51a002(0x3a3)]!==_0x791610[_0x51a002(0x2a7)][_0x51a002(0x310)]){if(!_0x348704)return!0x0;}if(!_0x348704&&0x1>(_0x4d6cef=_0x791610['game'][_0x51a002(0x65d)](_0x3950f7[_0x51a002(0x3a3)]===_0x791610['game'][_0x51a002(0x42c)],parseInt(_0x3950f7['text'])-0x1)))return _0x3d6c65({'-3':_0x51a002(0x3ec),'-2':_0x51a002(0x3b5),'-1':'Invalid\x20Position',0x0:'Invalid\x20Position'}[_0x4d6cef]),!0x0;if(_0x3950f7[_0x51a002(0x3a3)]===_0x791610[_0x51a002(0x2a7)][_0x51a002(0x4e6)])_0x68427b=!![];else{if(_0x791610[_0x51a002(0x2a7)][_0x51a002(0x4b5)]===0x1ff)_0x5d9cef=!![];}let _0x191ee4=_0x791610['game']['render']()[_0x51a002(0x483)](_0x5fda5a=>{const _0x49c3f9=_0x51a002;return{'X':'❌','O':'⭕',0x1:'1️⃣',0x2:_0x49c3f9(0x62f),0x3:_0x49c3f9(0x5c8),0x4:_0x49c3f9(0x512),0x5:_0x49c3f9(0x6aa),0x6:_0x49c3f9(0x1f2),0x7:_0x49c3f9(0x652),0x8:_0x49c3f9(0x5c9),0x9:'9️⃣'}[_0x5fda5a];});_0x348704&&(_0x791610[_0x51a002(0x2a7)][_0x51a002(0x273)]=_0x3950f7[_0x51a002(0x3a3)]===_0x791610['game'][_0x51a002(0x1e1)],_0x68427b=!![]);let _0x139958=_0x348704?_0x791610[_0x51a002(0x2a7)]['currentTurn']:_0x791610['game']['winner'],_0x500322='Room\x20ID:\x20'+_0x791610['id']+'\x0a\x0a'+_0x191ee4[_0x51a002(0x2be)](0x0,0x3)[_0x51a002(0x436)]('')+'\x0a'+_0x191ee4[_0x51a002(0x2be)](0x3,0x6)[_0x51a002(0x436)]('')+'\x0a'+_0x191ee4['slice'](0x6)[_0x51a002(0x436)]('')+'\x0a\x0a'+(_0x68427b?'@'+_0x139958[_0x51a002(0x662)]('@')[0x0]+_0x51a002(0x3af):_0x5d9cef?_0x51a002(0x23b):_0x51a002(0x314)+['❌','⭕'][0x1*_0x791610[_0x51a002(0x2a7)][_0x51a002(0x273)]]+_0x51a002(0x4ed)+_0x791610[_0x51a002(0x2a7)][_0x51a002(0x310)][_0x51a002(0x662)]('@')[0x0]+')')+_0x51a002(0x68c)+_0x791610['game']['playerX']['split']('@')[0x0]+_0x51a002(0x4d5)+_0x791610['game'][_0x51a002(0x42c)]['split']('@')[0x0]+_0x51a002(0x577);if((_0x791610[_0x51a002(0x2a7)][_0x51a002(0x273)]^_0x348704?_0x791610['x']:_0x791610['o'])!==_0x3950f7['chat'])_0x791610[_0x791610[_0x51a002(0x2a7)][_0x51a002(0x273)]^_0x348704?'x':'o']=_0x3950f7[_0x51a002(0x5a0)];if(_0x791610['x']!==_0x791610['o'])await _0x197817[_0x51a002(0x4dd)](_0x791610['x'],_0x500322,_0x3950f7,{'mentions':parseMention(_0x500322)});await _0x197817['sendText'](_0x791610['o'],_0x500322,_0x3950f7,{'mentions':parseMention(_0x500322)}),(_0x5d9cef||_0x68427b)&&delete this[_0x51a002(0x2a7)][_0x791610['id']];}this['suit']=this[_0x51a002(0x35e)]?this['suit']:{};let _0x3280bc=Object['values'](this[_0x51a002(0x35e)])[_0x51a002(0x276)](_0x13e8d6=>_0x13e8d6['id']&&_0x13e8d6[_0x51a002(0x23f)]&&[_0x13e8d6['p'],_0x13e8d6['p2']][_0x51a002(0x695)](_0x3950f7[_0x51a002(0x3a3)]));if(_0x3280bc){let _0x5461fa='',_0x749fe7=![];if(_0x3950f7[_0x51a002(0x3a3)]==_0x3280bc['p2']&&/^(acc(ept)?|accept|sure|oke?|reject|dont|later|yes|can|y)/i[_0x51a002(0x370)](_0x3950f7[_0x51a002(0x3d2)])&&_0x3950f7[_0x51a002(0x69f)]&&_0x3280bc[_0x51a002(0x23f)]==_0x51a002(0x30b)){if(/^(reject|dont|later|n|no|can)/i['test'](_0x3950f7[_0x51a002(0x3d2)]))return _0x197817[_0x51a002(0x5d0)](_0x3950f7[_0x51a002(0x5a0)],'@'+_0x3280bc['p2'][_0x51a002(0x662)]`@`[0x0]+_0x51a002(0x30d),_0x3950f7),delete this[_0x51a002(0x35e)][_0x3280bc['id']],!0x0;_0x3280bc['status']=_0x51a002(0x561),_0x3280bc[_0x51a002(0x4f8)]=_0x3950f7[_0x51a002(0x5a0)],clearTimeout(_0x3280bc[_0x51a002(0x4cc)]),_0x197817[_0x51a002(0x4dd)](_0x3950f7['chat'],_0x51a002(0x214)+_0x3280bc['p'][_0x51a002(0x662)]`@`[0x0]+_0x51a002(0x524)+_0x3280bc['p2'][_0x51a002(0x662)]`@`[0x0]+'\x0a\x0aPlease\x20choose\x20a\x20suit\x20in\x20the\x20respective\x20chat\x22\x0aclick\x20https://wa.me/'+_0x528e82['split']`@`[0x0],_0x3950f7,{'mentions':[_0x3280bc['p'],_0x3280bc['p2']]});if(!_0x3280bc[_0x51a002(0x233)])_0x197817[_0x51a002(0x4dd)](_0x3280bc['p'],_0x51a002(0x356),_0x3950f7);if(!_0x3280bc['pilih2'])_0x197817[_0x51a002(0x4dd)](_0x3280bc['p2'],'Please\x20select\x20\x0a\x0aRock🗿\x0aPaper📄\x0aScissor✂️',_0x3950f7);_0x3280bc[_0x51a002(0x41d)]=setTimeout(()=>{const _0x2459fc=_0x51a002;if(!_0x3280bc[_0x2459fc(0x233)]&&!_0x3280bc['pilih2'])_0x197817[_0x2459fc(0x4dd)](_0x3950f7['chat'],_0x2459fc(0x287));else(!_0x3280bc[_0x2459fc(0x233)]||!_0x3280bc['pilih2'])&&(_0x5461fa=!_0x3280bc['pilih']?_0x3280bc['p2']:_0x3280bc['p'],_0x197817[_0x2459fc(0x5d0)](_0x3950f7['chat'],'@'+(_0x3280bc[_0x2459fc(0x233)]?_0x3280bc['p2']:_0x3280bc['p'])[_0x2459fc(0x662)]`@`[0x0]+_0x2459fc(0x34d),_0x3950f7));return delete this[_0x2459fc(0x35e)][_0x3280bc['id']],!0x0;},_0x3280bc[_0x51a002(0x4e8)]);}let _0x2efee2=_0x3950f7[_0x51a002(0x3a3)]==_0x3280bc['p'],_0x4c7493=_0x3950f7[_0x51a002(0x3a3)]==_0x3280bc['p2'],_0x20f10d=/scissors/i,_0xe9be59=/rock/i,_0x19932f=/paper/i,_0x1733e1=/^(scissors|rock|paper)/i;if(_0x2efee2&&_0x1733e1['test'](_0x3950f7['text'])&&!_0x3280bc['pilih']&&!_0x3950f7['isGroup']){_0x3280bc[_0x51a002(0x233)]=_0x1733e1[_0x51a002(0x344)](_0x3950f7[_0x51a002(0x3d2)][_0x51a002(0x4f9)]())[0x0],_0x3280bc[_0x51a002(0x3d2)]=_0x3950f7[_0x51a002(0x3d2)],_0x3d6c65(_0x51a002(0x4f1)+_0x3950f7[_0x51a002(0x3d2)]+'\x20'+(!_0x3280bc[_0x51a002(0x564)]?_0x51a002(0x3a0):''));if(!_0x3280bc[_0x51a002(0x564)])_0x197817['sendText'](_0x3280bc['p2'],'_The\x20opponent\x20has\x20chosen_\x0aNow\x20it\x20is\x20your\x20turn',0x0);}if(_0x4c7493&&_0x1733e1[_0x51a002(0x370)](_0x3950f7[_0x51a002(0x3d2)])&&!_0x3280bc[_0x51a002(0x564)]&&!_0x3950f7['isGroup']){_0x3280bc[_0x51a002(0x564)]=_0x1733e1['exec'](_0x3950f7[_0x51a002(0x3d2)][_0x51a002(0x4f9)]())[0x0],_0x3280bc[_0x51a002(0x67a)]=_0x3950f7[_0x51a002(0x3d2)],_0x3d6c65(_0x51a002(0x4f1)+_0x3950f7[_0x51a002(0x3d2)]+'\x20'+(!_0x3280bc[_0x51a002(0x233)]?'\x0a\x0aWaiting\x20for\x20the\x20opponent\x20to\x20choose':''));if(!_0x3280bc['pilih'])_0x197817[_0x51a002(0x4dd)](_0x3280bc['p'],_0x51a002(0x49b),0x0);}let _0x5578a1=_0x3280bc[_0x51a002(0x233)],_0x266ace=_0x3280bc[_0x51a002(0x564)];if(_0x3280bc[_0x51a002(0x233)]&&_0x3280bc['pilih2']){clearTimeout(_0x3280bc['waktu_milih']);if(_0xe9be59[_0x51a002(0x370)](_0x5578a1)&&_0x20f10d['test'](_0x266ace))_0x5461fa=_0x3280bc['p'];else{if(_0xe9be59[_0x51a002(0x370)](_0x5578a1)&&_0x19932f[_0x51a002(0x370)](_0x266ace))_0x5461fa=_0x3280bc['p2'];else{if(_0x20f10d[_0x51a002(0x370)](_0x5578a1)&&_0x19932f[_0x51a002(0x370)](_0x266ace))_0x5461fa=_0x3280bc['p'];else{if(_0x20f10d[_0x51a002(0x370)](_0x5578a1)&&_0xe9be59[_0x51a002(0x370)](_0x266ace))_0x5461fa=_0x3280bc['p2'];else{if(_0x19932f['test'](_0x5578a1)&&_0xe9be59[_0x51a002(0x370)](_0x266ace))_0x5461fa=_0x3280bc['p'];else{if(_0x19932f[_0x51a002(0x370)](_0x5578a1)&&_0x20f10d[_0x51a002(0x370)](_0x266ace))_0x5461fa=_0x3280bc['p2'];else{if(_0x5578a1==_0x266ace)_0x749fe7=!![];}}}}}}_0x197817[_0x51a002(0x4dd)](_0x3280bc[_0x51a002(0x4f8)],(_0x51a002(0x508)+(_0x749fe7?_0x51a002(0x482):'')+'\x0a\x0a@'+_0x3280bc['p'][_0x51a002(0x662)]`@`[0x0]+'\x20('+_0x3280bc[_0x51a002(0x3d2)]+')\x20'+(_0x749fe7?'':_0x3280bc['p']==_0x5461fa?_0x51a002(0x523):'\x20Lost\x20\x0a')+'\x0a@'+_0x3280bc['p2'][_0x51a002(0x662)]`@`[0x0]+'\x20('+_0x3280bc['text2']+')\x20'+(_0x749fe7?'':_0x3280bc['p2']==_0x5461fa?'\x20Win\x20\x0a':_0x51a002(0x3da))+'\x0a')[_0x51a002(0x402)](),_0x3950f7,{'mentions':[_0x3280bc['p'],_0x3280bc['p2']]}),delete this[_0x51a002(0x35e)][_0x3280bc['id']];}}let _0x209d9f=[...new Set([..._0x3950f7[_0x51a002(0x503)]||[],..._0x3950f7[_0x51a002(0x60a)]?[_0x3950f7[_0x51a002(0x60a)][_0x51a002(0x3a3)]]:[]])];for(let _0x1dbecc of _0x209d9f){let _0x36179f=global['db'][_0x51a002(0x239)][_0x1dbecc];if(!_0x36179f)continue;let _0x467754=_0x36179f[_0x51a002(0x4a7)];if(!_0x467754||_0x467754<0x0)continue;let _0x50ba80=_0x36179f[_0x51a002(0x519)]||'';_0x3d6c65(('\x0aDon\x27t\x20tag\x20him!\x0aHe\x27s\x20in\x20Offline/AFK,\x20'+(_0x50ba80?_0x51a002(0x38c)+_0x50ba80:_0x51a002(0x380))+'\x0aIts\x20been\x20'+clockString(new Date()-_0x467754)+'\x0a')[_0x51a002(0x402)]());}if(db[_0x51a002(0x239)][_0x3950f7[_0x51a002(0x3a3)]][_0x51a002(0x4a7)]>-0x1){let _0x4bda14=global['db'][_0x51a002(0x239)][_0x3950f7[_0x51a002(0x3a3)]];_0x3d6c65((_0x51a002(0x3e1)+(_0x4bda14['afkReason']?_0x51a002(0x442)+_0x4bda14['afkReason']:'')+_0x51a002(0x4b0)+clockString(new Date()-_0x4bda14[_0x51a002(0x4a7)])+'\x0a')[_0x51a002(0x402)]()),_0x4bda14[_0x51a002(0x4a7)]=-0x1,_0x4bda14['afkReason']='';}switch(_0x53bfbd){case _0x51a002(0x3c5):{let _0xe919f7=global['db'][_0x51a002(0x239)][_0x3950f7[_0x51a002(0x3a3)]];_0xe919f7[_0x51a002(0x4a7)]=+new Date(),_0xe919f7['afkReason']=_0x2757d1,_0x3d6c65(_0x3950f7[_0x51a002(0x5c4)]+_0x51a002(0x572)+(_0x2757d1?':\x20'+_0x2757d1:''));}break;case _0x51a002(0x381):case'ttt':case _0x51a002(0x2ab):{let _0x52cf44=require(_0x51a002(0x44c));this[_0x51a002(0x2a7)]=this[_0x51a002(0x2a7)]?this[_0x51a002(0x2a7)]:{};if(Object[_0x51a002(0x260)](this['game'])[_0x51a002(0x276)](_0x2c4918=>_0x2c4918['id'][_0x51a002(0x2d3)]('tictactoe')&&[_0x2c4918['game'][_0x51a002(0x1e1)],_0x2c4918[_0x51a002(0x2a7)][_0x51a002(0x42c)]][_0x51a002(0x695)](_0x3950f7[_0x51a002(0x3a3)])))throw _0x51a002(0x5f6);let _0x102c15=Object['values'](this[_0x51a002(0x2a7)])['find'](_0x4e48a7=>_0x4e48a7[_0x51a002(0x34a)]==='WAITING'&&(_0x2757d1?_0x4e48a7[_0x51a002(0x4f5)]===_0x2757d1:!![]));if(_0x102c15){_0x3d6c65('Partner\x20found!'),_0x102c15['o']=_0x3950f7[_0x51a002(0x5a0)],_0x102c15[_0x51a002(0x2a7)][_0x51a002(0x42c)]=_0x3950f7['sender'],_0x102c15['state']=_0x51a002(0x363);let _0x1b33a7=_0x102c15[_0x51a002(0x2a7)][_0x51a002(0x539)]()[_0x51a002(0x483)](_0x2e57d9=>{const _0x29263b=_0x51a002;return{'X':'❌','O':'⭕',0x1:_0x29263b(0x1e5),0x2:_0x29263b(0x62f),0x3:_0x29263b(0x5c8),0x4:_0x29263b(0x512),0x5:_0x29263b(0x6aa),0x6:_0x29263b(0x1f2),0x7:_0x29263b(0x652),0x8:'8️⃣',0x9:_0x29263b(0x55e)}[_0x2e57d9];}),_0x46d9a5=_0x51a002(0x47b)+_0x102c15['id']+'\x0a\x0a'+_0x1b33a7['slice'](0x0,0x3)[_0x51a002(0x436)]('')+'\x0a'+_0x1b33a7[_0x51a002(0x2be)](0x3,0x6)[_0x51a002(0x436)]('')+'\x0a'+_0x1b33a7[_0x51a002(0x2be)](0x6)[_0x51a002(0x436)]('')+'\x0a\x0aWaiting\x20@'+_0x102c15[_0x51a002(0x2a7)][_0x51a002(0x310)][_0x51a002(0x662)]('@')[0x0]+'\x0a\x0aType\x20*give\x20up*\x20to\x20surrender\x20and\x20admit\x20defeat';if(_0x102c15['x']!==_0x102c15['o'])await _0x197817[_0x51a002(0x4dd)](_0x102c15['x'],_0x46d9a5,_0x3950f7,{'mentions':parseMention(_0x46d9a5)});await _0x197817[_0x51a002(0x4dd)](_0x102c15['o'],_0x46d9a5,_0x3950f7,{'mentions':parseMention(_0x46d9a5)});}else{_0x102c15={'id':_0x51a002(0x53b)+ +new Date(),'x':_0x3950f7[_0x51a002(0x5a0)],'o':'','game':new _0x52cf44(_0x3950f7[_0x51a002(0x3a3)],'o'),'state':_0x51a002(0x58e)};if(_0x2757d1)_0x102c15['name']=_0x2757d1;_0x3d6c65('Waiting\x20for\x20partner'+(_0x2757d1?_0x51a002(0x400)+_0x29c62d+_0x53bfbd+'\x20'+_0x2757d1:'')),this[_0x51a002(0x2a7)][_0x102c15['id']]=_0x102c15;}}break;case _0x51a002(0x342):case _0x51a002(0x246):{this[_0x51a002(0x2a7)]=this[_0x51a002(0x2a7)]?this[_0x51a002(0x2a7)]:{};try{if(this[_0x51a002(0x2a7)])delete this['game'],_0x197817[_0x51a002(0x4dd)](_0x3950f7['chat'],'Successfully\x20delete\x20the\x20TicTacToe\x20session',_0x3950f7);else{if(!this['game'])_0x3d6c65(_0x51a002(0x4e7));else throw'?';}}catch(_0x5c4940){_0x3d6c65('error');}}break;case _0x51a002(0x522):case _0x51a002(0x35e):{this['suit']=this[_0x51a002(0x35e)]?this[_0x51a002(0x35e)]:{};let _0x22d21e=0xa,_0x389347=0xa,_0x773b7=0xea60;if(Object[_0x51a002(0x260)](this['suit'])[_0x51a002(0x276)](_0x4b6431=>_0x4b6431['id'][_0x51a002(0x2d3)](_0x51a002(0x35e))&&[_0x4b6431['p'],_0x4b6431['p2']]['includes'](_0x3950f7['sender'])))_0x3d6c65(_0x51a002(0x556));if(_0x3950f7['mentionedJid'][0x0]===_0x3950f7[_0x51a002(0x3a3)])return _0x3d6c65(_0x51a002(0x24d));if(!_0x3950f7[_0x51a002(0x503)][0x0])return _0x3d6c65('_Who\x20do\x20you\x20want\x20to\x20challenge?_\x0aTag\x20the\x20person..\x0a\x0aExample\x20:\x20'+_0x29c62d+_0x51a002(0x57f)+owner[0x1],_0x3950f7[_0x51a002(0x5a0)],{'mentions':[owner[0x1]+'@s.whatsapp.net']});if(Object[_0x51a002(0x260)](this[_0x51a002(0x35e)])['find'](_0x5247db=>_0x5247db['id'][_0x51a002(0x2d3)]('suit')&&[_0x5247db['p'],_0x5247db['p2']][_0x51a002(0x695)](_0x3950f7[_0x51a002(0x503)][0x0])))throw'The\x20person\x20you\x20are\x20challenging\x20is\x20playing\x20suit\x20with\x20someone\x20else\x20:(';let _0x23cfa0=_0x51a002(0x211)+new Date()*0x1,_0x2d1683='_*SUIT\x20PvP*_\x0a\x0a@'+_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]`@`[0x0]+_0x51a002(0x4f3)+_0x3950f7[_0x51a002(0x503)][0x0]['split']`@`[0x0]+_0x51a002(0x217)+_0x3950f7['mentionedJid'][0x0]['split']`@`[0x0]+_0x51a002(0x594);this[_0x51a002(0x35e)][_0x23cfa0]={'chat':await _0x197817[_0x51a002(0x4dd)](_0x3950f7[_0x51a002(0x5a0)],_0x2d1683,_0x3950f7,{'mentions':parseMention(_0x2d1683)}),'id':_0x23cfa0,'p':_0x3950f7[_0x51a002(0x3a3)],'p2':_0x3950f7[_0x51a002(0x503)][0x0],'status':_0x51a002(0x30b),'waktu':setTimeout(()=>{const _0x189937=_0x51a002;if(this[_0x189937(0x35e)][_0x23cfa0])_0x197817[_0x189937(0x4dd)](_0x3950f7[_0x189937(0x5a0)],_0x189937(0x28c),_0x3950f7);delete this[_0x189937(0x35e)][_0x23cfa0];},0xea60),'poin':_0x22d21e,'poin_lose':_0x389347,'timeout':_0x773b7};}break;case _0x51a002(0x4fb):case _0x51a002(0x4c3):case _0x51a002(0x285):case _0x51a002(0x2a5):case _0x51a002(0x659):case _0x51a002(0x4c3):{_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'image':{'url':_0x51a002(0x262)},'caption':_0x51a002(0x5cc)+_0x3950f7[_0x51a002(0x5c4)]+_0x51a002(0x26b)},{'quoted':_0x3950f7});}break;case'sc':case'script':{_0x3d6c65(_0x51a002(0x489));}break;case _0x51a002(0x5a0):{if(!_0x9861be)throw mess[_0x51a002(0x466)];if(!q)throw _0x51a002(0x56e);if(_0x36620a[0x0]==='mute')_0x197817[_0x51a002(0x5b7)]({'mute':'Infinity'},_0x3950f7[_0x51a002(0x5a0)],[])[_0x51a002(0x271)](_0x283dbc=>_0x3d6c65(jsonformat(_0x283dbc)))[_0x51a002(0x230)](_0x1d90c2=>_0x3d6c65(jsonformat(_0x1d90c2)));else{if(_0x36620a[0x0]==='unmute')_0x197817[_0x51a002(0x5b7)]({'mute':null},_0x3950f7['chat'],[])[_0x51a002(0x271)](_0x488db6=>_0x3d6c65(jsonformat(_0x488db6)))[_0x51a002(0x230)](_0x4af797=>_0x3d6c65(jsonformat(_0x4af797)));else{if(_0x36620a[0x0]===_0x51a002(0x27f))_0x197817['chatModify']({'archive':!![]},_0x3950f7[_0x51a002(0x5a0)],[])[_0x51a002(0x271)](_0x33916f=>_0x3d6c65(jsonformat(_0x33916f)))[_0x51a002(0x230)](_0x58f358=>_0x3d6c65(jsonformat(_0x58f358)));else{if(_0x36620a[0x0]===_0x51a002(0x2a4))_0x197817['chatModify']({'archive':![]},_0x3950f7[_0x51a002(0x5a0)],[])[_0x51a002(0x271)](_0x13d9a0=>_0x3d6c65(jsonformat(_0x13d9a0)))['catch'](_0x212719=>_0x3d6c65(jsonformat(_0x212719)));else{if(_0x36620a[0x0]==='read')_0x197817['chatModify']({'markRead':!![]},_0x3950f7[_0x51a002(0x5a0)],[])[_0x51a002(0x271)](_0x3ecd5f=>_0x3d6c65(jsonformat(_0x3ecd5f)))[_0x51a002(0x230)](_0x56fea3=>_0x3d6c65(jsonformat(_0x56fea3)));else{if(_0x36620a[0x0]==='unread')_0x197817[_0x51a002(0x5b7)]({'markRead':![]},_0x3950f7[_0x51a002(0x5a0)],[])['then'](_0x5367e4=>_0x3d6c65(jsonformat(_0x5367e4)))['catch'](_0x393dcd=>_0x3d6c65(jsonformat(_0x393dcd)));else _0x36620a[0x0]==='delete'&&_0x197817[_0x51a002(0x5b7)]({'clear':{'message':{'id':_0x3950f7[_0x51a002(0x60a)]['id'],'fromMe':!![]}}},_0x3950f7['chat'],[])[_0x51a002(0x271)](_0x39657b=>_0x3d6c65(jsonformat(_0x39657b)))[_0x51a002(0x230)](_0x3e98b4=>_0x3d6c65(jsonformat(_0x3e98b4)));}}}}}}break;case'family100hdiejebdjdijdjdjdj':{if(_0x51a002(0x254)+_0x3950f7['chat']in _family100){_0x3d6c65(_0x51a002(0x360));throw![];}let _0xd3d85a=await fetchJson(_0x51a002(0x389)),_0x45e098=_0xd3d85a[Math[_0x51a002(0x3e0)](Math[_0x51a002(0x315)]()*_0xd3d85a['length'])],_0x962c40=(_0x51a002(0x27d)+_0x45e098[_0x51a002(0x21d)]+_0x51a002(0x6a4)+_0x45e098[_0x51a002(0x473)]['length']+_0x51a002(0x61e)+(_0x45e098['jawaban'][_0x51a002(0x276)](_0x421ff0=>_0x421ff0[_0x51a002(0x695)]('\x20'))?_0x51a002(0x6a0):''))[_0x51a002(0x402)]();_family100[_0x51a002(0x254)+_0x3950f7['chat']]={'id':_0x51a002(0x254)+_0x3950f7[_0x51a002(0x5a0)],'pesan':await _0x197817[_0x51a002(0x4dd)](_0x3950f7['chat'],_0x962c40,_0x3950f7),..._0x45e098,'terjawab':Array[_0x51a002(0x244)](_0x45e098['jawaban'],()=>![]),'hadiah':0x6};}break;case'halahkdkdkd':case _0x51a002(0x3b2):case _0x51a002(0x5ba):case _0x51a002(0x69c):case'holohkdkskks':if(!_0x3950f7[_0x51a002(0x60a)]&&!_0x2757d1)throw _0x51a002(0x37c)+(_0x29c62d+_0x53bfbd);ter=_0x53bfbd[0x1][_0x51a002(0x4f9)](),tex=_0x3950f7[_0x51a002(0x60a)]?_0x3950f7[_0x51a002(0x60a)][_0x51a002(0x3d2)]?_0x3950f7[_0x51a002(0x60a)][_0x51a002(0x3d2)]:q?q:_0x3950f7[_0x51a002(0x3d2)]:q?q:_0x3950f7[_0x51a002(0x3d2)],_0x3d6c65(tex['replace'](/[aiueo]/g,ter)[_0x51a002(0x588)](/[AIUEO]/g,ter['toUpperCase']()));break;case'tebakjxkzkossihdhdidii':{if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x57e);if(_0x36620a[0x0]===_0x51a002(0x34f)){if(tebaklagu[_0x51a002(0x353)](_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]))throw _0x51a002(0x360);let _0x196727=await fetchJson(_0x51a002(0x5e2)),_0x1efe8e=_0x196727[Math['floor'](Math['random']()*_0x196727['length'])],_0x42c4bd=await _0x197817[_0x51a002(0x2b4)](_0x3950f7['chat'],{'audio':{'url':_0x1efe8e['link_song']},'mimetype':'audio/mpeg'},{'quoted':_0x3950f7});_0x197817[_0x51a002(0x4dd)](_0x3950f7[_0x51a002(0x5a0)],_0x51a002(0x4c7)+_0x1efe8e[_0x51a002(0x2ed)]+'\x0aTime\x20:\x2060s',_0x42c4bd)['then'](()=>{const _0x645c91=_0x51a002;tebaklagu[_0x3950f7['sender'][_0x645c91(0x662)]('@')[0x0]]=_0x1efe8e['jawaban']['toLowerCase']();}),await sleep(0xea60),tebaklagu[_0x51a002(0x353)](_0x3950f7[_0x51a002(0x3a3)]['split']('@')[0x0])&&(console['log']('Answer:\x20'+_0x1efe8e[_0x51a002(0x473)]),_0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],[{'buttonId':'tebak\x20lagu','buttonText':{'displayText':'Tebak\x20Lagu'},'type':0x1}],_0x51a002(0x1d8)+tebaklagu[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]]+_0x51a002(0x2d0),_0x197817['user']['name'],_0x3950f7),delete tebaklagu[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]]);}else{if(_0x36620a[0x0]===_0x51a002(0x274)){if(tebakgambar['hasOwnProperty'](_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]))throw _0x51a002(0x360);let _0x53a38e=await fetchJson(_0x51a002(0x60e)),_0x25d1be=_0x53a38e[Math['floor'](Math[_0x51a002(0x315)]()*_0x53a38e[_0x51a002(0x53a)])];_0x197817['sendImage'](_0x3950f7[_0x51a002(0x5a0)],_0x25d1be[_0x51a002(0x3f8)],'Please\x20answer\x20the\x20questions\x20above\x0a\x0aDescription\x20:\x20'+_0x25d1be['deskripsi']+_0x51a002(0x259),_0x3950f7)[_0x51a002(0x271)](()=>{const _0x5415d5=_0x51a002;tebakgambar[_0x3950f7[_0x5415d5(0x3a3)][_0x5415d5(0x662)]('@')[0x0]]=_0x25d1be[_0x5415d5(0x473)][_0x5415d5(0x4f9)]();}),await sleep(0xea60),tebakgambar[_0x51a002(0x353)](_0x3950f7[_0x51a002(0x3a3)]['split']('@')[0x0])&&(console[_0x51a002(0x3ac)](_0x51a002(0x36d)+_0x25d1be['jawaban']),_0x197817[_0x51a002(0x5de)](_0x3950f7['chat'],[{'buttonId':_0x51a002(0x21a),'buttonText':{'displayText':'Tebak\x20Gambar'},'type':0x1}],_0x51a002(0x28d)+tebakgambar[_0x3950f7['sender'][_0x51a002(0x662)]('@')[0x0]]+'\x0a\x0aWant\x20to\x20play?\x20press\x20the\x20button\x20below',_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)],_0x3950f7),delete tebakgambar[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]]);}else{if(_0x36620a[0x0]==='kata'){if(tebakkata['hasOwnProperty'](_0x3950f7[_0x51a002(0x3a3)]['split']('@')[0x0]))throw'There\x20are\x20still\x20unfinished\x20sessions!';let _0x5c26c7=await fetchJson(_0x51a002(0x6cb)),_0x818882=_0x5c26c7[Math[_0x51a002(0x3e0)](Math[_0x51a002(0x315)]()*_0x5c26c7['length'])];_0x197817[_0x51a002(0x4dd)](_0x3950f7['chat'],_0x51a002(0x5b4)+_0x818882[_0x51a002(0x21d)]+_0x51a002(0x53c),_0x3950f7)[_0x51a002(0x271)](()=>{const _0x17d2ae=_0x51a002;tebakkata[_0x3950f7[_0x17d2ae(0x3a3)][_0x17d2ae(0x662)]('@')[0x0]]=_0x818882[_0x17d2ae(0x473)][_0x17d2ae(0x4f9)]();}),await sleep(0xea60),tebakkata['hasOwnProperty'](_0x3950f7[_0x51a002(0x3a3)]['split']('@')[0x0])&&(console['log'](_0x51a002(0x36d)+_0x818882[_0x51a002(0x473)]),_0x197817['sendButtonText'](_0x3950f7[_0x51a002(0x5a0)],[{'buttonId':_0x51a002(0x2ce),'buttonText':{'displayText':_0x51a002(0x390)},'type':0x1}],_0x51a002(0x511)+tebakkata[_0x3950f7[_0x51a002(0x3a3)]['split']('@')[0x0]]+_0x51a002(0x2d0),_0x197817['user'][_0x51a002(0x4f5)],_0x3950f7),delete tebakkata[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]]);}else{if(_0x36620a[0x0]===_0x51a002(0x653)){if(tebakkalimat[_0x51a002(0x353)](_0x3950f7['sender']['split']('@')[0x0]))throw _0x51a002(0x360);let _0x39570c=await fetchJson(_0x51a002(0x278)),_0x24ef99=_0x39570c[Math[_0x51a002(0x3e0)](Math[_0x51a002(0x315)]()*_0x39570c[_0x51a002(0x53a)])];_0x197817[_0x51a002(0x4dd)](_0x3950f7[_0x51a002(0x5a0)],_0x51a002(0x5b4)+_0x24ef99['soal']+_0x51a002(0x53c),_0x3950f7)['then'](()=>{const _0x5ba768=_0x51a002;tebakkalimat[_0x3950f7[_0x5ba768(0x3a3)][_0x5ba768(0x662)]('@')[0x0]]=_0x24ef99[_0x5ba768(0x473)][_0x5ba768(0x4f9)]();}),await sleep(0xea60),tebakkalimat[_0x51a002(0x353)](_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0])&&(console[_0x51a002(0x3ac)]('Answer:\x20'+_0x24ef99[_0x51a002(0x473)]),_0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],[{'buttonId':_0x51a002(0x4b6),'buttonText':{'displayText':_0x51a002(0x677)},'type':0x1}],_0x51a002(0x52c)+tebakkalimat[_0x3950f7['sender'][_0x51a002(0x662)]('@')[0x0]]+_0x51a002(0x3dd),_0x197817[_0x51a002(0x39b)]['name'],_0x3950f7),delete tebakkalimat[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]]);}else{if(_0x36620a[0x0]==='lirik'){if(tebaklirik[_0x51a002(0x353)](_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]))throw _0x51a002(0x360);let _0x483ebe=await fetchJson(_0x51a002(0x5e7)),_0x2bd336=_0x483ebe[Math['floor'](Math['random']()*_0x483ebe[_0x51a002(0x53a)])];_0x197817[_0x51a002(0x4dd)](_0x3950f7[_0x51a002(0x5a0)],_0x51a002(0x6a3)+_0x2bd336[_0x51a002(0x21d)]+_0x51a002(0x51e),_0x3950f7)[_0x51a002(0x271)](()=>{const _0x252a84=_0x51a002;tebaklirik[_0x3950f7[_0x252a84(0x3a3)][_0x252a84(0x662)]('@')[0x0]]=_0x2bd336[_0x252a84(0x473)][_0x252a84(0x4f9)]();}),await sleep(0xea60),tebaklirik['hasOwnProperty'](_0x3950f7['sender']['split']('@')[0x0])&&(console['log'](_0x51a002(0x36d)+_0x2bd336[_0x51a002(0x473)]),_0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],[{'buttonId':_0x51a002(0x2c4),'buttonText':{'displayText':_0x51a002(0x30e)},'type':0x1}],_0x51a002(0x52c)+tebaklirik[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]]+_0x51a002(0x3dd),_0x197817['user'][_0x51a002(0x4f5)],_0x3950f7),delete tebaklirik[_0x3950f7[_0x51a002(0x3a3)]['split']('@')[0x0]]);}else{if(_0x36620a[0x0]===_0x51a002(0x64d)){if(caklontong[_0x51a002(0x353)](_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]))throw _0x51a002(0x360);let _0x3a3dbf=await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/caklontong.json'),_0x57873f=_0x3a3dbf[Math[_0x51a002(0x3e0)](Math[_0x51a002(0x315)]()*_0x3a3dbf[_0x51a002(0x53a)])];_0x197817[_0x51a002(0x4dd)](_0x3950f7[_0x51a002(0x5a0)],'*Answer\x20the\x20following\x20questions\x20:*\x0a'+_0x57873f[_0x51a002(0x21d)]+_0x51a002(0x229),_0x3950f7)[_0x51a002(0x271)](()=>{const _0x46952c=_0x51a002;caklontong[_0x3950f7[_0x46952c(0x3a3)][_0x46952c(0x662)]('@')[0x0]]=_0x57873f[_0x46952c(0x473)][_0x46952c(0x4f9)](),caklontong_desk[_0x3950f7[_0x46952c(0x3a3)]['split']('@')[0x0]]=_0x57873f[_0x46952c(0x625)];}),await sleep(0xea60),caklontong[_0x51a002(0x353)](_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0])&&(console['log'](_0x51a002(0x36d)+_0x57873f[_0x51a002(0x473)]),_0x197817[_0x51a002(0x5de)](_0x3950f7['chat'],[{'buttonId':_0x51a002(0x506),'buttonText':{'displayText':_0x51a002(0x459)},'type':0x1}],_0x51a002(0x52c)+caklontong[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]]+_0x51a002(0x664)+caklontong_desk[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]]+_0x51a002(0x3dd),_0x197817[_0x51a002(0x39b)]['name'],_0x3950f7),delete caklontong[_0x3950f7['sender'][_0x51a002(0x662)]('@')[0x0]],delete caklontong_desk[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]]);}}}}}}}break;case'mathquiz':case _0x51a002(0x638):{if(kuismath['hasOwnProperty'](_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]))throw'There\x20are\x20still\x20unfinished\x20sessions!';let {genMath:_0x3d0476,modes:_0x9b9901}=require(_0x51a002(0x28e));if(!_0x2757d1)throw _0x51a002(0x5fc)+Object[_0x51a002(0x4df)](_0x9b9901)[_0x51a002(0x436)](_0x51a002(0x697))+_0x51a002(0x654)+_0x29c62d+_0x51a002(0x39f);let _0x307d8e=await _0x3d0476(_0x2757d1[_0x51a002(0x4f9)]());_0x197817[_0x51a002(0x4dd)](_0x3950f7[_0x51a002(0x5a0)],'*What\x20is\x20the\x20result\x20of:\x20'+_0x307d8e[_0x51a002(0x21d)][_0x51a002(0x4f9)]()+_0x51a002(0x2e6)+(_0x307d8e[_0x51a002(0x4cc)]/0x3e8)[_0x51a002(0x336)](0x2)+_0x51a002(0x5db),_0x3950f7)['then'](()=>{const _0x881403=_0x51a002;kuismath[_0x3950f7[_0x881403(0x3a3)]['split']('@')[0x0]]=_0x307d8e[_0x881403(0x473)];}),await sleep(_0x307d8e[_0x51a002(0x4cc)]),kuismath[_0x51a002(0x353)](_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0])&&(console['log'](_0x51a002(0x36d)+_0x307d8e['jawaban']),_0x3d6c65(_0x51a002(0x2b6)+kuismath[_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]]),delete kuismath[_0x3950f7[_0x51a002(0x3a3)]['split']('@')[0x0]]);}break;case'mysoulmate':{if(!_0x3950f7[_0x51a002(0x69f)])throw mess['group'];let _0xdef391=_0x4299e0[_0x51a002(0x483)](_0x406a95=>_0x406a95['id']),_0x5203a1=_0x3950f7['sender'],_0x5a281e=_0xdef391[Math['floor'](Math[_0x51a002(0x315)]()*_0xdef391[_0x51a002(0x53a)])],_0x4b9e27=_0x51a002(0x382)+_0x5203a1[_0x51a002(0x662)]('@')[0x0]+_0x51a002(0x24a)+_0x5a281e[_0x51a002(0x662)]('@')[0x0],_0x25152=[_0x5203a1,_0x5a281e],_0x30e39b=[{'buttonId':'❤️','buttonText':{'displayText':'❤️'},'type':0x1}];await _0x197817['sendButtonText'](_0x3950f7[_0x51a002(0x5a0)],_0x30e39b,_0x4b9e27,_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)],_0x3950f7,{'mentions':_0x25152});}break;case _0x51a002(0x40f):{if(!_0x3950f7[_0x51a002(0x69f)])throw mess['group'];let _0xc481c=_0x4299e0[_0x51a002(0x483)](_0x1f843d=>_0x1f843d['id']),_0x2823db=_0xc481c[Math[_0x51a002(0x3e0)](Math[_0x51a002(0x315)]()*_0xc481c['length'])],_0x3c5879=_0xc481c[Math['floor'](Math[_0x51a002(0x315)]()*_0xc481c['length'])],_0x5d7432='@'+_0x2823db['split']('@')[0x0]+_0x51a002(0x24a)+_0x3c5879[_0x51a002(0x662)]('@')[0x0]+_0x51a002(0x1c8),_0x3f2f22=[_0x2823db,_0x3c5879],_0x5251f7=[{'buttonId':_0x51a002(0x432),'buttonText':{'displayText':_0x51a002(0x432)},'type':0x1}];await _0x197817[_0x51a002(0x5de)](_0x3950f7['chat'],_0x5251f7,_0x5d7432,_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)],_0x3950f7,{'mentions':_0x3f2f22});}break;case'join':{if(!_0x9861be)throw mess[_0x51a002(0x466)];if(!_0x2757d1)throw _0x51a002(0x66d);if(!isUrl(_0x36620a[0x0])&&!_0x36620a[0x0][_0x51a002(0x695)]('whatsapp.com'))throw _0x51a002(0x351);_0x47c968(mess[_0x51a002(0x30b)]);let _0x98abe1=_0x36620a[0x0][_0x51a002(0x662)]('https://chat.whatsapp.com/')[0x1];await _0x197817[_0x51a002(0x359)](_0x98abe1)[_0x51a002(0x271)](_0x3a8764=>_0x3d6c65(jsonformat(_0x3a8764)))['catch'](_0x55b43b=>_0x3d6c65(jsonformat(_0x55b43b)));}break;case _0x51a002(0x312):{if(!_0x9861be)throw mess[_0x51a002(0x466)];await _0x197817[_0x51a002(0x3d9)](_0x3950f7[_0x51a002(0x5a0)])['then'](_0x124de0=>_0x3d6c65(jsonformat(_0x124de0)))['catch'](_0x522464=>_0x3d6c65(jsonformat(_0x522464)));}break;case _0x51a002(0x4d4):{if(!_0x3950f7[_0x51a002(0x69f)])throw mess[_0x51a002(0x325)];if(!_0x596e45)throw mess['botAdmin'];if(!_0xadd178)throw mess[_0x51a002(0x407)];let _0x3754cc=_0x3950f7[_0x51a002(0x503)][0x0]?_0x3950f7['mentionedJid'][0x0]:_0x3950f7[_0x51a002(0x60a)]?_0x3950f7['quoted'][_0x51a002(0x3a3)]:_0x2757d1[_0x51a002(0x588)](/[^0-9]/g,'')+_0x51a002(0x464);await _0x197817[_0x51a002(0x374)](_0x3950f7[_0x51a002(0x5a0)],[_0x3754cc],'remove')[_0x51a002(0x271)](_0x171748=>_0x3d6c65(jsonformat(_0x171748)))[_0x51a002(0x230)](_0x5212b5=>_0x3d6c65(jsonformat(_0x5212b5)));}break;case'add':{if(!_0x3950f7[_0x51a002(0x69f)])throw mess[_0x51a002(0x325)];if(!_0x596e45)throw mess[_0x51a002(0x45b)];if(!_0xadd178)throw mess['admin'];let _0x25abd4=_0x3950f7['quoted']?_0x3950f7[_0x51a002(0x60a)][_0x51a002(0x3a3)]:_0x2757d1[_0x51a002(0x588)](/[^0-9]/g,'')+_0x51a002(0x464);await _0x197817['groupParticipantsUpdate'](_0x3950f7['chat'],[_0x25abd4],_0x51a002(0x49c))[_0x51a002(0x271)](_0x197d9f=>_0x3d6c65(jsonformat(_0x197d9f)))[_0x51a002(0x230)](_0x4b5f4f=>_0x3d6c65(jsonformat(_0x4b5f4f)));}break;case _0x51a002(0x4da):{if(!_0x3950f7[_0x51a002(0x69f)])throw mess[_0x51a002(0x325)];if(!_0x596e45)throw mess['botAdmin'];if(!_0xadd178)throw mess[_0x51a002(0x407)];let _0x4f9991=_0x3950f7[_0x51a002(0x503)][0x0]?_0x3950f7[_0x51a002(0x503)][0x0]:_0x3950f7[_0x51a002(0x60a)]?_0x3950f7[_0x51a002(0x60a)][_0x51a002(0x3a3)]:_0x2757d1[_0x51a002(0x588)](/[^0-9]/g,'')+_0x51a002(0x464);await _0x197817[_0x51a002(0x374)](_0x3950f7[_0x51a002(0x5a0)],[_0x4f9991],_0x51a002(0x4da))[_0x51a002(0x271)](_0x31a4ff=>_0x3d6c65(jsonformat(_0x31a4ff)))[_0x51a002(0x230)](_0x680a69=>_0x3d6c65(jsonformat(_0x680a69)));}break;case _0x51a002(0x345):{if(!_0x3950f7[_0x51a002(0x69f)])throw mess['group'];if(!_0x596e45)throw mess['botAdmin'];if(!_0xadd178)throw mess['admin'];let _0x494194=_0x3950f7[_0x51a002(0x503)][0x0]?_0x3950f7[_0x51a002(0x503)][0x0]:_0x3950f7[_0x51a002(0x60a)]?_0x3950f7['quoted'][_0x51a002(0x3a3)]:_0x2757d1['replace'](/[^0-9]/g,'')+_0x51a002(0x464);await _0x197817[_0x51a002(0x374)](_0x3950f7[_0x51a002(0x5a0)],[_0x494194],'demote')[_0x51a002(0x271)](_0x366751=>_0x3d6c65(jsonformat(_0x366751)))[_0x51a002(0x230)](_0x1e340d=>_0x3d6c65(jsonformat(_0x1e340d)));}break;case _0x51a002(0x3f0):{if(!_0x9861be)throw mess[_0x51a002(0x466)];let _0x382d60=_0x3950f7[_0x51a002(0x503)][0x0]?_0x3950f7[_0x51a002(0x503)][0x0]:_0x3950f7[_0x51a002(0x60a)]?_0x3950f7['quoted'][_0x51a002(0x3a3)]:_0x2757d1['replace'](/[^0-9]/g,'')+_0x51a002(0x464);await _0x197817['updateBlockStatus'](_0x382d60,_0x51a002(0x3f0))[_0x51a002(0x271)](_0x29cba0=>_0x3d6c65(jsonformat(_0x29cba0)))[_0x51a002(0x230)](_0x13e508=>_0x3d6c65(jsonformat(_0x13e508)));}break;case'unblock':{if(!_0x9861be)throw mess['owner'];let _0x8861e7=_0x3950f7[_0x51a002(0x503)][0x0]?_0x3950f7[_0x51a002(0x503)][0x0]:_0x3950f7[_0x51a002(0x60a)]?_0x3950f7[_0x51a002(0x60a)][_0x51a002(0x3a3)]:_0x2757d1[_0x51a002(0x588)](/[^0-9]/g,'')+_0x51a002(0x464);await _0x197817[_0x51a002(0x58b)](_0x8861e7,_0x51a002(0x1f5))[_0x51a002(0x271)](_0x29cbd1=>_0x3d6c65(jsonformat(_0x29cbd1)))['catch'](_0x36499c=>_0x3d6c65(jsonformat(_0x36499c)));}break;case _0x51a002(0x427):case _0x51a002(0x43e):{if(!_0x3950f7['isGroup'])throw mess[_0x51a002(0x325)];if(!_0x596e45)throw mess[_0x51a002(0x45b)];if(!_0xadd178)throw mess['admin'];if(!_0x2757d1)throw'Text\x20?';await _0x197817['groupUpdateSubject'](_0x3950f7[_0x51a002(0x5a0)],_0x2757d1)['then'](_0x231289=>_0x3d6c65(mess[_0x51a002(0x4ba)]))[_0x51a002(0x230)](_0x5e19e1=>_0x3d6c65(jsonformat(_0x5e19e1)));}break;case _0x51a002(0x4a1):case _0x51a002(0x4bb):{if(!_0x3950f7['isGroup'])throw mess[_0x51a002(0x325)];if(!_0x596e45)throw mess[_0x51a002(0x45b)];if(!_0xadd178)throw mess['admin'];if(!_0x2757d1)throw'Text\x20?';await _0x197817[_0x51a002(0x339)](_0x3950f7[_0x51a002(0x5a0)],_0x2757d1)[_0x51a002(0x271)](_0x39f375=>_0x3d6c65(mess[_0x51a002(0x4ba)]))[_0x51a002(0x230)](_0x15d129=>_0x3d6c65(jsonformat(_0x15d129)));}break;case _0x51a002(0x4e1):case'setbotpp':{if(!_0x9861be)throw mess[_0x51a002(0x466)];if(!_0x255562)throw _0x51a002(0x224)+(_0x29c62d+_0x53bfbd);if(!/image/[_0x51a002(0x370)](_0x21c29a))throw _0x51a002(0x224)+(_0x29c62d+_0x53bfbd);if(/webp/[_0x51a002(0x370)](_0x21c29a))throw _0x51a002(0x224)+(_0x29c62d+_0x53bfbd);let _0xa9d491=await _0x197817['downloadAndSaveMediaMessage'](_0x255562);await _0x197817['updateProfilePicture'](_0x528e82,{'url':_0xa9d491})[_0x51a002(0x230)](_0xef0167=>fs[_0x51a002(0x36c)](_0xa9d491)),_0x3d6c65(mess['success']);}break;case _0x51a002(0x1df):case _0x51a002(0x2dd):case'setgcpp':case _0x51a002(0x4e3):case _0x51a002(0x67b):{if(!_0x3950f7['isGroup'])throw mess[_0x51a002(0x325)];if(!_0xadd178)throw mess['admin'];if(!_0x255562)throw _0x51a002(0x224)+(_0x29c62d+_0x53bfbd);if(!/image/[_0x51a002(0x370)](_0x21c29a))throw'Send/Reply\x20Image\x20With\x20Caption\x20'+(_0x29c62d+_0x53bfbd);if(/webp/[_0x51a002(0x370)](_0x21c29a))throw _0x51a002(0x224)+(_0x29c62d+_0x53bfbd);let _0x502af3=await _0x197817[_0x51a002(0x2bb)](_0x255562);await _0x197817[_0x51a002(0x63f)](_0x3950f7[_0x51a002(0x5a0)],{'url':_0x502af3})[_0x51a002(0x230)](_0x3a40f3=>fs[_0x51a002(0x36c)](_0x502af3)),_0x3d6c65(mess['success']);}break;case _0x51a002(0x60f):case _0x51a002(0x558):try{var _0x559517=await _0x197817[_0x51a002(0x5ab)](_0x3950f7['chat']);}catch{var _0x559517=_0x51a002(0x3f6);}let _0x414354=_0x51a002(0x2f0)+_0x20204f+'\x0a*ID\x20Group\x20:*\x20'+_0x3950f7['chat']+'\x0a*Made\x20:*\x20'+moment((''+_0x1276bb['creation'])*0x3e8)['tz'](_0x51a002(0x4ff))['format'](_0x51a002(0x5a7))+_0x51a002(0x515)+_0x1276bb['owner']['split']('@')[0x0]+_0x51a002(0x575)+_0x181e4c[_0x51a002(0x53a)]+_0x51a002(0x44b)+_0x4299e0[_0x51a002(0x53a)]+_0x51a002(0x4d6)+_0x1276bb['desc'];ds=await getBuffer(_0x559517),_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'image':ds,'caption':_0x414354,'mentions':[_0x1276bb[_0x51a002(0x466)]]},{'quoted':_0x3950f7});break;case'tagall':case _0x51a002(0x6b3):{if(!_0x3950f7[_0x51a002(0x69f)])throw mess[_0x51a002(0x325)];if(!_0x596e45)throw mess[_0x51a002(0x45b)];if(!_0xadd178)throw mess[_0x51a002(0x407)];let _0x486d69=_0x51a002(0x2cb)+(q?q:_0x51a002(0x593))+_0x51a002(0x6c6);for(let _0x588b44 of _0x4299e0){_0x486d69+='⭔\x20@'+_0x588b44['id'][_0x51a002(0x662)]('@')[0x0]+'\x0a';}_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'text':_0x486d69,'mentions':_0x4299e0[_0x51a002(0x483)](_0x727d12=>_0x727d12['id'])},{'quoted':_0x3950f7});}break;case _0x51a002(0x5ff):{if(!_0x3950f7['isGroup'])throw mess['group'];if(!_0xadd178)throw mess[_0x51a002(0x407)];_0x197817['sendMessage'](_0x3950f7['chat'],{'text':q?q:'','mentions':_0x4299e0['map'](_0x50d5eb=>_0x50d5eb['id'])},{'quoted':_0x3950f7});}break;case _0x51a002(0x5fd):case _0x51a002(0x649):{if(!_0x45a7fc&&global['db']['users'][_0x3950f7['sender']][_0x51a002(0x322)]<0x1)return _0x3d6c65(mess['endLimit']);db[_0x51a002(0x239)][_0x3950f7['sender']][_0x51a002(0x322)]-=0x1;let {styletext:_0x577a79}=require(_0x51a002(0x68f));if(!_0x2757d1)throw _0x51a002(0x212);let _0x4573f6=await _0x577a79(_0x2757d1),_0x256ca7='Entered\x20Text:\x20\x20'+_0x2757d1+'\x0a\x0a';for(let _0x178ccf of _0x4573f6){_0x256ca7+=_0x51a002(0x1d1)+_0x178ccf[_0x51a002(0x4f5)]+_0x51a002(0x440)+_0x178ccf['result']+'\x0a\x0a';}_0x3d6c65(_0x256ca7);}break;case _0x51a002(0x40e):{if(!_0x3950f7['isGroup'])throw mess[_0x51a002(0x325)];if(_0x3950f7[_0x51a002(0x5a0)]in vote)throw _0x51a002(0x446)+_0x29c62d+'deletevote*\x20-\x20to\x20delete\x20votes';if(!_0x2757d1)throw'Enter\x20Reason\x20for\x20Vote,\x20Example:\x20*'+(_0x29c62d+_0x53bfbd)+_0x51a002(0x547);_0x3d6c65(_0x51a002(0x4de)+_0x29c62d+_0x51a002(0x696)+_0x29c62d+'devote*\x20-\x20for\x20no\x0a*'+_0x29c62d+_0x51a002(0x6c2)+_0x29c62d+'deletevote*\x20-\x20to\x20delete\x20vote'),vote[_0x3950f7['chat']]=[q,[],[]],await sleep(0x3e8),upvote=vote[_0x3950f7[_0x51a002(0x5a0)]][0x1],devote=vote[_0x3950f7[_0x51a002(0x5a0)]][0x2],teks_vote='*「\x20VOTE\x20」*\x0a\x0a*Reason:*\x20'+vote[_0x3950f7[_0x51a002(0x5a0)]][0x0]+_0x51a002(0x3d1)+vote[_0x3950f7[_0x51a002(0x5a0)]][0x1]['length']+_0x51a002(0x566)+vote[_0x3950f7[_0x51a002(0x5a0)]][0x2][_0x51a002(0x53a)]+_0x51a002(0x5a6)+_0x29c62d+_0x51a002(0x4f7);let _0x2cae70=[{'buttonId':_0x29c62d+_0x51a002(0x1ed),'buttonText':{'displayText':_0x51a002(0x3de)},'type':0x1},{'buttonId':_0x29c62d+_0x51a002(0x1e3),'buttonText':{'displayText':_0x51a002(0x607)},'type':0x1}],_0x2faba4={'text':teks_vote,'footer':_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)],'buttons':_0x2cae70,'headerType':0x1};_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],_0x2faba4);}break;case'upvote':{if(!_0x3950f7['isGroup'])throw mess[_0x51a002(0x325)];if(!(_0x3950f7[_0x51a002(0x5a0)]in vote))throw _0x51a002(0x699)+_0x29c62d+'vote*\x20-\x20to\x20start\x20voting';isVote=vote[_0x3950f7[_0x51a002(0x5a0)]][0x1][_0x51a002(0x288)](vote[_0x3950f7[_0x51a002(0x5a0)]][0x2]),wasVote=isVote[_0x51a002(0x695)](_0x3950f7[_0x51a002(0x3a3)]);if(wasVote)throw _0x51a002(0x631);vote[_0x3950f7[_0x51a002(0x5a0)]][0x1][_0x51a002(0x2fa)](_0x3950f7[_0x51a002(0x3a3)]),menvote=vote[_0x3950f7[_0x51a002(0x5a0)]][0x1][_0x51a002(0x288)](vote[_0x3950f7[_0x51a002(0x5a0)]][0x2]),teks_vote='*「\x20VOTE\x20」*\x0a\x0a*Reason:*\x20'+vote[_0x3950f7[_0x51a002(0x5a0)]][0x0]+_0x51a002(0x3d1)+vote[_0x3950f7[_0x51a002(0x5a0)]][0x1]['length']+'\x0a'+vote[_0x3950f7[_0x51a002(0x5a0)]][0x1][_0x51a002(0x483)]((_0x59eea2,_0x3c7442)=>'├\x20'+(_0x3c7442+0x1)+_0x51a002(0x45d)+_0x59eea2[_0x51a002(0x662)]`@`[0x0])[_0x51a002(0x436)]('\x0a')+_0x51a002(0x658)+vote[_0x3950f7['chat']][0x2][_0x51a002(0x53a)]+'\x0a'+vote[_0x3950f7[_0x51a002(0x5a0)]][0x2]['map']((_0x4519f4,_0x3952f1)=>'├\x20'+(_0x3952f1+0x1)+_0x51a002(0x45d)+_0x4519f4[_0x51a002(0x662)]`@`[0x0])[_0x51a002(0x436)]('\x0a')+_0x51a002(0x579)+_0x29c62d+'hapusvote*\x20-\x20to\x20delete\x20votes';let _0x2dae27=[{'buttonId':_0x29c62d+_0x51a002(0x1ed),'buttonText':{'displayText':_0x51a002(0x3de)},'type':0x1},{'buttonId':_0x29c62d+_0x51a002(0x1e3),'buttonText':{'displayText':_0x51a002(0x607)},'type':0x1}],_0x31d744={'text':teks_vote,'footer':_0x197817['user']['name'],'buttons':_0x2dae27,'headerType':0x1,'mentions':menvote};_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],_0x31d744);}break;case _0x51a002(0x1e3):{if(!_0x3950f7[_0x51a002(0x69f)])throw mess[_0x51a002(0x325)];if(!(_0x3950f7[_0x51a002(0x5a0)]in vote))throw _0x51a002(0x2e3)+_0x29c62d+'vote*\x20-\x20to\x20start\x20voting';isVote=vote[_0x3950f7[_0x51a002(0x5a0)]][0x1]['concat'](vote[_0x3950f7['chat']][0x2]),wasVote=isVote[_0x51a002(0x695)](_0x3950f7[_0x51a002(0x3a3)]);if(wasVote)throw'You\x20Have\x20Voted';vote[_0x3950f7[_0x51a002(0x5a0)]][0x2][_0x51a002(0x2fa)](_0x3950f7[_0x51a002(0x3a3)]),menvote=vote[_0x3950f7[_0x51a002(0x5a0)]][0x1][_0x51a002(0x288)](vote[_0x3950f7[_0x51a002(0x5a0)]][0x2]),teks_vote=_0x51a002(0x557)+vote[_0x3950f7[_0x51a002(0x5a0)]][0x0]+_0x51a002(0x3d1)+vote[_0x3950f7[_0x51a002(0x5a0)]][0x1][_0x51a002(0x53a)]+'\x0a'+vote[_0x3950f7[_0x51a002(0x5a0)]][0x1]['map']((_0x12f1f6,_0x56a8a9)=>'├\x20'+(_0x56a8a9+0x1)+'.\x20@'+_0x12f1f6[_0x51a002(0x662)]`@`[0x0])[_0x51a002(0x436)]('\x0a')+'\x0a\x20\x0a└────\x0a\x0a┌〔\x20DEVOTE\x20〕\x0a\x20\x0a├\x20Total:\x20'+vote[_0x3950f7['chat']][0x2][_0x51a002(0x53a)]+'\x0a'+vote[_0x3950f7[_0x51a002(0x5a0)]][0x2][_0x51a002(0x483)]((_0x2cb2c9,_0x56337f)=>'├\x20'+(_0x56337f+0x1)+_0x51a002(0x45d)+_0x2cb2c9[_0x51a002(0x662)]`@`[0x0])['join']('\x0a')+_0x51a002(0x579)+_0x29c62d+'hapusvote*\x20-\x20to\x20delete\x20votes';let _0x57f6c3=[{'buttonId':_0x29c62d+_0x51a002(0x1ed),'buttonText':{'displayText':_0x51a002(0x3de)},'type':0x1},{'buttonId':_0x29c62d+_0x51a002(0x1e3),'buttonText':{'displayText':_0x51a002(0x607)},'type':0x1}],_0x53c239={'text':teks_vote,'footer':_0x197817['user'][_0x51a002(0x4f5)],'buttons':_0x57f6c3,'headerType':0x1,'mentions':menvote};_0x197817['sendMessage'](_0x3950f7[_0x51a002(0x5a0)],_0x53c239);}break;case _0x51a002(0x1f3):if(!_0x3950f7[_0x51a002(0x69f)])throw mess['group'];if(!(_0x3950f7['chat']in vote))throw _0x51a002(0x2e3)+_0x29c62d+'vote*\x20-\x20to\x20start\x20voting';teks_vote=_0x51a002(0x557)+vote[_0x3950f7[_0x51a002(0x5a0)]][0x0]+_0x51a002(0x3d1)+upvote[_0x51a002(0x53a)]+'\x0a'+vote[_0x3950f7[_0x51a002(0x5a0)]][0x1][_0x51a002(0x483)]((_0x37c341,_0x211969)=>'├\x20'+(_0x211969+0x1)+'.\x20@'+_0x37c341[_0x51a002(0x662)]`@`[0x0])[_0x51a002(0x436)]('\x0a')+'\x0a\x20\x0a└────\x0a\x0a┌〔\x20DEVOTE\x20〕\x0a\x20\x0a├\x20Total:\x20'+devote[_0x51a002(0x53a)]+'\x0a'+vote[_0x3950f7[_0x51a002(0x5a0)]][0x2]['map']((_0x535510,_0x40fe29)=>'├\x20'+(_0x40fe29+0x1)+_0x51a002(0x45d)+_0x535510['split']`@`[0x0])[_0x51a002(0x436)]('\x0a')+_0x51a002(0x579)+_0x29c62d+_0x51a002(0x634)+_0x197817[_0x51a002(0x39b)]['id']+'\x0a',_0x197817[_0x51a002(0x5d0)](_0x3950f7[_0x51a002(0x5a0)],teks_vote,_0x3950f7);break;case'deletevote':case _0x51a002(0x543):case _0x51a002(0x2f5):{if(!_0x3950f7[_0x51a002(0x69f)])throw mess[_0x51a002(0x325)];if(!(_0x3950f7[_0x51a002(0x5a0)]in vote))throw _0x51a002(0x424)+_0x29c62d+_0x51a002(0x59e);delete vote[_0x3950f7[_0x51a002(0x5a0)]],_0x3d6c65(_0x51a002(0x2cd));}break;case _0x51a002(0x325):case _0x51a002(0x6c3):{if(!_0x3950f7[_0x51a002(0x69f)])throw mess[_0x51a002(0x325)];if(!_0x596e45)throw mess[_0x51a002(0x45b)];if(!_0xadd178)throw mess[_0x51a002(0x407)];if(_0x36620a[0x0]==='close')await _0x197817[_0x51a002(0x234)](_0x3950f7[_0x51a002(0x5a0)],_0x51a002(0x2c2))[_0x51a002(0x271)](_0x1ef43a=>_0x3d6c65(_0x51a002(0x534)))['catch'](_0x5877b0=>_0x3d6c65(jsonformat(_0x5877b0)));else{if(_0x36620a[0x0]===_0x51a002(0x1ec))await _0x197817[_0x51a002(0x234)](_0x3950f7[_0x51a002(0x5a0)],'not_announcement')[_0x51a002(0x271)](_0x2e6970=>_0x3d6c65(_0x51a002(0x1e9)))[_0x51a002(0x230)](_0x548f35=>_0x3d6c65(jsonformat(_0x548f35)));else{let _0x73ea74=[{'buttonId':_0x51a002(0x319),'buttonText':{'displayText':'⭕Open⭕'},'type':0x1},{'buttonId':'group\x20close','buttonText':{'displayText':_0x51a002(0x227)},'type':0x1}];await _0x197817['sendButtonText'](_0x3950f7[_0x51a002(0x5a0)],_0x73ea74,_0x51a002(0x35a),_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)],_0x3950f7);}}}break;case _0x51a002(0x666):{if(!_0x3950f7[_0x51a002(0x69f)])throw mess[_0x51a002(0x325)];if(!_0x596e45)throw mess[_0x51a002(0x45b)];if(!_0xadd178)throw mess['admin'];if(_0x36620a[0x0]===_0x51a002(0x1ec))await _0x197817['groupSettingUpdate'](_0x3950f7[_0x51a002(0x5a0)],_0x51a002(0x5e0))['then'](_0x3e4cc5=>_0x3d6c65(_0x51a002(0x46f)))['catch'](_0x46b8c3=>_0x3d6c65(jsonformat(_0x46b8c3)));else{if(_0x36620a[0x0]===_0x51a002(0x247))await _0x197817[_0x51a002(0x234)](_0x3950f7[_0x51a002(0x5a0)],_0x51a002(0x2cf))[_0x51a002(0x271)](_0x596965=>_0x3d6c65(_0x51a002(0x231)))[_0x51a002(0x230)](_0x1a8619=>_0x3d6c65(jsonformat(_0x1a8619)));else{let _0x2ee063=[{'buttonId':_0x51a002(0x369),'buttonText':{'displayText':_0x51a002(0x660)},'type':0x1},{'buttonId':_0x51a002(0x501),'buttonText':{'displayText':_0x51a002(0x227)},'type':0x1}];await _0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],_0x2ee063,_0x51a002(0x4d1),_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)],_0x3950f7);}}}break;case _0x51a002(0x5d7):if(!_0x3950f7[_0x51a002(0x69f)])return _0x3d6c65('This\x20feature\x20only\x20be\x20used\x20in\x20group');if(!_0xadd178)return _0x3d6c65(_0x51a002(0x20b));if(!_0x596e45)return _0x3d6c65(_0x51a002(0x272));if(_0x36620a[0x0]==='on'){if(_0xd9ea69)return _0x3d6c65('Already\x20Activated');antilink[_0x51a002(0x2fa)](_0x3950f7[_0x51a002(0x5a0)]),fs['writeFileSync'](_0x51a002(0x4e9),JSON[_0x51a002(0x337)](antilink)),_0x3d6c65('Successfully\x20activated\x20the\x20antilink\x20feature'),_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'text':_0x51a002(0x2a1)});}else{if(_0x36620a[0x0]===_0x51a002(0x5e4)){if(!_0xd9ea69)return _0x3d6c65('already\x20deactivated');var _0x1e8982=antilink[_0x51a002(0x3f1)](_0x3950f7[_0x51a002(0x5a0)]);antilink[_0x51a002(0x550)](_0x1e8982,0x1),fs[_0x51a002(0x2c6)](_0x51a002(0x4e9),JSON['stringify'](antilink)),_0x3d6c65(_0x51a002(0x216));}else!q&&_0x3d6c65('Pilih\x20Antilink\x20On\x20/\x20Off\x20');}break;case _0x51a002(0x243):{if(!_0x3950f7[_0x51a002(0x69f)])throw mess[_0x51a002(0x325)];if(!_0x596e45)throw mess[_0x51a002(0x45b)];if(!_0xadd178)throw mess[_0x51a002(0x407)];if(_0x36620a[0x0]==='on'){if(db[_0x51a002(0x562)][_0x3950f7[_0x51a002(0x5a0)]]['wame'])return _0x3950f7[_0x51a002(0x29a)](_0x51a002(0x4d0));db[_0x51a002(0x562)][_0x3950f7[_0x51a002(0x5a0)]][_0x51a002(0x468)]=!![],_0x3950f7[_0x51a002(0x29a)](_0x51a002(0x2c1));}else{if(_0x36620a[0x0]==='off'){if(!db[_0x51a002(0x562)][_0x3950f7[_0x51a002(0x5a0)]][_0x51a002(0x468)])return _0x3950f7[_0x51a002(0x29a)](_0x51a002(0x3ff));db[_0x51a002(0x562)][_0x3950f7[_0x51a002(0x5a0)]][_0x51a002(0x468)]=![],_0x3950f7[_0x51a002(0x29a)](_0x51a002(0x1fe));}else{let _0x70cdee=[{'buttonId':_0x51a002(0x302),'buttonText':{'displayText':_0x51a002(0x488)},'type':0x1},{'buttonId':'antiwame\x20off','buttonText':{'displayText':_0x51a002(0x38a)},'type':0x1}];await _0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],_0x70cdee,_0x51a002(0x688),_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)],_0x3950f7);}}}break;case'mute':{if(!_0x3950f7[_0x51a002(0x69f)])throw mess[_0x51a002(0x325)];if(!_0xadd178)throw mess[_0x51a002(0x407)];if(_0x36620a[0x0]==='on'){if(db[_0x51a002(0x562)][_0x3950f7[_0x51a002(0x5a0)]][_0x51a002(0x2ee)])return _0x3d6c65(_0x51a002(0x6af));db[_0x51a002(0x562)][_0x3950f7[_0x51a002(0x5a0)]][_0x51a002(0x2ee)]=!![],_0x3d6c65(_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)]+_0x51a002(0x48b));}else{if(_0x36620a[0x0]==='off'){if(!db[_0x51a002(0x562)][_0x3950f7[_0x51a002(0x5a0)]][_0x51a002(0x2ee)])return _0x3d6c65(_0x51a002(0x3ff));db[_0x51a002(0x562)][_0x3950f7[_0x51a002(0x5a0)]][_0x51a002(0x2ee)]=![],_0x3d6c65(_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)]+_0x51a002(0x5bf));}else{let _0x2f3f22=[{'buttonId':_0x51a002(0x680),'buttonText':{'displayText':_0x51a002(0x488)},'type':0x1},{'buttonId':'mute\x20off','buttonText':{'displayText':_0x51a002(0x38a)},'type':0x1}];await _0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],_0x2f3f22,_0x51a002(0x5a4),_0x197817['user'][_0x51a002(0x4f5)],_0x3950f7);}}}break;case'linkgroup':case'grouplink':case'gclink':case _0x51a002(0x59d):{if(!_0x3950f7[_0x51a002(0x69f)])throw mess[_0x51a002(0x325)];let _0x3a07ff=await _0x197817[_0x51a002(0x585)](_0x3950f7[_0x51a002(0x5a0)]);_0x197817[_0x51a002(0x4dd)](_0x3950f7['chat'],_0x51a002(0x49d)+_0x3a07ff+_0x51a002(0x4c1)+_0x1276bb[_0x51a002(0x2b8)]+_0x51a002(0x690),_0x3950f7,{'detectLink':!![]});}break;case _0x51a002(0x32b):{if(!_0x3950f7['isGroup'])throw mess[_0x51a002(0x325)];if(!_0x596e45)throw mess[_0x51a002(0x45b)];if(!_0xadd178)throw mess['admin'];if(!_0x2757d1)throw _0x51a002(0x391);if(_0x36620a[0x0]==='enable')await _0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'disappearingMessagesInChat':WA_DEFAULT_EPHEMERAL})[_0x51a002(0x271)](_0x4bc0e0=>_0x3d6c65(jsonformat(_0x4bc0e0)))[_0x51a002(0x230)](_0x1cc735=>_0x3d6c65(jsonformat(_0x1cc735)));else _0x36620a[0x0]==='disable'&&await _0x197817[_0x51a002(0x2b4)](_0x3950f7['chat'],{'disappearingMessagesInChat':![]})[_0x51a002(0x271)](_0xd40e36=>_0x3d6c65(jsonformat(_0xd40e36)))['catch'](_0x29f279=>_0x3d6c65(jsonformat(_0x29f279)));}break;case _0x51a002(0x5c5):case _0x51a002(0x47e):{if(!_0x3950f7['quoted'])throw![];let {chat:_0x4feb9a,fromMe:_0x4cb968,id:_0x435a83,isBaileys:_0x139f6d}=_0x3950f7[_0x51a002(0x60a)];if(!_0x139f6d)throw'The\x20message\x20was\x20not\x20sent\x20by\x20a\x20bot!';_0x197817['sendMessage'](_0x3950f7[_0x51a002(0x5a0)],{'delete':{'remoteJid':_0x3950f7['chat'],'fromMe':!![],'id':_0x3950f7[_0x51a002(0x60a)]['id'],'participant':_0x3950f7['quoted']['sender']}});}break;case'bcgc':case _0x51a002(0x2d8):{if(!_0x9861be)throw mess[_0x51a002(0x466)];if(!_0x2757d1)throw _0x51a002(0x3e8)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x2da);let _0x9914e9=await _0x197817[_0x51a002(0x479)](),_0x3b9d5=Object['entries'](_0x9914e9)[_0x51a002(0x2be)](0x0)['map'](_0x33b5ec=>_0x33b5ec[0x1]),_0x2effd9=_0x3b9d5[_0x51a002(0x483)](_0x362792=>_0x362792['id']);_0x3d6c65(_0x51a002(0x5ed)+_0x2effd9[_0x51a002(0x53a)]+_0x51a002(0x4ac)+_0x2effd9[_0x51a002(0x53a)]*1.5+_0x51a002(0x527));for(let _0x1a4da0 of _0x2effd9){await sleep(0x5dc);let _0xb34686=[{'urlButton':{'displayText':_0x51a002(0x1d3),'url':_0x51a002(0x5d8)}},{'callButton':{'displayText':_0x51a002(0x6a2),'phoneNumber':_0x51a002(0x655)}},{'quickReplyButton':{'displayText':_0x51a002(0x4cf),'id':'ping'}},{'quickReplyButton':{'displayText':_0x51a002(0x25a),'id':_0x51a002(0x466)}},{'quickReplyButton':{'displayText':_0x51a002(0x67c),'id':'sc'}}];fatihgans=fs[_0x51a002(0x32a)]('./DarkMedia/moonkingpic.jpg');let _0x57e447=_0x51a002(0x300)+_0x2757d1;_0x197817[_0x51a002(0x6ba)](_0x1a4da0,_0x57e447,_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)],fatihgans,_0xb34686);}_0x3d6c65(_0x51a002(0x4a6)+_0x2effd9['length']+'\x20Group(s)');}break;case'bc':case'broadcast':case _0x51a002(0x47f):{if(!_0x9861be)throw mess[_0x51a002(0x466)];if(!_0x2757d1)throw _0x51a002(0x3e8)+(_0x29c62d+_0x53bfbd)+'\x20Moonking\x20bot\x20here';let _0x4d6977=await _0x353b2f[_0x51a002(0x562)][_0x51a002(0x567)]()[_0x51a002(0x483)](_0x36d2fe=>_0x36d2fe['id']);_0x3d6c65(_0x51a002(0x5ed)+_0x4d6977['length']+_0x51a002(0x371)+_0x4d6977['length']*1.5+_0x51a002(0x527));for(let _0x52946a of _0x4d6977){await sleep(0x5dc);let _0x264419=[{'urlButton':{'displayText':_0x51a002(0x640),'url':_0x51a002(0x42d)}},{'quickReplyButton':{'displayText':_0x51a002(0x25a),'id':'owner'}}];fatihgans=fs[_0x51a002(0x32a)](_0x51a002(0x38f));let _0x30590d=_0x51a002(0x27c)+_0x2757d1;_0x197817[_0x51a002(0x6ba)](_0x52946a,_0x30590d,_0x51a002(0x559)+global[_0x51a002(0x626)],fatihgans,_0x264419);}_0x3d6c65(_0x51a002(0x5d2));}break;case _0x51a002(0x64f):{if(!_0x3950f7['quoted'])_0x3d6c65(_0x51a002(0x4eb));let _0x70ac60=await _0x3950f7[_0x51a002(0x44f)]();if(!_0x3950f7['quoted'][_0x51a002(0x470)])throw'The\x20message\x20was\x20not\x20sent\x20by\x20a\x20bot!';let _0x366a03='';for(let _0x40c113 of _0x70ac60[_0x51a002(0x4f0)]){let _0x16c3d2=_0x40c113[_0x51a002(0x1cd)],_0x2cbe89=_0x40c113[_0x51a002(0x4a0)],_0x17b98b=_0x16c3d2?_0x16c3d2:_0x2cbe89;_0x366a03+=_0x51a002(0x537)+_0x40c113[_0x51a002(0x678)]['split']('@')[0x0]+'\x0a',_0x366a03+='\x20┗━⭔\x20*Time\x20:*\x20'+moment(_0x17b98b*0x3e8)[_0x51a002(0x329)](_0x51a002(0x560))+_0x51a002(0x5f3)+(_0x16c3d2?'Read':_0x51a002(0x45c))+'\x0a\x0a';}_0x197817[_0x51a002(0x5d0)](_0x3950f7['chat'],_0x366a03,_0x3950f7);}break;case'q':case _0x51a002(0x60a):{if(!_0x3950f7[_0x51a002(0x60a)])return _0x3d6c65('Reply\x20Message!!');let _0x2a0784=await _0x197817[_0x51a002(0x614)](await _0x3950f7[_0x51a002(0x44f)]());if(!_0x2a0784[_0x51a002(0x60a)])return _0x3d6c65(_0x51a002(0x264));await _0x2a0784[_0x51a002(0x60a)][_0x51a002(0x650)](_0x3950f7[_0x51a002(0x5a0)],!![]);}break;case _0x51a002(0x38b):{let _0x453e98=await _0x353b2f[_0x51a002(0x562)][_0x51a002(0x567)]()['filter'](_0x322cbf=>_0x322cbf['id'][_0x51a002(0x2c9)](_0x51a002(0x365)))[_0x51a002(0x483)](_0x3e2d14=>_0x3e2d14['id']),_0x162cc8=_0x51a002(0x3f7)+_0x453e98[_0x51a002(0x53a)]+'\x20Chat\x0a\x0a';for(let _0x34516c of _0x453e98){let _0x48f443=_0x353b2f[_0x51a002(0x36e)][_0x34516c][_0x51a002(0x3a2)][0x0]['pushName'];_0x162cc8+=_0x51a002(0x62c)+_0x48f443+_0x51a002(0x3e6)+_0x34516c[_0x51a002(0x662)]('@')[0x0]+_0x51a002(0x5f2)+_0x34516c[_0x51a002(0x662)]('@')[0x0]+_0x51a002(0x53f);}_0x197817[_0x51a002(0x5d0)](_0x3950f7[_0x51a002(0x5a0)],_0x162cc8,_0x3950f7);}break;case'listgc':{let _0x4dec96=await _0x353b2f[_0x51a002(0x562)][_0x51a002(0x567)]()[_0x51a002(0x584)](_0x44f51c=>_0x44f51c['id']['endsWith'](_0x51a002(0x2e0)))['map'](_0x16cac9=>_0x16cac9['id']),_0x5c87d7='⬣\x20*GROUP\x20CHAT\x20LIST*\x0a\x0aTotal\x20Group\x20:\x20'+_0x4dec96[_0x51a002(0x53a)]+'\x20Group\x0a\x0a';for(let _0x2da6ba of _0x4dec96){let _0x97bdf7=await _0x197817['groupMetadata'](_0x2da6ba);_0x5c87d7+=_0x51a002(0x62c)+_0x97bdf7[_0x51a002(0x2b8)]+'\x0a⬡\x20*Owner\x20:*\x20@'+_0x97bdf7['owner']['split']('@')[0x0]+_0x51a002(0x622)+_0x97bdf7['id']+_0x51a002(0x4bd)+moment(_0x97bdf7[_0x51a002(0x63e)]*0x3e8)['tz'](_0x51a002(0x4ff))[_0x51a002(0x329)]('DD/MM/YYYY\x20HH:mm:ss')+'\x0a⬡\x20*Member\x20:*\x20'+_0x97bdf7[_0x51a002(0x2f9)][_0x51a002(0x53a)]+_0x51a002(0x53f);}_0x197817[_0x51a002(0x5d0)](_0x3950f7['chat'],_0x5c87d7,_0x3950f7);}break;case _0x51a002(0x5e9):case _0x51a002(0x215):case _0x51a002(0x23d):{let _0x5c374b=_0x36620a&&/\d+\-\d+@g.us/[_0x51a002(0x370)](_0x36620a[0x0])?_0x36620a[0x0]:_0x3950f7['chat'],_0x27cfc3=[...Object[_0x51a002(0x4df)](_0x353b2f[_0x51a002(0x51a)][_0x5c374b]),_0x528e82];_0x197817[_0x51a002(0x4dd)](_0x3950f7[_0x51a002(0x5a0)],_0x51a002(0x33f)+_0x27cfc3[_0x51a002(0x483)](_0x3e4177=>_0x51a002(0x537)+_0x3e4177['replace'](/@.+/,''))[_0x51a002(0x436)]`\n`,_0x3950f7,{'mentions':_0x27cfc3});}break;case _0x51a002(0x61f):case's':case _0x51a002(0x1fc):case _0x51a002(0x69d):{if(!_0x255562)throw _0x51a002(0x5f5)+(_0x29c62d+_0x53bfbd);_0x47c968(mess[_0x51a002(0x30b)]);if(/image/['test'](_0x21c29a)){let _0x1da8c7=await _0x255562['download'](),_0x594ccb=await _0x197817['sendImageAsSticker'](_0x3950f7['chat'],_0x1da8c7,_0x3950f7,{'packname':global[_0x51a002(0x5b2)],'author':global[_0x51a002(0x2ac)]});await fs[_0x51a002(0x36c)](_0x594ccb);}else{if(/video/[_0x51a002(0x370)](_0x21c29a)){if((_0x255562[_0x51a002(0x226)]||_0x255562)[_0x51a002(0x5aa)]>0xb)return _0x3d6c65(_0x51a002(0x3a4));let _0x2c52a5=await _0x255562['download'](),_0x2242fc=await _0x197817[_0x51a002(0x24b)](_0x3950f7[_0x51a002(0x5a0)],_0x2c52a5,_0x3950f7,{'packname':global[_0x51a002(0x5b2)],'author':global[_0x51a002(0x2ac)]});await fs[_0x51a002(0x36c)](_0x2242fc);}else throw _0x51a002(0x4f6)+(_0x29c62d+_0x53bfbd)+'\x0aVideo\x20Duration\x201-9\x20Seconds';}}break;case'ebinary':{if(!_0x3950f7['quoted']['text']&&!_0x2757d1)throw _0x51a002(0x37c)+(_0x29c62d+_0x53bfbd);let {eBinary:_0x2532f1}=require(_0x51a002(0x3df)),_0x32c9ad=_0x2757d1?_0x2757d1:_0x3950f7[_0x51a002(0x60a)]&&_0x3950f7[_0x51a002(0x60a)]['text']?_0x3950f7[_0x51a002(0x60a)][_0x51a002(0x3d2)]:_0x3950f7['text'],_0x12a6c0=await _0x2532f1(_0x32c9ad);_0x3d6c65(_0x12a6c0);}break;case _0x51a002(0x24c):{if(!_0x3950f7[_0x51a002(0x60a)][_0x51a002(0x3d2)]&&!_0x2757d1)throw'Send/reply\x20text\x20with\x20caption\x20'+(_0x29c62d+_0x53bfbd);let {dBinary:_0x384ef9}=require(_0x51a002(0x3df)),_0x35956f=_0x2757d1?_0x2757d1:_0x3950f7[_0x51a002(0x60a)]&&_0x3950f7[_0x51a002(0x60a)][_0x51a002(0x3d2)]?_0x3950f7[_0x51a002(0x60a)][_0x51a002(0x3d2)]:_0x3950f7[_0x51a002(0x3d2)],_0x327fd7=await _0x384ef9(_0x35956f);_0x3d6c65(_0x327fd7);}break;case'emojimix':{if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+'\x20😅+🤔';let [_0x5777db,_0x5dabac]=_0x2757d1['split']`+`,_0x48736f=await fetchJson(_0x51a002(0x37d)+encodeURIComponent(_0x5777db)+'_'+encodeURIComponent(_0x5dabac));for(let _0x1a851c of _0x48736f[_0x51a002(0x3a8)]){let _0x1516ec=await _0x197817[_0x51a002(0x412)](_0x3950f7[_0x51a002(0x5a0)],_0x1a851c[_0x51a002(0x500)],_0x3950f7,{'packname':global[_0x51a002(0x5b2)],'author':global[_0x51a002(0x2ac)],'categories':_0x1a851c[_0x51a002(0x241)]});await fs['unlinkSync'](_0x1516ec);}}break;case _0x51a002(0x252):case _0x51a002(0x3bc):{if(!_0x255562)throw _0x51a002(0x341);if(!/webp/[_0x51a002(0x370)](_0x21c29a))throw _0x51a002(0x32e)+(_0x29c62d+_0x53bfbd)+'*';_0x47c968(mess['wait']);let _0x184a7c=await _0x197817[_0x51a002(0x2bb)](_0x255562),_0x360f54=await getRandom(_0x51a002(0x422));exec(_0x51a002(0x555)+_0x184a7c+'\x20'+_0x360f54,_0x20b5f0=>{const _0x4d2b28=_0x51a002;fs[_0x4d2b28(0x36c)](_0x184a7c);if(_0x20b5f0)throw _0x20b5f0;let _0x5a30ed=fs['readFileSync'](_0x360f54);_0x197817['sendMessage'](_0x3950f7[_0x4d2b28(0x5a0)],{'image':_0x5a30ed},{'quoted':_0x3950f7}),fs['unlinkSync'](_0x360f54);});}break;case'tomp4':case _0x51a002(0x30a):{if(!_0x255562)throw _0x51a002(0x341);if(!/webp/[_0x51a002(0x370)](_0x21c29a))throw _0x51a002(0x32e)+(_0x29c62d+_0x53bfbd)+'*';_0x47c968(mess[_0x51a002(0x30b)]);let {webp2mp4File:_0x303928}=require(_0x51a002(0x578)),_0x1782a7=await _0x197817[_0x51a002(0x2bb)](_0x255562),_0x4cc779=await _0x303928(_0x1782a7);await _0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'video':{'url':_0x4cc779[_0x51a002(0x34e)],'caption':_0x51a002(0x2ff)}},{'quoted':_0x3950f7}),await fs[_0x51a002(0x36c)](_0x1782a7);}break;case'toaud':case _0x51a002(0x29c):{if(!/video/[_0x51a002(0x370)](_0x21c29a)&&!/audio/[_0x51a002(0x370)](_0x21c29a))throw _0x51a002(0x656)+(_0x29c62d+_0x53bfbd);if(!_0x255562)throw _0x51a002(0x44e)+(_0x29c62d+_0x53bfbd);_0x47c968(mess[_0x51a002(0x30b)]);let _0xebd403=await _0x255562[_0x51a002(0x33b)](),{toAudio:_0x2e6ab8}=require(_0x51a002(0x616)),_0x3c7dec=await _0x2e6ab8(_0xebd403,_0x51a002(0x645));_0x197817['sendMessage'](_0x3950f7[_0x51a002(0x5a0)],{'audio':_0x3c7dec,'mimetype':_0x51a002(0x45e)},{'quoted':_0x3950f7});}break;case _0x51a002(0x36a):{if(/document/[_0x51a002(0x370)](_0x21c29a))throw _0x51a002(0x2a3)+(_0x29c62d+_0x53bfbd);if(!/video/['test'](_0x21c29a)&&!/audio/[_0x51a002(0x370)](_0x21c29a))throw _0x51a002(0x232)+(_0x29c62d+_0x53bfbd);if(!_0x255562)throw _0x51a002(0x232)+(_0x29c62d+_0x53bfbd);_0x47c968(mess[_0x51a002(0x30b)]);let _0x20049d=await _0x255562[_0x51a002(0x33b)](),{toAudio:_0x2a8834}=require(_0x51a002(0x616)),_0x4ceb1c=await _0x2a8834(_0x20049d,_0x51a002(0x645));_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'document':_0x4ceb1c,'mimetype':_0x51a002(0x45e),'fileName':_0x51a002(0x3f5)+_0x197817[_0x51a002(0x39b)]['name']+_0x51a002(0x602)},{'quoted':_0x3950f7});}break;case _0x51a002(0x37b):case'toptt':{if(!/video/['test'](_0x21c29a)&&!/audio/[_0x51a002(0x370)](_0x21c29a))throw _0x51a002(0x600)+(_0x29c62d+_0x53bfbd);if(!_0x255562)throw _0x51a002(0x600)+(_0x29c62d+_0x53bfbd);_0x47c968(mess[_0x51a002(0x30b)]);let _0x5d1e2a=await _0x255562[_0x51a002(0x33b)](),{toPTT:_0x19d228}=require(_0x51a002(0x616)),_0x365834=await _0x19d228(_0x5d1e2a,'mp4');_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'audio':_0x365834,'mimetype':_0x51a002(0x45e),'ptt':!![]},{'quoted':_0x3950f7});}break;case _0x51a002(0x5eb):{if(!_0x255562)throw _0x51a002(0x341);if(!/webp/[_0x51a002(0x370)](_0x21c29a))throw _0x51a002(0x32e)+(_0x29c62d+_0x53bfbd)+'*';_0x47c968(mess['wait']);let {webp2mp4File:_0x14dfa7}=require(_0x51a002(0x578)),_0x582ddc=await _0x197817[_0x51a002(0x2bb)](_0x255562),_0x16d9de=await _0x14dfa7(_0x582ddc);await _0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'video':{'url':_0x16d9de[_0x51a002(0x34e)],'caption':_0x51a002(0x2ff)},'gifPlayback':!![]},{'quoted':_0x3950f7}),await fs[_0x51a002(0x36c)](_0x582ddc);}break;case'tourl':{_0x47c968(mess[_0x51a002(0x30b)]);let {UploadFileUgu:_0x569944,webp2mp4File:_0x4adf0e,TelegraPh:_0x390c07}=require(_0x51a002(0x578)),_0x430336=await _0x197817['downloadAndSaveMediaMessage'](_0x255562);if(/image/[_0x51a002(0x370)](_0x21c29a)){let _0x4a5afd=await _0x390c07(_0x430336);_0x3d6c65(util[_0x51a002(0x329)](_0x4a5afd));}else{if(!/image/[_0x51a002(0x370)](_0x21c29a)){let _0x11538b=await _0x569944(_0x430336);_0x3d6c65(util[_0x51a002(0x329)](_0x11538b));}}await fs[_0x51a002(0x36c)](_0x430336);}break;case _0x51a002(0x2d7):case _0x51a002(0x3ef):case _0x51a002(0x3ba):{if(!_0x255562)throw'Send/Reply\x20Image\x20With\x20Caption\x20'+(_0x29c62d+_0x53bfbd);if(!/image/[_0x51a002(0x370)](_0x21c29a))throw'Send/Reply\x20Image\x20With\x20Caption\x20'+(_0x29c62d+_0x53bfbd);if(/webp/[_0x51a002(0x370)](_0x21c29a))throw _0x51a002(0x224)+(_0x29c62d+_0x53bfbd);let _0x42f691=require(_0x51a002(0x64e)),_0x3a3f3f=['q61faXzzR5zNU6cvcrwtUkRU','S258diZhcuFJooAtHTaPEn4T',_0x51a002(0x491),_0x51a002(0x393),_0x51a002(0x253),'5Gdq1sSWSeyZzPMHqz7ENfi8',_0x51a002(0x46e),_0x51a002(0x2d4),_0x51a002(0x3ce)],_0x32093b=_0x3a3f3f[Math[_0x51a002(0x3e0)](Math['random']()*_0x3a3f3f[_0x51a002(0x53a)])];hmm=await'./src/remobg-'+getRandom(''),localFile=await _0x197817['downloadAndSaveMediaMessage'](_0x255562,hmm),outputFile=await _0x51a002(0x2b7)+getRandom(_0x51a002(0x422)),_0x47c968(mess['wait']),_0x42f691[_0x51a002(0x504)]({'path':localFile,'apiKey':_0x32093b,'size':_0x51a002(0x261),'type':_0x51a002(0x4ca),'scale':'100%','outputFile':outputFile})[_0x51a002(0x271)](async _0x555192=>{const _0x18f8c2=_0x51a002;_0x197817[_0x18f8c2(0x2b4)](_0x3950f7[_0x18f8c2(0x5a0)],{'image':fs[_0x18f8c2(0x32a)](outputFile),'caption':mess[_0x18f8c2(0x4ba)]},{'quoted':_0x3950f7}),await fs[_0x18f8c2(0x36c)](localFile),await fs[_0x18f8c2(0x36c)](outputFile);});}break;case _0x51a002(0x548):case'ytsearch':{if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+'\x20story\x20wa\x20anime';let _0x2e9713=require(_0x51a002(0x55c)),_0x4ddf76=await _0x2e9713(_0x2757d1),_0x3aa0e0=_0x51a002(0x6c5)+_0x2757d1+'\x0a\x0a',_0x3c88d7=0x1;for(let _0x188bc2 of _0x4ddf76['all']){_0x3aa0e0+=_0x51a002(0x4ad)+_0x3c88d7++ +_0x51a002(0x299)+_0x188bc2[_0x51a002(0x420)]+_0x51a002(0x6a8)+_0x188bc2[_0x51a002(0x221)]+_0x51a002(0x37f)+_0x188bc2['title']+'\x0a⭔\x20Views\x20:\x20'+_0x188bc2[_0x51a002(0x2b9)]+_0x51a002(0x282)+_0x188bc2['timestamp']+_0x51a002(0x22a)+_0x188bc2[_0x51a002(0x367)]+_0x51a002(0x5ee)+_0x188bc2[_0x51a002(0x2ac)][_0x51a002(0x4f5)]+_0x51a002(0x533)+_0x188bc2[_0x51a002(0x500)]+'\x0a\x0a─────────────────\x0a\x0a';}_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'image':{'url':_0x4ddf76['all'][0x0]['thumbnail']},'caption':_0x3aa0e0},{'quoted':_0x3950f7});}break;case _0x51a002(0x372):{if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x1f6);let _0x18eda3=require(_0x51a002(0x330));_0x18eda3({'query':_0x2757d1})[_0x51a002(0x271)](_0x2ca727=>{const _0x5a18ea=_0x51a002;let _0x175d92=_0x5a18ea(0x59f)+_0x2757d1+'\x0a\x0a';for(let _0x58a019 of _0x2ca727){_0x175d92+=_0x5a18ea(0x43b)+_0x58a019['title']+'\x0a',_0x175d92+=_0x5a18ea(0x3e2)+_0x58a019['snippet']+'\x0a',_0x175d92+=_0x5a18ea(0x687)+_0x58a019[_0x5a18ea(0x490)]+'\x0a\x0a────────────────────────\x0a\x0a';}_0x3d6c65(_0x175d92);});}break;case'gimage':case _0x51a002(0x52e):{if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x4fd);let _0x3ffe80=require(_0x51a002(0x1f9));_0x3ffe80(_0x2757d1,async(_0x505707,_0x14eab3)=>{const _0x5dc43b=_0x51a002;n=_0x14eab3,images=n[Math['floor'](Math[_0x5dc43b(0x315)]()*n[_0x5dc43b(0x53a)])][_0x5dc43b(0x500)];let _0x1bdb44=[{'buttonId':_0x5dc43b(0x286)+_0x2757d1,'buttonText':{'displayText':_0x5dc43b(0x3c0)},'type':0x1}],_0x3b970f={'image':{'url':images},'caption':_0x5dc43b(0x3dc)+_0x2757d1+_0x5dc43b(0x203)+images,'footer':_0x197817[_0x5dc43b(0x39b)][_0x5dc43b(0x4f5)],'buttons':_0x1bdb44,'headerType':0x4};_0x197817['sendMessage'](_0x3950f7[_0x5dc43b(0x5a0)],_0x3b970f,{'quoted':_0x3950f7});});}break;case _0x51a002(0x561):case _0x51a002(0x462):{if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+'\x20bts\x20boy\x20with\x20luv';let _0x2c9d65=require(_0x51a002(0x55c)),_0x4962f9=await _0x2c9d65(_0x2757d1),_0x135957=_0x4962f9[_0x51a002(0x58f)][Math[_0x51a002(0x3e0)](Math[_0x51a002(0x315)]()*_0x4962f9[_0x51a002(0x58f)][_0x51a002(0x53a)])];ngen=_0x51a002(0x37f)+_0x135957[_0x51a002(0x669)]+_0x51a002(0x69b)+_0x135957[_0x51a002(0x221)]+_0x51a002(0x282)+_0x135957[_0x51a002(0x3cd)]+_0x51a002(0x48a)+_0x135957[_0x51a002(0x2b9)]+'\x0a⭔\x20Uploaded\x20:\x20'+_0x135957['ago']+_0x51a002(0x5ee)+_0x135957[_0x51a002(0x2ac)][_0x51a002(0x4f5)]+_0x51a002(0x6b9)+_0x135957[_0x51a002(0x2ac)][_0x51a002(0x500)]+_0x51a002(0x62b)+_0x135957[_0x51a002(0x445)]+'\x0a',message=await prepareWAMessageMedia({'image':{'url':_0x135957[_0x51a002(0x48c)]}},{'upload':_0x197817['waUploadToServer']}),template=generateWAMessageFromContent(_0x3950f7[_0x51a002(0x5a0)],proto[_0x51a002(0x676)][_0x51a002(0x419)]({'templateMessage':{'hydratedTemplate':{'imageMessage':message[_0x51a002(0x5cd)],'hydratedContentText':ngen,'hydratedFooterText':'Playing\x20To\x20'+_0x2757d1,'hydratedButtons':[{'urlButton':{'displayText':_0x51a002(0x435),'url':''+_0x135957[_0x51a002(0x500)]}},{'quickReplyButton':{'displayText':_0x51a002(0x376),'id':_0x51a002(0x4a3)+_0x135957[_0x51a002(0x500)]+_0x51a002(0x202)}},{'quickReplyButton':{'displayText':_0x51a002(0x25b),'id':_0x51a002(0x417)+_0x135957[_0x51a002(0x500)]+_0x51a002(0x4ea)}}]}}}),{'userJid':_0x3950f7['chat'],'quoted':_0x3950f7}),_0x197817['relayMessage'](_0x3950f7[_0x51a002(0x5a0)],template['message'],{'messageId':template[_0x51a002(0x347)]['id']});}break;case _0x51a002(0x30f):case _0x51a002(0x2fe):{let {yta:_0x535f14}=require(_0x51a002(0x2e2));if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x603);let _0x52b49d=_0x36620a[0x1]?_0x36620a[0x1]:_0x51a002(0x40c),_0x4e3d15=await _0x535f14(_0x2757d1,_0x52b49d);if(_0x4e3d15[_0x51a002(0x2b3)]>=0xf423f)return _0x3d6c65(_0x51a002(0x29f)+util['format'](_0x4e3d15));_0x197817['sendImage'](_0x3950f7[_0x51a002(0x5a0)],_0x4e3d15[_0x51a002(0x251)],_0x51a002(0x617)+_0x4e3d15[_0x51a002(0x669)]+_0x51a002(0x366)+_0x4e3d15['filesizeF']+'\x0a⭔\x20Url\x20:\x20'+isUrl(_0x2757d1)+_0x51a002(0x6bb)+(_0x36620a[0x1]||_0x51a002(0x40c)),_0x3950f7),_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'audio':{'url':_0x4e3d15[_0x51a002(0x275)]},'mimetype':_0x51a002(0x45e),'fileName':_0x4e3d15['title']+'.mp3'},{'quoted':_0x3950f7});}break;case'ytmp4':case _0x51a002(0x3b8):{let {ytv:_0x4963e5}=require(_0x51a002(0x2e2));if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x331);let _0x641622=_0x36620a[0x1]?_0x36620a[0x1]:_0x51a002(0x238),_0x533bb1=await _0x4963e5(_0x2757d1,_0x641622);if(_0x533bb1[_0x51a002(0x2b3)]>=0xf423f)return _0x3d6c65(_0x51a002(0x403)+util['format'](_0x533bb1));_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'video':{'url':_0x533bb1[_0x51a002(0x275)]},'mimetype':'video/mp4','fileName':_0x533bb1[_0x51a002(0x669)]+'.mp4','caption':_0x51a002(0x617)+_0x533bb1[_0x51a002(0x669)]+'\x0a⭔\x20File\x20Size\x20:\x20'+_0x533bb1[_0x51a002(0x29e)]+_0x51a002(0x533)+isUrl(_0x2757d1)+_0x51a002(0x484)+(_0x36620a[0x1]||_0x51a002(0x238))},{'quoted':_0x3950f7});}break;case _0x51a002(0x5d5):{let {yta:_0x3d9de2}=require(_0x51a002(0x2e2));if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+'\x201';if(!_0x3950f7[_0x51a002(0x60a)])return _0x3d6c65(_0x51a002(0x3fb));if(!_0x3950f7[_0x51a002(0x60a)][_0x51a002(0x470)])throw _0x51a002(0x201);let _0x113b10=_0x255562[_0x51a002(0x3d2)]['match'](new RegExp(/(?:https?:\/\/)?(?:youtu\.be\/|(?:www\.|m\.)?youtube\.com\/(?:watch|v|embed|shorts)(?:\.php)?(?:\?.*v=|\/))([a-zA-Z0-9\_-]+)/,'gi'));if(!_0x113b10)throw _0x51a002(0x2ec);let _0x19aa8e=_0x36620a[0x1]?_0x36620a[0x1]:'320kbps',_0x3a155b=await _0x3d9de2(_0x113b10[_0x2757d1-0x1],_0x19aa8e);if(_0x3a155b[_0x51a002(0x2b3)]>=0xf423f)return _0x3d6c65(_0x51a002(0x29f)+util['format'](_0x3a155b));_0x197817['sendImage'](_0x3950f7[_0x51a002(0x5a0)],_0x3a155b[_0x51a002(0x251)],'⭔\x20Title\x20:\x20'+_0x3a155b['title']+_0x51a002(0x366)+_0x3a155b[_0x51a002(0x29e)]+'\x0a⭔\x20Url\x20:\x20'+isUrl(_0x2757d1)+_0x51a002(0x6bb)+(_0x36620a[0x1]||_0x51a002(0x40c)),_0x3950f7),_0x197817[_0x51a002(0x2b4)](_0x3950f7['chat'],{'audio':{'url':_0x3a155b[_0x51a002(0x275)]},'mimetype':_0x51a002(0x45e),'fileName':_0x3a155b[_0x51a002(0x669)]+'.mp3'},{'quoted':_0x3950f7});}break;case _0x51a002(0x209):{let {ytv:_0xd1d23a}=require(_0x51a002(0x2e2));if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+'\x201';if(!_0x3950f7[_0x51a002(0x60a)])return _0x3d6c65(_0x51a002(0x2d2));if(!_0x3950f7[_0x51a002(0x60a)]['isBaileys'])throw _0x51a002(0x589);let _0x7c9b2e=_0x255562[_0x51a002(0x3d2)]['match'](new RegExp(/(?:https?:\/\/)?(?:youtu\.be\/|(?:www\.|m\.)?youtube\.com\/(?:watch|v|embed|shorts)(?:\.php)?(?:\?.*v=|\/))([a-zA-Z0-9\_-]+)/,'gi'));if(!_0x7c9b2e)throw _0x51a002(0x59a);let _0x1d96f4=_0x36620a[0x1]?_0x36620a[0x1]:'360p',_0xb0f18c=await _0xd1d23a(_0x7c9b2e[_0x2757d1-0x1],_0x1d96f4);if(_0xb0f18c['filesize']>=0x186a0)return _0x3d6c65(_0x51a002(0x497)+util['format'](_0xb0f18c));_0x197817['sendMessage'](_0x3950f7[_0x51a002(0x5a0)],{'video':{'url':_0xb0f18c[_0x51a002(0x275)]},'mimetype':_0x51a002(0x1d2),'fileName':_0xb0f18c[_0x51a002(0x669)]+_0x51a002(0x1db),'caption':_0x51a002(0x617)+_0xb0f18c[_0x51a002(0x669)]+_0x51a002(0x366)+_0xb0f18c[_0x51a002(0x29e)]+'\x0a⭔\x20Url\x20:\x20'+isUrl(_0x2757d1)+_0x51a002(0x6bb)+(_0x36620a[0x1]||_0x51a002(0x238))},{'quoted':_0x3950f7});}break;case _0x51a002(0x269):{_0x47c968(mess[_0x51a002(0x30b)]);let {pinterest:_0x487f6c}=require(_0x51a002(0x68f));anu=await _0x487f6c(_0x2757d1),result=anu[Math[_0x51a002(0x3e0)](Math[_0x51a002(0x315)]()*anu[_0x51a002(0x53a)])],_0x197817[_0x51a002(0x2b4)](_0x3950f7['chat'],{'image':{'url':result},'caption':_0x51a002(0x4af)+result},{'quoted':_0x3950f7});}break;case _0x51a002(0x27b):case'waifu':case _0x51a002(0x399):case'neko':case _0x51a002(0x596):case _0x51a002(0x223):{_0x47c968(mess['wait']),_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'image':{'url':api(_0x51a002(0x25d),_0x51a002(0x4c4)+_0x53bfbd,_0x51a002(0x24e))},'caption':_0x51a002(0x4ef)+_0x2757d1},{'quoted':_0x3950f7});}break;case'couplepp':case'ppcouple':{_0x47c968(mess['wait']);let _0x3ef406=await fetchJson(_0x51a002(0x316)),_0x40d10a=_0x3ef406[Math[_0x51a002(0x3e0)](Math['random']()*_0x3ef406[_0x51a002(0x53a)])];_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'image':{'url':_0x40d10a[_0x51a002(0x68a)]},'caption':'Couple\x20Male'},{'quoted':_0x3950f7}),_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'image':{'url':_0x40d10a[_0x51a002(0x3a1)]},'caption':_0x51a002(0x392)},{'quoted':_0x3950f7});}break;case _0x51a002(0x661):case _0x51a002(0x22c):{let _0x46f376=[{'buttonId':_0x51a002(0x5ae),'buttonText':{'displayText':'➡️Next\x20Image➡️'},'type':0x1}],_0x459908={'image':{'url':_0x51a002(0x1e8)},'caption':_0x51a002(0x448),'footer':_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)],'buttons':_0x46f376,'headerType':0x4};_0x197817[_0x51a002(0x2b4)](_0x3950f7['chat'],_0x459908,{'quoted':_0x3950f7});}break;case _0x51a002(0x31a):{if(!_0x2757d1)throw _0x51a002(0x1f0);let {wallpaper:_0x515518}=require(_0x51a002(0x68f));anu=await _0x515518(_0x2757d1),result=anu[Math[_0x51a002(0x3e0)](Math[_0x51a002(0x315)]()*anu['length'])];let _0x882f30=[{'buttonId':_0x51a002(0x3c2)+_0x2757d1,'buttonText':{'displayText':_0x51a002(0x3e9)},'type':0x1}],_0x3281d8={'image':{'url':result[_0x51a002(0x5bc)][0x0]},'caption':'⭔\x20Title\x20:\x20'+result[_0x51a002(0x669)]+_0x51a002(0x41c)+result[_0x51a002(0x420)]+_0x51a002(0x595)+result[_0x51a002(0x455)]+_0x51a002(0x20d)+(result[_0x51a002(0x5bc)][0x2]||result[_0x51a002(0x5bc)][0x1]||result[_0x51a002(0x5bc)][0x0]),'footer':_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)],'buttons':_0x882f30,'headerType':0x4};_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],_0x3281d8,{'quoted':_0x3950f7});}break;case _0x51a002(0x591):{if(!_0x2757d1)throw _0x51a002(0x1f0);let {wikimedia:_0x359942}=require('./lib/scraper');anu=await _0x359942(_0x2757d1),result=anu[Math['floor'](Math['random']()*anu[_0x51a002(0x53a)])];let _0x50ed4f=[{'buttonId':'wikimedia\x20'+_0x2757d1,'buttonText':{'displayText':_0x51a002(0x3c0)},'type':0x1}],_0x17e950={'image':{'url':result['image']},'caption':_0x51a002(0x617)+result[_0x51a002(0x669)]+_0x51a002(0x6cc)+result[_0x51a002(0x455)]+_0x51a002(0x20d)+result[_0x51a002(0x5bc)],'footer':_0x197817['user']['name'],'buttons':_0x50ed4f,'headerType':0x4};_0x197817['sendMessage'](_0x3950f7[_0x51a002(0x5a0)],_0x17e950,{'quoted':_0x3950f7});}break;case _0x51a002(0x46d):case'quoteanimexllzlzkl':{let {quotesAnime:_0xcfbb6f}=require(_0x51a002(0x68f)),_0xd14bf=await _0xcfbb6f();result=_0xd14bf[Math[_0x51a002(0x3e0)](Math[_0x51a002(0x315)]()*_0xd14bf[_0x51a002(0x53a)])];let _0x35840f=[{'buttonId':_0x51a002(0x22f),'buttonText':{'displayText':'➡️Next➡️'},'type':0x1}],_0x9b47a0={'text':'~_'+result[_0x51a002(0x2ca)]+_0x51a002(0x1cc)+result['karakter']+_0x51a002(0x518)+result['anime']+_0x51a002(0x5dd)+result['up_at'],'footer':_0x51a002(0x5b5),'buttons':_0x35840f,'headerType':0x2};_0x197817['sendMessage'](_0x3950f7[_0x51a002(0x5a0)],_0x9b47a0,{'quoted':_0x3950f7});}break;case'motivasi':case'dilanquote':case _0x51a002(0x66c):case'katasenja':case _0x51a002(0x368):{let _0x493c61=await fetchJson(api(_0x51a002(0x25d),_0x51a002(0x568)+_0x53bfbd,{},_0x51a002(0x24e))),_0x2ab4f9=[{'buttonId':_0x51a002(0x2dc),'buttonText':{'displayText':_0x51a002(0x1fd)},'type':0x1}],_0x5ca680={'text':_0x493c61[_0x51a002(0x34e)][_0x51a002(0x3a6)],'footer':_0x51a002(0x5b5),'buttons':_0x2ab4f9,'headerType':0x2};_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],_0x5ca680,{'quoted':_0x3950f7});}break;case _0x51a002(0x408):case'3ddeepsea':case'americanflag':case _0x51a002(0x691):case _0x51a002(0x6bd):case _0x51a002(0x52f):case _0x51a002(0x3fa):case _0x51a002(0x620):case _0x51a002(0x48f):case _0x51a002(0x3ad):case _0x51a002(0x450):case _0x51a002(0x47a):case _0x51a002(0x68b):case'transformer':case _0x51a002(0x612):case'thunder':case'magma':case _0x51a002(0x5a5):case'3dneonlight':case _0x51a002(0x279):case _0x51a002(0x5cb):case _0x51a002(0x416):case _0x51a002(0x297):case _0x51a002(0x66a):case _0x51a002(0x570):case _0x51a002(0x5b1):case _0x51a002(0x5f7):case _0x51a002(0x425):case _0x51a002(0x46a):case'blackpink':case _0x51a002(0x236):{if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x4ce);_0x47c968(mess[_0x51a002(0x30b)]),_0x197817[_0x51a002(0x2b4)](_0x3950f7['chat'],{'image':{'url':api(_0x51a002(0x25d),_0x51a002(0x3b3)+_0x53bfbd,{'text':_0x2757d1},_0x51a002(0x24e))},'caption':_0x51a002(0x3f4)+_0x53bfbd},{'quoted':_0x3950f7});}break;case _0x51a002(0x438):case'romantic':case _0x51a002(0x565):case _0x51a002(0x35c):case'naruto':case _0x51a002(0x6bf):case _0x51a002(0x30c):case _0x51a002(0x694):case _0x51a002(0x65e):case _0x51a002(0x210):case'harrypotter':case'retrolol':{if(!_0x2757d1)throw'where\x20is\x20the\x20text?';_0x47c968(mess['wait']),_0x197817[_0x51a002(0x2b4)](_0x3950f7['chat'],{'image':{'url':api(_0x51a002(0x25d),_0x51a002(0x323)+_0x53bfbd,{'text':_0x2757d1},'apikey')},'caption':'Photo\x20Oxy\x20'+_0x53bfbd},{'quoted':_0x3950f7});}break;case _0x51a002(0x5dc):case _0x51a002(0x21c):case'galaxy':case _0x51a002(0x635):case _0x51a002(0x465):case _0x51a002(0x3be):case _0x51a002(0x668):case _0x51a002(0x64c):case _0x51a002(0x37a):{if(!_0x2757d1)throw _0x51a002(0x469);_0x47c968(mess['wait']),_0x197817['sendMessage'](_0x3950f7['chat'],{'image':{'url':api(_0x51a002(0x25d),'/ephoto/'+_0x53bfbd,{'text':_0x2757d1},_0x51a002(0x24e))},'caption':_0x51a002(0x521)+_0x53bfbd},{'quoted':_0x3950f7});}break;case _0x51a002(0x2db):case'luck211111':{if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x4d8);let [_0x1b894e,_0xfaf356,_0x743e94,_0x2d7f35]=_0x2757d1[_0x51a002(0x662)]`,`,_0x5cf618=await primbon[_0x51a002(0x3e5)](_0x1b894e,_0xfaf356,_0x743e94,_0x2d7f35);if(_0x5cf618[_0x51a002(0x23f)]==![])return _0x3d6c65(_0x5cf618[_0x51a002(0x3a6)]);_0x197817[_0x51a002(0x4dd)](_0x3950f7[_0x51a002(0x5a0)],'⭔\x20*Name\x20:*\x20'+_0x5cf618[_0x51a002(0x3a6)][_0x51a002(0x552)]+_0x51a002(0x245)+_0x5cf618[_0x51a002(0x3a6)][_0x51a002(0x646)]+_0x51a002(0x6c7)+_0x5cf618[_0x51a002(0x3a6)][_0x51a002(0x34e)],_0x3950f7);}break;case'memancing1111':case'fishing1111':{if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x673);let [_0x360c5b,_0x3ed512,_0x4197d2]=_0x2757d1[_0x51a002(0x662)]`,`,_0x470eb9=await primbon[_0x51a002(0x1dd)](_0x360c5b,_0x3ed512,_0x4197d2);if(_0x470eb9[_0x51a002(0x23f)]==![])return _0x3d6c65(_0x470eb9[_0x51a002(0x3a6)]);_0x197817[_0x51a002(0x4dd)](_0x3950f7[_0x51a002(0x5a0)],'⭔\x20*Date\x20:*\x20'+_0x470eb9[_0x51a002(0x3a6)]['tgl_memancing']+_0x51a002(0x6c7)+_0x470eb9[_0x51a002(0x3a6)]['result']+_0x51a002(0x648)+_0x470eb9[_0x51a002(0x3a6)][_0x51a002(0x430)],_0x3950f7);}break;case _0x51a002(0x5d6):case'fertiletimekekskdk':{if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x604)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x54d);let [_0x4ffa92,_0xec53a8,_0x18cffc,_0x91d159]=_0x2757d1['split']`,`,_0x3404b2=await primbon[_0x51a002(0x502)](_0x4ffa92,_0xec53a8,_0x18cffc,_0x91d159);if(_0x3404b2['status']==![])return _0x3d6c65(_0x3404b2[_0x51a002(0x3a6)]);_0x197817[_0x51a002(0x4dd)](_0x3950f7[_0x51a002(0x5a0)],_0x51a002(0x531)+_0x3404b2['message'][_0x51a002(0x34e)]+_0x51a002(0x648)+_0x3404b2[_0x51a002(0x3a6)][_0x51a002(0x430)],_0x3950f7);}break;case _0x51a002(0x1ce):case _0x51a002(0x57c):{if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x333);let _0x5a293f=[[_0x51a002(0x324),new Date(0x7b2,0x0,0x1)],[_0x51a002(0x57d),new Date(0x7b2,0x0,0x14)],[_0x51a002(0x457),new Date(0x7b2,0x1,0x13)],[_0x51a002(0x693),new Date(0x7b2,0x2,0x15)],[_0x51a002(0x621),new Date(0x7b2,0x3,0x15)],['gemini',new Date(0x7b2,0x4,0x15)],[_0x51a002(0x5b8),new Date(0x7b2,0x5,0x16)],[_0x51a002(0x3ee),new Date(0x7b2,0x6,0x17)],[_0x51a002(0x4a8),new Date(0x7b2,0x7,0x17)],[_0x51a002(0x689),new Date(0x7b2,0x8,0x17)],[_0x51a002(0x499),new Date(0x7b2,0x9,0x17)],[_0x51a002(0x536),new Date(0x7b2,0xa,0x16)],[_0x51a002(0x324),new Date(0x7b2,0xb,0x16)]][_0x51a002(0x206)]();function _0x5c2b3d(_0x4fd2eb,_0x1978b4){const _0x437f98=_0x51a002;let _0x56ef49=new Date(0x7b2,_0x4fd2eb-0x1,_0x1978b4);return _0x5a293f[_0x437f98(0x276)](([_0x268a9b,_0xbf9271])=>_0x56ef49>=_0xbf9271)[0x0];}let _0x1e9d16=new Date(_0x2757d1);if(_0x1e9d16==_0x51a002(0x1f7))throw _0x1e9d16;let _0x99d7b8=new Date(),[_0x4b04bc,_0x44d859,_0x2d5d65]=[_0x99d7b8[_0x51a002(0x40b)](),_0x99d7b8[_0x51a002(0x53d)]()+0x1,_0x99d7b8['getDate']()],_0x507469=[_0x1e9d16[_0x51a002(0x40b)](),_0x1e9d16['getMonth']()+0x1,_0x1e9d16[_0x51a002(0x516)]()],_0x3130b9=await _0x5c2b3d(_0x507469[0x1],_0x507469[0x2]),_0x18c7aa=await primbon[_0x51a002(0x1cf)](_0x3130b9);if(_0x18c7aa[_0x51a002(0x23f)]==![])return _0x3d6c65(_0x18c7aa[_0x51a002(0x3a6)]);_0x197817[_0x51a002(0x4dd)](_0x3950f7[_0x51a002(0x5a0)],_0x51a002(0x46c)+_0x18c7aa[_0x51a002(0x3a6)][_0x51a002(0x1cf)]+_0x51a002(0x33a)+_0x18c7aa[_0x51a002(0x3a6)][_0x51a002(0x326)]+'\x0a⭔\x20*Aroma\x20:*\x20'+_0x18c7aa[_0x51a002(0x3a6)][_0x51a002(0x6ae)]+_0x51a002(0x4fa)+_0x18c7aa[_0x51a002(0x3a6)][_0x51a002(0x1ca)]+_0x51a002(0x267)+_0x18c7aa[_0x51a002(0x3a6)][_0x51a002(0x520)]+_0x51a002(0x632)+_0x18c7aa[_0x51a002(0x3a6)][_0x51a002(0x6ac)]+_0x51a002(0x5a2)+_0x18c7aa['message'][_0x51a002(0x5a8)]+_0x51a002(0x3ea)+_0x18c7aa['message'][_0x51a002(0x2a2)]+_0x51a002(0x2df)+_0x18c7aa[_0x51a002(0x3a6)][_0x51a002(0x379)]+_0x51a002(0x648)+_0x18c7aa[_0x51a002(0x3a6)][_0x51a002(0x430)],_0x3950f7);}break;case _0x51a002(0x24f):{if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x663);let _0x112d28=await primbon[_0x51a002(0x69e)](_0x2757d1);if(_0x112d28[_0x51a002(0x23f)]==![])return _0x3d6c65(_0x112d28['message']);_0x197817[_0x51a002(0x4dd)](_0x3950f7['chat'],_0x51a002(0x647)+_0x112d28[_0x51a002(0x3a6)],_0x3950f7);}break;case _0x51a002(0x378):case _0x51a002(0x5d4):{if(!_0x2757d1)throw _0x51a002(0x6b5);_0x47c968(mess[_0x51a002(0x30b)]);let _0x257117=await fetchJson(api(_0x51a002(0x25d),'/downloader/tiktok',{'url':_0x2757d1},_0x51a002(0x24e))),_0xf31f5e=[{'buttonId':_0x51a002(0x43d)+_0x2757d1,'buttonText':{'displayText':_0x51a002(0x32c)},'type':0x1},{'buttonId':_0x51a002(0x1eb)+_0x2757d1,'buttonText':{'displayText':_0x51a002(0x376)},'type':0x1}],_0x55175c={'video':{'url':_0x257117[_0x51a002(0x34e)][_0x51a002(0x5bb)]},'caption':_0x51a002(0x4ef)+_0x2757d1,'footer':'Press\x20The\x20Button\x20Below','buttons':_0xf31f5e,'headerType':0x5};_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],_0x55175c,{'quoted':_0x3950f7});}break;case _0x51a002(0x1fb):case _0x51a002(0x1e2):{if(!_0x2757d1)throw _0x51a002(0x6b5);_0x47c968(mess[_0x51a002(0x30b)]);let _0x4781d6=await fetchJson(api(_0x51a002(0x25d),_0x51a002(0x56d),{'url':_0x2757d1},_0x51a002(0x24e))),_0x2262ca=[{'buttonId':_0x51a002(0x50e)+_0x2757d1,'buttonText':{'displayText':_0x51a002(0x2af)},'type':0x1},{'buttonId':'tiktokmp3\x20'+_0x2757d1,'buttonText':{'displayText':_0x51a002(0x376)},'type':0x1}],_0x7c8107={'video':{'url':_0x4781d6['result'][_0x51a002(0x21f)]},'caption':_0x51a002(0x4ef)+_0x2757d1,'footer':'Press\x20The\x20Button\x20Below','buttons':_0x2262ca,'headerType':0x5};_0x197817['sendMessage'](_0x3950f7[_0x51a002(0x5a0)],_0x7c8107,{'quoted':_0x3950f7});}break;case'tiktokmp3':case _0x51a002(0x5ce):{if(!_0x2757d1)throw'Enter\x20Query\x20Link!';_0x47c968(mess[_0x51a002(0x30b)]);let _0x39c680=await fetchJson(api(_0x51a002(0x25d),_0x51a002(0x56d),{'url':_0x2757d1},_0x51a002(0x24e))),_0xac4d28=[{'buttonId':'tiktoknowm\x20'+_0x2757d1,'buttonText':{'displayText':_0x51a002(0x2bd)},'type':0x1},{'buttonId':_0x51a002(0x43d)+_0x2757d1,'buttonText':{'displayText':_0x51a002(0x328)},'type':0x1}],_0x5c0593={'text':_0x51a002(0x4ef)+_0x2757d1,'footer':_0x51a002(0x5b5),'buttons':_0xac4d28,'headerType':0x2},_0x214045=await _0x197817['sendMessage'](_0x3950f7[_0x51a002(0x5a0)],_0x5c0593,{'quoted':_0x3950f7}),{toAudio:_0x1005d0}=require('./lib/converter'),_0x1604a2=await getBuffer(_0x39c680[_0x51a002(0x34e)]['nowatermark']),_0x23b64f=await _0x1005d0(_0x1604a2,_0x51a002(0x645));_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'audio':_0x23b64f,'mimetype':'audio/mpeg'},{'quoted':_0x214045});}break;case _0x51a002(0x4b3):case'ig':case _0x51a002(0x6b2):{if(!_0x2757d1)throw'Enter\x20Query\x20Url!';_0x47c968(mess[_0x51a002(0x30b)]);if(/(?:\/p\/|\/reel\/|\/tv\/)([^\s&]+)/['test'](isUrl(_0x2757d1)[0x0])){let _0x45a42a=await fetchJson(api(_0x51a002(0x25d),'/downloader/instagram2',{'url':isUrl(_0x2757d1)[0x0]},_0x51a002(0x24e)));for(let _0x1bad16 of _0x45a42a['data'])_0x197817['sendMedia'](_0x3950f7[_0x51a002(0x5a0)],_0x1bad16,'',_0x51a002(0x62a)+isUrl(_0x2757d1)[0x0],_0x3950f7);}else{if(/\/stories\/([^\s&]+)/[_0x51a002(0x370)](isUrl(_0x2757d1)[0x0])){let _0x4d9509=await fetchJson(api('zenz',_0x51a002(0x421),{'url':isUrl(_0x2757d1)[0x0]},_0x51a002(0x24e)));_0x197817['sendMedia'](_0x3950f7['chat'],_0x4d9509[_0x51a002(0x6a7)][0x0][_0x51a002(0x500)],'',_0x51a002(0x62a)+isUrl(_0x2757d1)[0x0],_0x3950f7);}}}break;case _0x51a002(0x5a3):case _0x51a002(0x394):{if(!_0x2757d1)throw _0x51a002(0x487);_0x47c968(mess['wait']);let _0x53225b=await fetchJson(api(_0x51a002(0x25d),_0x51a002(0x545),{'query':_0x2757d1},'apikey')),_0x36286f=await _0x197817[_0x51a002(0x2c3)](_0x3950f7[_0x51a002(0x5a0)],_0x53225b[_0x51a002(0x34e)]['img'],'⭔\x20Title\x20:\x20'+_0x53225b['result'][_0x51a002(0x34f)]+_0x51a002(0x4e0)+_0x53225b[_0x51a002(0x34e)][_0x51a002(0x481)]+_0x51a002(0x25f)+_0x53225b[_0x51a002(0x34e)][_0x51a002(0x2bc)]+_0x51a002(0x476)+_0x53225b[_0x51a002(0x34e)][_0x51a002(0x3f3)]+_0x51a002(0x601)+_0x53225b[_0x51a002(0x34e)]['lirik']['result'],_0x3950f7);_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'audio':{'url':_0x53225b[_0x51a002(0x34e)][_0x51a002(0x3c7)]},'mimetype':_0x51a002(0x45e),'fileName':_0x53225b[_0x51a002(0x34e)][_0x51a002(0x34f)]+_0x51a002(0x255)},{'quoted':_0x36286f});}break;case _0x51a002(0x1ef):case _0x51a002(0x6cf):{if(!_0x2757d1)throw _0x51a002(0x487);_0x47c968(mess[_0x51a002(0x30b)]);let _0x1e16a8=await fetchJson(api(_0x51a002(0x25d),_0x51a002(0x2ae),{'url':isUrl(_0x2757d1)[0x0]},'apikey')),_0x2f039a=await _0x197817[_0x51a002(0x2c3)](_0x3950f7[_0x51a002(0x5a0)],_0x1e16a8[_0x51a002(0x34e)][_0x51a002(0x251)],_0x51a002(0x617)+_0x1e16a8[_0x51a002(0x34e)][_0x51a002(0x669)]+_0x51a002(0x533)+isUrl(_0x2757d1)[0x0]);_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'audio':{'url':_0x1e16a8[_0x51a002(0x34e)]['url']},'mimetype':'audio/mpeg','fileName':_0x1e16a8['result'][_0x51a002(0x669)]+_0x51a002(0x255)},{'quoted':_0x2f039a});}break;case'twitdl':case _0x51a002(0x50d):{if(!_0x2757d1)throw _0x51a002(0x6b5);_0x47c968(mess[_0x51a002(0x30b)]);let _0x23b018=await fetchJson(api(_0x51a002(0x25d),_0x51a002(0x265),{'url':_0x2757d1},_0x51a002(0x24e))),_0x2f7d43=[{'buttonId':_0x51a002(0x357)+_0x2757d1,'buttonText':{'displayText':'🎵Audio🎵'},'type':0x1}],_0x9be5={'video':{'url':_0x23b018['result']['HD']||_0x23b018['result']['SD']},'caption':util[_0x51a002(0x329)](_0x23b018['result']),'footer':_0x51a002(0x5b5),'buttons':_0x2f7d43,'headerType':0x5};_0x197817['sendMessage'](_0x3950f7[_0x51a002(0x5a0)],_0x9be5,{'quoted':_0x3950f7});}break;case'twittermp3':case'twitteraudio':{if(!_0x2757d1)throw _0x51a002(0x6b5);_0x47c968(mess['wait']);let _0x4d8b74=await fetchJson(api(_0x51a002(0x25d),'/api/downloader/twitter',{'url':_0x2757d1},_0x51a002(0x24e))),_0x3ab508=[{'buttonId':_0x51a002(0x280)+_0x2757d1,'buttonText':{'displayText':_0x51a002(0x2af)},'type':0x1}],_0x59d153={'image':{'url':_0x4d8b74[_0x51a002(0x34e)][_0x51a002(0x251)]},'caption':util[_0x51a002(0x329)](_0x4d8b74[_0x51a002(0x34e)]),'footer':_0x51a002(0x5b5),'buttons':_0x3ab508,'headerType':0x4},_0x156f25=await _0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],_0x59d153,{'quoted':_0x3950f7});_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'audio':{'url':_0x4d8b74['result'][_0x51a002(0x268)]}},{'quoted':_0x156f25});}break;case _0x51a002(0x25c):case _0x51a002(0x64b):case _0x51a002(0x200):{if(!_0x2757d1)throw _0x51a002(0x6b5);_0x47c968(mess[_0x51a002(0x30b)]);let _0x3c034f=await fetchJson(api(_0x51a002(0x25d),_0x51a002(0x692),{'url':_0x2757d1},_0x51a002(0x24e)));_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'video':{'url':_0x3c034f[_0x51a002(0x34e)][_0x51a002(0x500)]},'caption':_0x51a002(0x617)+_0x3c034f['result'][_0x51a002(0x669)]},{'quoted':_0x3950f7});}break;case _0x51a002(0x6cd):case'pinterestdlksksks':{if(!_0x2757d1)throw _0x51a002(0x6b5);_0x47c968(mess[_0x51a002(0x30b)]);let _0xc222ee=await fetchJson(api(_0x51a002(0x25d),_0x51a002(0x61d),{'url':_0x2757d1},_0x51a002(0x24e)));_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'video':{'url':_0xc222ee['result']},'caption':_0x51a002(0x4ef)+_0x2757d1},{'quoted':_0x3950f7});}break;case _0x51a002(0x641):case _0x51a002(0x55d):{if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x35d);let {umma:_0x183ade}=require('./lib)\x20scraper'),_0xffe0b0=await _0x183ade(isUrl(_0x2757d1)[0x0]);if(_0xffe0b0[_0x51a002(0x420)]==_0x51a002(0x454)){let _0x1e345e=[{'buttonId':'ytmp3\x20'+_0xffe0b0[_0x51a002(0x6a7)][0x0]+_0x51a002(0x225),'buttonText':{'displayText':'🎵Audio🎵'},'type':0x1},{'buttonId':_0x51a002(0x417)+_0xffe0b0[_0x51a002(0x6a7)][0x0]+_0x51a002(0x4ea),'buttonText':{'displayText':'🎥Video🎥'},'type':0x1}],_0x597d72={'image':{'url':_0xffe0b0[_0x51a002(0x2ac)][_0x51a002(0x3c8)]},'caption':_0x51a002(0x37f)+_0xffe0b0['title']+_0x51a002(0x5ee)+_0xffe0b0[_0x51a002(0x2ac)][_0x51a002(0x4f5)]+_0x51a002(0x541)+_0xffe0b0[_0x51a002(0x240)]+_0x51a002(0x2aa)+_0xffe0b0['caption']+_0x51a002(0x533)+_0xffe0b0[_0x51a002(0x6a7)][0x0]+_0x51a002(0x681),'footer':_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)],'buttons':_0x1e345e,'headerType':0x4};_0x197817[_0x51a002(0x2b4)](_0x3950f7['chat'],_0x597d72,{'quoted':_0x3950f7});}else _0xffe0b0['type']==_0x51a002(0x5bc)&&_0xffe0b0[_0x51a002(0x6a7)][_0x51a002(0x483)](async _0x1849d3=>{const _0x159d4b=_0x51a002;_0x197817[_0x159d4b(0x2b4)](_0x3950f7[_0x159d4b(0x5a0)],{'image':{'url':_0x1849d3},'caption':_0x159d4b(0x617)+_0xffe0b0['title']+_0x159d4b(0x5ee)+_0xffe0b0[_0x159d4b(0x2ac)][_0x159d4b(0x4f5)]+'\x0a⭔\x20Like\x20:\x20'+_0xffe0b0[_0x159d4b(0x240)]+_0x159d4b(0x2aa)+_0xffe0b0[_0x159d4b(0x31f)]},{'quoted':_0x3950f7});});}break;case _0x51a002(0x373):{if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x3aa);let {ringtone:_0x3f7098}=require(_0x51a002(0x68f)),_0x35dce5=await _0x3f7098(_0x2757d1),_0x95f780=_0x35dce5[Math[_0x51a002(0x3e0)](Math[_0x51a002(0x315)]()*_0x35dce5[_0x51a002(0x53a)])];_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'audio':{'url':_0x95f780[_0x51a002(0x268)]},'fileName':_0x95f780[_0x51a002(0x669)]+_0x51a002(0x602),'mimetype':_0x51a002(0x45e)},{'quoted':_0x3950f7});}break;case'iqra':{oh='Example\x20:\x20'+(_0x29c62d+_0x53bfbd)+_0x51a002(0x4e4);if(!_0x2757d1)throw oh;yy=await getBuffer(_0x51a002(0x6b4)+_0x2757d1),_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'document':yy,'mimetype':'application/pdf','fileName':_0x51a002(0x54e)+_0x2757d1+_0x51a002(0x42a)},{'quoted':_0x3950f7})[_0x51a002(0x230)](_0x36cbbd=>_0x3d6c65(oh));}break;case _0x51a002(0x471):{if(_0x36620a[0x0]==='pdf')_0x47c968(mess[_0x51a002(0x30b)]),_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'document':{'url':'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.pdf'},'mimetype':_0x51a002(0x573),'fileName':_0x51a002(0x5e8)},{'quoted':_0x3950f7});else{if(_0x36620a[0x0]===_0x51a002(0x4cd))_0x47c968(mess[_0x51a002(0x30b)]),_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'document':{'url':_0x51a002(0x49f)},'mimetype':_0x51a002(0x249),'fileName':_0x51a002(0x55f)},{'quoted':_0x3950f7});else{if(_0x36620a[0x0]===_0x51a002(0x2e9))_0x47c968(mess[_0x51a002(0x30b)]),_0x197817[_0x51a002(0x2b4)](_0x3950f7[_0x51a002(0x5a0)],{'document':{'url':_0x51a002(0x4c6)},'mimetype':'application/vnd.openxmlformats-officedocument.presentationml.presentation','fileName':'juz-amma-arab-latin-indonesia.pptx'},{'quoted':_0x3950f7});else _0x36620a[0x0]===_0x51a002(0x219)?(_0x47c968(mess[_0x51a002(0x30b)]),_0x197817['sendMessage'](_0x3950f7[_0x51a002(0x5a0)],{'document':{'url':_0x51a002(0x3ae)},'mimetype':_0x51a002(0x36b),'fileName':'juz-amma-arab-latin-indonesia.xlsx'},{'quoted':_0x3950f7})):_0x3d6c65('What\x20format\x20do\x20you\x20want?\x20?\x20Example\x20:\x20'+(_0x29c62d+_0x53bfbd)+'\x20pdf\x0a\x0aAvailable\x20formats\x20:\x20pdf,\x20docx,\x20pptx,\x20xlsx');}}}break;case _0x51a002(0x55b):case _0x51a002(0x3d6):{if(!_0x36620a[0x0])throw'Example:\x0a'+(_0x29c62d+_0x53bfbd)+_0x51a002(0x54c)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x3ca);if(!_0x36620a[0x1])throw _0x51a002(0x2b2)+(_0x29c62d+_0x53bfbd)+'\x20muslim\x201';try{let _0xb5a434=await fetchJson(_0x51a002(0x5f9)+_0x36620a[0x0]),{number:_0x50074a,arab:_0x2ef2c4,id:_0x46c062}=_0xb5a434[_0x51a002(0x276)](_0x473525=>_0x473525[_0x51a002(0x409)]==_0x36620a[0x1]);_0x3d6c65(_0x51a002(0x327)+_0x50074a+'\x0a\x0a'+_0x2ef2c4+'\x0a\x0a'+_0x46c062);}catch(_0x3e25c1){_0x3d6c65('Hadith\x20not\x20found\x20!');}}break;case _0x51a002(0x51f):{if(!_0x36620a[0x0])throw _0x51a002(0x4d3)+(_0x29c62d+_0x53bfbd)+'\x201\x202\x0a\x0athen\x20the\x20result\x20is\x20surah\x20Al-Fatihah\x20verse\x202\x20along\x20with\x20the\x20audio,\x20and\x20the\x20verse\x20is\x20just\x201';if(!_0x36620a[0x1])throw _0x51a002(0x4d3)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x434);let _0x2dd3f1=await fetchJson(_0x51a002(0x4c2)+_0x36620a[0x0]+_0x51a002(0x1d6)+_0x36620a[0x1]),_0x3b568e=_0x51a002(0x350)+_0x2dd3f1[_0x51a002(0x34e)]['data'][_0x51a002(0x3d2)][_0x51a002(0x4b1)]+_0x51a002(0x388)+_0x2dd3f1[_0x51a002(0x34e)][_0x51a002(0x40d)][_0x51a002(0x31d)]['en']+_0x51a002(0x610)+_0x2dd3f1[_0x51a002(0x34e)]['data'][_0x51a002(0x31d)]['id']+'\x0a\x0a(\x20Q.S\x20'+_0x2dd3f1[_0x51a002(0x34e)][_0x51a002(0x40d)]['surah'][_0x51a002(0x4f5)][_0x51a002(0x5e1)]['id']+_0x51a002(0x364)+_0x2dd3f1[_0x51a002(0x34e)][_0x51a002(0x40d)]['number']['inSurah']+'\x20)';_0x3d6c65(_0x3b568e),_0x197817[_0x51a002(0x2b4)](_0x3950f7['chat'],{'audio':{'url':_0x2dd3f1[_0x51a002(0x34e)][_0x51a002(0x40d)][_0x51a002(0x268)][_0x51a002(0x346)]},'mimetype':'audio/mpeg'},{'quoted':_0x3950f7});}break;case'tafsirsurah':{if(!_0x36620a[0x0])throw _0x51a002(0x4d3)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x228);if(!_0x36620a[0x1])throw _0x51a002(0x4d3)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x228);let _0x21a4bf=await fetchJson('https://islamic-api-indonesia.herokuapp.com/api/data/quran?surah='+_0x36620a[0x0]+_0x51a002(0x1d6)+_0x36620a[0x1]),_0x2e36a0=_0x51a002(0x5ea)+_0x21a4bf['result'][_0x51a002(0x40d)][_0x51a002(0x1dc)]['id'][_0x51a002(0x304)]+_0x51a002(0x335)+_0x21a4bf[_0x51a002(0x34e)][_0x51a002(0x40d)][_0x51a002(0x1dc)]['id']['long']+_0x51a002(0x4be)+_0x21a4bf[_0x51a002(0x34e)]['data'][_0x51a002(0x623)][_0x51a002(0x4f5)]['transliteration']['id']+_0x51a002(0x364)+_0x21a4bf[_0x51a002(0x34e)][_0x51a002(0x40d)]['number'][_0x51a002(0x526)]+'\x20)';_0x3d6c65(_0x2e36a0);}break;case _0x51a002(0x46b):case _0x51a002(0x5fa):case'deep':case _0x51a002(0x3b4):case _0x51a002(0x525):case _0x51a002(0x3b1):case _0x51a002(0x3d7):case _0x51a002(0x206):case'robot':case'slow':case _0x51a002(0x5da):case _0x51a002(0x1e6):try{let _0xf00ccf;if(/bass/[_0x51a002(0x370)](_0x53bfbd))_0xf00ccf=_0x51a002(0x5c1);if(/blown/['test'](_0x53bfbd))_0xf00ccf=_0x51a002(0x63c);if(/deep/['test'](_0x53bfbd))_0xf00ccf='-af\x20atempo=4/4,asetrate=44500*2/3';if(/earrape/[_0x51a002(0x370)](_0x53bfbd))_0xf00ccf=_0x51a002(0x5b9);if(/fast/['test'](_0x53bfbd))_0xf00ccf=_0x51a002(0x343);if(/fat/['test'](_0x53bfbd))_0xf00ccf=_0x51a002(0x29d);if(/nightcore/[_0x51a002(0x370)](_0x53bfbd))_0xf00ccf=_0x51a002(0x60c);if(/reverse/[_0x51a002(0x370)](_0x53bfbd))_0xf00ccf=_0x51a002(0x26d);if(/robot/[_0x51a002(0x370)](_0x53bfbd))_0xf00ccf=_0x51a002(0x33c);if(/slow/[_0x51a002(0x370)](_0x53bfbd))_0xf00ccf=_0x51a002(0x4c5);if(/smooth/['test'](_0x53bfbd))_0xf00ccf=_0x51a002(0x3b0);if(/squirrel/['test'](_0x53bfbd))_0xf00ccf='-filter:a\x20\x22atempo=0.5,asetrate=65100\x22';if(/audio/[_0x51a002(0x370)](_0x21c29a)){_0x47c968(mess[_0x51a002(0x30b)]);let _0x54648e=await _0x197817[_0x51a002(0x2bb)](_0x255562),_0x2b9b71=getRandom(_0x51a002(0x602));exec(_0x51a002(0x555)+_0x54648e+'\x20'+_0xf00ccf+'\x20'+_0x2b9b71,(_0x583b70,_0x422590,_0x23059d)=>{const _0x3c6168=_0x51a002;fs['unlinkSync'](_0x54648e);if(_0x583b70)return _0x3d6c65(_0x583b70);let _0xcb6c8d=fs[_0x3c6168(0x32a)](_0x2b9b71);_0x197817['sendMessage'](_0x3950f7[_0x3c6168(0x5a0)],{'audio':_0xcb6c8d,'mimetype':'audio/mpeg'},{'quoted':_0x3950f7}),fs[_0x3c6168(0x36c)](_0x2b9b71);});}else _0x3d6c65('Reply\x20to\x20the\x20audio\x20you\x20want\x20to\x20change\x20with\x20caption\x20*'+(_0x29c62d+_0x53bfbd)+'*');}catch(_0x3cd232){_0x3d6c65(_0x3cd232);}break;case _0x51a002(0x1c7):{if(!_0x3950f7[_0x51a002(0x60a)])throw _0x51a002(0x313);if(!_0x3950f7['quoted'][_0x51a002(0x3d5)])throw'SHA256\x20Hash\x20Missing';if(!_0x2757d1)throw _0x51a002(0x453);let _0x5ba7ad=_0x3950f7[_0x51a002(0x60a)][_0x51a002(0x3d5)][_0x51a002(0x5f1)](_0x51a002(0x467));if(global['db'][_0x51a002(0x61f)][_0x5ba7ad]&&global['db']['sticker'][_0x5ba7ad]['locked'])throw'You\x20have\x20no\x20permission\x20to\x20change\x20this\x20sticker\x20command';global['db'][_0x51a002(0x61f)][_0x5ba7ad]={'text':_0x2757d1,'mentionedJid':_0x3950f7[_0x51a002(0x503)],'creator':_0x3950f7[_0x51a002(0x3a3)],'at':+new Date(),'locked':![]},_0x3d6c65('Done!');}break;case _0x51a002(0x5b6):{let _0x1fda71=_0x3950f7[_0x51a002(0x60a)][_0x51a002(0x3d5)][_0x51a002(0x5f1)]('base64');if(!_0x1fda71)throw _0x51a002(0x5be);if(global['db'][_0x51a002(0x61f)][_0x1fda71]&&global['db'][_0x51a002(0x61f)][_0x1fda71][_0x51a002(0x2cf)])throw _0x51a002(0x54f);delete global['db'][_0x51a002(0x61f)][_0x1fda71],_0x3d6c65(_0x51a002(0x298));}break;case _0x51a002(0x6ad):{let _0x2f7d93=(_0x51a002(0x39e)+Object[_0x51a002(0x20a)](global['db'][_0x51a002(0x61f)])[_0x51a002(0x483)](([_0x40cd64,_0x58701c],_0x2e8165)=>_0x2e8165+0x1+'.\x20'+(_0x58701c[_0x51a002(0x2cf)]?'*'+_0x40cd64+'*':_0x40cd64)+_0x51a002(0x364)+_0x58701c['text'])[_0x51a002(0x436)]('\x0a')+'\x0a')[_0x51a002(0x402)]();_0x197817[_0x51a002(0x4dd)](_0x3950f7[_0x51a002(0x5a0)],_0x2f7d93,_0x3950f7,{'mentions':Object[_0x51a002(0x260)](global['db']['sticker'])[_0x51a002(0x483)](_0x354b02=>_0x354b02[_0x51a002(0x503)])[_0x51a002(0x355)]((_0x42552a,_0x72fecb)=>[..._0x42552a,..._0x72fecb],[])});}break;case _0x51a002(0x383):{if(!_0x9861be)throw mess[_0x51a002(0x466)];if(!_0x3950f7['quoted'])throw _0x51a002(0x313);if(!_0x3950f7[_0x51a002(0x60a)]['fileSha256'])throw _0x51a002(0x2f7);let _0x411b07=_0x3950f7[_0x51a002(0x60a)][_0x51a002(0x3d5)][_0x51a002(0x5f1)]('base64');if(!(_0x411b07 in global['db'][_0x51a002(0x61f)]))throw _0x51a002(0x5ac);global['db'][_0x51a002(0x61f)][_0x411b07][_0x51a002(0x2cf)]=!/^un/i[_0x51a002(0x370)](_0x53bfbd),_0x3d6c65(_0x51a002(0x298));}break;case'addmsg':{if(!_0x3950f7[_0x51a002(0x60a)])throw _0x51a002(0x52d);if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x2fc);let _0x10724f=global['db']['database'];if(_0x2757d1[_0x51a002(0x4f9)]()in _0x10724f)throw'\x27'+_0x2757d1+_0x51a002(0x5f4);_0x10724f[_0x2757d1[_0x51a002(0x4f9)]()]=_0x255562[_0x51a002(0x405)],_0x3d6c65(_0x51a002(0x615)+_0x2757d1+_0x51a002(0x51d)+_0x29c62d+_0x51a002(0x291)+_0x2757d1+_0x51a002(0x26e)+_0x29c62d+_0x51a002(0x3cb));}break;case _0x51a002(0x3e3):{if(!_0x2757d1)throw _0x51a002(0x284)+(_0x29c62d+_0x53bfbd)+_0x51a002(0x3db)+_0x29c62d+_0x51a002(0x3cb);let _0x4c4ecc=global['db']['database'];if(!(_0x2757d1[_0x51a002(0x4f9)]()in _0x4c4ecc))throw'\x27'+_0x2757d1+_0x51a002(0x27a);_0x197817[_0x51a002(0x650)](_0x3950f7[_0x51a002(0x5a0)],_0x4c4ecc[_0x2757d1[_0x51a002(0x4f9)]()],!![]);}break;case _0x51a002(0x3cb):{let _0x251ce5=JSON[_0x51a002(0x66b)](fs['readFileSync'](_0x51a002(0x4a4))),_0x32e6aa=Object[_0x51a002(0x20a)](global['db'][_0x51a002(0x686)])[_0x51a002(0x483)](([_0x1cc9c0,_0x15b0d5])=>{return{'nama':_0x1cc9c0,..._0x15b0d5};}),_0x423d15=_0x51a002(0x1cb);for(let _0x57b543 of _0x32e6aa){_0x423d15+=_0x51a002(0x62c)+_0x57b543[_0x51a002(0x552)]+_0x51a002(0x540)+getContentType(_0x57b543[_0x51a002(0x3a6)])[_0x51a002(0x588)](/Message/i,'')+_0x51a002(0x606);}_0x3d6c65(_0x423d15);}break;case _0x51a002(0x3ed):case'deletemsg':{let _0x25cfc0=global['db'][_0x51a002(0x686)];if(!(_0x2757d1[_0x51a002(0x4f9)]()in _0x25cfc0))return _0x3d6c65('\x27'+_0x2757d1+_0x51a002(0x5b3));delete _0x25cfc0[_0x2757d1[_0x51a002(0x4f9)]()],_0x3d6c65(_0x51a002(0x5fb)+_0x2757d1+_0x51a002(0x258));}break;case _0x51a002(0x413):{if(_0x3950f7[_0x51a002(0x69f)])return _0x3d6c65(_0x51a002(0x4ab));this[_0x51a002(0x413)]=this['anonymous']?this[_0x51a002(0x413)]:{};let _0x4533c3=[{'urlButton':{'displayText':_0x51a002(0x498),'url':'https://wa.me/923474187615?text=hello+bro+i+found+a+bug+in+your+bot'}},{'quickReplyButton':{'displayText':_0x51a002(0x4ec),'id':'start'}}];_0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],_0x4533c3,_0x51a002(0x6ca)+await _0x197817[_0x51a002(0x3f9)](_0x3950f7['sender'])+_0x51a002(0x458),_0x197817['user'][_0x51a002(0x4f5)],_0x3950f7);}break;case'sendkontak':case _0x51a002(0x532):{if(_0x3950f7['isGroup'])return _0x3d6c65('This\x20Features\x20Cannot\x20Be\x20Use\x20in\x20Group!');this[_0x51a002(0x413)]=this['anonymous']?this['anonymous']:{};let _0x20d9c9=Object[_0x51a002(0x260)](this[_0x51a002(0x413)])[_0x51a002(0x276)](_0x3c92f8=>_0x3c92f8[_0x51a002(0x2c5)](_0x3950f7[_0x51a002(0x3a3)]));if(!_0x20d9c9){let _0x52ce03=[{'buttonId':'start','buttonText':{'displayText':_0x51a002(0x6c1)},'type':0x1}];await _0x197817['sendButtonText'](_0x3950f7[_0x51a002(0x5a0)],_0x52ce03,_0x51a002(0x67f));throw![];}let _0x1143e5=await _0x197817[_0x51a002(0x6a1)](_0x20d9c9['b']),_0x458ea4=await _0x197817[_0x51a002(0x39d)](_0x20d9c9['b']),_0x66360e=await _0x197817[_0x51a002(0x2c3)](_0x20d9c9['a'],_0x1143e5,_0x51a002(0x3e7)+await _0x197817['getName'](_0x20d9c9['b'])+'\x0aBio\x20:\x20'+_0x458ea4[_0x51a002(0x23f)]+_0x51a002(0x38d)+_0x20d9c9['b'][_0x51a002(0x662)]('@')[0x0],_0x3950f7,{'mentions':[_0x20d9c9['b']]});_0x197817[_0x51a002(0x293)](_0x20d9c9['a'],[_0x20d9c9['b'][_0x51a002(0x662)]('@')[0x0]],_0x66360e);}break;case _0x51a002(0x250):case _0x51a002(0x312):{if(_0x3950f7[_0x51a002(0x69f)])return _0x3d6c65(_0x51a002(0x4ab));this[_0x51a002(0x413)]=this['anonymous']?this[_0x51a002(0x413)]:{};let _0x34e7ec=Object[_0x51a002(0x260)](this['anonymous'])[_0x51a002(0x276)](_0x3bf6fc=>_0x3bf6fc[_0x51a002(0x2c5)](_0x3950f7[_0x51a002(0x3a3)]));if(!_0x34e7ec){let _0x380bf0=[{'buttonId':_0x51a002(0x235),'buttonText':{'displayText':_0x51a002(0x6c1)},'type':0x1}];await _0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],_0x380bf0,_0x51a002(0x67f));throw![];}_0x3d6c65('Ok');let _0x2131f8=_0x34e7ec[_0x51a002(0x5c6)](_0x3950f7[_0x51a002(0x3a3)]);if(_0x2131f8)await _0x197817['sendText'](_0x2131f8,'_Partner\x20Has\x20Left\x20Anonymous\x20Session_',_0x3950f7);delete this[_0x51a002(0x413)][_0x34e7ec['id']];if(_0x53bfbd===_0x51a002(0x312))break;}case _0x51a002(0x1c9):case'start':{if(_0x3950f7[_0x51a002(0x69f)])return _0x3d6c65(_0x51a002(0x4ab));this['anonymous']=this[_0x51a002(0x413)]?this[_0x51a002(0x413)]:{};if(Object[_0x51a002(0x260)](this[_0x51a002(0x413)])['find'](_0x4b995c=>_0x4b995c[_0x51a002(0x2c5)](_0x3950f7[_0x51a002(0x3a3)]))){let _0xbf1e8f=[{'buttonId':_0x51a002(0x597),'buttonText':{'displayText':'😏Stop😏'},'type':0x1}];await _0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],_0xbf1e8f,'_You\x20Are\x20Still\x20In\x20Anonymous\x20Session,\x20Press\x20The\x20Button\x20Below\x20To\x20Terminate\x20Your\x20Anonymous\x20Session_',_0x197817['user'][_0x51a002(0x4f5)],_0x3950f7);throw![];}let _0x375ff5=Object[_0x51a002(0x260)](this['anonymous'])[_0x51a002(0x276)](_0x4e0739=>_0x4e0739[_0x51a002(0x34a)]===_0x51a002(0x58e)&&!_0x4e0739[_0x51a002(0x2c5)](_0x3950f7[_0x51a002(0x3a3)]));if(_0x375ff5){let _0x5807ad=[{'buttonId':_0x51a002(0x639),'buttonText':{'displayText':_0x51a002(0x2cc)},'type':0x1},{'buttonId':'stop','buttonText':{'displayText':_0x51a002(0x58c)},'type':0x1}];await _0x197817[_0x51a002(0x5de)](_0x375ff5['a'],_0x5807ad,_0x51a002(0x569),_0x197817[_0x51a002(0x39b)]['name'],_0x3950f7),_0x375ff5['b']=_0x3950f7[_0x51a002(0x3a3)],_0x375ff5[_0x51a002(0x34a)]='CHATTING',await _0x197817[_0x51a002(0x5de)](_0x375ff5['b'],_0x5807ad,_0x51a002(0x569),_0x197817[_0x51a002(0x39b)]['name'],_0x3950f7);}else{let _0x1df6a4=+new Date();this[_0x51a002(0x413)][_0x1df6a4]={'id':_0x1df6a4,'a':_0x3950f7[_0x51a002(0x3a3)],'b':'','state':_0x51a002(0x58e),'check':function(_0xe3c8dc=''){const _0x5e4d62=_0x51a002;return[this['a'],this['b']][_0x5e4d62(0x695)](_0xe3c8dc);},'other':function(_0x292db1=''){return _0x292db1===this['a']?this['b']:_0x292db1===this['b']?this['a']:'';}};let _0x3ddbc1=[{'buttonId':'keluar','buttonText':{'displayText':_0x51a002(0x58c)},'type':0x1}];await _0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],_0x3ddbc1,'_Please\x20Wait,\x20Looking\x20For\x20A\x20Partner_',_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)],_0x3950f7);}break;}case _0x51a002(0x639):case'lanjut':{if(_0x3950f7[_0x51a002(0x69f)])return _0x3d6c65('This\x20Feature\x20Cannot\x20Be\x20Used\x20In\x20Group!');this[_0x51a002(0x413)]=this[_0x51a002(0x413)]?this['anonymous']:{};let _0x2c5ef4=Object[_0x51a002(0x260)](this['anonymous'])[_0x51a002(0x276)](_0x6a71f7=>_0x6a71f7[_0x51a002(0x2c5)](_0x3950f7[_0x51a002(0x3a3)]));if(!_0x2c5ef4){let _0x593beb=[{'buttonId':_0x51a002(0x235),'buttonText':{'displayText':_0x51a002(0x6c1)},'type':0x1}];await _0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],_0x593beb,_0x51a002(0x6bc));throw![];}let _0x57eac0=_0x2c5ef4[_0x51a002(0x5c6)](_0x3950f7['sender']);if(_0x57eac0)await _0x197817[_0x51a002(0x4dd)](_0x57eac0,'```Partner\x20Has\x20Left\x20Anonymous\x20Session```',_0x3950f7);delete this[_0x51a002(0x413)][_0x2c5ef4['id']];let _0x4308bd=Object[_0x51a002(0x260)](this['anonymous'])['find'](_0x345118=>_0x345118[_0x51a002(0x34a)]===_0x51a002(0x58e)&&!_0x345118['check'](_0x3950f7[_0x51a002(0x3a3)]));if(_0x4308bd){let _0x2a3743=[{'buttonId':_0x51a002(0x639),'buttonText':{'displayText':_0x51a002(0x2cc)},'type':0x1},{'buttonId':_0x51a002(0x250),'buttonText':{'displayText':'😏Stop😏'},'type':0x1}];await _0x197817[_0x51a002(0x5de)](_0x4308bd['a'],_0x2a3743,_0x51a002(0x54b),_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)],_0x3950f7),_0x4308bd['b']=_0x3950f7[_0x51a002(0x3a3)],_0x4308bd[_0x51a002(0x34a)]='CHATTING',await _0x197817[_0x51a002(0x5de)](_0x4308bd['b'],_0x2a3743,'```Successfully\x20Found\x20Partner,\x20now\x20you\x20can\x20send\x20message```',_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)],_0x3950f7);}else{let _0x4730f5=+new Date();this[_0x51a002(0x413)][_0x4730f5]={'id':_0x4730f5,'a':_0x3950f7[_0x51a002(0x3a3)],'b':'','state':_0x51a002(0x58e),'check':function(_0x1e7ebf=''){const _0x32c245=_0x51a002;return[this['a'],this['b']][_0x32c245(0x695)](_0x1e7ebf);},'other':function(_0x229eb1=''){return _0x229eb1===this['a']?this['b']:_0x229eb1===this['b']?this['a']:'';}};let _0x59ec28=[{'buttonId':_0x51a002(0x250),'buttonText':{'displayText':_0x51a002(0x58c)},'type':0x1}];await _0x197817[_0x51a002(0x5de)](_0x3950f7[_0x51a002(0x5a0)],_0x59ec28,_0x51a002(0x6a9),_0x197817[_0x51a002(0x39b)][_0x51a002(0x4f5)],_0x3950f7);}break;}case'public':{if(!_0x9861be)throw mess[_0x51a002(0x466)];_0x197817['public']=!![],_0x3d6c65(_0x51a002(0x58a));}break;case _0x51a002(0x56c):{if(!_0x9861be)throw mess['owner'];_0x197817['public']=![],_0x3d6c65(_0x51a002(0x1f8));}break;case _0x51a002(0x28b):case _0x51a002(0x50b):case _0x51a002(0x4fc):{const _0x47e56d=process[_0x51a002(0x218)](),_0x840993=os['cpus']()[_0x51a002(0x483)](_0x4906e2=>{const _0x1f17f5=_0x51a002;return _0x4906e2[_0x1f17f5(0x283)]=Object[_0x1f17f5(0x4df)](_0x4906e2[_0x1f17f5(0x452)])[_0x1f17f5(0x355)]((_0x3423f0,_0x4ce18a)=>_0x3423f0+_0x4906e2[_0x1f17f5(0x452)][_0x4ce18a],0x0),_0x4906e2;}),_0x289ac9=_0x840993[_0x51a002(0x355)]((_0xbeaa6a,_0x90f9fc,_0xf15b31,{length:_0x52f5c6})=>{const _0x574aff=_0x51a002;return _0xbeaa6a['total']+=_0x90f9fc[_0x574aff(0x283)],_0xbeaa6a[_0x574aff(0x549)]+=_0x90f9fc[_0x574aff(0x549)]/_0x52f5c6,_0xbeaa6a[_0x574aff(0x452)][_0x574aff(0x39b)]+=_0x90f9fc['times'][_0x574aff(0x39b)],_0xbeaa6a[_0x574aff(0x452)][_0x574aff(0x6ab)]+=_0x90f9fc[_0x574aff(0x452)][_0x574aff(0x6ab)],_0xbeaa6a['times'][_0x574aff(0x1e0)]+=_0x90f9fc[_0x574aff(0x452)]['sys'],_0xbeaa6a[_0x574aff(0x452)][_0x574aff(0x306)]+=_0x90f9fc['times']['idle'],_0xbeaa6a[_0x574aff(0x452)][_0x574aff(0x31c)]+=_0x90f9fc[_0x574aff(0x452)][_0x574aff(0x31c)],_0xbeaa6a;},{'speed':0x0,'total':0x0,'times':{'user':0x0,'nice':0x0,'sys':0x0,'idle':0x0,'irq':0x0}});let _0x558f03=speed(),_0x3239ca=speed()-_0x558f03;neww=performance['now'](),oldd=performance['now'](),respon=('\x0aResponse\x20Speed\x20'+_0x3239ca['toFixed'](0x4)+_0x51a002(0x45f)+(oldd-neww)+'\x20_miliseconds_\x0a\x0aRuntime\x20:\x20'+_0x1579b7(process[_0x51a002(0x1ea)]())+_0x51a002(0x1f4)+formatp(os[_0x51a002(0x207)]()-os[_0x51a002(0x317)]())+_0x51a002(0x28a)+formatp(os[_0x51a002(0x207)]())+_0x51a002(0x513)+Object['keys'](_0x47e56d)[_0x51a002(0x483)]((_0x3727ec,_0x3df0c3,_0xd7de22)=>_0x3727ec[_0x51a002(0x410)](Math[_0x51a002(0x2a0)](..._0xd7de22[_0x51a002(0x483)](_0x190d05=>_0x190d05[_0x51a002(0x53a)])),'\x20')+':\x20'+formatp(_0x47e56d[_0x3727ec]))['join']('\x0a')+'\x0a\x0a'+(_0x840993[0x0]?_0x51a002(0x4bc)+_0x840993[0x0][_0x51a002(0x1d9)]['trim']()+'\x20('+_0x289ac9[_0x51a002(0x549)]+_0x51a002(0x32d)+Object[_0x51a002(0x4df)](_0x289ac9['times'])[_0x51a002(0x483)](_0x383fb1=>_0x51a002(0x4db)+(_0x383fb1+'*')[_0x51a002(0x410)](0x6)+':\x20'+(0x64*_0x289ac9['times'][_0x383fb1]/_0x289ac9['total'])[_0x51a002(0x336)](0x2)+'%')[_0x51a002(0x436)]('\x0a')+_0x51a002(0x348)+_0x840993[_0x51a002(0x53a)]+'\x20Core\x20CPU)_\x0a'+_0x840993[_0x51a002(0x483)]((_0x4ea605,_0x45a6b7)=>_0x45a6b7+0x1+'.\x20'+_0x4ea605['model']['trim']()+'\x20('+_0x4ea605[_0x51a002(0x549)]+_0x51a002(0x32d)+Object[_0x51a002(0x4df)](_0x4ea605[_0x51a002(0x452)])[_0x51a002(0x483)](_0x14859c=>_0x51a002(0x4db)+(_0x14859c+'*')[_0x51a002(0x410)](0x6)+':\x20'+(0x64*_0x4ea605[_0x51a002(0x452)][_0x14859c]/_0x4ea605[_0x51a002(0x283)])[_0x51a002(0x336)](0x2)+'%')[_0x51a002(0x436)]('\x0a'))[_0x51a002(0x436)]('\x0a\x0a'):'')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')[_0x51a002(0x402)](),_0x3d6c65(respon);}break;case _0x51a002(0x466):case'creator':{_0x197817[_0x51a002(0x293)](_0x3950f7[_0x51a002(0x5a0)],global[_0x51a002(0x307)],_0x3950f7);const _0x186e9=fs['readFileSync'](_0x51a002(0x67e));_0x197817[_0x51a002(0x2b4)](_0x3950f7['chat'],{'audio':_0x186e9,'mimetype':_0x51a002(0x586),'ptt':!![],'quoted':_0x3950f7});}break;case _0x51a002(0x463):case _0x51a002(0x4f4):{if(!_0x2757d1)throw _0x51a002(0x56a)+_0x53bfbd+'\x20Menu\x20Error\x20';_0x197817[_0x51a002(0x2b4)]('923474187615@s.whatsapp.net',{'text':'*Bug\x20Report\x20From:*\x20wa.me/'+_0x3950f7[_0x51a002(0x3a3)][_0x51a002(0x662)]('@')[0x0]+_0x51a002(0x671)+_0x2757d1}),_0x3d6c65(_0x51a002(0x674));}break;case _0x51a002(0x3d0):case _0x51a002(0x370):case _0x51a002(0x426):case _0x51a002(0x281):case _0x51a002(0x3e4):case _0x51a002(0x404):case _0x51a002(0x69a):{anu=_0x51a002(0x3bd)+_0x220aae+'\x0aMOON-KING\x20With\x20You\x20Forever!!💯🤗';const _0x197f2a=generateWAMessageFromContent(_0x3950f7[_0x51a002(0x5a0)],proto[_0x51a002(0x676)][_0x51a002(0x419)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu,'locationMessage':{'jpegThumbnail':fs['readFileSync'](_0x51a002(0x38f))},'hydratedFooterText':'MOON-KING','hydratedButtons':[{'urlButton':{'displayText':_0x51a002(0x1d3),'url':_0x51a002(0x5d8)}},{'urlButton':{'displayText':_0x51a002(0x640),'url':_0x51a002(0x42d)}},{'quickReplyButton':{'displayText':_0x51a002(0x437),'id':_0x29c62d+_0x51a002(0x67d)}},{'quickReplyButton':{'displayText':_0x51a002(0x309),'id':_0x29c62d+_0x51a002(0x4dc)}},{'quickReplyButton':{'displayText':_0x51a002(0x25a),'id':_0x29c62d+_0x51a002(0x466)}}]}}}),{'userJid':_0x3950f7['chat']});_0x197817['relayMessage'](_0x3950f7[_0x51a002(0x5a0)],_0x197f2a[_0x51a002(0x3a6)],{'messageId':_0x197f2a[_0x51a002(0x347)]['id']});}break;case _0x51a002(0x49e):case _0x51a002(0x1d4):case _0x51a002(0x477):case'?':{timestampe=speed(),latensie=speed()-timestampe,anu='';const _0xc95aa8=generateWAMessageFromContent(_0x3950f7['chat'],proto[_0x51a002(0x676)][_0x51a002(0x419)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu,'locationMessage':{'jpegThumbnail':fs[_0x51a002(0x32a)]('./DarkMedia/moonkingpic.jpg')},'hydratedFooterText':_0x51a002(0x2e1)+_0x220aae+_0x51a002(0x2d6)+latensie['toFixed'](0x4)+_0x51a002(0x33d)+_0x1579b7(process[_0x51a002(0x1ea)]())+_0x51a002(0x5ca)+global['botnma']+_0x51a002(0x1e7)+global[_0x51a002(0x5c0)]+_0x51a002(0x51b)+global['owner']+_0x51a002(0x3d4)+os[_0x51a002(0x2f2)]()+_0x51a002(0x2f4)+os[_0x51a002(0x460)]()+'\x0a\x0a\x0aPlease\x20Select\x20Button\x20Below\x0a','hydratedButtons':[{'urlButton':{'displayText':'Contact','url':_0x51a002(0x5d8)}},{'urlButton':{'displayText':_0x51a002(0x640),'url':'https://github.com/Dark-Asif/MOON-KING'}},{'quickReplyButton':{'displayText':'💚️All\x20Menu💚️','id':_0x29c62d+'allmenu'}},{'quickReplyButton':{'displayText':_0x51a002(0x309),'id':_0x29c62d+_0x51a002(0x4dc)}},{'quickReplyButton':{'displayText':_0x51a002(0x25a),'id':_0x29c62d+_0x51a002(0x466)}}]}}}),{'userJid':_0x3950f7[_0x51a002(0x5a0)]});_0x197817['relayMessage'](_0x3950f7[_0x51a002(0x5a0)],_0xc95aa8[_0x51a002(0x3a6)],{'messageId':_0xc95aa8['key']['id']});}break;case'command':{let _0x231bc9=await generateWAMessageFromContent(_0x3950f7[_0x51a002(0x5a0)],proto['Message']['fromObject']({'listMessage':{'title':_0x51a002(0x3bd)+_0x220aae,'description':_0x51a002(0x213),'buttonText':_0x51a002(0x505),'footerText':'_MOON-KING_','listType':'SINGLE_SELECT','sections':[{'title':_0x51a002(0x2ad),'rows':[{'title':_0x51a002(0x682),'description':_0x51a002(0x20f),'rowId':_0x29c62d+_0x51a002(0x29b)}]},{'title':_0x51a002(0x387),'rows':[{'title':'All\x20Menu','description':_0x51a002(0x31e),'rowId':_0x29c62d+'allmenu'},{'title':_0x51a002(0x20c),'description':'Displays\x20The\x20List\x20Of\x20Download\x20Features','rowId':_0x29c62d+_0x51a002(0x414)},{'title':_0x51a002(0x47c),'description':_0x51a002(0x679),'rowId':_0x29c62d+_0x51a002(0x332)},{'title':_0x51a002(0x57b),'description':'Displays\x20The\x20List\x20Of\x20Image\x20Features','rowId':_0x29c62d+_0x51a002(0x49a)},{'title':_0x51a002(0x23c),'description':'Displays\x20The\x20List\x20Of\x20Fun\x20Features','rowId':_0x29c62d+_0x51a002(0x546)},{'title':'Convert\x20Menu','description':'Displays\x20The\x20List\x20Of\x20Convert\x20Features','rowId':_0x29c62d+'convertmenu'},{'title':_0x51a002(0x2f3),'description':_0x51a002(0x698),'rowId':_0x29c62d+_0x51a002(0x4b8)},{'title':'Database\x20Menu','description':_0x51a002(0x3bb),'rowId':_0x29c62d+_0x51a002(0x1d0)},{'title':_0x51a002(0x576),'description':_0x51a002(0x42f),'rowId':_0x29c62d+_0x51a002(0x5af)}]},{'title':_0x51a002(0x2a6),'rows':[{'title':_0x51a002(0x5a1),'description':_0x51a002(0x25e),'rowId':_0x29c62d+_0x51a002(0x5c3)}]},{'title':_0x51a002(0x4f2),'rows':[{'title':'System\x20Menu','description':_0x51a002(0x34b),'rowId':_0x29c62d+_0x51a002(0x27e)}]},{'title':'Owner','rows':[{'title':_0x51a002(0x398),'description':_0x51a002(0x26a),'rowId':_0x29c62d+_0x51a002(0x580)}]},{'title':_0x51a002(0x2fd),'rows':[{'title':_0x51a002(0x590),'description':_0x51a002(0x439),'rowId':_0x29c62d+_0x51a002(0x59c)}]}],'listType':0x1}}),{});_0x197817['relayMessage'](_0x3950f7['chat'],_0x231bc9[_0x51a002(0x3a6)],{'messageId':_0x231bc9['key']['id']});}break;case _0x51a002(0x29b):{anu='\x0a\x20\x20*Group\x20Menu*\x0a\x20╭══•\x20ೋ•✧๑👻๑✧•ೋ\x20•══╮\x20\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+'grouplink\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x4aa)+_0x29c62d+_0x51a002(0x208)+_0x29c62d+_0x51a002(0x354)+_0x29c62d+_0x51a002(0x44d)+_0x29c62d+_0x51a002(0x3d3)+_0x29c62d+'grupinfo\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x535)+_0x29c62d+_0x51a002(0x6ce)+_0x29c62d+_0x51a002(0x2fb)+_0x29c62d+'demote\x20@user\x0a\x20\x20\x20\x20\x20\x20\x20\x20꧁•⊹٭𝙼𝙾𝙾𝙽\x20𝙺𝙸𝙽𝙶٭⊹•꧂\x0a\x20\x20╚═══════♤═══════╝\x0a\x20\x20';const _0x426da4=generateWAMessageFromContent(_0x3950f7[_0x51a002(0x5a0)],proto[_0x51a002(0x676)][_0x51a002(0x419)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu,'locationMessage':{'jpegThumbnail':fs[_0x51a002(0x32a)]('./DarkMedia/moonkingpic.jpg')},'hydratedFooterText':_0x51a002(0x444),'hydratedButtons':[{'urlButton':{'displayText':'Contact','url':_0x51a002(0x5d8)}},{'quickReplyButton':{'displayText':'👤Owner👤','id':_0x29c62d+_0x51a002(0x466)}}]}}}),{'userJid':_0x3950f7[_0x51a002(0x5a0)]});_0x197817[_0x51a002(0x6b8)](_0x3950f7[_0x51a002(0x5a0)],_0x426da4['message'],{'messageId':_0x426da4[_0x51a002(0x347)]['id']});}break;case _0x51a002(0x414):{okemenu=_0x51a002(0x35f)+_0x29c62d+_0x51a002(0x41e)+_0x29c62d+'tiktokwm\x20[url]\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x318)+_0x29c62d+_0x51a002(0x362)+_0x29c62d+_0x51a002(0x401)+_0x29c62d+_0x51a002(0x592)+_0x29c62d+_0x51a002(0x242)+_0x29c62d+_0x51a002(0x57a)+_0x29c62d+_0x51a002(0x61b)+_0x29c62d+_0x51a002(0x4ee)+_0x29c62d+_0x51a002(0x598)+_0x29c62d+_0x51a002(0x4d7)+_0x29c62d+'getvideo\x20[query\x0a\x20\x20\x20\x20\x20\x20\x20꧁•⊹٭𝙼𝙾𝙾𝙽\x20𝙺𝙸𝙽𝙶٭⊹•꧂꧂\x0a\x20\x20╚═══════♤═══════╝\x0a\x20\x20';const _0x126c71=generateWAMessageFromContent(_0x3950f7[_0x51a002(0x5a0)],proto['Message'][_0x51a002(0x419)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':okemenu,'locationMessage':{'jpegThumbnail':fs[_0x51a002(0x32a)](_0x51a002(0x38f))},'hydratedFooterText':'MOON-KING','hydratedButtons':[{'urlButton':{'displayText':_0x51a002(0x1d3),'url':_0x51a002(0x5d8)}},{'quickReplyButton':{'displayText':_0x51a002(0x25a),'id':_0x29c62d+'owner'}}]}}}),{'userJid':_0x3950f7[_0x51a002(0x5a0)]});_0x197817[_0x51a002(0x6b8)](_0x3950f7[_0x51a002(0x5a0)],_0x126c71[_0x51a002(0x3a6)],{'messageId':_0x126c71[_0x51a002(0x347)]['id']});}break;case _0x51a002(0x332):{anu=_0x51a002(0x43a)+_0x29c62d+_0x51a002(0x1fa)+_0x29c62d+_0x51a002(0x292)+_0x29c62d+_0x51a002(0x41b)+_0x29c62d+_0x51a002(0x23a)+_0x29c62d+'pinterest\x20[query]\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x633)+_0x29c62d+_0x51a002(0x34c)+_0x29c62d+_0x51a002(0x386);const _0x31de0a=generateWAMessageFromContent(_0x3950f7['chat'],proto['Message'][_0x51a002(0x419)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu,'locationMessage':{'jpegThumbnail':fs[_0x51a002(0x32a)](_0x51a002(0x38f))},'hydratedFooterText':'MOON-KING','hydratedButtons':[{'urlButton':{'displayText':'Contact','url':_0x51a002(0x5d8)}},{'quickReplyButton':{'displayText':_0x51a002(0x25a),'id':_0x29c62d+_0x51a002(0x466)}}]}}}),{'userJid':_0x3950f7[_0x51a002(0x5a0)]});_0x197817[_0x51a002(0x6b8)](_0x3950f7['chat'],_0x31de0a[_0x51a002(0x3a6)],{'messageId':_0x31de0a[_0x51a002(0x347)]['id']});}break;case _0x51a002(0x571):{anu=_0x51a002(0x3cc)+_0x29c62d+'coffee\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x65c);const _0x3fcb96=generateWAMessageFromContent(_0x3950f7[_0x51a002(0x5a0)],proto[_0x51a002(0x676)][_0x51a002(0x419)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu,'locationMessage':{'jpegThumbnail':fs['readFileSync'](_0x51a002(0x38f))},'hydratedFooterText':_0x51a002(0x444),'hydratedButtons':[{'urlButton':{'displayText':'Contact','url':_0x51a002(0x5d8)}},{'quickReplyButton':{'displayText':_0x51a002(0x25a),'id':_0x29c62d+'owner'}}]}}}),{'userJid':_0x3950f7[_0x51a002(0x5a0)]});_0x197817[_0x51a002(0x6b8)](_0x3950f7[_0x51a002(0x5a0)],_0x3fcb96[_0x51a002(0x3a6)],{'messageId':_0x3fcb96[_0x51a002(0x347)]['id']});}break;case'funmenu':{anu=_0x51a002(0x204)+_0x29c62d+_0x51a002(0x62e)+_0x29c62d+_0x51a002(0x530)+_0x29c62d+'math\x20[mode]\x20\x0a\x20\x20\x20\x20\x20\x20\x20꧁•⊹٭𝙼𝙾𝙾𝙽\x20𝙺𝙸𝙽𝙶٭⊹•꧂\x0a\x20\x20╚═══════♤═══════╝\x0a\x20\x20';const _0x44e64c=generateWAMessageFromContent(_0x3950f7[_0x51a002(0x5a0)],proto[_0x51a002(0x676)][_0x51a002(0x419)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu,'locationMessage':{'jpegThumbnail':fs['readFileSync'](_0x51a002(0x38f))},'hydratedFooterText':_0x51a002(0x444),'hydratedButtons':[{'urlButton':{'displayText':_0x51a002(0x1d3),'url':_0x51a002(0x5d8)}},{'quickReplyButton':{'displayText':_0x51a002(0x25a),'id':_0x29c62d+_0x51a002(0x466)}}]}}}),{'userJid':_0x3950f7[_0x51a002(0x5a0)]});_0x197817[_0x51a002(0x6b8)](_0x3950f7['chat'],_0x44e64c[_0x51a002(0x3a6)],{'messageId':_0x44e64c['key']['id']});}break;case _0x51a002(0x5af):{anu='\x0a\x09*Voice\x20Changer\x20Menu*\x0a╭══•\x20ೋ•✧๑🔥๑✧•ೋ\x20•══╮\x09\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+'bass\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+'blown\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+'deep\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x237)+_0x29c62d+_0x51a002(0x5ef)+_0x29c62d+'fat\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+'nightcore\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+'reverse\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x608)+_0x29c62d+'slow\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x352);const _0xd4cc18=generateWAMessageFromContent(_0x3950f7[_0x51a002(0x5a0)],proto['Message'][_0x51a002(0x419)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu,'locationMessage':{'jpegThumbnail':fs[_0x51a002(0x32a)]('./DarkMedia/moonkingpic.jpg')},'hydratedFooterText':_0x51a002(0x444),'hydratedButtons':[{'urlButton':{'displayText':_0x51a002(0x1d3),'url':_0x51a002(0x5d8)}},{'quickReplyButton':{'displayText':'👤Owner👤','id':_0x29c62d+_0x51a002(0x466)}}]}}}),{'userJid':_0x3950f7['chat']});_0x197817[_0x51a002(0x6b8)](_0x3950f7[_0x51a002(0x5a0)],_0xd4cc18['message'],{'messageId':_0xd4cc18['key']['id']});}break;case _0x51a002(0x50f):{anu=_0x51a002(0x39a)+_0x29c62d+'iqra\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x308)+_0x29c62d+_0x51a002(0x667)+_0x29c62d+'juzamma\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x55a);const _0x526994=generateWAMessageFromContent(_0x3950f7[_0x51a002(0x5a0)],proto['Message'][_0x51a002(0x419)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu,'locationMessage':{'jpegThumbnail':fs[_0x51a002(0x32a)](_0x51a002(0x38f))},'hydratedFooterText':_0x51a002(0x444),'hydratedButtons':[{'urlButton':{'displayText':'Contact','url':_0x51a002(0x5d8)}},{'quickReplyButton':{'displayText':_0x51a002(0x25a),'id':_0x29c62d+'owner'}}]}}}),{'userJid':_0x3950f7['chat']});_0x197817[_0x51a002(0x6b8)](_0x3950f7[_0x51a002(0x5a0)],_0x526994[_0x51a002(0x3a6)],{'messageId':_0x526994[_0x51a002(0x347)]['id']});}break;case _0x51a002(0x63b):{anu=_0x51a002(0x605)+_0x29c62d+_0x51a002(0x289)+_0x29c62d+'dreammeaning\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x396)+_0x29c62d+'fortunetelling\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x6b0)+_0x29c62d+'wife&husband\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x2eb)+_0x29c62d+_0x51a002(0x358)+_0x29c62d+_0x51a002(0x63a)+_0x29c62d+_0x51a002(0x2e8)+_0x29c62d+_0x51a002(0x296)+_0x29c62d+_0x51a002(0x618)+_0x29c62d+_0x51a002(0x53e)+_0x29c62d+'fate\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+'potentialdisease\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x4fe)+_0x29c62d+'fengshui\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x311)+_0x29c62d+'badday\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+'unluckyday\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x6c8)+_0x29c62d+'sustenance2\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x2e4)+_0x29c62d+_0x51a002(0x3c9)+_0x29c62d+_0x51a002(0x4e5)+_0x29c62d+_0x51a002(0x3a9)+_0x29c62d+_0x51a002(0x3bf)+_0x29c62d+_0x51a002(0x665)+_0x29c62d+_0x51a002(0x3d8)+_0x29c62d+_0x51a002(0x643);const _0x53a89c=generateWAMessageFromContent(_0x3950f7['chat'],proto['Message'][_0x51a002(0x419)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu,'locationMessage':{'jpegThumbnail':fs[_0x51a002(0x32a)](_0x51a002(0x38f))},'hydratedFooterText':_0x51a002(0x444),'hydratedButtons':[{'urlButton':{'displayText':_0x51a002(0x1d3),'url':_0x51a002(0x5d8)}},{'quickReplyButton':{'displayText':'👤Owner👤','id':_0x29c62d+_0x51a002(0x466)}}]}}}),{'userJid':_0x3950f7[_0x51a002(0x5a0)]});_0x197817[_0x51a002(0x6b8)](_0x3950f7[_0x51a002(0x5a0)],_0x53a89c['message'],{'messageId':_0x53a89c[_0x51a002(0x347)]['id']});}break;case'convertmenu':{anu=_0x51a002(0x2c7)+_0x29c62d+'toimage\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x657)+_0x29c62d+_0x51a002(0x222)+_0x29c62d+'emojimix\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x256)+_0x29c62d+_0x51a002(0x2c0)+_0x29c62d+_0x51a002(0x5df)+_0x29c62d+_0x51a002(0x4cb)+_0x29c62d+_0x51a002(0x48e);const _0x216c58=generateWAMessageFromContent(_0x3950f7[_0x51a002(0x5a0)],proto[_0x51a002(0x676)][_0x51a002(0x419)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu,'locationMessage':{'jpegThumbnail':fs[_0x51a002(0x32a)](_0x51a002(0x38f))},'hydratedFooterText':_0x51a002(0x444),'hydratedButtons':[{'urlButton':{'displayText':_0x51a002(0x1d3),'url':_0x51a002(0x5d8)}},{'quickReplyButton':{'displayText':_0x51a002(0x25a),'id':_0x29c62d+'owner'}}]}}}),{'userJid':_0x3950f7[_0x51a002(0x5a0)]});_0x197817[_0x51a002(0x6b8)](_0x3950f7['chat'],_0x216c58['message'],{'messageId':_0x216c58[_0x51a002(0x347)]['id']});}break;case'nocategorymenu':{anu=_0x51a002(0x613)+_0x29c62d+_0x51a002(0x42b)+_0x29c62d+'owner\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x36f)+_0x29c62d+_0x51a002(0x4a9)+_0x29c62d+_0x51a002(0x294)+_0x29c62d+_0x51a002(0x6b1)+_0x29c62d+_0x51a002(0x433)+_0x29c62d+_0x51a002(0x26f)+_0x29c62d+_0x51a002(0x423)+_0x29c62d+_0x51a002(0x629)+_0x29c62d+_0x51a002(0x50a)+_0x29c62d+_0x51a002(0x406)+_0x29c62d+_0x51a002(0x3a7);const _0x16b774=generateWAMessageFromContent(_0x3950f7[_0x51a002(0x5a0)],proto[_0x51a002(0x676)][_0x51a002(0x419)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu,'locationMessage':{'jpegThumbnail':fs[_0x51a002(0x32a)](_0x51a002(0x38f))},'hydratedFooterText':_0x51a002(0x444),'hydratedButtons':[{'urlButton':{'displayText':_0x51a002(0x1d3),'url':_0x51a002(0x5d8)}},{'quickReplyButton':{'displayText':_0x51a002(0x25a),'id':_0x29c62d+_0x51a002(0x466)}}]}}}),{'userJid':_0x3950f7[_0x51a002(0x5a0)]});_0x197817[_0x51a002(0x6b8)](_0x3950f7[_0x51a002(0x5a0)],_0x16b774[_0x51a002(0x3a6)],{'messageId':_0x16b774[_0x51a002(0x347)]['id']});}break;case _0x51a002(0x1d0):{anu=_0x51a002(0x385)+_0x29c62d+'setcmd\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x41f)+_0x29c62d+'delcmd\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+'lockcmd\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x66f)+_0x29c62d+_0x51a002(0x492)+_0x29c62d+_0x51a002(0x2e7)+_0x29c62d+_0x51a002(0x3c3);const _0x916b24=generateWAMessageFromContent(_0x3950f7['chat'],proto['Message']['fromObject']({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu,'locationMessage':{'jpegThumbnail':fs[_0x51a002(0x32a)](_0x51a002(0x38f))},'hydratedFooterText':_0x51a002(0x444),'hydratedButtons':[{'urlButton':{'displayText':_0x51a002(0x1d3),'url':_0x51a002(0x5d8)}},{'quickReplyButton':{'displayText':_0x51a002(0x25a),'id':_0x29c62d+_0x51a002(0x466)}}]}}}),{'userJid':_0x3950f7[_0x51a002(0x5a0)]});_0x197817[_0x51a002(0x6b8)](_0x3950f7[_0x51a002(0x5a0)],_0x916b24[_0x51a002(0x3a6)],{'messageId':_0x916b24['key']['id']});}break;case _0x51a002(0x5c3):{anu='\x0a\x09*Anonymous\x20Menu*\x0a╭══•\x20ೋ•✧๑😈๑✧•ೋ\x20•══╮\x20\x09\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x26c)+_0x29c62d+_0x51a002(0x361)+_0x29c62d+_0x51a002(0x349);const _0xd388be=generateWAMessageFromContent(_0x3950f7[_0x51a002(0x5a0)],proto[_0x51a002(0x676)]['fromObject']({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu,'locationMessage':{'jpegThumbnail':fs[_0x51a002(0x32a)](_0x51a002(0x38f))},'hydratedFooterText':'MOON-KING','hydratedButtons':[{'urlButton':{'displayText':_0x51a002(0x1d3),'url':'https://wa.me/+923474187615'}},{'quickReplyButton':{'displayText':_0x51a002(0x25a),'id':_0x29c62d+_0x51a002(0x466)}}]}}}),{'userJid':_0x3950f7['chat']});_0x197817['relayMessage'](_0x3950f7[_0x51a002(0x5a0)],_0xd388be['message'],{'messageId':_0xd388be[_0x51a002(0x347)]['id']});}break;case'sistemmenu':{anu=_0x51a002(0x377)+_0x29c62d+_0x51a002(0x628)+_0x29c62d+_0x51a002(0x2c8)+_0x29c62d+_0x51a002(0x675);const _0xc5170=generateWAMessageFromContent(_0x3950f7['chat'],proto[_0x51a002(0x676)][_0x51a002(0x419)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu,'locationMessage':{'jpegThumbnail':fs[_0x51a002(0x32a)](_0x51a002(0x38f))},'hydratedFooterText':_0x51a002(0x444),'hydratedButtons':[{'urlButton':{'displayText':_0x51a002(0x1d3),'url':_0x51a002(0x5d8)}},{'quickReplyButton':{'displayText':_0x51a002(0x25a),'id':_0x29c62d+_0x51a002(0x466)}}]}}}),{'userJid':_0x3950f7[_0x51a002(0x5a0)]});_0x197817['relayMessage'](_0x3950f7[_0x51a002(0x5a0)],_0xc5170[_0x51a002(0x3a6)],{'messageId':_0xc5170[_0x51a002(0x347)]['id']});}break;case _0x51a002(0x580):{anu=_0x51a002(0x2a9)+_0x29c62d+'chat\x20[option]\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x5ec)+_0x29c62d+'leave\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+'setbotpp\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+_0x51a002(0x62d)+_0x29c62d+_0x51a002(0x5fe)+_0x29c62d+'bcgroup\x0a\x20\x20๑♥҉\x20๑\x20'+_0x29c62d+'bcall\x0a\x20\x20\x20\x20\x20꧁•⊹٭𝙼𝙾𝙾𝙽\x20𝙺𝙸𝙽𝙶٭⊹•꧂\x0a╚═══════♤═══════╝\x0a\x20\x20';const _0x1f0445=generateWAMessageFromContent(_0x3950f7['chat'],proto[_0x51a002(0x676)]['fromObject']({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu,'locationMessage':{'jpegThumbnail':fs[_0x51a002(0x32a)](_0x51a002(0x38f))},'hydratedFooterText':'MOON-KING','hydratedButtons':[{'urlButton':{'displayText':_0x51a002(0x1d3),'url':_0x51a002(0x5d8)}},{'quickReplyButton':{'displayText':'👤Owner👤','id':_0x29c62d+_0x51a002(0x466)}}]}}}),{'userJid':_0x3950f7[_0x51a002(0x5a0)]});_0x197817[_0x51a002(0x6b8)](_0x3950f7[_0x51a002(0x5a0)],_0x1f0445[_0x51a002(0x3a6)],{'messageId':_0x1f0445[_0x51a002(0x347)]['id']});}break;case _0x51a002(0x67d):{anu=_0x51a002(0x205)+_0x29c62d+'grouplink\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x64a)+_0x29c62d+'setgrouppp\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x472)+_0x29c62d+'group\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x340)+_0x29c62d+_0x51a002(0x542)+_0x29c62d+_0x51a002(0x61a)+_0x29c62d+'kick\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x514)+_0x29c62d+'demote\x0a\x20\x20╰────────────⦁\x0a\x20\x20\x0a\x20\x20╭──๑♥҉\x20๑\x20𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗\x20𝗠𝗘𝗡𝗨\x20❉্᭄͜͡\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x583)+_0x29c62d+_0x51a002(0x1ee)+_0x29c62d+_0x51a002(0x39c)+_0x29c62d+_0x51a002(0x415)+_0x29c62d+_0x51a002(0x6c4)+_0x29c62d+'igreels\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+'igtv\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x4d9)+_0x29c62d+'twittermp3\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+'ytmp3\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x52a)+_0x29c62d+_0x51a002(0x3fc)+_0x29c62d+_0x51a002(0x449)+_0x29c62d+_0x51a002(0x2de)+_0x29c62d+_0x51a002(0x5d9)+_0x29c62d+_0x51a002(0x429)+_0x29c62d+'gimage\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x4b2)+_0x29c62d+'wallpaper\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x295)+_0x29c62d+_0x51a002(0x1e4)+_0x29c62d+_0x51a002(0x611)+_0x29c62d+'couplepp\x0a\x20\x20╰─────────────⦁\x0a\x20\x20\x0a\x20\x20╭──๑♥҉\x20๑\x20𝗙𝗨𝗡\x20𝗠𝗘𝗡𝗨\x20❉্᭄͜͡\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x303)+_0x29c62d+'mysoulmate\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x375)+_0x29c62d+_0x51a002(0x581)+_0x29c62d+_0x51a002(0x637)+_0x29c62d+'deep\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x44a)+_0x29c62d+_0x51a002(0x2ef)+_0x29c62d+'fat\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x59b)+_0x29c62d+_0x51a002(0x4a2)+_0x29c62d+_0x51a002(0x397)+_0x29c62d+'slow\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x41a)+_0x29c62d+_0x51a002(0x4c0)+_0x29c62d+_0x51a002(0x33e)+_0x29c62d+_0x51a002(0x447)+_0x29c62d+_0x51a002(0x5c2)+_0x29c62d+_0x51a002(0x66e)+_0x29c62d+'togif\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x22e)+_0x29c62d+_0x51a002(0x5f0)+_0x29c62d+_0x51a002(0x6c9)+_0x29c62d+'ping\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+'owner\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x3eb)+_0x29c62d+_0x51a002(0x2d1)+_0x29c62d+'delete\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x2f6)+_0x29c62d+'quoted\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x1d5)+_0x29c62d+_0x51a002(0x551)+_0x29c62d+'listonline\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x2d9)+_0x29c62d+_0x51a002(0x5c7)+_0x29c62d+_0x51a002(0x609)+_0x29c62d+'delcmd\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x4e2)+_0x29c62d+_0x51a002(0x636)+_0x29c62d+'listmsg\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x474)+_0x29c62d+_0x51a002(0x5bd)+_0x29c62d+_0x51a002(0x428)+_0x29c62d+_0x51a002(0x2f8)+_0x29c62d+'stop\x0a\x20\x20╰─────────────⦁\x0a\x20\x20\x0a\x20\x20╭──๑♥҉\x20๑\x20𝗦𝗬𝗦𝗧𝗘𝗠\x20𝗠𝗘𝗡𝗨\x20❉্᭄͜͡\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x47d)+_0x29c62d+_0x51a002(0x563)+_0x29c62d+_0x51a002(0x441)+_0x29c62d+_0x51a002(0x599)+_0x29c62d+_0x51a002(0x630)+_0x29c62d+_0x51a002(0x6be)+_0x29c62d+_0x51a002(0x35b)+_0x29c62d+'block\x0a\x20\x20│❉্᭄͜͡\x20'+_0x29c62d+_0x51a002(0x478)+_0x29c62d+_0x51a002(0x23e)+_0x29c62d+_0x51a002(0x384);const _0x1004b7=generateWAMessageFromContent(_0x3950f7[_0x51a002(0x5a0)],proto[_0x51a002(0x676)][_0x51a002(0x419)]({'templateMessage':{'hydratedTemplate':{'hydratedContentText':anu,'locationMessage':{'jpegThumbnail':fs[_0x51a002(0x32a)](_0x51a002(0x38f))},'hydratedFooterText':_0x51a002(0x444),'hydratedButtons':[{'urlButton':{'displayText':_0x51a002(0x1d3),'url':_0x51a002(0x5d8)}},{'quickReplyButton':{'displayText':_0x51a002(0x25a),'id':_0x29c62d+_0x51a002(0x466)}}]}}}),{'userJid':_0x3950f7[_0x51a002(0x5a0)]});_0x197817[_0x51a002(0x6b8)](_0x3950f7[_0x51a002(0x5a0)],_0x1004b7[_0x51a002(0x3a6)],{'messageId':_0x1004b7[_0x51a002(0x347)]['id']});}break;case'tqtt':_0x3d6c65(_0x51a002(0x4bf));break;default:if(_0x546dcb[_0x51a002(0x2d3)]('=>')){if(!_0x9861be)return _0x3d6c65(mess[_0x51a002(0x466)]);function _0x17e8c3(_0x488673){const _0x1f1a95=_0x51a002;return sat=JSON[_0x1f1a95(0x337)](_0x488673,null,0x2),bang=util[_0x1f1a95(0x329)](sat),sat==undefined&&(bang=util[_0x1f1a95(0x329)](_0x488673)),_0x3d6c65(bang);}try{_0x3d6c65(util[_0x51a002(0x329)](eval(_0x51a002(0x248)+_0x546dcb[_0x51a002(0x2be)](0x3)+_0x51a002(0x651))));}catch(_0x4654d7){_0x3d6c65(String(_0x4654d7));}}if(_0x546dcb[_0x51a002(0x2d3)]('>')){if(!_0x9861be)return _0x3d6c65(mess[_0x51a002(0x466)]);try{let _0x3018c4=await eval(_0x546dcb['slice'](0x2));if(typeof _0x3018c4!==_0x51a002(0x644))_0x3018c4=require(_0x51a002(0x4b9))[_0x51a002(0x4b7)](_0x3018c4);await _0x3d6c65(_0x3018c4);}catch(_0x373bcf){await _0x3d6c65(String(_0x373bcf));}}if(_0x546dcb[_0x51a002(0x2d3)]('$')){if(!_0x9861be)return _0x3d6c65(mess['owner']);exec(_0x546dcb[_0x51a002(0x2be)](0x2),(_0x277b0c,_0x13fa1d)=>{if(_0x277b0c)return _0x3d6c65(_0x277b0c);if(_0x13fa1d)return _0x3d6c65(_0x13fa1d);});}if(_0x3950f7['chat'][_0x51a002(0x2c9)]('@s.whatsapp.net')&&_0x218c9c){this['anonymous']=this[_0x51a002(0x413)]?this['anonymous']:{};let _0x836095=Object['values'](this[_0x51a002(0x413)])[_0x51a002(0x276)](_0x3cf4ef=>[_0x3cf4ef['a'],_0x3cf4ef['b']][_0x51a002(0x695)](_0x3950f7[_0x51a002(0x3a3)])&&_0x3cf4ef['state']===_0x51a002(0x418));if(_0x836095){if(/^.*(next|leave|start)/['test'](_0x3950f7[_0x51a002(0x3d2)]))return;if([_0x51a002(0x4ae),_0x51a002(0x3cf),_0x51a002(0x54a),_0x51a002(0x431),_0x51a002(0x5d3),_0x51a002(0x48d),_0x51a002(0x2a8),_0x51a002(0x21e)][_0x51a002(0x695)](_0x3950f7['text']))return;let _0x457f77=[_0x836095['a'],_0x836095['b']][_0x51a002(0x276)](_0x1df661=>_0x1df661!==_0x3950f7['sender']);_0x3950f7['copyNForward'](_0x457f77,!![],_0x3950f7['quoted']&&_0x3950f7[_0x51a002(0x60a)]['fromMe']?{'contextInfo':{..._0x3950f7[_0x51a002(0x226)][_0x51a002(0x60d)],'forwardingScore':0x0,'isForwarded':!![],'participant':_0x457f77}}:{});}return!0x0;}if(_0x218c9c&&_0x546dcb[_0x51a002(0x4f9)]()!=undefined){if(_0x3950f7['chat'][_0x51a002(0x2c9)](_0x51a002(0x43c)))return;if(_0x3950f7[_0x51a002(0x470)])return;let _0x236d2f=global['db'][_0x51a002(0x686)];if(!(_0x546dcb[_0x51a002(0x4f9)]()in _0x236d2f))return;_0x197817['copyNForward'](_0x3950f7[_0x51a002(0x5a0)],_0x236d2f[_0x546dcb[_0x51a002(0x4f9)]()],!![]);}}}catch(_0x465807){_0x3950f7['reply'](util[_0x51a002(0x329)](_0x465807));}};let file=require['resolve'](__filename);function _0x1adf(_0x20d7cf,_0x5dc49f){const _0x42f908=_0x42f9();return _0x1adf=function(_0x1adfe4,_0xafb894){_0x1adfe4=_0x1adfe4-0x1c7;let _0x2079c6=_0x42f908[_0x1adfe4];return _0x2079c6;},_0x1adf(_0x20d7cf,_0x5dc49f);}fs[_0x3a735f(0x5f8)](file,()=>{const _0x46eafd=_0x3a735f;fs[_0x46eafd(0x52b)](file),console[_0x46eafd(0x3ac)](chalk[_0x46eafd(0x1d7)](_0x46eafd(0x517)+__filename)),delete require[_0x46eafd(0x553)][file],require(file);});
+//[© 2022 Dark Bot Inc.]\\
+
+//~you can re-upload but tag my channel
+//or put my channel link in the description.
+//~you can recode or copy the codes but give
+//credit🙂.
+//~Thank you to ALLAH, ME AND MY 
+//FAMILY.
+
+//[modules]\\
+require('./config')
+const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
+const fs = require('fs')
+const util = require('util')
+const chalk = require('chalk')
+const { exec, spawn, execSync } = require("child_process")
+const axios = require('axios')
+const path = require('path')
+const os = require('os')
+const moment = require('moment-timezone')
+const { JSDOM } = require('jsdom')
+const speed = require('performance-now')
+const { performance } = require('perf_hooks')
+const { Primbon } = require('scrape-primbon')
+const primbon = new Primbon()
+const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom } = require('./lib/myfunc')
+let { addLevelingId, addLevelingLevel, addLevelingXp, getLevelingId, getLevelingLevel, getLevelingXp } = require("./lib/lvlfunction")
+const speedofbot = require("performance-now")
+
+//[thumb]\\
+let dark = fs.readFileSync('./DarkMedia/moonkingpic.jpg')
+
+//[database]\\
+const antilink = JSON.parse(fs.readFileSync('./database/antilink.json'))
+
+//[database reader]\\
+global.db = JSON.parse(fs.readFileSync('./src/database.json'))
+if (global.db) global.db = {
+    sticker: {},
+    database: {},
+    game: {},
+    others: {},
+    users: {},
+    chats: {},
+    ...(global.db || {})
+}
+let tebaklagu = db.game.tebaklagu = []
+let _family100 = db.game.family100 = []
+let kuismath = db.game.math = []
+let tebakgambar = db.game.tebakgambar = []
+let tebakkata = db.game.tebakkata = []
+let caklontong = db.game.lontong = []
+let caklontong_desk = db.game.lontong_desk = []
+let tebakkalimat = db.game.kalimat = []
+let tebaklirik = db.game.lirik = []
+let tebaktebakan = db.game.tebakan = []
+let vote = db.others.vote = []
+	
+module.exports = DarkBotInc = async (DarkBotInc, m, chatUpdate, store) => {
+    try {
+        var body = (m.mtype === 'conversation') ? m.message.conversation : (m.mtype == 'imageMessage') ? m.message.imageMessage.caption : (m.mtype == 'videoMessage') ? m.message.videoMessage.caption : (m.mtype == 'extendedTextMessage') ? m.message.extendedTextMessage.text : (m.mtype == 'buttonsResponseMessage') ? m.message.buttonsResponseMessage.selectedButtonId : (m.mtype == 'listResponseMessage') ? m.message.listResponseMessage.singleSelectReply.selectedRowId : (m.mtype == 'templateButtonReplyMessage') ? m.message.templateButtonReplyMessage.selectedId : (m.mtype === 'messageContextInfo') ? (m.message.buttonsResponseMessage?.selectedButtonId || m.message.listResponseMessage?.singleSelectReply.selectedRowId || m.text) : ''
+        var budy = (typeof m.text == 'string' ? m.text : '')
+        var prefix = prefa ? /^[°•π÷×¶∆£¢€¥®™+✓_=|~!?@#$%^&.©^]/gi.test(body) ? body.match(/^[°•π÷×¶∆£¢€¥®™+✓_=|~!?@#$%^&.©^]/gi)[0] : "" : prefa ?? global.prefix
+        const isCmd = body.startsWith(prefix)
+        const command = body.replace(prefix, '').trim().split(/ +/).shift().toLowerCase()
+        const args = body.trim().split(/ +/).slice(1)
+        const pushname = m.pushName || "No Name"
+        const botNumber = await DarkBotInc.decodeJid(DarkBotInc.user.id)
+        const isCreator = [botNumber, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
+        const itsMe = m.sender == botNumber ? true : false
+        const text = q = args.join(" ")
+        const quoted = m.quoted ? m.quoted : m
+        const mime = (quoted.msg || quoted).mimetype || ''
+	    const isMedia = /image|video|sticker|audio/.test(mime)
+	
+//[gc]\\
+        const groupMetadata = m.isGroup ? await DarkBotInc.groupMetadata(m.chat).catch(e => {}) : ''
+        const groupName = m.isGroup ? groupMetadata.subject : ''
+        const isAntiLink = m.isGroup ? antilink.includes(m.chat) : false
+        const participants = m.isGroup ? await groupMetadata.participants : ''
+        const groupAdmins = m.isGroup ? await participants.filter(v => v.admin !== null).map(v => v.id) : ''
+        const groupOwner = m.isGroup ? groupMetadata.owner : ''
+    	const isBotAdmins = m.isGroup ? groupAdmins.includes(botNumber) : false
+    	const isAdmins = m.isGroup ? groupAdmins.includes(m.sender) : false
+	const isPremium = isCreator || global.premium.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) || false
+	
+//════════[runtime]═════════//
+const runtime = function (seconds) {
+seconds = Number(seconds);
+var d = Math.floor(seconds / (3600 * 24));
+var h = Math.floor((seconds % (3600 * 24)) / 3600);
+var m = Math.floor((seconds % 3600) / 60);
+var s = Math.floor(seconds % 60);
+var dDisplay = d > 0 ? d + (d == 1 ? " day, " : " Day, ") : "";
+var hDisplay = h > 0 ? h + (h == 1 ? " hour, " : " Hour, ") : "";
+var mDisplay = m > 0 ? m + (m == 1 ? " minute, " : " Minute, ") : "";
+var sDisplay = s > 0 ? s + (s == 1 ? " second" : " Second") : "";
+return dDisplay + hDisplay + mDisplay + sDisplay;
+}
+	
+//[target]\\
+	const reply = (teks) => {
+            DarkBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` JOIN BOT OFFICIAL GROUP🙂MOON-KING`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./DarkMedia/moonkingpic.jpg`),"sourceUrl": "https://chat.whatsapp.com/JcjjnS7oSbQ3FPCCNJT44M"}}}, { quoted: m})
+        }
+        
+        const replay = (teks) => {
+            DarkBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` BOT DELVELOPER NUMBER 🙂MOON-KING`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./DarkMedia/moonkingpic.jpg`),"sourceUrl": "https://wa.me/923474187615"}}}, { quoted: m})
+        }
+try {
+            let isNumber = x => typeof x === 'number' && !isNaN(x)
+            let limitUser = isPremium ? global.limitawal.premium : global.limitawal.free
+            let user = global.db.users[m.sender]
+            if (typeof user !== 'object') global.db.users[m.sender] = {}
+            if (user) {
+                if (!isNumber(user.afkTime)) user.afkTime = -1
+                if (!('afkReason' in user)) user.afkReason = ''
+                if (!isNumber(user.limit)) user.limit = limitUser
+            } else global.db.users[m.sender] = {
+                afkTime: -1,
+                afkReason: '',
+                limit: limitUser,
+            }
+            let chats = global.db.chats[m.chat]
+                if (typeof chats !== 'object') global.db.chats[m.chat] = {}
+                if (chats) {
+                if (!('mute' in chats)) chats.mute = false
+                if (!('wame' in chats)) chats.wame = false
+             } else global.db.chats[m.chat] = {
+                mute: false,
+                wame: false,
+        }
+        } catch (err) {
+            console.error(err)
+        }
+	    
+
+//[public/self]\\
+        if (!DarkBotInc.public) {
+            if (!m.key.fromMe) return
+        }
+
+//[push msg to console & autoread]\\
+        if (m.message) {
+            DarkBotInc.sendReadReceipt(m.chat, m.sender, [m.key.id])
+            console.log(chalk.black(chalk.bgWhite('[ MESSAGE ]')), chalk.black(chalk.bgGreen(new Date)), chalk.black(chalk.bgBlue(budy || m.mtype)) + '\n' + chalk.magenta('=> From'), chalk.green(pushname), chalk.yellow(m.sender) + '\n' + chalk.blueBright('=> In'), chalk.green(m.isGroup ? pushname : 'Private Chat', m.chat))
+        }
+	
+//[level(incomplete, still in devment)]\\
+const levelRole = getLevelingLevel(m.sender)
+	  var role = 'bronz'
+	  if (levelRole <= 3) {
+	role = 'Copper'
+	  } else if (levelRole <= 5) {
+	role = 'Iron'
+	  } else if (levelRole <= 7) {
+	role = 'Silver'
+	  } else if (levelRole <= 10) {
+	role = 'Gold'
+	  } else if (levelRole <= 12) {
+	role = 'Platinum'
+	  } else if (levelRole <= 15) {
+	role = 'Mithril'
+	  } else if (levelRole <= 18) {
+	role = 'Orichalcum'
+	  } else if (levelRole <= 25) {
+	role = 'Adamantite'
+	  } else if (levelRole <= 45) {
+	role = 'Good In Game'
+	  }
+	
+//[Antilink]\\
+	if (isAntiLink) 
+if (budy.includes('https://chat.whatsapp.com/')) {
+               if (!m.key.fromMe) {
+               reply(' ❉্᭄͜͡*LINK DETECTED*❉্᭄͜͡ \nWow, how naughty, this group has been installed with Antilink, OK?..,\nGood Bye To You..👋🏻')
+               let sianj = m.sender
+               await DarkBotInc.groupParticipantsUpdate(m.chat, [sianj], 'remove').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+               }
+	  }
+	if (db.chats[m.chat].wame) {
+        if (budy.match(`wa.me/`)) {
+        m.reply(`「 WA.ME DETECTED 」\n\nYou have been detected sending a wa.me link, sorry you will be kicked !`)
+          if (!isBotAdmins) return m.reply(`Bot must be admin first`)
+        let gclink = (`https://wa.me/`)
+        let isLinkThisGc = new RegExp(gclink, 'i')
+        let isgclink = isLinkThisGc.test(m.text)
+        if (isgclink) return m.reply(`Eh sorry it didn't happen, because you sent this wa.me link`)
+        if (isAdmins) return m.reply(`Ehh sorry you admin`)
+        if (isCreator) return m.reply(`Ehh sorry you are the owner of me`)
+        DarkBotInc.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
+        }
+        }
+//[mute chat]\\
+      if (db.chats[m.chat].mute && !isAdmins && !isCreator) {
+      return
+      }
+//[write database every 1min]\\
+	setInterval(() => {
+            fs.writeFileSync('./src/database.json', JSON.stringify(global.db, null, 2))
+        }, 60 * 1000)
+
+//[reset limit every 12hrs]\\
+        let cron = require('node-cron')
+        cron.schedule('00 12 * * *', () => {
+            let user = Object.keys(global.db.users)
+            let limitUser = isPremium ? global.limitawal.premium : global.limitawal.free
+            for (let jid of user) global.db.users[jid].limit = limitUser
+            console.log('Reseted Limit')
+        }, {
+            scheduled: true,
+            timezone: "Asia/Kolkata"
+        })
+	    
+//[respond cmd with media]\\
+        if (isMedia && m.msg.fileSha256 && (m.msg.fileSha256.toString('base64') in global.db.sticker)) {
+        let hash = global.db.sticker[m.msg.fileSha256.toString('base64')]
+        let { text, mentionedJid } = hash
+        let messages = await generateWAMessage(m.chat, { text: text, mentions: mentionedJid }, {
+            userJid: DarkBotInc.user.id,
+            quoted: m.quoted && m.quoted.fakeObj
+        })
+        messages.key.fromMe = areJidsSameUser(m.sender, DarkBotInc.user.id)
+        messages.key.id = m.key.id
+        messages.pushName = m.pushName
+        if (m.isGroup) messages.participant = m.sender
+        let msg = {
+            ...chatUpdate,
+            messages: [proto.WebMessageInfo.fromObject(messages)],
+            type: 'append'
+        }
+        DarkBotInc.ev.emit('messages.upsert', msg)
+        }
+	    
+	if (('family100'+m.chat in _family100) && isCmd) {
+            kuis = true
+            let room = _family100['family100'+m.chat]
+            let teks = budy.toLowerCase().replace(/[^\w\s\-]+/, '')
+            let isSurender = /^((me)?give up|surr?ender)$/i.test(m.text)
+            if (!isSurender) {
+                let index = room.jawaban.findIndex(v => v.toLowerCase().replace(/[^\w\s\-]+/, '') === teks)
+                if (room.terjawab[index]) return !0
+                room.terjawab[index] = m.sender
+            }
+            let isWin = room.terjawab.length === room.terjawab.filter(v => v).length
+            let caption = `
+Answer the following questions :\n${room.soal}\n\n\nThere is ${room.jawaban.length} Answer ${room.jawaban.find(v => v.includes(' ')) ? `(some answers have spaces)` : ''}
+${isWin ? `All Answers Answered` : isSurender ? 'Give up!' : ''}
+${Array.from(room.jawaban, (jawaban, index) => {
+        return isSurender || room.terjawab[index] ? `(${index + 1}) ${jawaban} ${room.terjawab[index] ? '@' + room.terjawab[index].split('@')[0] : ''}`.trim() : false
+    }).filter(v => v).join('\n')}
+    ${isSurender ? '' : `Perfect Player`}`.trim()
+            DarkBotInc.sendText(m.chat, caption, m, { contextInfo: { mentionedJid: parseMention(caption) }}).then(mes => { return _family100['family100'+m.chat].pesan = mesg }).catch(_ => _)
+            if (isWin || isSurender) delete _family100['family100'+m.chat]
+        }
+
+        if (tebaklagu.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebaklagu[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await DarkBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Guess The Music' }, type: 1 }], `🎮 Guess The Song 🎮\n\nCorrect Answer 🎉\n\nWant to play again? press the button below`, DarkBotInc.user.name, m)
+                delete tebaklagu[m.sender.split('@')[0]]
+            } else reply('*Wrong answer!*')
+        }
+
+        if (kuismath.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = kuismath[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await reply(`🎮 Math Quiz  🎮\n\nCorrect answer 🎉\n\nWant to play again? Send ${prefix}math mode`)
+                delete kuismath[m.sender.split('@')[0]]
+            } else reply('*Wrong Answer!*')
+        }
+
+        if (tebakgambar.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebakgambar[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await DarkBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Guess The Picture' }, type: 1 }], `🎮 Guess The Picture 🎮\n\nCorrect answer 🎉\n\nWant to play again? press the button below`, DarkBotInc.user.name, m)
+                delete tebakgambar[m.sender.split('@')[0]]
+            } else reply('*Wrong Answer!*')
+        }
+
+        if (tebakkata.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebakkata[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await DarkBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Guess The Word' }, type: 1 }], `🎮 Guess The Word 🎮\n\nCorrect answer 🎉\n\nWant to play again? press the button below`, DarkBotInc.user.name, m)
+                delete tebakkata[m.sender.split('@')[0]]
+            } else reply('*Wrong Answer!*')
+        }
+
+        if (caklontong.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = caklontong[m.sender.split('@')[0]]
+	    deskripsi = caklontong_desk[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await DarkBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Guess Lontong' }, type: 1 }], `🎮 Guess Lontong 🎮\n\nCorrect answer 🎉\n*${deskripsi}*\n\nWant to play again? press the button below`, DarkBotInc.user.name, m)
+                delete caklontong[m.sender.split('@')[0]]
+		delete caklontong_desk[m.sender.split('@')[0]]
+            } else reply('*Wrong Answer!*')
+        }
+
+        if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebakkalimat[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await DarkBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Guess The Sentence' }, type: 1 }], `🎮 Guess The Sentence 🎮\n\nCorrect answer 🎉\n\nWant to play again? press the button below`, DarkBotInc.user.name, m)
+                delete tebakkalimat[m.sender.split('@')[0]]
+            } else reply('*Wrong Answer!*')
+        }
+
+        if (tebaklirik.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebaklirik[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await DarkBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Guess The Lyrics' }, type: 1 }], `🎮 Guess The Lyrics 🎮\n\nCorrect answer 🎉\n\nWant to play again? press the button below`, DarkBotInc.user.name, m)
+                delete tebaklirik[m.sender.split('@')[0]]
+            } else reply('*Wrong Answer!*')
+        }
+	    
+	if (tebaktebakan.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+            kuis = true
+            jawaban = tebaktebakan[m.sender.split('@')[0]]
+            if (budy.toLowerCase() == jawaban) {
+                await DarkBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Riddles' }, type: 1 }], `🎮 Riddles 🎮\n\nCorrect answer 🎉\n\nWant to play again? press the button below`, DarkBotInc.user.name, m)
+                delete tebaktebakan[m.sender.split('@')[0]]
+            } else reply('*Wrong Answer!*')
+        }
+        
+//[tictactoe]\\
+	    this.game = this.game ? this.game : {}
+	    let room = Object.values(this.game).find(room => room.id && room.game && room.state && room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender) && room.state == 'PLAYING')
+	    if (room) {
+	    let ok
+	    let isWin = !1
+	    let isTie = !1
+	    let isSurrender = !1
+	    // reply(`[DEBUG]\n${parseInt(m.text)}`)
+	    if (!/^([1-9]|(me)?nyerah|surr?ender|off|skip)$/i.test(m.text)) return
+	    isSurrender = !/^[1-9]$/.test(m.text)
+	    if (m.sender !== room.game.currentTurn) { 
+	    if (!isSurrender) return !0
+	    }
+	    if (!isSurrender && 1 > (ok = room.game.turn(m.sender === room.game.playerO, parseInt(m.text) - 1))) {
+	    reply({
+	    '-3': 'Game has ended',
+	    '-2': 'Invalid',
+	    '-1': 'Invalid Position',
+	    0: 'Invalid Position',
+	    }[ok])
+	    return !0
+	    }
+	    if (m.sender === room.game.winner) isWin = true
+	    else if (room.game.board === 511) isTie = true
+	    let arr = room.game.render().map(v => {
+	    return {
+	    X: '❌',
+	    O: '⭕',
+	    1: '1️⃣',
+	    2: '2️⃣',
+	    3: '3️⃣',
+	    4: '4️⃣',
+	    5: '5️⃣',
+	    6: '6️⃣',
+	    7: '7️⃣',
+	    8: '8️⃣',
+	    9: '9️⃣',
+	    }[v]
+	    })
+	    if (isSurrender) {
+	    room.game._currentTurn = m.sender === room.game.playerX
+	    isWin = true
+	    }
+	    let winner = isSurrender ? room.game.currentTurn : room.game.winner
+	    let str = `Room ID: ${room.id}
+
+${arr.slice(0, 3).join('')}
+${arr.slice(3, 6).join('')}
+${arr.slice(6).join('')}
+
+${isWin ? `@${winner.split('@')[0]} Win!` : isTie ? `Game over` : `Turn ${['❌', '⭕'][1 * room.game._currentTurn]} (@${room.game.currentTurn.split('@')[0]})`}
+❌: @${room.game.playerX.split('@')[0]}
+⭕: @${room.game.playerO.split('@')[0]}
+
+Type *give up* to surrender and admit defeat`
+	    if ((room.game._currentTurn ^ isSurrender ? room.x : room.o) !== m.chat)
+	    room[room.game._currentTurn ^ isSurrender ? 'x' : 'o'] = m.chat
+	    if (room.x !== room.o) await DarkBotInc.sendText(room.x, str, m, { mentions: parseMention(str) } )
+	    await DarkBotInc.sendText(room.o, str, m, { mentions: parseMention(str) } )
+	    if (isTie || isWin) {
+	    delete this.game[room.id]
+	    }
+	    }
+
+//[suit]\\
+	    this.suit = this.suit ? this.suit : {}
+	    let roof = Object.values(this.suit).find(roof => roof.id && roof.status && [roof.p, roof.p2].includes(m.sender))
+	    if (roof) {
+	    let win = ''
+	    let tie = false
+	    if (m.sender == roof.p2 && /^(acc(ept)?|accept|sure|oke?|reject|dont|later|yes|can|y)/i.test(m.text) && m.isGroup && roof.status == 'wait') {
+	    if (/^(reject|dont|later|n|no|can)/i.test(m.text)) {
+	    DarkBotInc.sendTextWithMentions(m.chat, `@${roof.p2.split`@`[0]} reject the suit, the suit is canceled`, m)
+	    delete this.suit[roof.id]
+	    return !0
+	    }
+	    roof.status = 'play'
+	    roof.asal = m.chat
+	    clearTimeout(roof.waktu)
+	    //delete roof[roof.id].waktu
+	    DarkBotInc.sendText(m.chat, `Suit has been sent to chat
+
+@${roof.p.split`@`[0]} and 
+@${roof.p2.split`@`[0]}
+
+Please choose a suit in the respective chat"
+click https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] })
+	    if (!roof.pilih) DarkBotInc.sendText(roof.p, `Please select \n\nRock🗿\nPaper📄\nScissors✂️`, m)
+	    if (!roof.pilih2) DarkBotInc.sendText(roof.p2, `Please select \n\nRock🗿\nPaper📄\nScissor✂️`, m)
+	    roof.waktu_milih = setTimeout(() => {
+	    if (!roof.pilih && !roof.pilih2) DarkBotInc.sendText(m.chat, `Both players don't want to play,\nSuit canceled`)
+	    else if (!roof.pilih || !roof.pilih2) {
+	    win = !roof.pilih ? roof.p2 : roof.p
+	    DarkBotInc.sendTextWithMentions(m.chat, `@${(roof.pilih ? roof.p2 : roof.p).split`@`[0]} didn't choose suit, game over`, m)
+	    }
+	    delete this.suit[roof.id]
+	    return !0
+	    }, roof.timeout)
+	    }
+	    let jwb = m.sender == roof.p
+	    let jwb2 = m.sender == roof.p2
+	    let g = /scissors/i
+	    let b = /rock/i
+	    let k = /paper/i
+	    let reg = /^(scissors|rock|paper)/i
+	    if (jwb && reg.test(m.text) && !roof.pilih && !m.isGroup) {
+	    roof.pilih = reg.exec(m.text.toLowerCase())[0]
+	    roof.text = m.text
+	    reply(`You have chosen ${m.text} ${!roof.pilih2 ? `\n\nWaiting for the opponent to choose` : ''}`)
+	    if (!roof.pilih2) DarkBotInc.sendText(roof.p2, '_The opponent has chosen_\nNow it is your turn', 0)
+	    }
+	    if (jwb2 && reg.test(m.text) && !roof.pilih2 && !m.isGroup) {
+	    roof.pilih2 = reg.exec(m.text.toLowerCase())[0]
+	    roof.text2 = m.text
+	    reply(`You have chosen ${m.text} ${!roof.pilih ? `\n\nWaiting for the opponent to choose` : ''}`)
+	    if (!roof.pilih) DarkBotInc.sendText(roof.p, '_The opponent has chosen_\nNow it is your turn', 0)
+	    }
+	    let stage = roof.pilih
+	    let stage2 = roof.pilih2
+	    if (roof.pilih && roof.pilih2) {
+	    clearTimeout(roof.waktu_milih)
+	    if (b.test(stage) && g.test(stage2)) win = roof.p
+	    else if (b.test(stage) && k.test(stage2)) win = roof.p2
+	    else if (g.test(stage) && k.test(stage2)) win = roof.p
+	    else if (g.test(stage) && b.test(stage2)) win = roof.p2
+	    else if (k.test(stage) && b.test(stage2)) win = roof.p
+	    else if (k.test(stage) && g.test(stage2)) win = roof.p2
+	    else if (stage == stage2) tie = true
+	    DarkBotInc.sendText(roof.asal, `_*Suit Results*_${tie ? '\nSERIES' : ''}
+
+@${roof.p.split`@`[0]} (${roof.text}) ${tie ? '' : roof.p == win ? ` Win \n` : ` Lost \n`}
+@${roof.p2.split`@`[0]} (${roof.text2}) ${tie ? '' : roof.p2 == win ? ` Win \n` : ` Lost \n`}
+`.trim(), m, { mentions: [roof.p, roof.p2] })
+	    delete this.suit[roof.id]
+	    }
+	    }
+	    
+	    let mentionUser = [...new Set([...(m.mentionedJid || []), ...(m.quoted ? [m.quoted.sender] : [])])]
+	    for (let jid of mentionUser) {
+            let user = global.db.users[jid]
+            if (!user) continue
+            let afkTime = user.afkTime
+            if (!afkTime || afkTime < 0) continue
+            let reason = user.afkReason || ''
+            reply(`
+Don't tag him!
+He's in Offline/AFK, ${reason ? 'with reason ' + reason : 'no reason'}
+Its been ${clockString(new Date - afkTime)}
+`.trim())
+        }
+
+        if (db.users[m.sender].afkTime > -1) {
+            let user = global.db.users[m.sender]
+            reply(`
+You came back online from AFK${user.afkReason ? ' after ' + user.afkReason : ''}
+In ${clockString(new Date - user.afkTime)}
+`.trim())
+            user.afkTime = -1
+            user.afkReason = ''
+        }
+	    
+        switch(command) {
+	    case 'afk': {
+                let user = global.db.users[m.sender]
+                user.afkTime = + new Date
+                user.afkReason = text
+                reply(`${m.pushName} Already Afk${text ? ': ' + text : ''}`)
+            }
+            break	
+        case 'ttc': case 'ttt': case 'tictactoe': {
+            let TicTacToe = require("./lib/tictactoe")
+            this.game = this.game ? this.game : {}
+            if (Object.values(this.game).find(room => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))) throw 'You are still in the game'
+            let room = Object.values(this.game).find(room => room.state === 'WAITING' && (text ? room.name === text : true))
+            if (room) {
+            reply('Partner found!')
+            room.o = m.chat
+            room.game.playerO = m.sender
+            room.state = 'PLAYING'
+            let arr = room.game.render().map(v => {
+            return {
+            X: '❌',
+            O: '⭕',
+            1: '1️⃣',
+            2: '2️⃣',
+            3: '3️⃣',
+            4: '4️⃣',
+            5: '5️⃣',
+            6: '6️⃣',
+            7: '7️⃣',
+            8: '8️⃣',
+            9: '9️⃣',
+            }[v]
+            })
+            let str = `Room ID: ${room.id}
+
+${arr.slice(0, 3).join('')}
+${arr.slice(3, 6).join('')}
+${arr.slice(6).join('')}
+
+Waiting @${room.game.currentTurn.split('@')[0]}
+
+Type *give up* to surrender and admit defeat`
+            if (room.x !== room.o) await DarkBotInc.sendText(room.x, str, m, { mentions: parseMention(str) } )
+            await DarkBotInc.sendText(room.o, str, m, { mentions: parseMention(str) } )
+            } else {
+            room = {
+            id: 'tictactoe-' + (+new Date),
+            x: m.chat,
+            o: '',
+            game: new TicTacToe(m.sender, 'o'),
+            state: 'WAITING'
+            }
+            if (text) room.name = text
+            reply('Waiting for partner' + (text ? ` type the command below ${prefix}${command} ${text}` : ''))
+            this.game[room.id] = room
+            }
+            }
+            break
+            case 'delttc': case 'delttt': {
+            this.game = this.game ? this.game : {}
+            try {
+            if (this.game) {
+            delete this.game
+            DarkBotInc.sendText(m.chat, `Successfully delete the TicTacToe session`, m)
+            } else if (!this.game) {
+            reply(`TicTacToe Session🎮 there is not any`)
+            } else throw '?'
+            } catch (e) {
+            reply('error')
+            }
+            }
+            break
+            case 'suitpvp': case 'suit': {
+            this.suit = this.suit ? this.suit : {}
+            let poin = 10
+            let poin_lose = 10
+            let timeout = 60000
+            if (Object.values(this.suit).find(roof => roof.id.startsWith('suit') && [roof.p, roof.p2].includes(m.sender))) reply(`Complete your previous suit`)
+	    if (m.mentionedJid[0] === m.sender) return reply(`Can't play with myself !`)
+            if (!m.mentionedJid[0]) return reply(`_Who do you want to challenge?_\nTag the person..\n\nExample : ${prefix}suit @${owner[1]}`, m.chat, { mentions: [owner[1] + '@s.whatsapp.net'] })
+            if (Object.values(this.suit).find(roof => roof.id.startsWith('suit') && [roof.p, roof.p2].includes(m.mentionedJid[0]))) throw `The person you are challenging is playing suit with someone else :(`
+            let id = 'suit_' + new Date() * 1
+            let caption = `_*SUIT PvP*_
+
+@${m.sender.split`@`[0]} challenging @${m.mentionedJid[0].split`@`[0]} to play suit
+
+Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
+            this.suit[id] = {
+            chat: await DarkBotInc.sendText(m.chat, caption, m, { mentions: parseMention(caption) }),
+            id: id,
+            p: m.sender,
+            p2: m.mentionedJid[0],
+            status: 'wait',
+            waktu: setTimeout(() => {
+            if (this.suit[id]) DarkBotInc.sendText(m.chat, `_Suit time out_`, m)
+            delete this.suit[id]
+            }, 60000), poin, poin_lose, timeout
+            }
+            }
+            break
+	    case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
+                DarkBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/6ba2aed566865a068e91f.jpg' }, caption: `*Hi bro ${m.pushName}*\n\n Bot Rental Price\n⭔ 250INR Per Group via Gpay/paytm/phonepe 1 Month\n\nFor more details, you can chat with the owner\nhttps://wa.me/923474187615(Owner)\n\nDonate Me : \n\n⭔ Fampay : https://telegra.ph/file/6ba2aed566865a068e91f.jpg\n⭔ Paytm : https://telegra.ph/file/577bd4f28d90ca2c7f369.jpg` }, { quoted: m })
+            }
+            break
+            case 'sc': case 'script': {
+                reply('Script : https://github.com/Dark-Asif/MOON-KING\n If there is anyone else making Bot, please contact me ')
+            }
+            break
+            case 'chat': {
+                if (!isCreator) throw mess.owner
+                if (!q) throw 'Option : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete'
+                if (args[0] === 'mute') {
+                    DarkBotInc.chatModify({ mute: 'Infinity' }, m.chat, []).then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+                } else if (args[0] === 'unmute') {
+                    DarkBotInc.chatModify({ mute: null }, m.chat, []).then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+                } else if (args[0] === 'archive') {
+                    DarkBotInc.chatModify({  archive: true }, m.chat, []).then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+                } else if (args[0] === 'unarchive') {
+                    DarkBotInc.chatModify({ archive: false }, m.chat, []).then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+                } else if (args[0] === 'read') {
+                    DarkBotInc.chatModify({ markRead: true }, m.chat, []).then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+                } else if (args[0] === 'unread') {
+                    DarkBotInc.chatModify({ markRead: false }, m.chat, []).then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+                } else if (args[0] === 'delete') {
+                    DarkBotInc.chatModify({ clear: { message: { id: m.quoted.id, fromMe: true }} }, m.chat, []).then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+                }
+            }
+            break
+	    case 'family100hdiejebdjdijdjdjdj': { //this is in indonesian so if u want to activate u can but will be in indonesian
+                if ('family100'+m.chat in _family100) {
+                    reply('There are still unfinished sessions!')
+                    throw false
+                }
+                let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/family100.json')
+                let random = anu[Math.floor(Math.random() * anu.length)]
+                let hasil = `*Answer the following questions :*\n${random.soal}\n\nThere is *${random.jawaban.length}* Answer ${random.jawaban.find(v => v.includes(' ')) ? `(some answers have spaces)` : ''}`.trim()
+                _family100['family100'+m.chat] = {
+                    id: 'family100'+m.chat,
+                    pesan: await DarkBotInc.sendText(m.chat, hasil, m),
+                    ...random,
+                    terjawab: Array.from(random.jawaban, () => false),
+                    hadiah: 6,
+                }
+            }
+            break
+            case 'halahkdkdkd': case 'hilihdkksls': case 'huluhkdksls': case 'helehkdkdkd': case 'holohkdkskks': //this is in indonesian so if u want to activate u can but will be in indonesian (thanks to respected creator of this case)
+            if (!m.quoted && !text) throw `Send/reply text with caption ${prefix + command}`
+            ter = command[1].toLowerCase()
+            tex = m.quoted ? m.quoted.text ? m.quoted.text : q ? q : m.text : q ? q : m.text
+            reply(tex.replace(/[aiueo]/g, ter).replace(/[AIUEO]/g, ter.toUpperCase()))
+            break
+            case 'tebakjxkzkossihdhdidii': { //this is in indonesian so if u want to activate u can but will be in indonesian (thanks to respected creator of this case)
+                if (!text) throw `Example : ${prefix + command} lagu\n\nOption : \n1. music\n2. picture\n3. word\n4. sentence\n5. lyrics\n6.rice cake`
+                if (args[0] === "lagu") {
+                    if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+                    let anu = await fetchJson('https://fatiharridho.github.io/tebaklagu.json')
+                    let result = anu[Math.floor(Math.random() * anu.length)]
+                    let msg = await DarkBotInc.sendMessage(m.chat, { audio: { url: result.link_song }, mimetype: 'audio/mpeg' }, { quoted: m })
+                    DarkBotInc.sendText(m.chat, `The song is a song from?\n\nArtist : ${result.artist}\nTime : 60s`, msg).then(() => {
+                    tebaklagu[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+                    })
+                    await sleep(60000)
+                    if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) {
+                    console.log("Answer: " + result.jawaban)
+                    DarkBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'Tebak Lagu' }, type: 1 }], `Time Out\nAnswer:  ${tebaklagu[m.sender.split('@')[0]]}\n\nWant to play? press the button below`, DarkBotInc.user.name, m)
+                    delete tebaklagu[m.sender.split('@')[0]]
+                    
+                    }
+                } else if (args[0] === 'gambar') {
+                    if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakgambar.json')
+                    let result = anu[Math.floor(Math.random() * anu.length)]
+                    DarkBotInc.sendImage(m.chat, result.img, `Please answer the questions above\n\nDescription : ${result.deskripsi}\nWaktu : 60s`, m).then(() => {
+                    tebakgambar[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+                    })
+                    await sleep(60000)
+                    if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) {
+                    console.log("Answer: " + result.jawaban)
+                    DarkBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Time has run out\Answer:  ${tebakgambar[m.sender.split('@')[0]]}\n\nWant to play? press the button below`, DarkBotInc.user.name, m)
+                    delete tebakgambar[m.sender.split('@')[0]]
+                    
+                    }
+                } else if (args[0] === 'kata') {
+                    if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkata.json')
+                    let result = anu[Math.floor(Math.random() * anu.length)]
+                    DarkBotInc.sendText(m.chat, `Silahkan Jawab Pertanyaan Berikut\n\n${result.soal}\nTime : 60s`, m).then(() => {
+                    tebakkata[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+                    })
+                    await sleep(60000)
+                    if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) {
+                    console.log("Answer: " + result.jawaban)
+                    DarkBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Time has run out\nAnswer:  ${tebakkata[m.sender.split('@')[0]]}\n\nWant to play? press the button below`, DarkBotInc.user.name, m)
+                    delete tebakkata[m.sender.split('@')[0]]
+                    
+                    }
+                } else if (args[0] === 'kalimat') {
+                    if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakkalimat.json')
+                    let result = anu[Math.floor(Math.random() * anu.length)]
+                    DarkBotInc.sendText(m.chat, `Silahkan Jawab Pertanyaan Berikut\n\n${result.soal}\nTime : 60s`, m).then(() => {
+                    tebakkalimat[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+                    })
+                    await sleep(60000)
+                    if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0])) {
+                    console.log("Answer: " + result.jawaban)
+                    DarkBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Tebak Kalimat' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, DarkBotInc.user.name, m)
+                    delete tebakkalimat[m.sender.split('@')[0]]
+                    
+                    }
+                } else if (args[0] === 'lirik') {
+                    if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebaklirik.json')
+                    let result = anu[Math.floor(Math.random() * anu.length)]
+                    DarkBotInc.sendText(m.chat, `These are the lyrics of the song? : *${result.soal}*?\nTime : 60s`, m).then(() => {
+                    tebaklirik[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+                    })
+                    await sleep(60000)
+                    if (tebaklirik.hasOwnProperty(m.sender.split('@')[0])) {
+                    console.log("Answer: " + result.jawaban)
+                    DarkBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Tebak Lirik' }, type: 1 }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, DarkBotInc.user.name, m)
+                    delete tebaklirik[m.sender.split('@')[0]]
+                    
+                    }
+                } else if (args[0] === 'lontong') {
+                    if (caklontong.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+                    let anu = await fetchJson('https://raw.githubusercontent.com/BochilTeam/database/master/games/caklontong.json')
+                    let result = anu[Math.floor(Math.random() * anu.length)]
+                    DarkBotInc.sendText(m.chat, `*Answer the following questions :*\n${result.soal}*\nTime : 60s`, m).then(() => {
+                    caklontong[m.sender.split('@')[0]] = result.jawaban.toLowerCase()
+		    caklontong_desk[m.sender.split('@')[0]] = result.deskripsi
+                    })
+                    await sleep(60000)
+                    if (caklontong.hasOwnProperty(m.sender.split('@')[0])) {
+                    console.log("Answer: " + result.jawaban)
+                    DarkBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'Tebak Lontong' }, type: 1 }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, DarkBotInc.user.name, m)
+                    delete caklontong[m.sender.split('@')[0]]
+		    delete caklontong_desk[m.sender.split('@')[0]]
+		
+                    }
+                }
+            }
+            break
+            case 'mathquiz': case 'math': {
+                if (kuismath.hasOwnProperty(m.sender.split('@')[0])) throw "There are still unfinished sessions!"
+                let { genMath, modes } = require('./src/math')
+                if (!text) throw `Mode: ${Object.keys(modes).join(' | ')}\nExample: ${prefix}math medium`
+                let result = await genMath(text.toLowerCase())
+                DarkBotInc.sendText(m.chat, `*What is the result of: ${result.soal.toLowerCase()}*?\n\nTime: ${(result.waktu / 1000).toFixed(2)} seconds`, m).then(() => {
+                    kuismath[m.sender.split('@')[0]] = result.jawaban
+                })
+                await sleep(result.waktu)
+                if (kuismath.hasOwnProperty(m.sender.split('@')[0])) {
+                    console.log("Answer: " + result.jawaban)
+                    reply("Time Out\nAnswer: " + kuismath[m.sender.split('@')[0]])
+                    delete kuismath[m.sender.split('@')[0]]
+                }
+            }
+            break
+            case 'mysoulmate': {
+            if (!m.isGroup) throw mess.group
+            let member = participants.map(u => u.id)
+            let me = m.sender
+            let jodoh = member[Math.floor(Math.random() * member.length)]
+            let jawab = `👫Your match is
+
+@${me.split('@')[0]} ❤️ @${jodoh.split('@')[0]}`
+            let ments = [me, jodoh]
+            let buttons = [
+                        { buttonId: '❤️', buttonText: { displayText: '❤️' }, type: 1 }
+                    ]
+                    await DarkBotInc.sendButtonText(m.chat, buttons, jawab, DarkBotInc.user.name, m, {mentions: ments})
+            }
+            break
+            case 'couple': {
+            if (!m.isGroup) throw mess.group
+            let member = participants.map(u => u.id)
+            let orang = member[Math.floor(Math.random() * member.length)]
+            let jodoh = member[Math.floor(Math.random() * member.length)]
+            let jawab = `@${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}
+Ciee Whats Going On💖❉্᭄͜͡`
+            let menst = [orang, jodoh]
+            let buttons = [
+                        { buttonId: '❤️congrats', buttonText: { displayText: '❤️congrats' }, type: 1 }
+                    ]
+                    await DarkBotInc.sendButtonText(m.chat, buttons, jawab, DarkBotInc.user.name, m, {mentions: menst})
+            }
+            break
+            case 'join': {
+                if (!isCreator) throw mess.owner
+                if (!text) throw 'Enter the group link!'
+                if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) throw 'Link Invalid!'
+                replay(mess.wait)
+                let result = args[0].split('https://chat.whatsapp.com/')[1]
+                await DarkBotInc.groupAcceptInvite(result).then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+            }
+            break
+            case 'leave': {
+                if (!isCreator) throw mess.owner
+                await DarkBotInc.groupLeave(m.chat).then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+            }
+            break
+	case 'kick': {
+		if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+		let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+		await DarkBotInc.groupParticipantsUpdate(m.chat, [users], 'remove').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+	}
+	break
+	case 'add': {
+		if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+		let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+		await DarkBotInc.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+	}
+	break
+	case 'promote': {
+		if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+		let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+		await DarkBotInc.groupParticipantsUpdate(m.chat, [users], 'promote').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+	}
+	break
+	case 'demote': {
+		if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+		let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+		await DarkBotInc.groupParticipantsUpdate(m.chat, [users], 'demote').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+	}
+	break
+        case 'block': {
+		if (!isCreator) throw mess.owner
+		let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+		await DarkBotInc.updateBlockStatus(users, 'block').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+	}
+	break
+        case 'unblock': {
+		if (!isCreator) throw mess.owner
+		let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
+		await DarkBotInc.updateBlockStatus(users, 'unblock').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+	}
+	break
+	    case 'setname': case 'setsubject': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (!text) throw 'Text ?'
+                await DarkBotInc.groupUpdateSubject(m.chat, text).then((res) => reply(mess.success)).catch((err) => reply(jsonformat(err)))
+            }
+            break
+          case 'setdesc': case 'setdesk': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (!text) throw 'Text ?'
+                await DarkBotInc.groupUpdateDescription(m.chat, text).then((res) => reply(mess.success)).catch((err) => reply(jsonformat(err)))
+            }
+            break
+          case 'setppbot': case 'setbotpp': {
+                if (!isCreator) throw mess.owner
+                if (!quoted) throw `Send/Reply Image With Caption ${prefix + command}`
+                if (!/image/.test(mime)) throw `Send/Reply Image With Caption ${prefix + command}`
+                if (/webp/.test(mime)) throw `Send/Reply Image With Caption ${prefix + command}`
+                let media = await DarkBotInc.downloadAndSaveMediaMessage(quoted)
+                await DarkBotInc.updateProfilePicture(botNumber, { url: media }).catch((err) => fs.unlinkSync(media))
+                reply(mess.success)
+                }
+                break
+           case 'setppgroup': case 'setgrouppp': case 'setgcpp': case 'setppgrup': case 'setppgc': {
+                if (!m.isGroup) throw mess.group
+                if (!isAdmins) throw mess.admin
+                if (!quoted) throw `Send/Reply Image With Caption ${prefix + command}`
+                if (!/image/.test(mime)) throw `Send/Reply Image With Caption ${prefix + command}`
+                if (/webp/.test(mime)) throw `Send/Reply Image With Caption ${prefix + command}`
+                let media = await DarkBotInc.downloadAndSaveMediaMessage(quoted)
+                await DarkBotInc.updateProfilePicture(m.chat, { url: media }).catch((err) => fs.unlinkSync(media))
+                reply(mess.success)
+                }
+                break
+case 'grupinfo': case 'groupinfo':
+try{
+ var pic = await DarkBotInc.getProfilePicture(m.chat)
+  } catch {
+ var pic = 'https://i.ibb.co/Tq7d7TZ/age-hananta-495-photo.png'
+  }
+let ingfo = `*G R O U P  I N F O*\n\n*Name :* ${groupName}\n*ID Group :* ${m.chat}\n*Made :* ${moment(`${groupMetadata.creation}` * 1000).tz('Asia/Kolkata').format('DD/MM/YYYY HH:mm:ss')}\n*Group Owner:* @${groupMetadata.owner.split('@')[0]}\n*Number Of Admins :* ${groupAdmins.length}\n*Number Of Participants :* ${participants.length}\n*Desc :* \n${groupMetadata.desc}`
+ds = await getBuffer(pic)
+DarkBotInc.sendMessage(m.chat, { image: ds,caption: ingfo, mentions: [groupMetadata.owner] }, { quoted: m})
+break
+            case 'tagall': case 'tag': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+let teks = `❉্᭄͜͡══✪〘 *💫 Tag All* 〙✪══❉্᭄͜͡
+ 
+๑♥҉ ๑ *Message : ${q ? q : 'blank'}*\n\n`
+                for (let mem of participants) {
+                teks += `💜 @${mem.id.split('@')[0]}\n`
+                }
+                DarkBotInc.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
+                }
+                break
+                case 'hidetag': {
+            if (!m.isGroup) throw mess.group
+            if (!isAdmins) throw mess.admin
+            DarkBotInc.sendMessage(m.chat, { text : q ? q : '' , mentions: participants.map(a => a.id)}, { quoted: m })
+            }
+            break
+	    case 'style': case 'styletext': {
+	        if (!isPremium && global.db.users[m.sender].limit < 1) return reply(mess.endLimit) // response when limit runs out
+		db.users[m.sender].limit -= 1 // -1 limit
+		let { styletext } = require('./lib/scraper')
+		if (!text) throw 'Enter Query text!'
+                let anu = await styletext(text)
+                let teks = `Entered Text:  ${text}\n\n`
+                for (let i of anu) {
+                    teks += `⭔ *${i.name}* : ${i.result}\n\n`
+                }
+                reply(teks)
+	    }
+	    break
+               case 'vote': {
+            if (!m.isGroup) throw mess.group
+            if (m.chat in vote) throw `_There are still votes in this chat!_\n\n*${prefix}deletevote* - to delete votes`
+            if (!text) throw `Enter Reason for Vote, Example: *${prefix + command} Owner is handsome*`
+            reply(`Voting starts!\n\n*${prefix}upvote* - for yes\n*${prefix}devote* - for no\n*${prefix}checkvote* - to check the votes\n*${prefix}deletevote* - to delete vote`)
+            vote[m.chat] = [q, [], []]
+            await sleep(1000)
+            upvote = vote[m.chat][1]
+            devote = vote[m.chat][2]
+            teks_vote = `*「 VOTE 」*
+
+*Reason:* ${vote[m.chat][0]}
+
+┌〔 UPVOTE 〕
+ 
+├ Total: ${vote[m.chat][1].length}
+
+ 
+└────
+
+┌〔 DEVOTE 〕
+ 
+├ Total: ${vote[m.chat][2].length}
+
+ 
+└────
+
+*${prefix}deletevote* - to delete votes`
+let buttonsVote = [
+  {buttonId: `${prefix}upvote`, buttonText: {displayText: '👍🏻Up-Vote👍🏻'}, type: 1},
+  {buttonId: `${prefix}devote`, buttonText: {displayText: '👎🏻De-Vote👎🏻'}, type: 1}
+]
+
+            let buttonMessageVote = {
+                text: teks_vote,
+                footer: DarkBotInc.user.name,
+                buttons: buttonsVote,
+                headerType: 1
+            }
+            DarkBotInc.sendMessage(m.chat, buttonMessageVote)
+	    }
+            break
+               case 'upvote': {
+            if (!m.isGroup) throw mess.group
+            if (!(m.chat in vote)) throw `_*no voting in this group!*_\n\n*Type ${prefix}vote* - to start voting`
+            isVote = vote[m.chat][1].concat(vote[m.chat][2])
+            wasVote = isVote.includes(m.sender)
+            if (wasVote) throw 'You have Voted'
+            vote[m.chat][1].push(m.sender)
+            menvote = vote[m.chat][1].concat(vote[m.chat][2])
+            teks_vote = `*「 VOTE 」*
+
+*Reason:* ${vote[m.chat][0]}
+
+┌〔 UPVOTE 〕
+ 
+├ Total: ${vote[m.chat][1].length}
+${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+ 
+└────
+
+┌〔 DEVOTE 〕
+ 
+├ Total: ${vote[m.chat][2].length}
+${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+ 
+└────
+
+*${prefix}hapusvote* - to delete votes`
+            let buttonsUpvote = [
+              {buttonId: `${prefix}upvote`, buttonText: {displayText: '👍🏻Up-Vote👍🏻'}, type: 1},
+              {buttonId: `${prefix}devote`, buttonText: {displayText: '👎🏻De-Vote👎🏻'}, type: 1}
+            ]
+
+            let buttonMessageUpvote = {
+                text: teks_vote,
+                footer: DarkBotInc.user.name,
+                buttons: buttonsUpvote,
+                headerType: 1,
+                mentions: menvote
+             }
+            DarkBotInc.sendMessage(m.chat, buttonMessageUpvote)
+	    }
+             break
+                case 'devote': {
+            if (!m.isGroup) throw mess.group
+            if (!(m.chat in vote)) throw `_*no voting in this group!*_\n\n*${prefix}vote* - to start voting`
+            isVote = vote[m.chat][1].concat(vote[m.chat][2])
+            wasVote = isVote.includes(m.sender)
+            if (wasVote) throw 'You Have Voted'
+            vote[m.chat][2].push(m.sender)
+            menvote = vote[m.chat][1].concat(vote[m.chat][2])
+            teks_vote = `*「 VOTE 」*
+
+*Reason:* ${vote[m.chat][0]}
+
+┌〔 UPVOTE 〕
+ 
+├ Total: ${vote[m.chat][1].length}
+${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+ 
+└────
+
+┌〔 DEVOTE 〕
+ 
+├ Total: ${vote[m.chat][2].length}
+${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+ 
+└────
+
+*${prefix}hapusvote* - to delete votes`
+            let buttonsDevote = [
+              {buttonId: `${prefix}upvote`, buttonText: {displayText: '👍🏻Up-Vote👍🏻'}, type: 1},
+              {buttonId: `${prefix}devote`, buttonText: {displayText: '👎🏻De-Vote👎🏻'}, type: 1}
+            ]
+
+            let buttonMessageDevote = {
+                text: teks_vote,
+                footer: DarkBotInc.user.name,
+                buttons: buttonsDevote,
+                headerType: 1,
+                mentions: menvote
+            }
+            DarkBotInc.sendMessage(m.chat, buttonMessageDevote)
+	}
+            break
+                 
+case 'cekvote':
+if (!m.isGroup) throw mess.group
+if (!(m.chat in vote)) throw `_*no voting in this group!*_\n\n*${prefix}vote* - to start voting`
+teks_vote = `*「 VOTE 」*
+
+*Reason:* ${vote[m.chat][0]}
+
+┌〔 UPVOTE 〕
+ 
+├ Total: ${upvote.length}
+${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+ 
+└────
+
+┌〔 DEVOTE 〕
+ 
+├ Total: ${devote.length}
+${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
+ 
+└────
+
+*${prefix}hapusvote* - to delete votes
+
+
+©${DarkBotInc.user.id}
+`
+DarkBotInc.sendTextWithMentions(m.chat, teks_vote, m)
+break
+		case 'deletevote': case'delvote': case 'hapusvote': {
+            if (!m.isGroup) throw mess.group
+            if (!(m.chat in vote)) throw `_*tidak ada voting digrup ini!*_\n\n*${prefix}vote* - to start voting`
+            delete vote[m.chat]
+            reply('Successfully Deleted Vote Session In This Group')
+	    }
+            break
+               case 'group': case 'grup': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (args[0] === 'close'){
+                    await DarkBotInc.groupSettingUpdate(m.chat, 'announcement').then((res) => reply(`Successful Closing The Group`)).catch((err) => reply(jsonformat(err)))
+                } else if (args[0] === 'open'){
+                    await DarkBotInc.groupSettingUpdate(m.chat, 'not_announcement').then((res) => reply(`Successful Opening The Group`)).catch((err) => reply(jsonformat(err)))
+                } else {
+                let buttons = [
+                        { buttonId: 'group open', buttonText: { displayText: '⭕Open⭕' }, type: 1 },
+                        { buttonId: 'group close', buttonText: { displayText: '🚫Close🚫' }, type: 1 }
+                    ]
+                    await DarkBotInc.sendButtonText(m.chat, buttons, `Group Mode`, DarkBotInc.user.name, m)
+
+             }
+            }
+            break
+            case 'editinfo': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+             if (args[0] === 'open'){
+                await DarkBotInc.groupSettingUpdate(m.chat, 'unlocked').then((res) => reply(`Successfully Opened Edit Group Info`)).catch((err) => reply(jsonformat(err)))
+             } else if (args[0] === 'close'){
+                await DarkBotInc.groupSettingUpdate(m.chat, 'locked').then((res) => reply(`Successfully Close Edit Group Info`)).catch((err) => reply(jsonformat(err)))
+             } else {
+             let buttons = [
+                        { buttonId: 'editinfo open', buttonText: { displayText: '⭕Open⭕' }, type: 1 },
+                        { buttonId: 'editinfo close', buttonText: { displayText: '🚫Close🚫' }, type: 1 }
+                    ]
+                    await DarkBotInc.sendButtonText(m.chat, buttons, `Mode Edit Info`, DarkBotInc.user.name, m)
+
+            }
+            }
+            break
+case 'antilink':
+	        if (!m.isGroup) return reply(`This feature only be used in group`)
+			if (!isAdmins) return reply(`This feature could be used by admin only`)
+			if (!isBotAdmins) return reply(`Bot must be admin first`)
+					if (args[0] === 'on') {
+						if (isAntiLink) return reply('Already Activated')
+						antilink.push(m.chat)
+						fs.writeFileSync('./database/antilink.json', JSON.stringify(antilink))
+						reply('Successfully activated the antilink feature')
+						DarkBotInc.sendMessage(m.chat,  {text: `ALLERT!!! This group has been installed anti-link\nIf you violate then I will kick`})
+					} else if (args[0] === 'off') {
+						if (!isAntiLink) return reply('already deactivated')
+						var ini = antilink.indexOf(m.chat)
+						antilink.splice(ini, 1)
+						fs.writeFileSync('./database/antilink.json', JSON.stringify(antilink))
+						reply('Successfully disabled antilink feature')
+					} else if (!q){
+ reply(`Pilih Antilink On / Off `)
+					}
+					break 
+					case 'antiwame': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (args[0] === "on") {
+                if (db.chats[m.chat].wame) return m.reply(`Already Activated`)
+                db.chats[m.chat].wame = true
+                m.reply(`Anti Wa.me Activated!`)
+                } else if (args[0] === "off") {
+                if (!db.chats[m.chat].wame) return m.reply(`Already deactivated`)
+                db.chats[m.chat].wame = false
+                m.reply(`Anti Wa.me is not activated!`)
+                } else {
+                 let buttons = [
+                        { buttonId: 'antiwame on', buttonText: { displayText: '⭕On⭕' }, type: 1 },
+                        { buttonId: 'antiwame off', buttonText: { displayText: '❌Off❌' }, type: 1 }
+                    ]
+                    await DarkBotInc.sendButtonText(m.chat, buttons, `Mode Anti Wa.me`, DarkBotInc.user.name, m)
+                }
+             }
+             break
+					   case 'mute': {
+                if (!m.isGroup) throw mess.group
+                if (!isAdmins) throw mess.admin
+                if (args[0] === "on") {
+                if (db.chats[m.chat].mute) return reply(`Already activated`)
+                db.chats[m.chat].mute = true
+                reply(`${DarkBotInc.user.name} has been muted in this group !`)
+                } else if (args[0] === "off") {
+                if (!db.chats[m.chat].mute) return reply(`Already deactivated`)
+                db.chats[m.chat].mute = false
+                reply(`${DarkBotInc.user.name} has been unmuted in this group!`)
+                } else {
+                 let buttons = [
+                        { buttonId: 'mute on', buttonText: { displayText: '⭕On⭕' }, type: 1 },
+                        { buttonId: 'mute off', buttonText: { displayText: '❌Off❌' }, type: 1 }
+                    ]
+                    await DarkBotInc.sendButtonText(m.chat, buttons, `Mute Bot`, DarkBotInc.user.name, m)
+                }
+             }
+             break
+            case 'linkgroup': case 'grouplink': case 'gclink': case 'linkgc': {
+                if (!m.isGroup) throw mess.group
+                let response = await DarkBotInc.groupInviteCode(m.chat)
+                DarkBotInc.sendText(m.chat, `https://chat.whatsapp.com/${response}\n\nLink of: ${groupMetadata.subject} Group`, m, { detectLink: true })
+            }
+            break
+            case 'ephemeral': {
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
+                if (!text) throw 'Enter the enable/disable value, For Example ${prefix}ephemeral enable'
+                if (args[0] === 'enable') {
+                    await DarkBotInc.sendMessage(m.chat, { disappearingMessagesInChat: WA_DEFAULT_EPHEMERAL }).then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+                } else if (args[0] === 'disable') {
+                    await DarkBotInc.sendMessage(m.chat, { disappearingMessagesInChat: false }).then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+                }
+            }
+            break
+            case 'delete': case 'del': {
+                if (!m.quoted) throw false
+                let { chat, fromMe, id, isBaileys } = m.quoted
+                if (!isBaileys) throw 'The message was not sent by a bot!'
+                DarkBotInc.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: true, id: m.quoted.id, participant: m.quoted.sender } })
+            }
+            break
+            case 'bcgc': case 'bcgroup': {
+                if (!isCreator) throw mess.owner
+                if (!text) throw `Where is the text?\n\nExample : ${prefix + command} hello guys, am back`
+                let getGroups = await DarkBotInc.groupFetchAllParticipating()
+                let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
+                let anu = groups.map(v => v.id)
+                reply(`Send Broadcast To ${anu.length} Group Chat, Finish Time ${anu.length * 1.5} second`)
+                for (let i of anu) {
+                    await sleep(1500)
+                    let btn = [{
+                                urlButton: {
+                                    displayText: 'Contact',
+                                    url: 'https://wa.me/+923474187615'
+                                }
+                            }, {
+                                callButton: {
+                                    displayText: 'Owner Number👤',
+                                    phoneNumber: '+923474187615'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '📶Bot Status📶',
+                                    id: 'ping'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: 'owner'
+                                }  
+                            }, {
+                                quickReplyButton: {
+                                    displayText: 'Script',
+                                    id: 'sc'
+                                }
+                            }]
+                      fatihgans = fs.readFileSync('./DarkMedia/moonkingpic.jpg')
+                      let txt = `「 ✨𝗠𝗢𝗢𝗡 𝗕𝗥𝗢𝗔𝗗𝗖𝗔𝗦𝗧✨ 」\n\n${text}`
+                      DarkBotInc.send5ButImg(i, txt, DarkBotInc.user.name, fatihgans, btn)
+                    }
+                reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
+            }
+            break
+            case 'bc': case 'broadcast': case 'bcall': {
+                if (!isCreator) throw mess.owner
+                if (!text) throw `Where is the text?\n\nExample : ${prefix + command} Moonking bot here`
+                let anu = await store.chats.all().map(v => v.id)
+                reply(`Send Broadcast To ${anu.length} Chat\nIn ${anu.length * 1.5} second`)
+		for (let yoi of anu) {
+		    await sleep(1500)
+		    let btn = [{
+                                urlButton: {
+                                    displayText: 'Script🔖',
+                                    url: 'https://github.com/Dark-Asif/MOON-KING'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: 'owner'
+                                }
+                            }]
+                      fatihgans = fs.readFileSync('./DarkMedia/moonkingpic.jpg')
+                      let txt = `「✨𝗠𝗢𝗢𝗡 𝗕𝗥𝗢𝗔𝗗𝗖𝗔𝗦𝗧✨」\n\n${text}`
+                      DarkBotInc.send5ButImg(yoi, txt, `Broadcast By ${global.pengguna}`, fatihgans, btn)
+		}
+		reply('Broadcast Success')
+            }
+            break
+            case 'chatinfo': {
+                if (!m.quoted) reply('Reply to mesaage')
+                let msg = await m.getQuotedObj()
+                if (!m.quoted.isBaileys) throw 'The message was not sent by a bot!'
+                let teks = ''
+                for (let i of msg.userReceipt) {
+                    let read = i.readTimestamp
+                    let unread = i.receiptTimestamp
+                    let waktu = read ? read : unread
+                    teks += `⭔ @${i.userJid.split('@')[0]}\n`
+                    teks += ` ┗━⭔ *Time :* ${moment(waktu * 1000).format('DD/MM/YY HH:mm:ss')} ⭔ *Status :* ${read ? 'Read' : 'Unread'}\n\n`
+                }
+                DarkBotInc.sendTextWithMentions(m.chat, teks, m)
+            }
+            break
+            case 'q': case 'quoted': {
+		if (!m.quoted) return reply('Reply Message!!')
+		let wokwol = await DarkBotInc.serializeM(await m.getQuotedObj())
+		if (!wokwol.quoted) return reply('The message you replied to does not contain a reply')
+		await wokwol.quoted.copyNForward(m.chat, true)
+            }
+	    break
+            case 'listpc': {
+                 let anu = await store.chats.all().filter(v => v.id.endsWith('.net')).map(v => v.id)
+                 let teks = `⬣ *PERSONAL CHAT LIST*\n\nTotal Chat : ${anu.length} Chat\n\n`
+                 for (let i of anu) {
+                     let nama = store.messages[i].array[0].pushName
+                     teks += `⬡ *Name :* ${nama}\n⬡ *User :* @${i.split('@')[0]}\n⬡ *Chat :* https://wa.me/${i.split('@')[0]}\n\n────────────────────────\n\n`
+                 }
+                 DarkBotInc.sendTextWithMentions(m.chat, teks, m)
+             }
+             break
+                case 'listgc': {
+                 let anu = await store.chats.all().filter(v => v.id.endsWith('@g.us')).map(v => v.id)
+                 let teks = `⬣ *GROUP CHAT LIST*\n\nTotal Group : ${anu.length} Group\n\n`
+                 for (let i of anu) {
+                     let metadata = await DarkBotInc.groupMetadata(i)
+                     teks += `⬡ *Name :* ${metadata.subject}\n⬡ *Owner :* @${metadata.owner.split('@')[0]}\n⬡ *ID :* ${metadata.id}\n⬡ *Made :* ${moment(metadata.creation * 1000).tz('Asia/Kolkata').format('DD/MM/YYYY HH:mm:ss')}\n⬡ *Member :* ${metadata.participants.length}\n\n────────────────────────\n\n`
+                 }
+                 DarkBotInc.sendTextWithMentions(m.chat, teks, m)
+             }
+             break
+             case 'listonline': case 'onlinelist': case 'liston': {
+                    let id = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : m.chat
+                    let online = [...Object.keys(store.presences[id]), botNumber]
+                    DarkBotInc.sendText(m.chat, 'Online List:\n\n' + online.map(v => '⭔ @' + v.replace(/@.+/, '')).join`\n`, m, { mentions: online })
+             }
+             break
+            case 'sticker': case 's': case 'stickergif': case 'sgif': {
+            if (!quoted) throw `Reply Video/Image With Caption ${prefix + command}`
+            replay(mess.wait)
+                    if (/image/.test(mime)) {
+                let media = await quoted.download()
+                let encmedia = await DarkBotInc.sendImageAsSticker(m.chat, media, m, { packname: global.packname, author: global.author })
+                await fs.unlinkSync(encmedia)
+            } else if (/video/.test(mime)) {
+                if ((quoted.msg || quoted).seconds > 11) return reply('Maximum 10 seconds!')
+                let media = await quoted.download()
+                let encmedia = await DarkBotInc.sendVideoAsSticker(m.chat, media, m, { packname: global.packname, author: global.author })
+                await fs.unlinkSync(encmedia)
+            } else {
+                throw `Send Image/Video With Caption ${prefix + command}\nVideo Duration 1-9 Seconds`
+                }
+            }
+            break
+            case 'ebinary': {
+            if (!m.quoted.text && !text) throw `Send/reply text with caption ${prefix + command}`
+            let { eBinary } = require('./lib/binary')
+            let teks = text ? text : m.quoted && m.quoted.text ? m.quoted.text : m.text
+            let eb = await eBinary(teks)
+            reply(eb)
+        }
+        break
+            case 'dbinary': {
+            if (!m.quoted.text && !text) throw `Send/reply text with caption ${prefix + command}`
+            let { dBinary } = require('./lib/binary')
+            let teks = text ? text : m.quoted && m.quoted.text ? m.quoted.text : m.text
+            let db = await dBinary(teks)
+            reply(db)
+        }
+        break
+            case 'emojimix': {
+	        if (!text) throw `Example : ${prefix + command} 😅+🤔`
+		let [emoji1, emoji2] = text.split`+`
+		let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`)
+		for (let res of anu.results) {
+		    let encmedia = await DarkBotInc.sendImageAsSticker(m.chat, res.url, m, { packname: global.packname, author: global.author, categories: res.tags })
+		    await fs.unlinkSync(encmedia)
+		}
+	    }
+	    break
+            case 'toimage': case 'toimg': {
+                if (!quoted) throw 'Reply Image'
+                if (!/webp/.test(mime)) throw `balas stiker dengan caption *${prefix + command}*`
+                replay(mess.wait)
+                let media = await DarkBotInc.downloadAndSaveMediaMessage(quoted)
+                let ran = await getRandom('.png')
+                exec(`ffmpeg -i ${media} ${ran}`, (err) => {
+                    fs.unlinkSync(media)
+                    if (err) throw err
+                    let buffer = fs.readFileSync(ran)
+                    DarkBotInc.sendMessage(m.chat, { image: buffer }, { quoted: m })
+                    fs.unlinkSync(ran)
+                })
+            }
+            break
+	        case 'tomp4': case 'tovideo': {
+                if (!quoted) throw 'Reply Image'
+                if (!/webp/.test(mime)) throw `balas stiker dengan caption *${prefix + command}*`
+                replay(mess.wait)
+		let { webp2mp4File } = require('./lib/uploader')
+                let media = await DarkBotInc.downloadAndSaveMediaMessage(quoted)
+                let webpToMp4 = await webp2mp4File(media)
+                await DarkBotInc.sendMessage(m.chat, { video: { url: webpToMp4.result, caption: 'Convert Webp To Video' } }, { quoted: m })
+                await fs.unlinkSync(media)
+            }
+            break
+            case 'toaud': case 'toaudio': {
+            if (!/video/.test(mime) && !/audio/.test(mime)) throw `Send/Reply Video/Audio You Want Audio With Caption ${prefix + command}`
+            if (!quoted) throw `Send/Reply Video/Audio You Want to Use as Audio With Caption ${prefix + command}`
+            replay(mess.wait)
+            let media = await quoted.download()
+            let { toAudio } = require('./lib/converter')
+            let audio = await toAudio(media, 'mp4')
+            DarkBotInc.sendMessage(m.chat, {audio: audio, mimetype: 'audio/mpeg'}, { quoted : m })
+            }
+            break
+            case 'tomp3': {
+            if (/document/.test(mime)) throw `Send/Reply Video/Audio You Want to Convert into MP3 With Caption ${prefix + command}`
+            if (!/video/.test(mime) && !/audio/.test(mime)) throw `Send/Reply Video/Audio You Want To Convert Into MP3 With Caption ${prefix + command}`
+            if (!quoted) throw `Send/Reply Video/Audio You Want To Convert Into MP3 With Caption ${prefix + command}`
+            replay(mess.wait)
+            let media = await quoted.download()
+            let { toAudio } = require('./lib/converter')
+            let audio = await toAudio(media, 'mp4')
+            DarkBotInc.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Converted By ${DarkBotInc.user.name}.mp3`}, { quoted : m })
+            }
+            break
+            case 'tovn': case 'toptt': {
+            if (!/video/.test(mime) && !/audio/.test(mime)) throw `Reply Video/Audio That You Want To Be VN With Caption ${prefix + command}`
+            if (!quoted) throw `Reply Video/Audio That You Want To Be VN With Caption ${prefix + command}`
+            replay(mess.wait)
+            let media = await quoted.download()
+            let { toPTT } = require('./lib/converter')
+            let audio = await toPTT(media, 'mp4')
+            DarkBotInc.sendMessage(m.chat, {audio: audio, mimetype:'audio/mpeg', ptt:true }, {quoted:m})
+            }
+            break
+            case 'togif': {
+                if (!quoted) throw 'Reply Image'
+                if (!/webp/.test(mime)) throw `balas stiker dengan caption *${prefix + command}*`
+                replay(mess.wait)
+		let { webp2mp4File } = require('./lib/uploader')
+                let media = await DarkBotInc.downloadAndSaveMediaMessage(quoted)
+                let webpToMp4 = await webp2mp4File(media)
+                await DarkBotInc.sendMessage(m.chat, { video: { url: webpToMp4.result, caption: 'Convert Webp To Video' }, gifPlayback: true }, { quoted: m })
+                await fs.unlinkSync(media)
+            }
+            break
+	        case 'tourl': {
+                replay(mess.wait)
+		let { UploadFileUgu, webp2mp4File, TelegraPh } = require('./lib/uploader')
+                let media = await DarkBotInc.downloadAndSaveMediaMessage(quoted)
+                if (/image/.test(mime)) {
+                    let anu = await TelegraPh(media)
+                    reply(util.format(anu))
+                } else if (!/image/.test(mime)) {
+                    let anu = await UploadFileUgu(media)
+                    reply(util.format(anu))
+                }
+                await fs.unlinkSync(media)
+            }
+            break
+            case 'imagenobg': case 'removebg': case 'remove-bg': {
+	    if (!quoted) throw `Send/Reply Image With Caption ${prefix + command}`
+	    if (!/image/.test(mime)) throw `Send/Reply Image With Caption ${prefix + command}`
+	    if (/webp/.test(mime)) throw `Send/Reply Image With Caption ${prefix + command}`
+	    let remobg = require('remove.bg')
+	    let apirnobg = ['q61faXzzR5zNU6cvcrwtUkRU','S258diZhcuFJooAtHTaPEn4T','5LjfCVAp4vVNYiTjq9mXJWHF','aT7ibfUsGSwFyjaPZ9eoJc61','BY63t7Vx2tS68YZFY6AJ4HHF','5Gdq1sSWSeyZzPMHqz7ENfi8','86h6d6u4AXrst4BVMD9dzdGZ','xp8pSDavAgfE5XScqXo9UKHF','dWbCoCb3TacCP93imNEcPxcL']
+	    let apinobg = apirnobg[Math.floor(Math.random() * apirnobg.length)]
+	    hmm = await './src/remobg-'+getRandom('')
+	    localFile = await DarkBotInc.downloadAndSaveMediaMessage(quoted, hmm)
+	    outputFile = await './src/hremo-'+getRandom('.png')
+	    replay(mess.wait)
+	    remobg.removeBackgroundFromImageFile({
+	      path: localFile,
+	      apiKey: apinobg,
+	      size: "regular",
+	      type: "auto",
+	      scale: "100%",
+	      outputFile 
+	    }).then(async result => {
+	    DarkBotInc.sendMessage(m.chat, {image: fs.readFileSync(outputFile), caption: mess.success}, { quoted : m })
+	    await fs.unlinkSync(localFile)
+	    await fs.unlinkSync(outputFile)
+	    })
+	    }
+	    break
+	    case 'yts': case 'ytsearch': {
+                if (!text) throw `Example : ${prefix + command} story wa anime`
+                let yts = require("yt-search")
+                let search = await yts(text)
+                let teks = 'YouTube Search\n\n Result From '+text+'\n\n'
+                let no = 1
+                for (let i of search.all) {
+                    teks += `⭔ No : ${no++}\n⭔ Type : ${i.type}\n⭔ Video ID : ${i.videoId}\n⭔ Title : ${i.title}\n⭔ Views : ${i.views}\n⭔ Duration : ${i.timestamp}\n⭔ Upload At : ${i.ago}\n⭔ Author : ${i.author.name}\n⭔ Url : ${i.url}\n\n─────────────────\n\n`
+                }
+                DarkBotInc.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption: teks }, { quoted: m })
+            }
+            break
+        case 'google': {
+                if (!text) throw `Example : ${prefix + command} fatih arridho`
+                let google = require('google-it')
+                google({'query': text}).then(res => {
+                let teks = `Google Search From : ${text}\n\n`
+                for (let g of res) {
+                teks += `⭔ *Title* : ${g.title}\n`
+                teks += `⭔ *Description* : ${g.snippet}\n`
+                teks += `⭔ *Link* : ${g.link}\n\n────────────────────────\n\n`
+                } 
+                reply(teks)
+                })
+                }
+                break
+        case 'gimage': case 'googleimage': {
+        if (!text) throw `Example : ${prefix + command} ml nana`
+        let gis = require('g-i-s')
+        gis(text, async (error, result) => {
+        n = result
+        images = n[Math.floor(Math.random() * n.length)].url
+        let buttons = [
+                    {buttonId: `gimage ${text}`, buttonText: {displayText: '➡️Next Image➡️'}, type: 1}
+                ]
+                let buttonMessage = {
+                    image: { url: images },
+                    caption: `*-------「 GIMAGE SEARCH 」-------*
+🤠 *Query* : ${text}
+🔗 *Media Url* : ${images}`,
+                    footer: DarkBotInc.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                DarkBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+        })
+        }
+        break
+	    case 'play': case 'ytplay': {
+                if (!text) throw `Example : ${prefix + command} bts boy with luv`
+                let yts = require("yt-search")
+                let search = await yts(text)
+                let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
+                    ngen = `
+⭔ Title : ${anu.title}
+⭔ Ext : Search
+⭔ ID : ${anu.videoId}
+⭔ Duration : ${anu.timestamp}
+⭔ Viewers : ${anu.views}
+⭔ Uploaded : ${anu.ago}
+⭔ Author : ${anu.author.name}
+⭔ Channel : ${anu.author.url}
+⭔ Description : ${anu.description}
+`
+message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { upload:   DarkBotInc.waUploadToServer })
+                template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            imageMessage: message.imageMessage,
+                            hydratedContentText: ngen,
+                            hydratedFooterText: `Playing To ${text}`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: '🥬Video Source Link🥬',
+                                    url: `${anu.url}`
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '🎵Audio🎵',
+                                    id: `ytmp3 ${anu.url} 320kbps`
+                                    }
+                                },{quickReplyButton: {
+                                    displayText: '🎥VIdeo🎥',
+                                    id: `ytmp4 ${anu.url} 360p`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat, quoted: m })
+                  DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+            break
+	    case 'ytmp3': case 'ytaudio': {
+                let { yta } = require('./lib/y2mate')
+                if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 320kbps`
+                let quality = args[1] ? args[1] : '320kbps'
+                let media = await yta(text, quality)
+                if (media.filesize >= 999999) return reply('Audio size is too big '+util.format(media))
+                DarkBotInc.sendImage(m.chat, media.thumb, `⭔ Title : ${media.title}\n⭔ File Size : ${media.filesizeF}\n⭔ Url : ${isUrl(text)}\n⭔ Ext : MP3\n⭔ Resolution : ${args[1] || '320kbps'}`, m)
+                DarkBotInc.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
+            }
+            break
+            case 'ytmp4': case 'ytvideo': {
+                let { ytv } = require('./lib/y2mate')
+                if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 360p`
+                let quality = args[1] ? args[1] : '360p'
+                let media = await ytv(text, quality)
+                if (media.filesize >= 999999) return reply('Video size is too big '+util.format(media))
+                DarkBotInc.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `⭔ Title : ${media.title}\n⭔ File Size : ${media.filesizeF}\n⭔ Url : ${isUrl(text)}\n⭔ Ext : MP3\n⭔ Resololution : ${args[1] || '360p'}` }, { quoted: m })
+            }
+            break
+	    case 'getmusic': {
+                let { yta } = require('./lib/y2mate')
+                if (!text) throw `Example : ${prefix + command} 1`
+                if (!m.quoted) return reply('Reply Message')
+                if (!m.quoted.isBaileys) throw `Can only reply to messages from bots`
+		let urls = quoted.text.match(new RegExp(/(?:https?:\/\/)?(?:youtu\.be\/|(?:www\.|m\.)?youtube\.com\/(?:watch|v|embed|shorts)(?:\.php)?(?:\?.*v=|\/))([a-zA-Z0-9\_-]+)/, 'gi'))
+                if (!urls) throw `Maybe The Message You Replied Does Not Contain Ytsearch Results`
+                let quality = args[1] ? args[1] : '320kbps'
+                let media = await yta(urls[text - 1], quality)
+                if (media.filesize >= 999999) return reply('Audio size is too big '+util.format(media))
+                DarkBotInc.sendImage(m.chat, media.thumb, `⭔ Title : ${media.title}\n⭔ File Size : ${media.filesizeF}\n⭔ Url : ${isUrl(text)}\n⭔ Ext : MP3\n⭔ Resolution : ${args[1] || '320kbps'}`, m)
+                DarkBotInc.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
+            }
+            break
+            case 'getvideo': {
+                let { ytv } = require('./lib/y2mate')
+                if (!text) throw `Example : ${prefix + command} 1`
+                if (!m.quoted) return reply('Reply To A Message That Has Been Already Sent')
+                if (!m.quoted.isBaileys) throw `Hanya Bisa Membalas Pesan Dari Bot`
+                let urls = quoted.text.match(new RegExp(/(?:https?:\/\/)?(?:youtu\.be\/|(?:www\.|m\.)?youtube\.com\/(?:watch|v|embed|shorts)(?:\.php)?(?:\?.*v=|\/))([a-zA-Z0-9\_-]+)/, 'gi'))
+                if (!urls) throw `Maybe the message you replied does not contain the ytsearch result`
+                let quality = args[1] ? args[1] : '360p'
+                let media = await ytv(urls[text - 1], quality)
+                if (media.filesize >= 100000) return reply('File Over Limit '+util.format(media))
+                DarkBotInc.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `⭔ Title : ${media.title}\n⭔ File Size : ${media.filesizeF}\n⭔ Url : ${isUrl(text)}\n⭔ Ext : MP3\n⭔ Resolution : ${args[1] || '360p'}` }, { quoted: m })
+            }
+            break
+            case 'pinterest': {
+                replay(mess.wait)
+		let { pinterest } = require('./lib/scraper')
+                anu = await pinterest(text)
+                result = anu[Math.floor(Math.random() * anu.length)]
+                DarkBotInc.sendMessage(m.chat, { image: { url: result }, caption: '⭔ Media Url : '+result }, { quoted: m })
+            }
+            break
+            case 'anime': case 'waifu': case 'husbu': case 'neko': case 'shinobu': case 'megumin': {
+                replay(mess.wait)
+                DarkBotInc.sendMessage(m.chat, { image: { url: api('zenz', '/api/random/anime/'+command, 'apikey') }, caption: `Download From ${text}` }, { quoted: m})
+            }
+            break
+	    case 'couplepp': case 'ppcouple': {
+                replay(mess.wait)
+                let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
+                let random = anu[Math.floor(Math.random() * anu.length)]
+                DarkBotInc.sendMessage(m.chat, { image: { url: random.male }, caption: `Couple Male` }, { quoted: m })
+                DarkBotInc.sendMessage(m.chat, { image: { url: random.female }, caption: `Couple Female` }, { quoted: m })
+            }
+	    break
+            case 'coffee': case 'kopi': {
+            let buttons = [
+                    {buttonId: `coffe`, buttonText: {displayText: '➡️Next Image➡️'}, type: 1}
+                ]
+                let buttonMessage = {
+                    image: { url: 'https://coffee.alexflipnote.dev/random' },
+                    caption: `☕Random Coffee☕`,
+                    footer: DarkBotInc.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                DarkBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+            }
+            break
+            case 'wallpaper': {
+                if (!text) throw 'Enter Query Title'
+		let { wallpaper } = require('./lib/scraper')
+                anu = await wallpaper(text)
+                result = anu[Math.floor(Math.random() * anu.length)]
+		let buttons = [
+                    {buttonId: `wallpaper ${text}`, buttonText: {displayText: 'Next Image'}, type: 1}
+                ]
+                let buttonMessage = {
+                    image: { url: result.image[0] },
+                    caption: `⭔ Title : ${result.title}\n⭔ Category : ${result.type}\n⭔ Detail : ${result.source}\n⭔ Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
+                    footer: DarkBotInc.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                DarkBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+            }
+            break
+            case 'wikimedia': {
+                if (!text) throw 'Enter Query Title'
+		let { wikimedia } = require('./lib/scraper')
+                anu = await wikimedia(text)
+                result = anu[Math.floor(Math.random() * anu.length)]
+                let buttons = [
+                    {buttonId: `wikimedia ${text}`, buttonText: {displayText: '➡️Next Image➡️'}, type: 1}
+                ]
+                let buttonMessage = {
+                    image: { url: result.image },
+                    caption: `⭔ Title : ${result.title}\n⭔ Source : ${result.source}\n⭔ Media Url : ${result.image}`,
+                    footer: DarkBotInc.user.name,
+                    buttons: buttons,
+                    headerType: 4
+                }
+                DarkBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+            }
+            break
+            case 'quotesanimekdksksksksk': case 'quoteanimexllzlzkl': {
+		let { quotesAnime } = require('./lib/scraper')
+                let anu = await quotesAnime()
+                result = anu[Math.floor(Math.random() * anu.length)]
+                let buttons = [
+                    {buttonId: `quotesanime`, buttonText: {displayText: '➡️Next➡️'}, type: 1}
+                ]
+                let buttonMessage = {
+                    text: `~_${result.quotes}_\n\nBy '${result.karakter}', ${result.anime}\n\n- ${result.up_at}`,
+                    footer: 'Press The Button Below',
+                    buttons: buttons,
+                    headerType: 2
+                }
+                DarkBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+            }
+            break
+	        case 'motivasi': case 'dilanquote': case 'bucinquote': case 'katasenja': case 'puisi': {
+                let anu = await fetchJson(api('zenz', '/api/'+command, {}, 'apikey'))
+                let buttons = [
+                    {buttonId: `motivasi`, buttonText: {displayText: '➡️Next➡️'}, type: 1}
+                ]
+                let buttonMessage = {
+                    text: anu.result.message,
+                    footer: 'Press The Button Below',
+                    buttons: buttons,
+                    headerType: 2
+                }
+                DarkBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+            }
+            break
+            case '3dchristmas': case '3ddeepsea': case 'americanflag': case '3dscifi': case '3drainbow': case '3dwaterpipe': case 'halloweenskeleton': case 'sketch': case 'bluecircuit': case 'space': case 'metallic': case 'fiction': case 'greenhorror': case 'transformer': case 'berry': case 'thunder': case 'magma': case '3dcrackedstone': case '3dneonlight': case 'impressiveglitch': case 'naturalleaves': case 'fireworksparkle': case 'matrix': case 'dropwater':  case 'harrypotter': case 'foggywindow': case 'neondevils': case 'christmasholiday': case '3dgradient': case 'blackpink': case 'gluetext': {
+                if (!text) throw `Example : ${prefix + command} text`
+                replay(mess.wait)
+                DarkBotInc.sendMessage(m.chat, { image: { url: api('zenz', '/textpro/' + command, { text: text }, 'apikey') }, caption: `Text Pro ${command}` }, { quoted: m})
+	    }
+            break
+	    case 'shadow': case 'romantic': case 'smoke': case 'burnpapper': case 'naruto': case 'lovemsg': case 'grassmsg': case 'lovetext': case 'coffecup': case 'butterfly': case 'harrypotter': case 'retrolol': {
+                if (!text) throw 'where is the text?'
+                replay(mess.wait)
+                DarkBotInc.sendMessage(m.chat, { image: { url: api('zenz', '/photooxy/' + command, { text: text }, 'apikey') }, caption: `Photo Oxy ${command}` }, { quoted: m })
+            }
+            break
+            case 'ffcover': case 'crossfire': case 'galaxy': case 'glass': case 'neon': case 'beach': case 'blackpink': case 'igcertificate': case 'ytcertificate': {
+                if (!text) throw 'No Query Text'
+                replay(mess.wait)
+                DarkBotInc.sendMessage(m.chat, { image: { url: api('zenz', '/ephoto/' + command, { text: text }, 'apikey') }, caption: `Ephoto ${command}` }, { quoted: m })
+            }
+            break
+            case 'keberuntungan11111': case 'luck211111': {
+                if (!text) throw `Example : ${prefix + command} Dika, 7, 7, 2005`
+                let [nama, tgl, bln, thn] = text.split`,`
+                let anu = await primbon.potensi_keberuntungan(nama, tgl, bln, thn)
+                if (anu.status == false) return reply(anu.message)
+                DarkBotInc.sendText(m.chat, `⭔ *Name :* ${anu.message.nama}\n⭔ *Born :* ${anu.message.tgl_lahir}\n⭔ *Results :* ${anu.message.result}`, m)
+            }
+            break
+            case 'memancing1111': case 'fishing1111': {
+                if (!text) throw `Example : ${prefix + command} 12, 1, 2022`
+                let [tgl, bln, thn] = text.split`,`
+                let anu = await primbon.primbon_memancing_ikan(tgl, bln, thn)
+                if (anu.status == false) return reply(anu.message)
+                DarkBotInc.sendText(m.chat, `⭔ *Date :* ${anu.message.tgl_memancing}\n⭔ *Results :* ${anu.message.result}\n⭔ *Notes :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'masasubur111111': case 'fertiletimekekskdk': {
+                if (!text) throw `Example : ${prefix + command} 12, 1, 2022, 28\n\nNote : ${prefix + command} first day of menstruation, cycle`
+                let [tgl, bln, thn, siklus] = text.split`,`
+                let anu = await primbon.masa_subur(tgl, bln, thn, siklus)
+                if (anu.status == false) return reply(anu.message)
+                DarkBotInc.sendText(m.chat, `⭔ *Hasil :* ${anu.message.result}\n⭔ *Notes :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'zodiakjfjdkkd': case 'zodiackckdkdk': {
+                if (!text) throw `Example : ${prefix+ command} 7 7 2005`
+                let zodiak = [
+                    ["capricorn", new Date(1970, 0, 1)],
+                    ["aquarius", new Date(1970, 0, 20)],
+                    ["pisces", new Date(1970, 1, 19)],
+                    ["aries", new Date(1970, 2, 21)],
+                    ["taurus", new Date(1970, 3, 21)],
+                    ["gemini", new Date(1970, 4, 21)],
+                    ["cancer", new Date(1970, 5, 22)],
+                    ["leo", new Date(1970, 6, 23)],
+                    ["virgo", new Date(1970, 7, 23)],
+                    ["libra", new Date(1970, 8, 23)],
+                    ["scorpio", new Date(1970, 9, 23)],
+                    ["sagittarius", new Date(1970, 10, 22)],
+                    ["capricorn", new Date(1970, 11, 22)]
+                ].reverse()
+
+                function getZodiac(month, day) {
+                    let d = new Date(1970, month - 1, day)
+                    return zodiak.find(([_,_d]) => d >= _d)[0]
+                }
+                let date = new Date(text)
+                if (date == 'Invalid Date') throw date
+                let d = new Date()
+                let [tahun, bulan, tanggal] = [d.getFullYear(), d.getMonth() + 1, d.getDate()]
+                let birth = [date.getFullYear(), date.getMonth() + 1, date.getDate()]
+
+                let zodiac = await getZodiac(birth[1], birth[2])
+                
+                let anu = await primbon.zodiak(zodiac)
+                if (anu.status == false) return reply(anu.message)
+                DarkBotInc.sendText(m.chat, `⭔ *Zodiac :* ${anu.message.zodiak}\n⭔ *Number :* ${anu.message.nomor_keberuntungan}\n⭔ *Aroma :* ${anu.message.aroma_keberuntungan}\n⭔ *Planet :* ${anu.message.planet_yang_mengitari}\n⭔ *Flower :* ${anu.message.bunga_keberuntungan}\n⭔ *Color :* ${anu.message.warna_keberuntungan}\n⭔ *Rock :* ${anu.message.batu_keberuntungan}\n⭔ *Element :* ${anu.message.elemen_keberuntungan}\n⭔ *Zodiac Couple :* ${anu.message.pasangan_zodiak}\n⭔ *Notes :* ${anu.message.catatan}`, m)
+            }
+            break
+            case 'shiondkskskso': {
+                if (!text) throw `Example : ${prefix + command} tikus\n\nNote : For Detail https://primbon.com/shio.htm`
+                let anu = await primbon.shio(text)
+                if (anu.status == false) return reply(anu.message)
+                DarkBotInc.sendText(m.chat, `⭔ *Results :* ${anu.message}`, m)
+            }
+            break
+	        case 'tiktok': case 'tiktoknowm': {
+                if (!text) throw 'Enter Query Link!'
+                replay(mess.wait)
+                let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
+                let buttons = [
+                    {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '💁🏻‍♂️With Watermark🤔'}, type: 1},
+                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '🎵Audio🎵'}, type: 1}
+                ]
+                let buttonMessage = {
+                    video: { url: anu.result.nowatermark },
+                    caption: `Download From ${text}`,
+                    footer: 'Press The Button Below',
+                    buttons: buttons,
+                    headerType: 5
+                }
+                DarkBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+            }
+            break
+            case 'tiktokwm': case 'tiktokwatermark': {
+                if (!text) throw 'Enter Query Link!'
+                replay(mess.wait)
+                let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
+                let buttons = [
+                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '🎥Video🎥'}, type: 1},
+                    {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '🎵Audio🎵'}, type: 1}
+                ]
+                let buttonMessage = {
+                    video: { url: anu.result.watermark },
+                    caption: `Download From ${text}`,
+                    footer: 'Press The Button Below',
+                    buttons: buttons,
+                    headerType: 5
+                }
+                DarkBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+            }
+            break
+            case 'tiktokmp3': case 'tiktokaudio': {
+                if (!text) throw 'Enter Query Link!'
+                replay(mess.wait)
+                let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
+                let buttons = [
+                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '💁🏻‍♂️No Watermark💁🏻‍♂️'}, type: 1},
+                    {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '❉্᭄͜͡With Watermark❉্᭄͜͡'}, type: 1}
+                ]
+                let buttonMessage = {
+                    text: `Download From ${text}`,
+                    footer: 'Press The Button Below',
+                    buttons: buttons,
+                    headerType: 2
+                }
+                let msg = await DarkBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+		let { toAudio } = require('./lib/converter')
+		let nganu = await getBuffer(anu.result.nowatermark)
+		let cnvrt = await toAudio(nganu, 'mp4')
+                DarkBotInc.sendMessage(m.chat, { audio: cnvrt, mimetype: 'audio/mpeg'}, { quoted: msg })
+            }
+            break
+	        case 'instagram': case 'ig': case 'igdl': {
+                if (!text) throw 'Enter Query Url!'
+                replay(mess.wait)
+                if (/(?:\/p\/|\/reel\/|\/tv\/)([^\s&]+)/.test(isUrl(text)[0])) {
+                    let anu = await fetchJson(api('zenz', '/downloader/instagram2', { url: isUrl(text)[0] }, 'apikey'))
+                    for (let media of anu.data) DarkBotInc.sendMedia(m.chat, media, '', `Download Url Instagram From ${isUrl(text)[0]}`, m)
+                } else if (/\/stories\/([^\s&]+)/.test(isUrl(text)[0])) {
+                    let anu = await fetchJson(api('zenz', '/downloader/instastory', { url: isUrl(text)[0] }, 'apikey'))
+                    DarkBotInc.sendMedia(m.chat, anu.media[0].url, '', `Download Url Instagram From ${isUrl(text)[0]}`, m)
+                }
+            }
+            break
+            case 'joox': case 'jooxdl': {
+                if (!text) throw 'No Query Title'
+                replay(mess.wait)
+                let anu = await fetchJson(api('zenz', '/downloader/joox', { query: text }, 'apikey'))
+                let msg = await DarkBotInc.sendImage(m.chat, anu.result.img, `⭔ Title : ${anu.result.lagu}\n⭔ Album : ${anu.result.album}\n⭔ Singer : ${anu.result.penyanyi}\n⭔ Publish : ${anu.result.publish}\n⭔ Lyrics :\n${anu.result.lirik.result}`, m)
+                DarkBotInc.sendMessage(m.chat, { audio: { url: anu.result.mp4aLink }, mimetype: 'audio/mpeg', fileName: anu.result.lagu+'.m4a' }, { quoted: msg })
+            }
+            break
+            case 'soundcloud': case 'scdl': {
+                if (!text) throw 'No Query Title'
+                replay(mess.wait)
+                let anu = await fetchJson(api('zenz', '/downloader/soundcloud', { url: isUrl(text)[0] }, 'apikey'))
+                let msg = await DarkBotInc.sendImage(m.chat, anu.result.thumb, `⭔ Title : ${anu.result.title}\n⭔ Url : ${isUrl(text)[0]}`)
+                DarkBotInc.sendMessage(m.chat, { audio: { url: anu.result.url }, mimetype: 'audio/mpeg', fileName: anu.result.title+'.m4a' }, { quoted: msg })
+            }
+            break
+	        case 'twitdl': case 'twitter': {
+                if (!text) throw 'Enter Query Link!'
+                replay(mess.wait)
+                let anu = await fetchJson(api('zenz', '/api/downloader/twitter', { url: text }, 'apikey'))
+                let buttons = [
+                    {buttonId: `twittermp3 ${text}`, buttonText: {displayText: '🎵Audio🎵'}, type: 1}
+                ]
+                let buttonMessage = {
+                    video: { url: anu.result.HD || anu.result.SD },
+                    caption: util.format(anu.result),
+                    footer: 'Press The Button Below',
+                    buttons: buttons,
+                    headerType: 5
+                }
+                DarkBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+            }
+            break
+            case 'twittermp3': case 'twitteraudio': {
+                if (!text) throw 'Enter Query Link!'
+                replay(mess.wait)
+                let anu = await fetchJson(api('zenz', '/api/downloader/twitter', { url: text }, 'apikey'))
+                let buttons = [
+                    {buttonId: `twitter ${text}`, buttonText: {displayText: '🎥Video🎥'}, type: 1}
+                ]
+                let buttonMessage = {
+		    image: { url: anu.result.thumb },
+                    caption: util.format(anu.result),
+                    footer: 'Press The Button Below',
+                    buttons: buttons,
+                    headerType: 4
+                }
+                let msg = await DarkBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+                DarkBotInc.sendMessage(m.chat, { audio: { url: anu.result.audio } }, { quoted: msg })
+            }
+            break
+	        case 'fbdlkxkxkx': case 'fbkckxkxk': case 'facebookjfkddkk': {
+                if (!text) throw 'Enter Query Link!'
+                replay(mess.wait)
+                let anu = await fetchJson(api('zenz', '/api/downloader/facebook', { url: text }, 'apikey'))
+                DarkBotInc.sendMessage(m.chat, { video: { url: anu.result.url }, caption: `⭔ Title : ${anu.result.title}`}, { quoted: m })
+            }
+            break
+	        case 'pindlkxkdksk': case 'pinterestdlksksks': {
+                if (!text) throw 'Enter Query Link!'
+                replay(mess.wait)
+                let anu = await fetchJson(api('zenz', '/api/downloader/pinterestdl', { url: text }, 'apikey'))
+                DarkBotInc.sendMessage(m.chat, { video: { url: anu.result }, caption: `Download From ${text}` }, { quoted: m })
+            }
+            break
+
+            case 'umma': case 'ummadl': {
+	        if (!text) throw `Example : ${prefix + command} https://umma.id/channel/video/post/gus-arafat-sumber-kecewa-84464612933698`
+                let { umma } = require('./lib) scraper')
+		let anu = await umma(isUrl(text)[0])
+		if (anu.type == 'video') {
+		    let buttons = [
+                        {buttonId: `ytmp3 ${anu.media[0]} 128kbps`, buttonText: {displayText: '🎵Audio🎵'}, type: 1},
+                        {buttonId: `ytmp4 ${anu.media[0]} 360p`, buttonText: {displayText: '🎥Video🎥'}, type: 1}
+                    ]
+		    let buttonMessage = {
+		        image: { url: anu.author.profilePic },
+			caption: `
+⭔ Title : ${anu.title}
+⭔ Author : ${anu.author.name}
+⭔ Like : ${anu.like}
+⭔ Caption : ${anu.caption}
+⭔ Url : ${anu.media[0]}
+To download media, please click one of the buttons below or enter the ytmp3/ytmp4 command with the url above
+`,
+			footer: DarkBotInc.user.name,
+			buttons,
+			headerType: 4
+		    }
+		    DarkBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+		} else if (anu.type == 'image') {
+		    anu.media.map(async (url) => {
+		        DarkBotInc.sendMessage(m.chat, { image: { url }, caption: `⭔ Title : ${anu.title}\n⭔ Author : ${anu.author.name}\n⭔ Like : ${anu.like}\n⭔ Caption : ${anu.caption}` }, { quoted: m })
+		    })
+		}
+	    }
+	    break
+        case 'ringtone': {
+		if (!text) throw `Example : ${prefix + command} black rover`
+        let { ringtone } = require('./lib/scraper')
+		let anu = await ringtone(text)
+		let result = anu[Math.floor(Math.random() * anu.length)]
+		DarkBotInc.sendMessage(m.chat, { audio: { url: result.audio }, fileName: result.title+'.mp3', mimetype: 'audio/mpeg' }, { quoted: m })
+	    }
+	    break
+		case 'iqra': {
+		oh = `Example : ${prefix + command} 3\n\Available IQRA : 1,2,3,4,5,6`
+		if (!text) throw oh
+		yy = await getBuffer(`https://islamic-api-indonesia.herokuapp.com/api/data/pdf/iqra${text}`)
+		DarkBotInc.sendMessage(m.chat, {document: yy, mimetype: 'application/pdf', fileName: `iqra${text}.pdf`}, {quoted:m}).catch ((err) => reply(oh))
+		}
+		break
+		case 'juzamma': {
+		if (args[0] === 'pdf') {
+		replay(mess.wait)
+		DarkBotInc.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.pdf'}, mimetype: 'application/pdf', fileName: 'juz-amma-arab-latin-indonesia.pdf'}, {quoted:m})
+		} else if (args[0] === 'docx') {
+		replay(mess.wait)
+		DarkBotInc.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.docx'}, mimetype: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', fileName: 'juz-amma-arab-latin-indonesia.docx'}, {quoted:m})
+		} else if (args[0] === 'pptx') {
+		replay(mess.wait)
+		DarkBotInc.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.pptx'}, mimetype: 'application/vnd.openxmlformats-officedocument.presentationml.presentation', fileName: 'juz-amma-arab-latin-indonesia.pptx'}, {quoted:m})
+		} else if (args[0] === 'xlsx') {
+		replay(mess.wait)
+		DarkBotInc.sendMessage(m.chat, {document: {url: 'https://fatiharridho.my.id/database/islam/juz-amma-arab-latin-indonesia.xlsx'}, mimetype: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', fileName: 'juz-amma-arab-latin-indonesia.xlsx'}, {quoted:m})
+		} else {
+		reply(`What format do you want? ? Example : ${prefix + command} pdf
+
+Available formats : pdf, docx, pptx, xlsx`)
+		}
+		}
+		break
+		case 'hadith': case 'hadist': {
+		if (!args[0]) throw `Example:
+${prefix + command} bukhari 1
+${prefix + command} abu-daud 1
+
+Options available:
+abu-daud
+1 - 4590
+ahmad
+1 - 26363
+bukhari
+1 - 7008
+darimi
+1 - 3367
+ibu-majah
+1 - 4331
+nasai
+1 - 5662
+malik
+1 - 1594
+muslim
+1 - 5362`
+		if (!args[1]) throw `Which Hadith??\n\nExample:\n${prefix + command} muslim 1`
+		try {
+		let res = await fetchJson(`https://islamic-api-indonesia.herokuapp.com/api/data/json/hadith/${args[0]}`)
+		let { number, arab, id } = res.find(v => v.number == args[1])
+		reply(`No. ${number}
+
+${arab}
+
+${id}`)
+		} catch (e) {
+		reply(`Hadith not found !`)
+		}
+		}
+		break
+		case 'alquran': {
+		if (!args[0]) throw `Example:\n${prefix + command} 1 2\n\nthen the result is surah Al-Fatihah verse 2 along with the audio, and the verse is just 1`
+		if (!args[1]) throw `Example:\n${prefix + command} 1 2\n\nthen the result is surah Al-Fatihah verse 2 along with the audio, and the verse is just 1`
+		let res = await fetchJson(`https://islamic-api-indonesia.herokuapp.com/api/data/quran?surah=${args[0]}&ayat=${args[1]}`)
+		let txt = `*Arab* : ${res.result.data.text.arab}
+*English* : ${res.result.data.translation.en}
+*Indonesia* : ${res.result.data.translation.id}
+
+( Q.S ${res.result.data.surah.name.transliteration.id} : ${res.result.data.number.inSurah} )`
+		reply(txt)
+		DarkBotInc.sendMessage(m.chat, {audio: { url: res.result.data.audio.primary }, mimetype: 'audio/mpeg'}, { quoted : m })
+		}
+		break
+		case 'tafsirsurah': {
+		if (!args[0]) throw `Example:\n${prefix + command} 1 2\n\nthen the result is the interpretation of Surah Al-Fatihah verse 2`
+		if (!args[1]) throw `Example:\n${prefix + command} 1 2\n\nthen the result is the interpretation of Surah Al-Fatihah verse 2`
+		let res = await fetchJson(`https://islamic-api-indonesia.herokuapp.com/api/data/quran?surah=${args[0]}&ayat=${args[1]}`)
+		let txt = `「 *Tafsir Surah*  」
+
+*Short* : ${res.result.data.tafsir.id.short}
+
+*Long* : ${res.result.data.tafsir.id.long}
+
+( Q.S ${res.result.data.surah.name.transliteration.id} : ${res.result.data.number.inSurah} )`
+		reply(txt)
+		}
+		break
+/*case 'alkitab':  if(!text) throw `Masukan Search Yang Anda Cari`
+epep = await.fetchJson(`https://melcanz.com/alkitabsearch?q=${text}&apikey=melcantik`)
+break*/
+
+		   case 'bass': case 'blown': case 'deep': case 'earrape': case 'fast': case 'fat': case 'nightcore': case 'reverse': case 'robot': case 'slow': case 'smooth': case 'squirrel':
+                try {
+                let set
+                if (/bass/.test(command)) set = '-af equalizer=f=54:width_type=o:width=2:g=20'
+                if (/blown/.test(command)) set = '-af acrusher=.1:1:64:0:log'
+                if (/deep/.test(command)) set = '-af atempo=4/4,asetrate=44500*2/3'
+                if (/earrape/.test(command)) set = '-af volume=12'
+                if (/fast/.test(command)) set = '-filter:a "atempo=1.63,asetrate=44100"'
+                if (/fat/.test(command)) set = '-filter:a "atempo=1.6,asetrate=22100"'
+                if (/nightcore/.test(command)) set = '-filter:a atempo=1.06,asetrate=44100*1.25'
+                if (/reverse/.test(command)) set = '-filter_complex "areverse"'
+                if (/robot/.test(command)) set = '-filter_complex "afftfilt=real=\'hypot(re,im)*sin(0)\':imag=\'hypot(re,im)*cos(0)\':win_size=512:overlap=0.75"'
+                if (/slow/.test(command)) set = '-filter:a "atempo=0.7,asetrate=44100"'
+                if (/smooth/.test(command)) set = '-filter:v "minterpolate=\'mi_mode=mci:mc_mode=aobmc:vsbmc=1:fps=120\'"'
+                if (/squirrel/.test(command)) set = '-filter:a "atempo=0.5,asetrate=65100"'
+                if (/audio/.test(mime)) {
+                replay(mess.wait)
+                let media = await DarkBotInc.downloadAndSaveMediaMessage(quoted)
+                let ran = getRandom('.mp3')
+                exec(`ffmpeg -i ${media} ${set} ${ran}`, (err, stderr, stdout) => {
+                fs.unlinkSync(media)
+                if (err) return reply(err)
+                let buff = fs.readFileSync(ran)
+                DarkBotInc.sendMessage(m.chat, { audio: buff, mimetype: 'audio/mpeg' }, { quoted : m })
+                fs.unlinkSync(ran)
+                })
+                } else reply(`Reply to the audio you want to change with caption *${prefix + command}*`)
+                } catch (e) {
+                reply(e)
+                }
+                break
+            case 'setcmd': {
+                if (!m.quoted) throw 'Reply Message!'
+                if (!m.quoted.fileSha256) throw 'SHA256 Hash Missing'
+                if (!text) throw `Untuk Command Apa?`
+                let hash = m.quoted.fileSha256.toString('base64')
+                if (global.db.sticker[hash] && global.db.sticker[hash].locked) throw 'You have no permission to change this sticker command'
+                global.db.sticker[hash] = {
+                    text,
+                    mentionedJid: m.mentionedJid,
+                    creator: m.sender,
+                    at: + new Date,
+                    locked: false,
+                }
+                reply(`Done!`)
+            }
+            break
+            case 'delcmd': {
+                let hash = m.quoted.fileSha256.toString('base64')
+                if (!hash) throw `No hashes`
+                if (global.db.sticker[hash] && global.db.sticker[hash].locked) throw 'You have no permission to delete this sticker command'              
+                delete global.db.sticker[hash]
+                reply(`Done!`)
+            }
+            break
+            case 'listcmd': {
+                let teks = `
+*Hash List*
+Info: *bold* hash is locked
+${Object.entries(global.db.sticker).map(([key, value], index) => `${index + 1}. ${value.locked ? `*${key}*` : key} : ${value.text}`).join('\n')}
+`.trim()
+                DarkBotInc.sendText(m.chat, teks, m, { mentions: Object.values(global.db.sticker).map(x => x.mentionedJid).reduce((a,b) => [...a, ...b], []) })
+            }
+            break
+            case 'lockcmd': {
+                if (!isCreator) throw mess.owner
+                if (!m.quoted) throw 'Reply Message!'
+                if (!m.quoted.fileSha256) throw 'SHA256 Hash Missing'
+                let hash = m.quoted.fileSha256.toString('base64')
+                if (!(hash in global.db.sticker)) throw 'Hash not found in database'
+                global.db.sticker[hash].locked = !/^un/i.test(command)
+                reply('Done!')
+            }
+            break
+            case 'addmsg': {
+                if (!m.quoted) throw 'Reply Message You Want To Save In Database'
+                if (!text) throw `Example : ${prefix + command} message name`
+                let msgs = global.db.database
+                if (text.toLowerCase() in msgs) throw `'${text}' telah terdaftar di list pesan`
+                msgs[text.toLowerCase()] = quoted.fakeObj
+reply(`Successfully added message in message list as '${text}'
+    
+Access with ${prefix}getmsg ${text}
+
+View list of message with ${prefix}listmsg`)
+            }
+            break
+            case 'getmsg': {
+                if (!text) throw `Example : ${prefix + command} msg name\n\nView message list with ${prefix}listmsg`
+                let msgs = global.db.database
+                if (!(text.toLowerCase() in msgs)) throw `'${text}' not registered in message list`
+                DarkBotInc.copyNForward(m.chat, msgs[text.toLowerCase()], true)
+            }
+            break
+            case 'listmsg': {
+                let msgs = JSON.parse(fs.readFileSync('./src/database.json'))
+	        let seplit = Object.entries(global.db.database).map(([nama, isi]) => { return { nama, ...isi } })
+		let teks = '「 LIST DATABASE 」\n\n'
+		for (let i of seplit) {
+		    teks += `⬡ *Name :* ${i.nama}\n⬡ *Type :* ${getContentType(i.message).replace(/Message/i, '')}\n────────────────────────\n\n`
+	        }
+	        reply(teks)
+	    }
+	    break
+            case 'delmsg': case 'deletemsg': {
+	        let msgs = global.db.database
+	        if (!(text.toLowerCase() in msgs)) return reply(`'${text}' not listed in the message list`)
+		delete msgs[text.toLowerCase()]
+		reply(`Successfully deleted '${text}' from the message list`)
+            }
+	    break
+	    case 'anonymous': {
+                if (m.isGroup) return reply('This Features Cannot Be Use in Group!')
+				this.anonymous = this.anonymous ? this.anonymous : {}
+				let buttons = [{
+                                urlButton: {
+                                    displayText: 'Report Bug🐛',
+                                    url: 'https://wa.me/923474187615?text=hello+bro+i+found+a+bug+in+your+bot'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '👻Start Anonymous👻',
+                                    id: 'start'
+                                }
+                            }]
+                DarkBotInc.sendButtonText(m.chat, buttons, `\`\`\`Hi ${await DarkBotInc.getName(m.sender)} Welcome To Anonymous Chat\n\nClick The Button Below To Find A Partner\`\`\``, DarkBotInc.user.name, m)
+            }
+			break
+case 'sendkontak': case 'sendcontact': {
+                if (m.isGroup) return reply('This Features Cannot Be Use in Group!')
+                this.anonymous = this.anonymous ? this.anonymous : {}
+                let room = Object.values(this.anonymous).find(room => room.check(m.sender))
+                if (!room) {
+                    let buttons = [
+                        { buttonId: 'start', buttonText: { displayText: '🚶Start🚶' }, type: 1 }
+                    ]
+                    await DarkBotInc.sendButtonText(m.chat, buttons, `_You Are Not In Anonymous Session, Press The Button To Find A Partner_`)
+                    throw false
+                }
+                let profile = await DarkBotInc.profilePictureUrl(room.b)
+                let status = await DarkBotInc.fetchStatus(room.b)
+                let msg = await DarkBotInc.sendImage(room.a, profile, `Name : ${await DarkBotInc.getName(room.b)}\nBio : ${status.status}\nUser : @${room.b.split("@")[0]}`, m, { mentions: [room.b] })
+                DarkBotInc.sendContact(room.a, [room.b.split("@")[0]], msg)
+            }
+            break
+            case 'keluar': case 'leave': {
+                if (m.isGroup) return reply('This Features Cannot Be Use in Group!')
+                this.anonymous = this.anonymous ? this.anonymous : {}
+                let room = Object.values(this.anonymous).find(room => room.check(m.sender))
+                if (!room) {
+                    let buttons = [
+                        { buttonId: 'start', buttonText: { displayText: '🚶Start🚶' }, type: 1 }
+                    ]
+                    await DarkBotInc.sendButtonText(m.chat, buttons, `_You Are Not In Anonymous Session, Press The Button To Find A Partner_`)
+                    throw false
+                }
+                reply('Ok')
+                let other = room.other(m.sender)
+                if (other) await DarkBotInc.sendText(other, `_Partner Has Left Anonymous Session_`, m)
+                delete this.anonymous[room.id]
+                if (command === 'leave') break
+            }
+            case 'mulai': case 'start': {
+                if (m.isGroup) return reply('This Features Cannot Be Use in Group!')
+                this.anonymous = this.anonymous ? this.anonymous : {}
+                if (Object.values(this.anonymous).find(room => room.check(m.sender))) {
+                    let buttons = [
+                        { buttonId: 'stop', buttonText: { displayText: '😏Stop😏' }, type: 1 }
+                    ]
+                    await DarkBotInc.sendButtonText(m.chat, buttons, `_You Are Still In Anonymous Session, Press The Button Below To Terminate Your Anonymous Session_`, DarkBotInc.user.name, m)
+                    throw false
+                }
+                let room = Object.values(this.anonymous).find(room => room.state === 'WAITING' && !room.check(m.sender))
+                if (room) {
+                    let buttons = [
+                        { buttonId: 'next', buttonText: { displayText: '🍃Skip🍃' }, type: 1 },
+                        { buttonId: 'stop', buttonText: { displayText: '😏Stop😏' }, type: 1 }
+                    ]
+                    await DarkBotInc.sendButtonText(room.a, buttons, `_Successfully Found Partner, Now You Can Send Messages_`, DarkBotInc.user.name, m)
+                    room.b = m.sender
+                    room.state = 'CHATTING'
+                    await DarkBotInc.sendButtonText(room.b, buttons, `_Successfully Found Partner, Now You Can Send Messages_`, DarkBotInc.user.name, m)
+                } else {
+                    let id = + new Date
+                    this.anonymous[id] = {
+                        id,
+                        a: m.sender,
+                        b: '',
+                        state: 'WAITING',
+                        check: function (who = '') {
+                            return [this.a, this.b].includes(who)
+                        },
+                        other: function (who = '') {
+                            return who === this.a ? this.b : who === this.b ? this.a : ''
+                        },
+                    }
+                    let buttons = [
+                        { buttonId: 'keluar', buttonText: { displayText: '😏Stop😏' }, type: 1 }
+                    ]
+                    await DarkBotInc.sendButtonText(m.chat, buttons, `_Please Wait, Looking For A Partner_`, DarkBotInc.user.name, m)
+                }
+                break
+            }
+            case 'next': case 'lanjut': {
+                if (m.isGroup) return reply('This Feature Cannot Be Used In Group!')
+                this.anonymous = this.anonymous ? this.anonymous : {}
+                let romeo = Object.values(this.anonymous).find(room => room.check(m.sender))
+                if (!romeo) {
+                    let buttons = [
+                        { buttonId: 'start', buttonText: { displayText: '🚶Start🚶' }, type: 1 }
+                    ]
+                    await DarkBotInc.sendButtonText(m.chat, buttons, `\`\`\`You Are Not In Anonymous Session, Press The Button To Find A Partner\`\`\``)
+                    throw false
+                }
+                let other = romeo.other(m.sender)
+                if (other) await DarkBotInc.sendText(other, `\`\`\`Partner Has Left Anonymous Session\`\`\``, m)
+                delete this.anonymous[romeo.id]
+                let room = Object.values(this.anonymous).find(room => room.state === 'WAITING' && !room.check(m.sender))
+                if (room) {
+                    let buttons = [
+                        { buttonId: 'next', buttonText: { displayText: '🍃Skip🍃' }, type: 1 },
+                        { buttonId: 'keluar', buttonText: { displayText: '😏Stop😏' }, type: 1 }
+                    ]
+                    await DarkBotInc.sendButtonText(room.a, buttons, `\`\`\`Successfully Found Partner, now you can send message\`\`\``, DarkBotInc.user.name, m)
+                    room.b = m.sender
+                    room.state = 'CHATTING'
+                    await DarkBotInc.sendButtonText(room.b, buttons, `\`\`\`Successfully Found Partner, now you can send message\`\`\``, DarkBotInc.user.name, m)
+                } else {
+                    let id = + new Date
+                    this.anonymous[id] = {
+                        id,
+                        a: m.sender,
+                        b: '',
+                        state: 'WAITING',
+                        check: function (who = '') {
+                            return [this.a, this.b].includes(who)
+                        },
+                        other: function (who = '') {
+                            return who === this.a ? this.b : who === this.b ? this.a : ''
+                        },
+                    }
+                    let buttons = [
+                        { buttonId: 'keluar', buttonText: { displayText: '😏Stop😏' }, type: 1 }
+                    ]
+                    await DarkBotInc.sendButtonText(m.chat, buttons, `\`\`\`Please wait, looking for a partner\`\`\``, DarkBotInc.user.name, m)
+                }
+                break
+            }
+            case 'public': {
+                if (!isCreator) throw mess.owner
+                DarkBotInc.public = true
+                reply('Successfully Changed To Public Usage')
+            }
+            break
+            case 'self': {
+                if (!isCreator) throw mess.owner
+                DarkBotInc.public = false
+                reply('Successfully Changed To Self Usage')
+            }
+            break
+            case 'ping': case 'botstatus': case 'statusbot': {
+                const used = process.memoryUsage()
+                const cpus = os.cpus().map(cpu => {
+                    cpu.total = Object.keys(cpu.times).reduce((last, type) => last + cpu.times[type], 0)
+			        return cpu
+                })
+                const cpu = cpus.reduce((last, cpu, _, { length }) => {
+                    last.total += cpu.total
+                    last.speed += cpu.speed / length
+                    last.times.user += cpu.times.user
+                    last.times.nice += cpu.times.nice
+                    last.times.sys += cpu.times.sys
+                    last.times.idle += cpu.times.idle
+                    last.times.irq += cpu.times.irq
+                    return last
+                }, {
+                    speed: 0,
+                    total: 0,
+                    times: {
+			            user: 0,
+			            nice: 0,
+			            sys: 0,
+			            idle: 0,
+			            irq: 0
+                }
+                })
+                let timestamp = speed()
+                let latensi = speed() - timestamp
+                neww = performance.now()
+                oldd = performance.now()
+                respon = `
+Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
+
+Info Server
+RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
+
+NodeJS Memory Usaage
+${Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v=>v.length)),' ')}: ${formatp(used[key])}`).join('\n')}
+
+${cpus[0] ? `_Total CPU Usage_
+${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}
+_CPU Core(s) Usage (${cpus.length} Core CPU)_
+${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}`).join('\n\n')}` : ''}
+                `.trim()
+                reply(respon)
+            }
+            break
+            case 'owner': case 'creator': {
+            DarkBotInc.sendContact(m.chat, global.pemilik, m)
+           const devsound = fs.readFileSync('./DarkMedia/botdev.mp3') //u can change the music in DarkMedia folder
+           DarkBotInc.sendMessage(m.chat, { audio: devsound, mimetype: 'audio/mp4', ptt: true, quoted: m })
+            }
+            break
+                    case 'bug': case 'report': {
+                    	if(!text) throw `Enter The Bug Example\n\n${command} Menu Error `
+                    	DarkBotInc.sendMessage(`923474187615@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+Report Message: ${text}` })
+reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
+                    }
+                    break 
+case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'moon': case 'asif':{
+                anu = `Hi ${pushname}
+MOON-KING With You Forever!!💯🤗`
+const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
+                            hydratedFooterText: `MOON-KING`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'Contact',
+                                    url: 'https://wa.me/+923474187615'
+                                }
+                            }, {
+                            	urlButton: {
+                                displayText: 'Script🔖',
+                                    url: 'https://github.com/Dark-Asif/MOON-KING'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '💚️All Menu💚️',
+                                    id: `${prefix}allmenu`
+                                }
+                                }, {
+                                quickReplyButton: {
+                                    displayText: '🧡List Menu🧡',
+                                    id: `${prefix}command`
+                                }
+                                }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+                }
+break
+
+            case 'list': case 'menu': case 'help': case '?': {
+            	timestampe = speed();
+latensie = speed() - timestampe
+                anu = ``
+const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
+                            hydratedFooterText: `Hi 🤚 ${pushname}
+How Are You? 😊
+
+ ╔══❉্᭄͜͡💕❉্᭄͜͡💕❉্᭄͜͡════╗
+❉্᭄͜͡💕  𝗔𝗦𝗜𝗙 𝗞𝗛𝗔𝗡     💕❉্᭄͜͡             
+ ╚══❉্᭄͜͡💕❉্᭄͜͡💕❉্᭄͜͡════╝
+  
+
+❏「 INFO BOT 」
+
+𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botnma}
+𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownernma}
+𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
+𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
+𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+
+
+Please Select Button Below
+`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'Contact',
+                                    url: 'https://wa.me/+923474187615'
+                                }
+                            }, {
+                            	urlButton: {
+                                displayText: 'Script🔖',
+                                    url: 'https://github.com/Dark-Asif/MOON-KING'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '💚️All Menu💚️',
+                                    id: `${prefix}allmenu`
+                                }
+                                }, {
+                                quickReplyButton: {
+                                    displayText: '🧡List Menu🧡',
+                                    id: `${prefix}command`
+                                }
+                                }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+                }
+break
+case 'command':{
+let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                listMessage :{
+                    title: `Hi ${pushname}`,
+                    description: `Please Choose The Menu\n\n`,
+                    buttonText: "Menu",
+                    footerText: "_MOON-KING_",
+                    listType: "SINGLE_SELECT",
+                    sections: [{
+								"title": "Group Features",
+								"rows": [
+									{
+										"title": "Group Menu",
+										"description": "Displays The List Of Group Features",
+										"rowId": `${prefix}grupmenu`
+									}
+								]
+							},
+							{
+								"title": "Bot Features",
+								"rows": [
+									{
+										"title": "All Menu",
+										"description": "Displays The List Of All The Features!",
+										"rowId": `${prefix}allmenu`
+									},
+									{
+										"title": "Download Menu",
+										"description": "Displays The List Of Download Features",
+										"rowId": `${prefix}downloadmenu`
+									},
+									{
+										"title": "Search Menu",
+										"description": "Displays The List Of Searching Features",
+										"rowId": `${prefix}searchmenu`
+									},
+										{
+											"title": "Image Menu",
+										"description": "Displays The List Of Image Features",
+										"rowId": `${prefix}imagemenu`
+										},
+										{
+											"title": "Fun Menu",
+										"description": "Displays The List Of Fun Features",
+										"rowId": `${prefix}funmenu`
+										},
+										{
+											"title": "Convert Menu",
+										"description": "Displays The List Of Convert Features",
+										"rowId": `${prefix}convertmenu`
+										},
+										{
+										"title": "Miscellaneous Menu",
+										"description": "Displays The List Of Miscellaneous Features",
+										"rowId": `${prefix}nocategorymenu`
+										},
+										{
+											"title": "Database Menu",
+										"description": "Displays The List Of Database Features",
+										"rowId": `${prefix}databasemenu`
+										},
+										{
+											"title": "Voice Changer Menu",
+										"description": "Displays The List Of Voice Changing Features",
+										"rowId": `${prefix}voicemenu`
+										}
+								]
+							},
+							{
+								"title": "Chat with fellow users",
+								"rows": [
+									{
+										"title": "Anonymous Chat Menu",
+										"description": "Displays The List Of Anonymous Chat Features",
+										"rowId": `${prefix}anonymouschatmenu`
+									}
+								]
+							},
+							{
+								"title": "Group System",
+								"rows": [
+									{
+										"title": "System Menu",
+										"description": "Displays The List Of Group System Features",
+										"rowId": `${prefix}sistemmenu`
+									}
+								]
+							},
+							{
+								"title": "Owner",
+								"rows": [
+									{
+										"title": "Owner Menu",
+										"description": "Displays The List Of Owner Features",
+										"rowId": `${prefix}ownermenu`
+									}
+								]
+							},
+							{
+								"title": "Credit",
+								"rows": [
+									{
+										"title": "Thanks To",
+										"description": "Displays The List Of Credit Of The Bot !!",
+										"rowId": `${prefix}tqtt`
+									}
+								]
+							}
+						],
+          listType: 1
+                }
+            }), {})
+            DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+            break
+case 'grupmenu': {
+	            anu = `
+  *Group Menu*
+  
+  ๑♥҉ ๑ ${prefix}grouplink
+  ๑♥҉ ๑ ${prefix}ephemeral [option]
+  ๑♥҉ ๑ ${prefix}setgrouppp
+  ๑♥҉ ๑ ${prefix}setname [text]
+  ๑♥҉ ๑ ${prefix}group [option]
+  ๑♥҉ ๑ ${prefix}editinfo [option]
+  ๑♥҉ ๑ ${prefix}grupinfo
+  ๑♥҉ ๑ ${prefix}add @user
+  ๑♥҉ ๑ ${prefix}kick @user
+  ๑♥҉ ๑ ${prefix}promote @user
+  ๑♥҉ ๑ ${prefix}demote @user
+  `
+  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
+                            hydratedFooterText: `MOON-KING`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'Contact',
+                                    url: 'https://wa.me/+923474187615'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+break
+case 'downloadmenu': {
+	okemenu = `
+	*Downloader Menu*
+  
+  ๑♥҉ ๑ ${prefix}tiktoknowm [url]
+  ๑♥҉ ๑ ${prefix}tiktokwm [url]
+  ๑♥҉ ๑ ${prefix}tiktokmp3 [url]
+  ๑♥҉ ๑ ${prefix}instagram [url]
+  ๑♥҉ ๑ ${prefix}ig2 [url]
+  ๑♥҉ ๑ ${prefix}igreels [url]
+  ๑♥҉ ๑ ${prefix}igtv [url]
+  ๑♥҉ ๑ ${prefix}twitter [url]
+  ๑♥҉ ๑ ${prefix}twittermp3 [url]
+  ๑♥҉ ๑ ${prefix}ytmp3 [url]
+  ๑♥҉ ๑ ${prefix}ytmp4 [url]
+  ๑♥҉ ๑ ${prefix}getmusic [query]
+  ๑♥҉ ๑ ${prefix}getvideo [query
+  `
+  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: okemenu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
+                            hydratedFooterText: `MOON-KING`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'Contact',
+                                    url: 'https://wa.me/+923474187615'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+            break 
+            case 'searchmenu': {
+            	anu = `
+              *Search Menu*
+  
+  ๑♥҉ ๑ ${prefix}play [query]
+  ๑♥҉ ๑ ${prefix}yts [query]
+  ๑♥҉ ๑ ${prefix}google [query]
+  ๑♥҉ ๑ ${prefix}gimage [query]
+  ๑♥҉ ๑ ${prefix}pinterest [query]
+  ๑♥҉ ๑ ${prefix}wallpaper [query]
+  ๑♥҉ ๑ ${prefix}wikimedia [query]
+  ๑♥҉ ๑ ${prefix}ytsearch [query]
+  `
+  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
+                            hydratedFooterText: `MOON-KING`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'Contact',
+                                    url: 'https://wa.me/+923474187615'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+break
+case 'randommenu': {
+	anu = `
+	*Random Menu*
+  
+  ๑♥҉ ๑ ${prefix}coffee
+  ๑♥҉ ๑ ${prefix}couplepp
+  `
+  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
+                            hydratedFooterText: `MOON-KING`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'Contact',
+                                    url: 'https://wa.me/+923474187615'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+break
+case 'funmenu': {
+	anu = `
+	*Fun Menu*
+  
+  ๑♥҉ ๑ ${prefix}couple
+  ๑♥҉ ๑ ${prefix}mysoulmate
+  ๑♥҉ ๑ ${prefix}math [mode] 
+  `
+  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
+                            hydratedFooterText: `MOON-KING`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'Contact',
+                                    url: 'https://wa.me/+923474187615'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+break
+case 'voicemenu': {
+	anu = `
+	*Voice Changer Menu*
+	
+  ๑♥҉ ๑ ${prefix}bass
+  ๑♥҉ ๑ ${prefix}blown
+  ๑♥҉ ๑ ${prefix}deep
+  ๑♥҉ ๑ ${prefix}earrape
+  ๑♥҉ ๑ ${prefix}fast
+  ๑♥҉ ๑ ${prefix}fat
+  ๑♥҉ ๑ ${prefix}nightcore
+  ๑♥҉ ๑ ${prefix}reverse
+  ๑♥҉ ๑ ${prefix}robot
+  ๑♥҉ ๑ ${prefix}slow
+  ๑♥҉ ๑ ${prefix}squirrel
+`
+const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
+                            hydratedFooterText: `MOON-KING`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'Contact',
+                                    url: 'https://wa.me/+923474187615'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+break
+case 'religionmenukdksoejdjj': {
+	anu = `
+	*Religion Menu*
+	
+     (Islamic)
+  ๑♥҉ ๑ ${prefix}iqra
+  ๑♥҉ ๑ ${prefix}hadith
+  ๑♥҉ ๑ ${prefix}alquran
+  ๑♥҉ ๑ ${prefix}juzamma
+  ๑♥҉ ๑ ${prefix}tafsirsurah`
+const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
+                            hydratedFooterText: `MOON-KING`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'Contact',
+                                    url: 'https://wa.me/+923474187615'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+break
+case 'horoscopemenukcodk': {
+	anu = `
+	*Horoscope Menu*
+  
+  ๑♥҉ ๑ ${prefix}hockeynumber
+  ๑♥҉ ๑ ${prefix}dreammeaning
+  ๑♥҉ ๑ ${prefix}namemeaning
+  ๑♥҉ ๑ ${prefix}fortunetelling
+  ๑♥҉ ๑ ${prefix}marriageprediction
+  ๑♥҉ ๑ ${prefix}wife&husband
+  ๑♥҉ ๑ ${prefix}fortunetelling2
+  ๑♥҉ ๑ ${prefix}matchname
+  ๑♥҉ ๑ ${prefix}couplematch
+  ๑♥҉ ๑ ${prefix}married
+  ๑♥҉ ๑ ${prefix}businessnature
+  ๑♥҉ ๑ ${prefix}sustenance
+  ๑♥҉ ๑ ${prefix}profession
+  ๑♥҉ ๑ ${prefix}fate
+  ๑♥҉ ๑ ${prefix}potentialdisease
+  ๑♥҉ ๑ ${prefix}tarot
+  ๑♥҉ ๑ ${prefix}fengshui
+  ๑♥҉ ๑ ${prefix}goodday
+  ๑♥҉ ๑ ${prefix}badday
+  ๑♥҉ ๑ ${prefix}unluckyday
+  ๑♥҉ ๑ ${prefix}dragonday
+  ๑♥҉ ๑ ${prefix}sustenance2
+  ๑♥҉ ๑ ${prefix}luck
+  ๑♥҉ ๑ ${prefix}weton
+  ๑♥҉ ๑ ${prefix}character
+  ๑♥҉ ๑ ${prefix}luck2
+  ๑♥҉ ๑ ${prefix}fishing
+  ๑♥҉ ๑ ${prefix}fertiletime
+  ๑♥҉ ๑ ${prefix}zodiac
+  ๑♥҉ ๑ ${prefix}shio`
+  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
+                            hydratedFooterText: `MOON-KING`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'Contact',
+                                    url: 'https://wa.me/+923474187615'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+break
+case 'convertmenu': {
+	anu = `
+	*Convert Menu*
+  
+  ๑♥҉ ๑ ${prefix}toimage
+  ๑♥҉ ๑ ${prefix}removebg
+  ๑♥҉ ๑ ${prefix}sticker
+  ๑♥҉ ๑ ${prefix}emojimix
+  ๑♥҉ ๑ ${prefix}tovideo
+  ๑♥҉ ๑ ${prefix}togif
+  ๑♥҉ ๑ ${prefix}tourl
+  ๑♥҉ ๑ ${prefix}ebinary
+  ๑♥҉ ๑ ${prefix}dbinary
+  `
+  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
+                            hydratedFooterText: `MOON-KING`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'Contact',
+                                    url: 'https://wa.me/+923474187615'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+break
+case 'nocategorymenu': {
+	anu = `
+	*Misc Menu*
+  
+  ๑♥҉ ๑ ${prefix}ping
+  ๑♥҉ ๑ ${prefix}owner
+  ๑♥҉ ๑ ${prefix}donate
+  ๑♥҉ ๑ ${prefix}menu / ${prefix}help / ${prefix}?
+  ๑♥҉ ๑ ${prefix}delete
+  ๑♥҉ ๑ ${prefix}chatinfo
+  ๑♥҉ ๑ ${prefix}quoted
+  ๑♥҉ ๑ ${prefix}listpc
+  ๑♥҉ ๑ ${prefix}listgc
+  ๑♥҉ ๑ ${prefix}listonline
+  ๑♥҉ ๑ ${prefix}report (report bug to owner)
+  `
+  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
+                            hydratedFooterText: `MOON-KING`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'Contact',
+                                    url: 'https://wa.me/+923474187615'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+break
+case 'databasemenu': {
+	anu = `
+	*Database Menu*
+  
+  ๑♥҉ ๑ ${prefix}setcmd
+  ๑♥҉ ๑ ${prefix}listcmd
+  ๑♥҉ ๑ ${prefix}delcmd
+  ๑♥҉ ๑ ${prefix}lockcmd
+  ๑♥҉ ๑ ${prefix}addmsg
+  ๑♥҉ ๑ ${prefix}listmsg
+  ๑♥҉ ๑ ${prefix}getmsg
+  ๑♥҉ ๑ ${prefix}delmsg
+  `
+  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
+                            hydratedFooterText: `MOON-KING`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'Contact',
+                                    url: 'https://wa.me/+923474187615'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+break
+case 'anonymouschatmenu': {
+	anu = `
+	*Anonymous Menu*
+	
+  ๑♥҉ ๑ ${prefix}start ( Start Chat )
+  ๑♥҉ ๑ ${prefix}next ( Next user )
+  ๑♥҉ ๑ ${prefix}stop ( stop Anonymous chat )
+	`
+	  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
+                            hydratedFooterText: `MOON-KING`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'Contact',
+                                    url: 'https://wa.me/+923474187615'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+break
+case 'sistemmenu': {
+	anu = `
+	*System Menu*
+	
+  ๑♥҉ ๑ ${prefix}antilink On/Off
+  ๑♥҉ ๑ ${prefix}mute On/Off
+  ๑♥҉ ๑ ${prefix}antiwame On/Off
+`
+const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
+                            hydratedFooterText: `MOON-KING`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'Contact',
+                                    url: 'https://wa.me/+923474187615'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+break
+  case 'ownermenu': {
+  	anu = `
+  *Owner Menu*
+  
+  ๑♥҉ ๑ ${prefix}chat [option]
+  ๑♥҉ ๑ ${prefix}join [link]
+  ๑♥҉ ๑ ${prefix}leave
+  ๑♥҉ ๑ ${prefix}setbotpp
+  ๑♥҉ ๑ ${prefix}block @user
+  ๑♥҉ ๑ ${prefix}unblock @user
+  ๑♥҉ ๑ ${prefix}bcgroup
+  ๑♥҉ ๑ ${prefix}bcall
+  `
+    const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
+                            hydratedFooterText: `MOON-KING`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'Contact',
+                                    url: 'https://wa.me/+923474187615'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+break
+  case 'allmenu': {
+  	anu = `
+ ╭───────────╮
+ │❉্᭄͜͡𝗠𝗘𝗡𝗨❉্᭄͜͡
+ ╰───────────╯
+  ╭──๑♥҉ ๑ 𝗚𝗥𝗢𝗨𝗣 𝗠𝗘𝗡𝗨❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}grouplink
+  │❉্᭄͜͡ ${prefix}ephemeral
+  │❉্᭄͜͡ ${prefix}setgrouppp
+  │❉্᭄͜͡ ${prefix}setname
+  │❉্᭄͜͡ ${prefix}group
+  │❉্᭄͜͡ ${prefix}editinfo
+  │❉্᭄͜͡ ${prefix}grupinfo
+  │❉্᭄͜͡ ${prefix}add
+  │❉্᭄͜͡ ${prefix}kick
+  │❉্᭄͜͡ ${prefix}promote
+  │❉্᭄͜͡ ${prefix}demote
+  ╰────────────⦁
+  
+  ╭──๑♥҉ ๑ 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗠𝗘𝗡𝗨❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}tiktoknowm
+  │❉্᭄͜͡ ${prefix}tiktokwm
+  │❉্᭄͜͡ ${prefix}tiktokmp3
+  │❉্᭄͜͡ ${prefix}instagram
+  │❉্᭄͜͡ ${prefix}ig2
+  │❉্᭄͜͡ ${prefix}igreels
+  │❉্᭄͜͡ ${prefix}igtv
+  │❉্᭄͜͡ ${prefix}twitter
+  │❉্᭄͜͡ ${prefix}twittermp3
+  │❉্᭄͜͡ ${prefix}ytmp3
+  │❉্᭄͜͡ ${prefix}ytmp4
+  │❉্᭄͜͡ ${prefix}getmusic
+  │❉্᭄͜͡ ${prefix}getvideo
+  ╰────────────⦁
+  
+  ╭──๑♥҉ ๑ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗠𝗘𝗡𝗨❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}play
+  │❉্᭄͜͡ ${prefix}yts
+  │❉্᭄͜͡ ${prefix}google
+  │❉্᭄͜͡ ${prefix}gimage
+  │❉্᭄͜͡ ${prefix}pinterest
+  │❉্᭄͜͡ ${prefix}wallpaper
+  │❉্᭄͜͡ ${prefix}wikimedia
+  │❉্᭄͜͡ ${prefix}ytsearch
+  ╰────────────⦁
+  
+  ╭──๑♥҉ ๑ 𝗥𝗔𝗡𝗗𝗢𝗠 𝗠𝗘𝗡𝗨❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}coffee
+  │❉্᭄͜͡ ${prefix}couplepp
+  ╰─────────────⦁
+  
+  ╭──๑♥҉ ๑ 𝗙𝗨𝗡 𝗠𝗘𝗡𝗨❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}couple
+  │❉্᭄͜͡ ${prefix}mysoulmate
+  │❉্᭄͜͡ ${prefix}math
+  ╰────────────⦁
+  
+  ╭──๑♥҉ ๑ 𝗩𝗢𝗜𝗖𝗘 𝗠𝗘𝗡𝗨❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}bass
+  │❉্᭄͜͡ ${prefix}blown
+  │❉্᭄͜͡ ${prefix}deep
+  │❉্᭄͜͡ ${prefix}earrape
+  │❉্᭄͜͡ ${prefix}fast
+  │❉্᭄͜͡ ${prefix}fat
+  │❉্᭄͜͡ ${prefix}nightcore
+  │❉্᭄͜͡ ${prefix}reverse
+  │❉্᭄͜͡ ${prefix}robot
+  │❉্᭄͜͡ ${prefix}slow
+  │❉্᭄͜͡ ${prefix}squirrel
+  ╰────────────⦁
+  
+  ╭──๑♥҉ ๑ 𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗠𝗘𝗡𝗨❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}toimage
+  │❉্᭄͜͡ ${prefix}removebg
+  │❉্᭄͜͡ ${prefix}sticker
+  │❉্᭄͜͡ ${prefix}emojimix
+  │❉্᭄͜͡ ${prefix}tovideo
+  │❉্᭄͜͡ ${prefix}togif
+  │❉্᭄͜͡ ${prefix}tourl
+  │❉্᭄͜͡ ${prefix}ebinary
+  │❉্᭄͜͡ ${prefix}dbinary
+  ╰─────────────⦁
+  
+  ╭──๑♥҉ ๑ 𝗠𝗜𝗦𝗖 𝗠𝗘𝗡𝗨❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}ping
+  │❉্᭄͜͡ ${prefix}owner
+  │❉্᭄͜͡ ${prefix}donate
+  │❉্᭄͜͡ ${prefix}menu
+  │❉্᭄͜͡ ${prefix}delete
+  │❉্᭄͜͡ ${prefix}chatinfo
+  │❉্᭄͜͡ ${prefix}quoted
+  │❉্᭄͜͡ ${prefix}listpc
+  │❉্᭄͜͡ ${prefix}listgc
+  │❉্᭄͜͡ ${prefix}listonline
+  │❉্᭄͜͡ ${prefix}report
+  ╰─────────────⦁
+  
+  ╭──๑♥҉ ๑ 𝗗𝗔𝗧𝗔𝗕𝗔𝗦𝗘 𝗠𝗘𝗡𝗨❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}setcmd
+  │❉্᭄͜͡ ${prefix}listcmd
+  │❉্᭄͜͡ ${prefix}delcmd
+  │❉্᭄͜͡ ${prefix}lockcmd
+  │❉্᭄͜͡ ${prefix}addmsg
+  │❉্᭄͜͡ ${prefix}listmsg
+  │❉্᭄͜͡ ${prefix}getmsg
+  │❉্᭄͜͡ ${prefix}delmsg
+  ╰─────────────⦁
+  
+  ╭──๑♥҉ ๑ 𝗔𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 𝗖𝗛𝗔𝗧❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}start
+  │❉্᭄͜͡ ${prefix}next
+  │❉্᭄͜͡ ${prefix}stop
+  ╰─────────────⦁
+  
+  ╭──๑♥҉ ๑ 𝗦𝗬𝗦𝗧𝗘𝗠 𝗠𝗘𝗡𝗨❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}antilink
+  │❉্᭄͜͡ ${prefix}mute
+  │❉্᭄͜͡ ${prefix}antiwame
+  ╰─────────────⦁
+  
+  ╭───๑♥҉ ๑ 𝗢𝗪𝗡𝗘𝗥 𝗠𝗘𝗡𝗨❉্᭄͜͡
+  │❉্᭄͜͡ ${prefix}chat
+  │❉্᭄͜͡ ${prefix}join
+  │❉্᭄͜͡ ${prefix}leave
+  │❉্᭄͜͡ ${prefix}setbotpp
+  │❉্᭄͜͡ ${prefix}block
+  │❉্᭄͜͡ ${prefix}unblock
+  │❉্᭄͜͡ ${prefix}bcgroup
+  │❉্᭄͜͡ ${prefix}bcall
+  ╰────────────⦁`
+    const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+                    templateMessage: {
+                        hydratedTemplate: {
+                            hydratedContentText: anu,
+                            locationMessage: {
+                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
+                            hydratedFooterText: `MOON-KING`,
+                            hydratedButtons: [{
+                                urlButton: {
+                                    displayText: 'Contact',
+                                    url: 'https://wa.me/+923474187615'
+                                }
+                            }, {
+                                quickReplyButton: {
+                                    displayText: '👤Owner👤',
+                                    id: `${prefix}owner`
+                                }
+                            }]
+                        }
+                    }
+                }), { userJid: m.chat })
+                DarkBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+            }
+break
+case 'tqtt': 
+reply(`╭══• ೋ•✧๑❤️๑✧•ೋ•══╮  
+               𝗠𝗢𝗢𝗡 𝗞𝗜𝗡𝗚
+      ╰══• ೋ•✧๑❤️๑✧•ೋ•══╯ 
+Thanks to
+ALLAH
+Dark Bot Inc.💗👑
+wa.me/+923474187615!!!`)
+break
+            default:
+                if (budy.startsWith('=>')) {
+                    if (!isCreator) return reply(mess.owner)
+                    function Return(sul) {
+                        sat = JSON.stringify(sul, null, 2)
+                        bang = util.format(sat)
+                            if (sat == undefined) {
+                                bang = util.format(sul)
+                            }
+                            return reply(bang)
+                    }
+                    try {
+                        reply(util.format(eval(`(async () => { return ${budy.slice(3)} })()`)))
+                    } catch (e) {
+                        reply(String(e))
+                    }
+                }
+
+                if (budy.startsWith('>')) {
+                    if (!isCreator) return reply(mess.owner)
+                    try {
+                        let evaled = await eval(budy.slice(2))
+                        if (typeof evaled !== 'string') evaled = require('util').inspect(evaled)
+                        await reply(evaled)
+                    } catch (err) {
+                        await reply(String(err))
+                    }
+                }
+
+                if (budy.startsWith('$')) {
+                    if (!isCreator) return reply(mess.owner)
+                    exec(budy.slice(2), (err, stdout) => {
+                        if(err) return reply(err)
+                        if (stdout) return reply(stdout)
+                    })
+                }
+			
+		if (m.chat.endsWith('@s.whatsapp.net') && isCmd) {
+                    this.anonymous = this.anonymous ? this.anonymous : {}
+                    let room = Object.values(this.anonymous).find(room => [room.a, room.b].includes(m.sender) && room.state === 'CHATTING')
+                    if (room) {
+                        if (/^.*(next|leave|start)/.test(m.text)) return
+                        if (['.next', '.leave', '.stop', '.start', 'Cari Partner', 'Keluar', 'Lanjut', 'Stop'].includes(m.text)) return
+                        let other = [room.a, room.b].find(user => user !== m.sender)
+                        m.copyNForward(other, true, m.quoted && m.quoted.fromMe ? {
+                            contextInfo: {
+                                ...m.msg.contextInfo,
+                                forwardingScore: 0,
+                                isForwarded: true,
+                                participant: other
+                            }
+                        } : {})
+                    }
+                    return !0
+                }
+			
+		if (isCmd && budy.toLowerCase() != undefined) {
+		    if (m.chat.endsWith('broadcast')) return
+		    if (m.isBaileys) return
+		    let msgs = global.db.database
+		    if (!(budy.toLowerCase() in msgs)) return
+		    DarkBotInc.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
+		}
+        }
+        
+
+    } catch (err) {
+        m.reply(util.format(err))
+    }
+}
+
+
+let file = require.resolve(__filename)
+fs.watchFile(file, () => {
+	fs.unwatchFile(file)
+	console.log(chalk.redBright(`Update ${__filename}`))
+	delete require.cache[file]
+	require(file)
+})
