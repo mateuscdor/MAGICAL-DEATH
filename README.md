@@ -25,8 +25,8 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/Dark-Asif/MOON-KING
-cd MOON-KING
+git clone https://github.com/Dark-Asif/MAGICAL-DEATH
+cd MAGICAL-DEATH
 npm start
 ```
 <h1 align="center">DARK BOT INC 2022<br></h1>
