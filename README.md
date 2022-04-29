@@ -1,6 +1,6 @@
 # 𝐌𝐀𝐆𝐈𝐂𝐀𝐋 𝐃𝐄𝐀𝐓𝐇
 <p align="center">
-  <img src="https://i.ibb.co/XFwBT7q/moonkingpic.jpg" width="250" height="300/" />
+  <img src="https://i.ibb.co/7Gx6VwB/c1983f544f9d6fec69ef7cac95aafc9f.jpg" width="250" height="300/" />
 </p>
 
 <h1 align="center">𝐀𝐒𝐈𝐅 𝐊𝐇𝐀𝐍✨<br></h1>
