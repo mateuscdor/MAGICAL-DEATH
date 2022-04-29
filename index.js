@@ -30,7 +30,7 @@ async function startDarkBotInc() {
     const DarkBotInc = DarkBotIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Subscribe Dark Asif','Safari','1.0.0'],
+        browser: ['𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇 Asif','Safari','1.0.0'],
         auth: state,
         version
     })
@@ -58,7 +58,7 @@ async function startDarkBotInc() {
         if (!DarkBotInc.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
         if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
         m = smsg(DarkBotInc, mek, store)
-        require("./MOONKING")(DarkBotInc, m, chatUpdate, store)
+        require("./MAGICALDEATH")(DarkBotInc, m, chatUpdate, store)
         } catch (err) {
             console.log(err)
         }
@@ -178,16 +178,16 @@ Description: ${metadata.desc}
         const { connection, lastDisconnect } = update	    
         if (connection === 'close') {
         let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
-            if (reason === DisconnectReason.badSession) { console.log(`🦄Bad Session File, Please Delete Session and Scan Again`); process.exit(); }
-            else if (reason === DisconnectReason.connectionClosed) { console.log("🦄Connection closed, Reconnecting...."); startDarkBotInc(); }
-            else if (reason === DisconnectReason.connectionLost) { console.log("🦄Connection Lost from Server, Reconnecting..."); startDarkBotInc(); }
-            else if (reason === DisconnectReason.connectionReplaced) { console.log("🦄Connection Replaced, Another New Session Opened, Please Close Current Session First"); process.exit(); }
-            else if (reason === DisconnectReason.loggedOut) { console.log(`🦄Device Logged Out, Please Delete Session And Scan Again.`); process.exit(); }
-            else if (reason === DisconnectReason.restartRequired) { console.log("🦄Restart Required, Restarting..."); startDarkBotInc(); }
-            else if (reason === DisconnectReason.timedOut) { console.log("🦄Connection TimedOut, Reconnecting..."); startDarkBotInc(); }
+            if (reason === DisconnectReason.badSession) { console.log(`🎩👿Bad Session File, Please Delete Session and Scan Again`); process.exit(); }
+            else if (reason === DisconnectReason.connectionClosed) { console.log("🎩👿Connection closed, Reconnecting...."); startDarkBotInc(); }
+            else if (reason === DisconnectReason.connectionLost) { console.log("🎩👿Connection Lost from Server, Reconnecting..."); startDarkBotInc(); }
+            else if (reason === DisconnectReason.connectionReplaced) { console.log("🎩👿Connection Replaced, Another New Session Opened, Please Close Current Session First"); process.exit(); }
+            else if (reason === DisconnectReason.loggedOut) { console.log(`🎩👿Device Logged Out, Please Delete Session And Scan Again.`); process.exit(); }
+            else if (reason === DisconnectReason.restartRequired) { console.log("🎩👿Restart Required, Restarting..."); startDarkBotInc(); }
+            else if (reason === DisconnectReason.timedOut) { console.log("🎩👿Connection TimedOut, Reconnecting..."); startDarkBotInc(); }
             else { console.log(`Unknown DisconnectReason: ${reason}|${connection}`) }
         }
-        console.log('🦄Connected...', update)
+        console.log('🎩👿Connected...', update)
     })
     
     DarkBotInc.ev.on('creds.update', saveState)

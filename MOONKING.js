@@ -28,7 +28,7 @@ let { addLevelingId, addLevelingLevel, addLevelingXp, getLevelingId, getLeveling
 const speedofbot = require("performance-now")
 
 //[thumb]\\
-let dark = fs.readFileSync('./DarkMedia/moonkingpic.jpg')
+let dark = fs.readFileSync('./MagicalDeath/magicnote.jpg')
 
 //[database]\\
 const antilink = JSON.parse(fs.readFileSync('./database/antilink.json'))
@@ -100,11 +100,11 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
 	
 //[target]\\
 	const reply = (teks) => {
-            DarkBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` JOIN BOT OFFICIAL GROUP🙂MOON-KING`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./DarkMedia/moonkingpic.jpg`),"sourceUrl": "https://chat.whatsapp.com/JcjjnS7oSbQ3FPCCNJT44M"}}}, { quoted: m})
+            DarkBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` JOIN BOT OFFICIAL GROUP🙂𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./MagicalDeath/magicnote.jpg`),"sourceUrl": "https://chat.whatsapp.com/JcjjnS7oSbQ3FPCCNJT44M"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            DarkBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` BOT DELVELOPER NUMBER 🙂MOON-KING`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./DarkMedia/moonkingpic.jpg`),"sourceUrl": "https://wa.me/923474187615"}}}, { quoted: m})
+            DarkBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` BOT DELVELOPER NUMBER 🙂𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./MagicalDeath/magicnote.jpg`),"sourceUrl": "https://wa.me/923474187615"}}}, { quoted: m})
         }
 try {
             let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -594,7 +594,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
             case 'sc': case 'script': {
-                reply('Script : https://github.com/Dark-Asif/MOON-KING\n If there is anyone else making Bot, please contact me ')
+                reply('Script : https://github.com/Dark-Asif/MAGICAL-DEATH\n If there is anyone else making Bot, please contact me ')
             }
             break
             case 'chat': {
@@ -1214,7 +1214,7 @@ case 'antilink':
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'Owner Number👤',
+                                    displayText: 'Owner Number🎩',
                                     phoneNumber: '+923474187615'
                                 }
                             }, {
@@ -1224,7 +1224,7 @@ case 'antilink':
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner🎩',
                                     id: 'owner'
                                 }  
                             }, {
@@ -1233,8 +1233,8 @@ case 'antilink':
                                     id: 'sc'
                                 }
                             }]
-                      fatihgans = fs.readFileSync('./DarkMedia/moonkingpic.jpg')
-                      let txt = `「 ✨𝗠𝗢𝗢𝗡 𝗕𝗥𝗢𝗔𝗗𝗖𝗔𝗦𝗧✨ 」\n\n${text}`
+                      fatihgans = fs.readFileSync('./MagicalDeath/magicnote.jpg')
+                      let txt = `「 𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇 」\n\n${text}`
                       DarkBotInc.send5ButImg(i, txt, DarkBotInc.user.name, fatihgans, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1242,7 +1242,7 @@ case 'antilink':
             break
             case 'bc': case 'broadcast': case 'bcall': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Where is the text?\n\nExample : ${prefix + command} Moonking bot here`
+                if (!text) throw `Where is the text?\n\nExample : ${prefix + command} MagicalDeath bot here`
                 let anu = await store.chats.all().map(v => v.id)
                 reply(`Send Broadcast To ${anu.length} Chat\nIn ${anu.length * 1.5} second`)
 		for (let yoi of anu) {
@@ -1250,16 +1250,16 @@ case 'antilink':
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Script🔖',
-                                    url: 'https://github.com/Dark-Asif/MOON-KING'
+                                    url: 'https://github.com/Dark-Asif/MAGICAL-DEATH'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner🎩',
                                     id: 'owner'
                                 }
                             }]
-                      fatihgans = fs.readFileSync('./DarkMedia/moonkingpic.jpg')
-                      let txt = `「✨𝗠𝗢𝗢𝗡 𝗕𝗥𝗢𝗔𝗗𝗖𝗔𝗦𝗧✨」\n\n${text}`
+                      fatihgans = fs.readFileSync('./MagicalDeath/magicnote.jpg')
+                      let txt = `「𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇」\n\n${text}`
                       DarkBotInc.send5ButImg(yoi, txt, `Broadcast By ${global.pengguna}`, fatihgans, btn)
 		}
 		reply('Broadcast Success')
@@ -2363,7 +2363,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             break
             case 'owner': case 'creator': {
             DarkBotInc.sendContact(m.chat, global.pemilik, m)
-           const devsound = fs.readFileSync('./DarkMedia/botdev.mp3') //u can change the music in DarkMedia folder
+           const devsound = fs.readFileSync('./MagicalDeath/botdev.mp3') //u can change the music in MagicalDeath folder
            DarkBotInc.sendMessage(m.chat, { audio: devsound, mimetype: 'audio/mp4', ptt: true, quoted: m })
             }
             break
@@ -2374,16 +2374,16 @@ Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break 
-case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'moon': case 'asif':{
+case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'death': case 'asif':{
                 anu = `Hi ${pushname}
-MOON-KING With You Forever!!💯🤗`
+𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇 With You Forever!!💯🤗`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
-                            hydratedFooterText: `MOON-KING`,
+                            jpegThumbnail: fs.readFileSync('./MagicalDeath/magicnote.jpg')},
+                            hydratedFooterText: `𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Contact',
@@ -2392,11 +2392,11 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             }, {
                             	urlButton: {
                                 displayText: 'Script🔖',
-                                    url: 'https://github.com/Dark-Asif/MOON-KING'
+                                    url: 'https://github.com/Dark-Asif/MAGICAL-DEATH'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '💚️All Menu💚️',
+                                    displayText: '️🎴All Menu🎴',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
@@ -2406,7 +2406,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner️🎩,
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2426,7 +2426,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./MagicalDeath/magicnote.jpg')},
                             hydratedFooterText: `Hi 🤚 ${pushname}
 How Are You? 😊
 
@@ -2456,11 +2456,11 @@ Please Select Button Below
                             }, {
                             	urlButton: {
                                 displayText: 'Script🔖',
-                                    url: 'https://github.com/Dark-Asif/MOON-KING'
+                                    url: 'https://github.com/Dark-Asif/MAGICAL-DEATH'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '💚️All Menu💚️',
+                                    displayText: '🎴️All Menu🎴️',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
@@ -2470,7 +2470,7 @@ Please Select Button Below
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner🎩',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2486,7 +2486,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Menu\n\n`,
                     buttonText: "Menu",
-                    footerText: "_MOON-KING_",
+                    footerText: "_𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇_",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "Group Features",
@@ -2616,8 +2616,8 @@ case 'grupmenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
-                            hydratedFooterText: `MOON-KING`,
+                            jpegThumbnail: fs.readFileSync('./MagicalDeath/magicnote.jpg')},
+                            hydratedFooterText: `𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Contact',
@@ -2625,7 +2625,7 @@ case 'grupmenu': {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner🎩',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2658,8 +2658,8 @@ case 'downloadmenu': {
                         hydratedTemplate: {
                             hydratedContentText: okemenu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
-                            hydratedFooterText: `MOON-KING`,
+                            jpegThumbnail: fs.readFileSync('./MagicalDeath/magicnote.jpg')},
+                            hydratedFooterText: `𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Contact',
@@ -2667,7 +2667,7 @@ case 'downloadmenu': {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner🎩',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2695,8 +2695,8 @@ case 'downloadmenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
-                            hydratedFooterText: `MOON-KING`,
+                            jpegThumbnail: fs.readFileSync('./MagicalDeath/magicnote.jpg')},
+                            hydratedFooterText: `𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Contact',
@@ -2704,7 +2704,7 @@ case 'downloadmenu': {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner🎩',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2726,8 +2726,8 @@ case 'randommenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
-                            hydratedFooterText: `MOON-KING`,
+                            jpegThumbnail: fs.readFileSync('./MagicalDeath/magicnote.jpg')},
+                            hydratedFooterText: `𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Contact',
@@ -2735,7 +2735,7 @@ case 'randommenu': {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner🎩',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2758,8 +2758,8 @@ case 'funmenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
-                            hydratedFooterText: `MOON-KING`,
+                            jpegThumbnail: fs.readFileSync('./MagicalDeath/magicnote.jpg')},
+                            hydratedFooterText: `𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Contact',
@@ -2767,7 +2767,7 @@ case 'funmenu': {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner🎩',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2798,8 +2798,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
-                            hydratedFooterText: `MOON-KING`,
+                            jpegThumbnail: fs.readFileSync('./MagicalDeath/magicnote.jpg')},
+                            hydratedFooterText: `𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Contact',
@@ -2807,7 +2807,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner🎩',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2832,8 +2832,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
-                            hydratedFooterText: `MOON-KING`,
+                            jpegThumbnail: fs.readFileSync('./MagicalDeath/magicnote.jpg')},
+                            hydratedFooterText: `𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Contact',
@@ -2841,7 +2841,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner🎩',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2890,8 +2890,8 @@ case 'horoscopemenukcodk': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
-                            hydratedFooterText: `MOON-KING`,
+                            jpegThumbnail: fs.readFileSync('./MagicalDeath/magicnote.jpg')},
+                            hydratedFooterText: `𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Contact',
@@ -2899,7 +2899,7 @@ case 'horoscopemenukcodk': {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner🎩',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2928,8 +2928,8 @@ case 'convertmenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
-                            hydratedFooterText: `MOON-KING`,
+                            jpegThumbnail: fs.readFileSync('./MagicalDeath/magicnote.jpg')},
+                            hydratedFooterText: `𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Contact',
@@ -2937,7 +2937,7 @@ case 'convertmenu': {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner🎩',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2968,8 +2968,8 @@ case 'nocategorymenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
-                            hydratedFooterText: `MOON-KING`,
+                            jpegThumbnail: fs.readFileSync('./MagicalDeath/magicnote.jpg')},
+                            hydratedFooterText: `𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Contact',
@@ -2977,7 +2977,7 @@ case 'nocategorymenu': {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner🎩',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3005,8 +3005,8 @@ case 'databasemenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
-                            hydratedFooterText: `MOON-KING`,
+                            jpegThumbnail: fs.readFileSync('./MagicalDeath/magicnote.jpg')},
+                            hydratedFooterText: `𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Contact',
@@ -3014,7 +3014,7 @@ case 'databasemenu': {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner🎩',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3037,8 +3037,8 @@ case 'anonymouschatmenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
-                            hydratedFooterText: `MOON-KING`,
+                            jpegThumbnail: fs.readFileSync('./MagicalDeath/magicnote.jpg')},
+                            hydratedFooterText: `𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Contact',
@@ -3046,7 +3046,7 @@ case 'anonymouschatmenu': {
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner🎩',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3069,8 +3069,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
-                            hydratedFooterText: `MOON-KING`,
+                            jpegThumbnail: fs.readFileSync('./MagicalDeath/magicnote.jpg')},
+                            hydratedFooterText: `𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Contact',
@@ -3078,7 +3078,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner🎩',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3106,8 +3106,8 @@ break
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
-                            hydratedFooterText: `MOON-KING`,
+                            jpegThumbnail: fs.readFileSync('./MagicalDeath/magicnote.jpg')},
+                            hydratedFooterText: `𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Contact',
@@ -3115,7 +3115,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner🎩',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3260,8 +3260,8 @@ break
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./DarkMedia/moonkingpic.jpg')},
-                            hydratedFooterText: `MOON-KING`,
+                            jpegThumbnail: fs.readFileSync('./MagicalDeath/magicnote.jpg')},
+                            hydratedFooterText: `𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Contact',
@@ -3269,7 +3269,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: '🎩Owner🎩',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3281,7 +3281,7 @@ break
 break
 case 'tqtt': 
 reply(`╭══• ೋ•✧๑❤️๑✧•ೋ•══╮  
-               𝗠𝗢𝗢𝗡 𝗞𝗜𝗡𝗚
+               𝐌𝐀𝐆𝐈𝐂𝐀𝐋-𝐃𝐄𝐀𝐓𝐇
       ╰══• ೋ•✧๑❤️๑✧•ೋ•══╯ 
 Thanks to
 ALLAH
