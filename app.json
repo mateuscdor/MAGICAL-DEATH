@@ -1,7 +1,7 @@
 {
-  "name": "MOON-KING",
+  "name": "MAGICAL-DEATH",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/Dark-Asif/MOON-KING",
+  "repository": "https://github.com/Dark-Asif/MAGICAL-DEATH",
   "logo": "https://i.ibb.co/F6kf6jC/4d27cc136a55ee84f97a9a3c3bd4b31b.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
