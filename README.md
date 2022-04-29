@@ -41,6 +41,6 @@ npm start
 
 
 <p align="center">
-  <img src="https://i.ibb.co/F6kf6jC/4d27cc136a55ee84f97a9a3c3bd4b31b.jpg" width="440" height="300" />
+  <img src="https://i.ibb.co/5k083gc/magicnote.jpg" width="440" height="300" />
 </p>
 <h1 align="center">⊹ ִֶָ𓏲࣪𝘿𝙧𝙚𝙖𝙢 𝙂𝙧𝙖𝙣𝙜𝙚˘˘ ༉‧₊<br></h1>
