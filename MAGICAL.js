@@ -2406,7 +2406,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🎩Owner️🎩,
+                                    displayText: '🎩Owner️🎩',
                                     id: `${prefix}owner`
                                 }
                             }]
