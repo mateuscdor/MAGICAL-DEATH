@@ -48,7 +48,7 @@ global.limitawal = {
     premium: "Infinity", //premium user limit
     free: 200000 //free user limit
 }
-global.thumb = fs.readFileSync('./DarkMedia/moonkingpic.jpg')
+global.thumb = fs.readFileSync('./MagicalDeath/magicnote.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
