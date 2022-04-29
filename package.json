@@ -1,5 +1,5 @@
 {
-  "name": "MOON-KING",
+  "name": "MAGICAL-DEATH",
   "version": "1.0.0",
   "description": "Multi device wa bot created by Dark Bot Inc.",
   "main": "index.js",
@@ -61,10 +61,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dark-Asif/MOON-KING.git"
+    "url": "git+https://github.com/Dark-Asif/MAGICAL-DEATH.git"
   },
   "bugs": {
-    "url": "https://github.com/Dark-Asif/MOON-KING/issues"
+    "url": "https://github.com/Dark-Asif/MAGICAL-DEATH/issues"
   },
-  "homepage": "https://github.com/Dark-Asif/MOON-KING#readme"
+  "homepage": "https://github.com/Dark-Asif/MAGICAL-DEATH#readme"
 }
