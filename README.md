@@ -31,7 +31,7 @@ npm start
 ```
 <h1 align="center">DARK BOT INC 2022<br></h1>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Dark-Asif/MOON-KING/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Dark-Asif/MAGICAL-DEATH/)
 
 ## ```Connect With Me```
 <p align="center">
